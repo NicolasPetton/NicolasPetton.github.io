@@ -9,18 +9,18 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>blogging-with-org-mode</title>
+  <title>(Blogging with org-mode)</title>
   <atom:link href="http://nicolas-petton.fr/blogging-with-org-mode.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 15 Oct 2013 14:20:11 +0200</pubDate>
-  <lastBuildDate>Tue, 15 Oct 2013 14:20:11 +0200</lastBuildDate>
+  <pubDate>Tue, 15 Oct 2013 17:32:55 +0200</pubDate>
+  <lastBuildDate>Tue, 15 Oct 2013 17:32:55 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.1</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
     <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
-    <title>blogging-with-org-mode</title>
+    <title>(Blogging with org-mode)</title>
     <link>http://nicolas-petton.fr/</link>
   </image>
 
@@ -32,6 +32,7 @@
       </ul>
     </div>
   </div>
+
   <item>
     <title>Blogging with =org-mode=</title>
     <link>http://nicolas-petton.fr/blogging-with-org-mode.html#sec-1</link>
