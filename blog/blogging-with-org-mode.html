@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>blogging-with-org-mode</title>
+<!-- 2013-10-15 Tue 14:21 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Nicolas Petton" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+<link rel='stylesheet' href='../css/site.css' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link rel="alternate" type="application/rss+xml"
+                href="http://nicolas-petton.fr/blog/index.xml"
+                title="RSS feed">
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012  Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="preamble" class="status">
+<div class='nav'>
+<ul>
+<li><a href='/'>Home</a></li>
+<li><a href='/blog/index.html'>Blog</a></li>
+<li><a href='http://github.com/NicolasPetton'>GitHub</a></li>
+<li><a href='http://twitter.com/NicolasPetton'>Twitter</a></li>
+<li><a href='/contact.html'>Contact</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<h1 class="title">blogging-with-org-mode</h1>
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><a id="ID-a619ae88-2ca8-4e26-aaf6-5c9251d25090" name="ID-a619ae88-2ca8-4e26-aaf6-5c9251d25090"></a>Blogging with <code>org-mode</code></h2>
+<div class="outline-text-2" id="text-1">
+
+<div class="pubdate">
+<p>
+October 15, 2013
+</p>
+</div>
+
+<p>
+I just switched my personal website and blog engine from <a href="http://jekyllrb.com">Jekyll</a> to
+<a href="http://orgmode.org">Org-mode</a>. As all my blog posts were already written in the
+<code>org-mode</code> format, switching was a breeze. Org-mode includes a <a href="http://orgmode.org/w/?p%3Dorg-mode.git%3Ba%3Dblob_plain%3Bf%3Dcontrib/lisp/ox-rss.el%3Bhb%3DHEAD">RSS
+exporter</a> in the <i>contrib</i> directory and together with its HTML
+<a href="http://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">publishing</a> features, it makes it a very powerful website builder.
+</p>
+
+<p>
+You might ask why using org-mode at all when I could use wordpress
+or another blog engine. Well, first, I get to edit my website
+entirely within Emacs. That alone is a joy. Also, as I already use
+org-mode for planning, gtd, LaTeX authoring and personal wiki, it
+just makes sense to use it for my website too.
+</p>
+
+<p>
+Here's the bit of elisp that I use for this website:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(<span style="color: #859900; font-weight: bold;">require</span> '<span style="color: #268bd2; font-weight: bold;">org</span>)
+(<span style="color: #859900; font-weight: bold;">require</span> '<span style="color: #268bd2; font-weight: bold;">ox-rss</span>)
+
+
+(<span style="color: #859900; font-weight: bold;">defvar</span> <span style="color: #268bd2;">nico-website-html-head</span>
+<span style="color: #2aa198;">"&lt;link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'&gt;</span>
+<span style="color: #2aa198;">&lt;link rel='stylesheet' href='css/site.css' type='text/css'/&gt;"</span>)
+
+(<span style="color: #859900; font-weight: bold;">defvar</span> <span style="color: #268bd2;">nico-website-html-blog-head</span>
+<span style="color: #2aa198;">"&lt;link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'&gt;</span>
+<span style="color: #2aa198;">&lt;link rel='stylesheet' href='../css/site.css' type='text/css'/&gt;"</span>)
+
+(<span style="color: #859900; font-weight: bold;">defvar</span> <span style="color: #268bd2;">nico-website-html-preamble</span> 
+  <span style="color: #2aa198;">"&lt;div class='nav'&gt;</span>
+<span style="color: #2aa198;">&lt;ul&gt;</span>
+<span style="color: #2aa198;">&lt;li&gt;&lt;a href='/'&gt;Home&lt;/a&gt;&lt;/li&gt;</span>
+<span style="color: #2aa198;">&lt;li&gt;&lt;a href='/blog/index.html'&gt;Blog&lt;/a&gt;&lt;/li&gt;</span>
+<span style="color: #2aa198;">&lt;li&gt;&lt;a href='http://github.com/NicolasPetton'&gt;GitHub&lt;/a&gt;&lt;/li&gt;</span>
+<span style="color: #2aa198;">&lt;li&gt;&lt;a href='http://twitter.com/NicolasPetton'&gt;Twitter&lt;/a&gt;&lt;/li&gt;</span>
+<span style="color: #2aa198;">&lt;li&gt;&lt;a href='/contact.html'&gt;Contact&lt;/a&gt;&lt;/li&gt;</span>
+<span style="color: #2aa198;">&lt;/ul&gt;</span>
+<span style="color: #2aa198;">&lt;/div&gt;"</span>)
+
+(<span style="color: #859900; font-weight: bold;">defvar</span> <span style="color: #268bd2;">nico-website-html-postamble</span> 
+  <span style="color: #2aa198;">"&lt;div class='footer'&gt;</span>
+<span style="color: #2aa198;">Copyright 2013 %a (%v HTML).&lt;br&gt;</span>
+<span style="color: #2aa198;">Last updated %C. &lt;br&gt;</span>
+<span style="color: #2aa198;">Built with %c.</span>
+<span style="color: #2aa198;">&lt;/div&gt;"</span>)
+
+
+(setq org-publish-project-alist
+      `((<span style="color: #2aa198;">"org"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-directory</span> <span style="color: #2aa198;">"~/org/website/"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-extension</span> <span style="color: #2aa198;">"org"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-directory</span> <span style="color: #2aa198;">"~/Public/nicolas-petton.fr/"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-function</span> org-html-publish-to-html
+         <span style="color: #657b83; font-weight: bold;">:section-numbers</span> nil
+         <span style="color: #657b83; font-weight: bold;">:with-toc</span> nil
+         <span style="color: #657b83; font-weight: bold;">:html-head</span> ,nico-website-html-head
+         <span style="color: #657b83; font-weight: bold;">:html-preamble</span> ,nico-website-html-preamble
+         <span style="color: #657b83; font-weight: bold;">:html-postamble</span> ,nico-website-html-postamble)
+
+        (<span style="color: #2aa198;">"blog"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-directory</span> <span style="color: #2aa198;">"~/org/website/blog"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-extension</span> <span style="color: #2aa198;">"org"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-directory</span> <span style="color: #2aa198;">"~/Public/nicolas-petton.fr/blog/"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-function</span> org-html-publish-to-html
+         <span style="color: #657b83; font-weight: bold;">:section-numbers</span> nil
+         <span style="color: #657b83; font-weight: bold;">:with-toc</span> nil
+         <span style="color: #657b83; font-weight: bold;">:html-head</span> ,nico-website-html-blog-head
+         <span style="color: #657b83; font-weight: bold;">:html-head-extra</span>
+         <span style="color: #2aa198;">"&lt;link rel=\"alternate\" type=\"application/rss+xml\"</span>
+<span style="color: #2aa198;">                href=\"http://nicolas-petton.fr/blog/blog.xml\"</span>
+<span style="color: #2aa198;">                title=\"RSS feed\"&gt;"</span>
+         <span style="color: #657b83; font-weight: bold;">:html-preamble</span> ,nico-website-html-preamble
+         <span style="color: #657b83; font-weight: bold;">:html-postamble</span> ,nico-website-html-postamble)
+
+        (<span style="color: #2aa198;">"images"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-directory</span> <span style="color: #2aa198;">"~/org/website/images/"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-extension</span> <span style="color: #2aa198;">"jpg</span><span style="color: #859900; font-weight: bold;">\\</span><span style="color: #b58900; font-weight: bold;">|</span><span style="color: #2aa198;">gif</span><span style="color: #859900; font-weight: bold;">\\</span><span style="color: #b58900; font-weight: bold;">|</span><span style="color: #2aa198;">png"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-directory</span> <span style="color: #2aa198;">"~/Public/nicolas-petton.fr/images/"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-function</span> org-publish-attachment)
+
+        (<span style="color: #2aa198;">"js"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-directory</span> <span style="color: #2aa198;">"~/org/website/js/"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-extension</span> <span style="color: #2aa198;">"js"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-directory</span> <span style="color: #2aa198;">"~/Public/nicolas-petton.fr/js/"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-function</span> org-publish-attachment)
+
+        (<span style="color: #2aa198;">"css"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-directory</span> <span style="color: #2aa198;">"~/org/website/css/"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-extension</span> <span style="color: #2aa198;">"css"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-directory</span> <span style="color: #2aa198;">"~/Public/nicolas-petton.fr/css/"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-function</span> org-publish-attachment)
+
+        (<span style="color: #2aa198;">"rss"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-directory</span> <span style="color: #2aa198;">"~/org/website/blog"</span>
+         <span style="color: #657b83; font-weight: bold;">:base-extension</span> <span style="color: #2aa198;">"org"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-directory</span> <span style="color: #2aa198;">"~/Public/nicolas-petton.fr/blog"</span>
+         <span style="color: #657b83; font-weight: bold;">:publishing-function</span> (org-rss-publish-to-rss)
+         <span style="color: #657b83; font-weight: bold;">:html-link-home</span> <span style="color: #2aa198;">"http://nicolas-petton.fr/"</span>
+         <span style="color: #657b83; font-weight: bold;">:html-link-use-abs-url</span> t)
+
+        (<span style="color: #2aa198;">"website"</span> <span style="color: #657b83; font-weight: bold;">:components</span> (<span style="color: #2aa198;">"org"</span> <span style="color: #2aa198;">"blog"</span> <span style="color: #2aa198;">"images"</span> <span style="color: #2aa198;">"js"</span> <span style="color: #2aa198;">"css"</span> <span style="color: #2aa198;">"rss"</span>))))
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class='footer'>
+Copyright 2013 Nicolas Petton (<a href="http://validator.w3.org/check?uri=referer">Validate</a> HTML).<br>
+Last updated 2013-10-15 Tue 14:20. <br>
+Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.1).
+</div>
+</div>
+</body>
+</html>
