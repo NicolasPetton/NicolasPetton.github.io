@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Contact</title>
+<title>Installing Pharo on Ubuntu</title>
 <!-- 2013-10-16 Wed 17:47 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
@@ -87,8 +87,11 @@
   /*]]>*/-->
 </style>
 <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
-<link rel='stylesheet' href='css/site.css' type='text/css'/>
+<link rel='stylesheet' href='../css/site.css' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link rel="alternate" type="application/rss+xml"
+                href="http://nicolas-petton.fr/blog/index.xml"
+                title="RSS feed">
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -149,82 +152,58 @@ for the JavaScript code in this tag.
 </div>
 </div>
 <div id="content">
-<h1 class="title">Contact</h1>
+<h1 class="title">Installing Pharo on Ubuntu</h1>
 
 <div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><a id="ID-0f39df25-88d0-4207-b7c1-2cbf429ded73" name="ID-0f39df25-88d0-4207-b7c1-2cbf429ded73"></a>@Inria</h2>
+<h2 id="sec-1"><a id="ID-0375fdb9-1a55-4600-b07b-cd1ca12ffd71" name="ID-0375fdb9-1a55-4600-b07b-cd1ca12ffd71"></a>Installing Pharo on Ubuntu</h2>
 <div class="outline-text-2" id="text-1">
+
+<div class="pubdate">
 <p>
-RMod, Inria Lille - Nord Europe
-</p>
-
-<p>
-Parc Scientifique de la Haute Borne
-</p>
-
-<p>
-40, avenue Halley
-</p>
-
-<p>
-Bât.A, Park Plaza
-</p>
-
-
-
-<p>
-Office: Inria B, room 302
-</p>
-
-<p>
-+33 3 59 35 87 38
-</p>
-
-<p>
-<i>nicolas.petton@inria.fr</i>
+October 15, 2013
 </p>
 </div>
-</div>
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><a id="ID-3ebca5e4-b9f7-4733-8285-1a78b44fb8c8" name="ID-3ebca5e4-b9f7-4733-8285-1a78b44fb8c8"></a>@Objectfusion</h2>
-<div class="outline-text-2" id="text-2">
+
+
 <p>
-Objectfusion S.A.R.L.
+I'm always surprised when I see that people are still installing the
+<a href="http://pharo-project.org">Pharo</a> Virtual Machine by hand on Ubuntu while <a href="http://damiencassou.seasidehosting.st">Damien Cassou</a> has made
+a ppa for it.
 </p>
 
 <p>
-171 quai Auguste Meynier
+The ppa contains the VM itself and an optional graphical launcher
+that handles Pharo images for you. It also installs Pharo properly
+on 64bits machines, which are the default nowadays while the Pharo
+VM is still 32bits.
 </p>
 
 <p>
-34280 Carnon
+Here's how to install it:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">sudo apt-add-repository -y ppa:pharo/stable
+sudo apt-get update
+sudo apt-get install pharo-vm-desktop
+</pre>
+</div>
+
+<p>
+There's no excuse to have an outdated Pharo VM anymore!
 </p>
 
 <p>
-<i>nico@objectfusion.fr</i>
+For OSX/other Linux distributions there's always <a href="http://get.pharo.org">get.pharo.org</a>.
 </p>
-</div>
-</div>
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3"><a id="ID-fb473262-016b-4cba-b044-f36cdce0ae22" name="ID-fb473262-016b-4cba-b044-f36cdce0ae22"></a>Social</h2>
-<div class="outline-text-2" id="text-3">
-<ul class="org-ul">
-<li>GTalk <i>petton.nicolas AT gmail DOT com</i>
-</li>
-<li>Skype <i>petton.nicolas</i>
-</li>
-<li>Twitter <a href="http://twitter.com/NicolasPetton">@NicolasPetton</a>
-</li>
-<li>GitHub <a href="http://github.com/NicolasPetton">NicolasPetton</a>
-</li>
-</ul>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <div class='footer'>
 Copyright 2013 Nicolas Petton (<a href="http://validator.w3.org/check?uri=referer">Validate</a> HTML).<br>
-Last updated 2013-10-15 Tue 14:55. <br>
+Last updated 2013-10-16 Wed 17:47. <br>
 Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.1).
 </div>
 </div>

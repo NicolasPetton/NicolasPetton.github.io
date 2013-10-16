@@ -21,7 +21,8 @@ body h1 {
   color: #cb4b16;
 }
 body h2 {
-  color: #859900;
+  color: #2aa198;
+  font-weight: normal;
 }
 body a {
   text-decoration: none;

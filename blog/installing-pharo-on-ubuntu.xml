@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Installing Pharo on Ubuntu)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Wed, 16 Oct 2013 17:47:53 +0200</pubDate>
+  <lastBuildDate>Wed, 16 Oct 2013 17:47:53 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.1</generator>
+  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>(Installing Pharo on Ubuntu)</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+  <div id="table-of-contents">
+    <h2>Table of Contents</h2>
+    <div id="text-table-of-contents">
+      <ul>
+	<li><a href="#sec-1">1. Installing Pharo on Ubuntu</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <item>
+    <title>Installing Pharo on Ubuntu</title>
+    <link>http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.html#sec-1</guid>
+    <pubDate>Tue, 15 Oct 2013 20:59:00 +0200</pubDate>
+
+    <description><![CDATA[
+    <div class="pubdate">
+    <p>
+    October 15, 2013
+    </p>
+    </div>
+
+
+    <p>
+    I&rsquo;m always surprised when I see that people are still installing the
+    <a href="http://pharo-project.org">Pharo</a> Virtual Machine by hand on Ubuntu while <a href="http://damiencassou.seasidehosting.st">Damien Cassou</a> has made
+    a ppa for it.
+    </p>
+
+    <p>
+    The ppa contains the VM itself and an optional graphical launcher
+    that handles Pharo images for you. It also installs Pharo properly
+    on 64bits machines, which are the default nowadays while the Pharo
+    VM is still 32bits.
+    </p>
+
+    <p>
+    Here&rsquo;s how to install it:
+    </p>
+
+    <div class="org-src-container">
+
+    <pre class="src src-sh">sudo apt-add-repository -y ppa:pharo/stable
+    sudo apt-get update
+    sudo apt-get install pharo-vm-desktop
+    </pre>
+    </div>
+
+    <p>
+    There&rsquo;s no excuse to have an outdated Pharo VM anymore!
+    </p>
+
+    <p>
+    For OSX/other Linux distributions there&rsquo;s always <a href="http://get.pharo.org">get.pharo.org</a>.
+    </p>
+    ]]></description>
+  </item>
+</channel>
+</rss>
