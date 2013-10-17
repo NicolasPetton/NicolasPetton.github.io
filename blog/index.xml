@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 16 Oct 2013 17:47:28 +0200</pubDate>
-  <lastBuildDate>Wed, 16 Oct 2013 17:47:28 +0200</lastBuildDate>
+  <pubDate>Fri, 18 Oct 2013 01:50:47 +0200</pubDate>
+  <lastBuildDate>Fri, 18 Oct 2013 01:50:47 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.1</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -28,9 +28,10 @@
     <h2>Table of Contents</h2>
     <div id="text-table-of-contents">
       <ul>
-	<li><a href="#sec-1">1. Installing Pharo on Ubuntu</a></li>
-	<li><a href="#sec-2">2. Blogging with <code>org-mode</code></a></li>
-	<li><a href="#sec-3">3. Amber 0.10.0 released!</a></li>
+	<li><a href="#sec-1">1. Arrived in Buenos Aires</a></li>
+	<li><a href="#sec-2">2. Installing Pharo on Ubuntu</a></li>
+	<li><a href="#sec-3">3. Blogging with <code>org-mode</code></a></li>
+	<li><a href="#sec-4">4. Amber 0.10.0 released!</a></li>
       </ul>
     </div>
   </div>
@@ -39,10 +40,35 @@
   </p>
 
   <item>
-    <title>Installing Pharo on Ubuntu</title>
+    <title>Arrived in Buenos Aires</title>
     <link>http://nicolas-petton.fr/blog/index.html#sec-1</link>
     <author>Nicolas Petton</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-1</guid>
+    <pubDate>Fri, 18 Oct 2013 01:49:00 +0200</pubDate>
+    <category><![CDATA[argentina]]></category>
+    <category><![CDATA[smalltalk]]></category>
+    <category><![CDATA[amber]]></category>
+    <description><![CDATA[<p>
+    Yesterday I arrived in Buenos Aires. 
+  </p>
+
+  <p>
+    Next week I&rsquo;ll be heading to Rosario for the <a href="http://www.fast.org.ar/smalltalks2013">Smalltalks</a> conference
+    where I&rsquo;ll be giving a <a href="http://www.fast.org.ar/smalltalks2013/talks/Amber%2520Smalltalk%253A%2520A%2520Smalltalk%2520that%2520runs%2520inside%2520your%2520web%2520browser">talk</a> about <a href="http://amber-lang.net">Amber</a>. This talk will highlight
+    key features and use-cases of Amber, explain some of the internals
+    as well as important new and planned features.
+  </p>
+
+  <p>
+    I hope to see you there!
+  </p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Installing Pharo on Ubuntu</title>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-2</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-2</guid>
     <pubDate>Tue, 15 Oct 2013 20:59:00 +0200</pubDate>
     <category><![CDATA[pharo]]></category>
     <category><![CDATA[ubuntu]]></category>
@@ -68,9 +94,9 @@
   </item>
   <item>
     <title>Blogging with =org-mode=</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-2</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-3</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-2</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-3</guid>
     <pubDate>Tue, 15 Oct 2013 13:47:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[orgmode]]></category>
@@ -97,9 +123,9 @@
 
   <item>
     <title>Amber 0.10.0 released!</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-3</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-4</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-3</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-4</guid>
     <pubDate>Wed, 13 Mar 2013 12:00:00 +0100</pubDate>
     <category><![CDATA[amber]]></category>
     <category><![CDATA[smalltalk]]></category>
