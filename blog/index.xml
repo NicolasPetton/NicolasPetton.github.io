@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 18 Oct 2013 01:52:11 +0200</pubDate>
-  <lastBuildDate>Fri, 18 Oct 2013 01:52:11 +0200</lastBuildDate>
+  <pubDate>Fri, 18 Oct 2013 01:54:03 +0200</pubDate>
+  <lastBuildDate>Fri, 18 Oct 2013 01:54:03 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.1</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -61,7 +61,7 @@
 
     <p>
     Next week I&rsquo;ll be heading to Rosario for the <a href="http://www.fast.org.ar/smalltalks2013">Smalltalks</a> conference
-    where I&rsquo;ll be giving a <a href="http://www.fast.org.ar/smalltalks2013/talks/Amber%2520Smalltalk%253A%2520A%2520Smalltalk%2520that%2520runs%2520inside%2520your%2520web%2520browser">talk</a> about <a href="http://amber-lang.net">Amber</a>. This talk will highlight
+    where I&rsquo;ll be giving a <a href="http://www.fast.org.ar/smalltalks2013/talks/Amber%20Smalltalk%253A%20A%20Smalltalk%20that%20runs%20inside%20your%20web%20browser">talk</a> about <a href="http://amber-lang.net">Amber</a>. This talk will highlight
     key features and use-cases of Amber, explain some of the internals
     as well as important new and planned features.
     </p>
