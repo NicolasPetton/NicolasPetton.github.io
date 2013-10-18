@@ -16,6 +16,7 @@ body h1 img,
 body h2 img,
 body h3 img {
   vertical-align: middle;
+  border: 0 none;
 }
 body h1 {
   color: #cb4b16;
