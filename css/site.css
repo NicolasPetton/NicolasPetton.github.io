@@ -10,7 +10,7 @@ body {
 body h1,
 body h2,
 body h3 {
-  font-weight: 300;
+  font-weight: 700;
 }
 body h1 img,
 body h2 img,
@@ -22,7 +22,11 @@ body h1 {
 }
 body h2 {
   color: #2aa198;
+}
+body h3 {
   font-weight: normal;
+  font-size: 22px;
+  color: #859900;
 }
 body a {
   text-decoration: none;
@@ -39,6 +43,9 @@ body code {
   border: 1px solid #ccc;
   padding: 2px 4px;
   color: #93a1a1;
+}
+body img {
+  border: 1px solid #ccc;
 }
 body .tag {
   background: transparent;
