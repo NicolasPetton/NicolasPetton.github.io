@@ -3,8 +3,8 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Amber's new compiler</title>
-<!-- 2013-11-12 Tue 00:49 -->
+<title>Amber 0.12.0 released</title>
+<!-- 2013-11-12 Tue 00:47 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Nicolas Petton" />
@@ -152,154 +152,62 @@ for the JavaScript code in this tag.
 </div>
 </div>
 <div id="content">
-<h1 class="title">Amber's new compiler</h1>
+<h1 class="title">Amber 0.12.0 released</h1>
 
 <div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><a id="ID-57d2c75a-220f-43cd-97d1-ecd47f9010f8" name="ID-57d2c75a-220f-43cd-97d1-ecd47f9010f8"></a>Amber's new compiler</h2>
+<h2 id="sec-1"><a id="ID-5cff231c-e5df-4970-9268-6dda48619b17" name="ID-5cff231c-e5df-4970-9268-6dda48619b17"></a>Amber 0.12.0 released</h2>
 <div class="outline-text-2" id="text-1">
 
 <div class="pubdate">
 <p>
-October 18, 2013
+November 12, 2013
 </p>
 </div>
 
 <p>
-Amber's compiler has been improved some months ago and a post
-explaining its new architecture was a long overdue.
+The last 3 months have been exciting in Amber-land!
 </p>
 
 <p>
-Following Opal (the new <a href="http://pharo-project.org">Pharo</a> compiler) architecture, the compiler
-has been entirely rewritten from a single, complex and stateful AST
-visitor into several smaller, single-purpose classes, making it a
-more flexible and extensible compiler.
-</p>
-</div>
-
-<div id="outline-container-sec-1-1" class="outline-3">
-<h3 id="sec-1-1"><a id="ID-b922a3e9-fa23-4db9-a86b-8df6bf730977" name="ID-b922a3e9-fa23-4db9-a86b-8df6bf730977"></a>The new architecture</h3>
-<div class="outline-text-3" id="text-1-1">
-
-<p>
-The AST produced by the parser is first annotated and validated by
-the <code>SemanticAnalyzer</code>. The annotation step is important as it adds
-semantic knowledge to the AST (scope, variable semantics, etc.).
-This way we first make sure that the produced AST is both valid
-syntactically and semantically, and keep semantic information
-directly in nodes.
-</p>
-
-
-<div class="org-src-container">
-
-<pre class="src src-ruby">| ast ir output |
-
-ast := <span style="color: #b58900;">Smalltalk</span> current <span style="color: #268bd2; font-weight: bold;">parse</span>: <span style="color: #2aa198;">'foo true ifTrue: [ ^ self asString ]'</span>.
-(<span style="color: #b58900;">SemanticAnalyzer</span> <span style="color: #268bd2; font-weight: bold;">on</span>: <span style="color: #b58900;">Object</span>) visit: ast.
-</pre>
-</div>
-
-
-<p>
-The second step is to produce an intermediate representation (IR)
-through an <code>IRASTTranslator</code>. The IR tree is similar to the AST but is
-simpler and flatten. It doesn't includes cascades for instance, and
-cut down most of the tree into a flat list of instructions.
-</p>
-
-
-<div class="org-src-container">
-
-<pre class="src src-ruby">ir := <span style="color: #b58900;">IRASTTranslator</span> new <span style="color: #268bd2; font-weight: bold;">visit</span>: ast.
-</pre>
-</div>
-
-
-<p>
-From the IR it's a lot easier to perform efficient inlinings. This
-optional step is performed by the <code>IRInliner</code> visitor. The <code>IRInlner</code>
-replaces parts of the tree, with the inlined equivalent. You can find
-the currently inlined send nodes with <code>IRSendInliner class &gt;&gt;
-   inlinedSelectors</code>.
+The new release includes a lot of improvements, from the new package
+management to the AST interpreter, as well as improvements in
+Helios, the CLI tools and the compiler, among other changes.
 </p>
 
 <p>
-The final step is then to produce the JavaScript output. This is the
-role of the <code>IRJSTranslator</code>. The compiler can then install the method
-in the appropriate class.
-</p>
-
-
-<div class="org-src-container">
-
-<pre class="src src-ruby">output := <span style="color: #b58900;">IRJSTranslator</span> new
-     <span style="color: #268bd2; font-weight: bold;">currentClass</span>: <span style="color: #b58900;">Object</span>;
-     <span style="color: #268bd2; font-weight: bold;">visit</span>: ir;
-     contents
-</pre>
-</div>
-
-
-
-<p>
-The following diagram shows the current architecture.
-</p>
-
-<div class="figure">
-<p><img src="../images/amber-compiler.png" alt="amber-compiler.png" />
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-sec-1-2" class="outline-3">
-<h3 id="sec-1-2"><a id="ID-b9289317-95e2-422d-b90c-7b0fcd7d7890" name="ID-b9289317-95e2-422d-b90c-7b0fcd7d7890"></a>The public API</h3>
-<div class="outline-text-3" id="text-1-2">
-
-<p>
-The <code>Compiler</code> facade hides all the internals away and provides the
-public API to compile and install methods in Amber. It internally
-delegates compiling to an instance of <code>CodeGenerator</code>, or its
-subclass <code>InliningCodeGenerator</code> (the default), that will perform
-the optional inlining step.
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-ruby"><span style="color: #2aa198;">"Compiling without installing"</span>
-<span style="color: #b58900;">Compiler</span> new
-     <span style="color: #268bd2; font-weight: bold;">codeGeneratorClass</span>: <span style="color: #b58900;">InliningCodeGenerator</span>; <span style="color: #2aa198;">"Default, can be omitted"</span>
-     <span style="color: #268bd2; font-weight: bold;">compile</span>: <span style="color: #2aa198;">'foo true ifTrue: [ ^ self asString ]'</span>
-     <span style="color: #268bd2; font-weight: bold;">forClass</span>: <span style="color: #b58900;">Object</span>.
-
-<span style="color: #2aa198;">"Compiling and installing"</span>
-<span style="color: #b58900;">Compiler</span> new
-     <span style="color: #268bd2; font-weight: bold;">codeGeneratorClass</span>: <span style="color: #b58900;">InliningCodeGenerator</span>; <span style="color: #2aa198;">"Default, can be omitted"</span>
-     <span style="color: #268bd2; font-weight: bold;">install</span>: <span style="color: #2aa198;">'foo true ifTrue: [ ^ self asString ]'</span>
-     <span style="color: #268bd2; font-weight: bold;">forClass</span>: <span style="color: #b58900;">Object</span>
-     <span style="color: #268bd2; font-weight: bold;">category</span>: <span style="color: #2aa198;">'foo'</span>
-</pre>
-</div>
-</div>
-</div>
-<div id="outline-container-sec-1-3" class="outline-3">
-<h3 id="sec-1-3"><a id="ID-f0d4cc95-d0ba-451b-984f-953b67c4c72d" name="ID-f0d4cc95-d0ba-451b-984f-953b67c4c72d"></a>The end</h3>
-<div class="outline-text-3" id="text-1-3">
-
-<p>
-That's all for now. The new compiler is a very important brick for
-Amber. There is still room for improvement, as the generated code
-could sometimes be simpler, but it is overall a great improvement
-over the old compiler. Together with the new <code>ASTInterpreter</code>, it
-will allow fancy new features in Amber, like the new stepping
-debugger.
+This time we managed to release after 3 months of development, but
+the goal is to shorten development cycles even more. Amber 1.0 isn't
+that far away anymore, and with each new release it feels more
+reliable and stable.
 </p>
 
 <p>
-I plan to write another post with more details about the inlining
-steps. Stay tuned!
+Even though the compiler may change in the future I hope that the JS
+file format won't change much until 1.0, making the JavaScript
+compiled files backward compatible.
 </p>
+
+<p>
+Here are some numbers about this release:
+</p>
+<ul class="org-ul">
+<li>660 commits
+</li>
+<li>10 committers
+</li>
+<li>66 unit tests added
+</li>
+<li>152 issues were closed
+</li>
+<li>379 unit tests in total
+</li>
+</ul>
+
+
+<p>
+Read the <a href="https://groups.google.com/forum/#!topic/amber-lang/dv6lEYiKrAk">announcement</a> and grab Amber 0.12.0 from <a href="https://github.com/amber-smalltalk/amber/archive/0.12.0.zip">here</a>!
+</p>
+
 
 
 
@@ -320,11 +228,10 @@ steps. Stay tuned!
 </div>
 </div>
 </div>
-</div>
 <div id="postamble" class="status">
 <div class='footer'>
 Copyright 2013 Nicolas Petton (<a href="http://validator.w3.org/check?uri=referer">Validate</a> HTML).<br>
-Last updated 2013-11-12 Tue 00:49. <br>
+Last updated 2013-11-12 Tue 00:46. <br>
 Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.1).
 </div>
 </div>
