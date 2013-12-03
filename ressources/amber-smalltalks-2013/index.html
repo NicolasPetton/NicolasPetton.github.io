@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>(Amber, run Smalltalk in your web browser)</title>
+<meta name="author" content="(Nicolas Petton)"/>
+<link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
+<link rel="stylesheet" href="reveal.js/css/theme/moon2.css" id="theme"/>
+
+<link rel="stylesheet" href="reveal.js/css/print/pdf.css" type="text/css" media="print"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section>
+<h1>Amber, run Smalltalk in your web browser</h1>
+<h2>Nicolas Petton</h2>
+<h2><a href="mailto:petton.nicolas@gmail.com">petton.nicolas@gmail.com</a></h2>
+<h2></h2></section>
+
+<section>
+<section id="sec-1" >
+
+<h2>About me</h2>
+<p>
+Nicolas Petton
+</p>
+
+<p>
+<a href="mailto:petton.nicolas@gmail.com">petton.nicolas@gmail.com</a>
+</p>
+
+<p>
+Work <a href="http://inria.fr">@Inria</a> and <a href="http://objectfusion.fr">@Objectfusion</a>
+</p>
+</section>
+</section>
+<section>
+<section id="sec-2"  data-background="./images/amber_bg.jpg">
+
+<h2>What is Amber?</h2>
+
+</section>
+<section id="sec-2-1"  data-background="./images/balloon.jpg">
+
+<h3>A Smalltalk</h3>
+<ul class="org-ul">
+<li>Core libraries
+</li>
+<li>Web libraries
+</li>
+<li>Development environment
+</li>
+</ul>
+</section>
+<section id="sec-2-2"  data-background="./images/opensource.png">
+
+<h3></h3>
+</section>
+<section id="sec-2-3"  data-background="#226a8f">
+
+<h3>Compiles to <i>JavaScript</i></h3>
+</section>
+<section id="sec-2-4"  data-background="./images/stairs.jpg">
+
+<h3>Written in itself</h3>
+</section>
+</section>
+<section>
+<section id="sec-3"  data-background="#fff">
+
+<h2><i>Amber news</i></h2>
+
+</section>
+<section id="sec-3-1" >
+
+<h3>Helios - the new IDE</h3>
+
+</section>
+<section id="sec-3-2" >
+
+<h3>New <a href="https://github.com/amber-smalltalk">GitHub</a> organization &amp; Core team</h3>
+
+</section>
+<section id="sec-3-3" >
+
+<h3><b>5</b> team members</h3>
+<img src="./images/members.png" alt="members.png" />
+</section>
+<section id="sec-3-4" >
+
+<h3><b>107</b> forks on GitHub</h3>
+
+</section>
+<section id="sec-3-5" >
+
+<h3><b>465</b> followers</h3>
+
+</section>
+<section id="sec-3-6" >
+
+<h3><b>2500</b> commits</h3>
+</section>
+</section>
+<section>
+<section id="sec-4"  data-background="black">
+
+<h2>Showtime</h2>
+
+</section>
+</section>
+<section>
+<section id="sec-5"  data-background="#145a4a">
+
+<h2>Getting Amber</h2>
+
+</section>
+<section id="sec-5-1"  data-background="#145a4a">
+
+<h3>With <a href="http://nodejs.org">Node</a> Package Manager</h3>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">npm install amber
+</pre>
+</div>
+</section>
+<section id="sec-5-2"  data-background="#145a4a">
+
+<h3>The latest</h3>
+
+<p>
+It's <i><b>risky!</b></i>
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">git clone git@github.com:amber-smalltalk/amber.git
+<span style="color: #657b83; font-weight: bold;">cd</span> amber
+npm install
+bower install
+</pre>
+</div>
+</section>
+<section id="sec-5-3"  data-background="#145a4a">
+
+<h3>Starting Amber (the server)</h3>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">./bin/amber serve
+</pre>
+</div>
+
+<p>
+Go to <a href="http://localhost:4000">http://localhost:4000</a>
+</p>
+</section>
+<section id="sec-5-4"  data-background="#145a4a">
+
+<h3>Starting Amber (the repl)</h3>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">./bin/amber repl
+</pre>
+</div>
+</section>
+<section id="sec-5-5"  data-background="black">
+
+<h3>Do <i><b>NOT</b></i> deploy from <code>master</code></h3>
+</section>
+</section>
+<section>
+<section id="sec-6"  data-background="images/cogs.jpg">
+
+<h2>The new Compiler</h2>
+
+<ul class="org-ul">
+<li>Better design
+</li>
+<li>Inspired from Opal
+</li>
+<li>No manual lookup
+</li>
+<li>Rely on the JS prototype chain
+</li>
+</ul>
+
+</section>
+<section id="sec-6-1" >
+
+<h3>New architecture</h3>
+<img src="images/amber-compiler.png" alt="amber-compiler.png" />
+</section>
+<section id="sec-6-2" >
+
+<h3>Better inlinings</h3>
+
+</section>
+<section id="sec-6-3" >
+
+<h3></h3>
+<div class="org-src-container">
+
+<pre class="src src-ruby">foo
+  <span style="color: #268bd2;">true</span> <span style="color: #268bd2; font-weight: bold;">ifTrue</span>: [ ^ <span style="color: #268bd2;">self</span> ].
+
+
+<span style="color: #859900; font-weight: bold;">if</span>(assert(<span style="color: #268bd2;">true</span>)) {
+  <span style="color: #859900; font-weight: bold;">return</span> <span style="color: #268bd2;">self</span>;
+}
+</pre>
+</div>
+
+</section>
+<section id="sec-6-4" >
+
+<h3></h3>
+<div class="org-src-container">
+
+<pre class="src src-ruby">foo
+  a := <span style="color: #268bd2;">true</span> 
+    <span style="color: #268bd2; font-weight: bold;">ifTrue</span>: [ 1 ]
+    <span style="color: #268bd2; font-weight: bold;">ifFalse</span>: [ 2 ].
+
+<span style="color: #859900; font-weight: bold;">if</span>(assert(<span style="color: #268bd2;">true</span>)) {
+  a := 1;
+} <span style="color: #859900; font-weight: bold;">else</span> {
+  a := 2;
+}
+</pre>
+</div>
+</section>
+<section id="sec-6-5" >
+
+<h3>Remarks</h3>
+<ul class="org-ul">
+<li>JS proxies
+</li>
+<li>Non local returns
+</li>
+</ul>
+</section>
+<section id="sec-6-6" >
+
+<h3>AST Interpreter</h3>
+<ul class="org-ul">
+<li>Can interpret 100% of Amber
+</li>
+<li>Includes an experimental debugger
+</li>
+<li><b>Much</b> slower than compiled code
+</li>
+</ul>
+</section>
+</section>
+<section>
+<section id="sec-7"  data-background="images/amber-stones.jpg">
+
+<h2>Handling Packages</h2>
+
+</section>
+<section id="sec-7-1" >
+
+<h3>What was the problem?</h3>
+<ul class="org-ul">
+<li>Package loading issues
+</li>
+<li>External packages
+</li>
+<li>Commit paths
+</li>
+<li>Dependencies
+</li>
+</ul>
+</section>
+<section id="sec-7-2" >
+
+<h3>The solution</h3>
+<ul class="org-ul">
+<li>Decouple packages from their transport
+</li>
+<li>Use an <code>AMD</code> loader (<a href="http://requirejs.org/">requirejs</a>)
+</li>
+</ul>
+</section>
+<section id="sec-7-3" >
+
+<h3>New package definitions</h3>
+<div class="org-src-container">
+
+<pre class="src src-ruby"><span style="color: #b58900;">Package</span>
+  <span style="color: #268bd2; font-weight: bold;">named</span>: <span style="color: #2aa198;">'Compiler-Core'</span>
+  <span style="color: #268bd2; font-weight: bold;">transport</span>: (<span style="color: #b58900;">AmdPackageTransport</span> <span style="color: #268bd2; font-weight: bold;">namespace</span>: <span style="color: #2aa198;">'amber_core'</span>)
+</pre>
+</div>
+</section>
+<section id="sec-7-4" >
+
+<h3>Amber distributions</h3>
+<p>
+They are <code>AMD</code> mobules
+</p>
+<ul class="org-ul">
+<li><code>amber/devel</code>
+</li>
+<li><code>amber/deploy</code>
+</li>
+</ul>
+</section>
+<section id="sec-7-5" >
+
+<h3>Loading Amber</h3>
+<div class="org-src-container">
+
+<pre class="src src-ruby">&lt;script 
+  type=<span style="color: #2aa198;">'text/javascript'</span> 
+  src=<span style="color: #2aa198;">'support/amber.js'</span>&gt;&lt;/script&gt;
+&lt;script 
+  type=<span style="color: #2aa198;">'text/javascript'</span> 
+  src=<span style="color: #2aa198;">'support/requirejs/require.min.js'</span>&gt;&lt;/script&gt;
+
+&lt;script type=<span style="color: #2aa198;">'text/javascript'</span>&gt;
+    require(
+        [<span style="color: #2aa198;">"amber/devel"</span>],
+        function (smalltalk) {
+            smalltalk.initialize();
+            <span style="color: #2aa198;">//</span> <span style="color: #b58900;">Custom</span> code here
+        }
+    );
+&lt;/script&gt;
+</pre>
+</div>
+</section>
+</section>
+<section>
+<section id="sec-8"  data-background="images/athens.jpg">
+
+<h2>Athens on Amber</h2>
+<p>
+By Matthias Springer
+</p>
+</section>
+</section>
+<section>
+<section id="sec-9" >
+
+<h2>You can contribute!</h2>
+<ul class="org-ul">
+<li><a href="https://travis-ci.org/#!/amber-smalltalk/amber">Travis</a>
+</li>
+<li><a href="https://github.com/amber-smalltalk/amber">Github</a>
+</li>
+<li>Pull requests
+</li>
+</ul>
+</section>
+</section>
+<section>
+<section id="sec-10" >
+
+<h2>Community</h2>
+<ul class="org-ul">
+<li><a href="http://github.com/amber-smalltalk">GitHub</a>
+</li>
+<li>#amber-lang on freenode
+</li>
+<li><a href="https://groups.google.com/forum/#!forum/amber-lang">amber-lang</a> Google group
+</li>
+</ul>
+</section>
+</section>
+<section>
+<section id="sec-11"  data-background="#222">
+
+<h2><img src="./images/amber-logo.png" alt="amber-logo.png" /> amber-lang.net</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="reveal.js/lib/js/head.min.js"></script>
+<script src="reveal.js/js/reveal.min.js"></script>
+<script>
+
+        		// Full list of configuration options available here:
+        		// https://github.com/hakimel/reveal.js#configuration
+        		Reveal.initialize({
+        			controls: true,
+        			progress: true,
+        			history: true,
+        			center: true,
+        			rollingLinks: true,
+        			keyboard: true,
+        			overview: true,
+        			 // slide width
+        			 // slide height
+        			 // slide margin
+        			 // slide minimum scaling factor
+        			 // slide maximum scaling factor
+
+
+        			theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        			transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+        			transitionSpeed: 'default',
+
+        			// Optional libraries used to extend on reveal.js
+        			dependencies: [
+        				{ src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } }
+        				,{ src: 'reveal.js/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }
+        				,{ src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }
+        				,{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        				,{ src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }
+        				,{ src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        				// { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+        				// { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+         				
+        			]
+        		});
+</script>
+</body>
+</html>
