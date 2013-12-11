@@ -1,6 +1,6 @@
 .centered {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 600px;
 }
 body {
   font-family: "Open Sans", Helvetica, Arial, sans;
@@ -87,7 +87,7 @@ body .org-info-js_info-navigation {
 body #content,
 body #postamble {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 600px;
 }
 body #content {
   margin-top: 70px;
@@ -110,7 +110,7 @@ body .nav {
 }
 body .nav ul {
   list-style: none;
-  width: 800px;
+  width: 600px;
   margin: 0 auto;
   padding: 0;
 }
