@@ -1,10 +1,10 @@
 .centered {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 800px;
 }
 body {
   font-family: "Open Sans", Helvetica, Arial, sans;
-  background: #fdf6e3;
+  background: white;
   color: #839496;
 }
 body h1,
@@ -12,7 +12,7 @@ body h2,
 body h3,
 body h4 {
   color: #839496;
-  font-weight: 700;
+  font-weight: 100;
 }
 body h1 img,
 body h2 img,
@@ -22,22 +22,24 @@ body h4 img {
   border: 0 none;
 }
 body h1 {
-  color: #cb4b16;
+  color: #0088cc;
 }
 body h2 {
-  color: #2aa198;
+  color: #0088cc;
+  margin-top: 50px;
 }
 body h3 {
   font-weight: normal;
   font-size: 22px;
-  color: #859900;
+  color: #0088cc;
 }
 body a {
   text-decoration: none;
-  color: #268bd2;
+  color: #33bbff;
+  text-decoration: underline;
 }
 body a:hover {
-  text-decoration: underline;
+  color: #004466;
 }
 body pre {
   background: white;
@@ -46,7 +48,7 @@ body code {
   background: #eee;
   border: 1px solid #ccc;
   padding: 2px 4px;
-  color: #93a1a1;
+  color: #839496;
 }
 body img {
   border: 1px solid #ccc;
@@ -55,7 +57,7 @@ body .tag {
   background: transparent;
 }
 body .tag span {
-  background: #268bd2;
+  background: #0088cc;
   color: white;
   padding: 2px 5px;
   border-radius: 4px;
@@ -63,20 +65,25 @@ body .tag span {
 body .pubdate {
   font-family: "Libre Baskerville", Georgia, "Times New Roman", sans-serif;
   font-style: italic;
-  color: #586e75;
+  color: #aaa;
   font-size: 18px;
   margin-bottom: 20px;
+  margin-left: -350px;
+  text-align: right;
+  width: 300px;
+  margin-top: -65px;
+  position: absolute;
 }
 body .nav-blog {
   text-align: right;
 }
 body .org-info-js_info-navigation {
-  background: #eee8d5;
+  background: #bbbbbb;
 }
 body #content,
 body #postamble {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 800px;
 }
 body #content {
   margin-top: 70px;
@@ -85,7 +92,7 @@ body #postamble {
   font-size: 0.8em;
   margin-top: 50px;
   text-align: center;
-  color: #657b83;
+  color: #839496;
 }
 body .nav {
   z-index: 10;
@@ -94,12 +101,14 @@ body .nav {
   left: 0;
   right: 0;
   height: 46px;
-  background: white;
-  border-bottom: 1px solid #cb4b16;
+  background: #0088cc;
+  border-bottom: 1px solid #004466;
 }
 body .nav ul {
   list-style: none;
-  margin: 0;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
 }
 body .nav ul li {
   display: inline-block;
@@ -108,14 +117,16 @@ body .nav ul li {
 body .nav ul li a {
   line-height: 46px;
   display: inline-block;
-  color: #cb4b16;
+  color: white;
   padding: 0 20px;
   border-radius: 0;
+  text-decoration: none;
 }
 body .nav ul li a:hover {
   color: white;
   text-decoration: none;
-  background: #cb4b16;
+  background: white;
+  color: #0088cc;
 }
 body #disqus_thread {
   margin-top: 40px;
