@@ -71,8 +71,12 @@ body .pubdate {
   margin-left: -350px;
   text-align: right;
   width: 300px;
-  margin-top: -65px;
+  margin-top: -45px;
   position: absolute;
+}
+body .pubdate p {
+  display: inline;
+  margin-right: 10px;
 }
 body .nav-blog {
   text-align: right;
