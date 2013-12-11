@@ -27,6 +27,7 @@ body h1 {
 body h2 {
   color: #0088cc;
   margin-top: 50px;
+  position: relative;
 }
 body h3 {
   font-weight: normal;
@@ -55,6 +56,10 @@ body img {
 }
 body .tag {
   background: transparent;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  font-size: 0.6em;
 }
 body .tag span {
   background: #0088cc;
