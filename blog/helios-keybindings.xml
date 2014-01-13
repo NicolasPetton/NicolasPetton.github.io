@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 13 Jan 2014 13:10:50 +0100</pubDate>
-  <lastBuildDate>Mon, 13 Jan 2014 13:10:50 +0100</lastBuildDate>
+  <pubDate>Mon, 13 Jan 2014 13:13:41 +0100</pubDate>
+  <lastBuildDate>Mon, 13 Jan 2014 13:13:41 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5c</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -59,7 +59,7 @@
 	Last week we improved the Keybinding helper UI in helios, making it
 	more prominent and accessible. The previous version was greatly
 	inspired by Emacs&rsquo; modeline, and while I&rsquo;m an Emacs user, I think
-	this iteration is a lot more accessible.
+	this iteration makes it a lot more accessible.
 	</p>
 
 	<p>
