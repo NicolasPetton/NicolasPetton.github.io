@@ -5,13 +5,13 @@
 body {
   font-family: "Open Sans", Helvetica, Arial, sans;
   background: white;
-  color: #839496;
+  color: #666666;
 }
 body h1,
 body h2,
 body h3,
 body h4 {
-  color: #839496;
+  color: #666666;
   font-weight: 100;
 }
 body h1 img,
@@ -49,7 +49,7 @@ body code {
   background: #eee;
   border: 1px solid #ccc;
   padding: 2px 4px;
-  color: #839496;
+  color: #666666;
 }
 body img {
   border: 1px solid #ccc;
@@ -98,7 +98,7 @@ body #postamble {
   font-size: 0.8em;
   margin-top: 50px;
   text-align: center;
-  color: #839496;
+  color: #666666;
 }
 body .nav {
   z-index: 10;
