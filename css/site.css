@@ -56,9 +56,6 @@ body img {
 }
 body .tag {
   background: transparent;
-  position: absolute;
-  top: 30px;
-  right: 0;
   font-size: 0.6em;
 }
 body .tag span {

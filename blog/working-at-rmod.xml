@@ -9,18 +9,18 @@
 	 xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>helios-keybindings</title>
-  <atom:link href="http://nicolas-petton.fr/blog/helios-keybindings.xml" rel="self" type="application/rss+xml" />
+  <title>working-at-rmod</title>
+  <atom:link href="http://nicolas-petton.fr/blog/working-at-rmod.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 14 Jan 2014 13:04:21 +0100</pubDate>
-  <lastBuildDate>Tue, 14 Jan 2014 13:04:21 +0100</lastBuildDate>
+  <pubDate>Tue, 14 Jan 2014 13:11:52 +0100</pubDate>
+  <lastBuildDate>Tue, 14 Jan 2014 13:11:52 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5c</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
 	<url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
-	<title>helios-keybindings</title>
+	<title>working-at-rmod</title>
 	<link>http://nicolas-petton.fr/blog/</link>
   </image>
 
@@ -28,46 +28,51 @@
 	<h2>Table of Contents</h2>
 	<div id="text-table-of-contents">
 	  <ul>
-		<li><a href="#sec-1">1. Keybindings in Amber's new IDE</a></li>
+		<li><a href="#sec-1">1. How is it to work at RMoD? <i>A series of interviews</i>.</a></li>
 	  </ul>
 	</div>
   </div>
   <item>
-	<title>Keybindings in Amber's new IDE</title>
-	<link>http://nicolas-petton.fr/blog/helios-keybindings.html#sec-1</link>
+	<title>How is it to work at [[http://rmod.lille.inria.fr/web/][RMoD]]? /A series of interviews/.</title>
+	<link>http://nicolas-petton.fr/blog/working-at-rmod.html#sec-1</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/helios-keybindings.html#sec-1</guid>
-	<pubDate>Mon, 13 Jan 2014 13:10:00 +0100</pubDate>
-	<category><![CDATA[helios]]></category>
-	<category><![CDATA[amber]]></category>
-	<category><![CDATA[smalltalk]]></category>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/working-at-rmod.html#sec-1</guid>
+	<pubDate>Tue, 14 Jan 2014 12:59:00 +0100</pubDate>
+	<category><![CDATA[RMoD]]></category>
+	<category><![CDATA[interview]]></category>
 	<description><![CDATA[
 	<div class="pubdate">
 	<p>
-	January 13, 2014
+	January 14, 2014
 	</p>
 	<i class="fa fa-calendar-o"></i>
 	</div>
 
 	<p>
-	Amber&rsquo;s new IDE, fondly named Helios, has been built with keyboard
-	power users in mind from the beginning. It evolved quite a bit over
-	time, and keyboard shortcuts as well as their UI are no exception.
+	I have the incredible chance to work in an amazing environment,
+	surrounded by smart and passionate people. This place is <a href="http://rmod.lille.inria.fr/web/">RMoD</a>, a
+	research team at <a href="http://www.inria.fr/">Inria</a> <a href="https://www.inria.fr/en/centre/lille">Lille</a>. 
 	</p>
 
 	<p>
-	Last week we improved the Keybinding helper UI in helios, making it
-	more prominent and accessible. The previous version was greatly
-	inspired by Emacs&rsquo; minibuffer, and while I&rsquo;m an Emacs user, I think
-	this iteration makes it a lot more accessible.
+	At RMoD we not only make <a href="http://pharo-project.org">Pharo</a>, <a href="http://amber-lang.net">Amber</a>, work on <a href="http://www.moosetechnology.org/">Moose</a> and do
+	<a href="http://rmod.lille.inria.fr/web/pier/research">research</a>. For me the work is all about the people, the energy and
+	shared passion. A lot of the culture of the team is actually built
+	<i>outside</i> of office, during the friday evenings at <i>Café Citoyen</i>
+	sharing a beer, or during other events. I&rsquo;m actually proud to say
+	that many of my colleagues became very good friends over time.
 	</p>
 
 	<p>
-	Here&rsquo;s a short video demonstrating the new user interface.
+	I decided to share my experiences of working there, and to do so I
+	will start a series of interviews of the team members on my blog. My
+	goal is not to ask technical questions about Pharo or a PhD thesis,
+	but to share the human side of the story.
 	</p>
 
-	<iframe width="420" height="315" src="//www.youtube.com/embed/z1GNmMhkfRk" frameborder="0" allowfullscreen></iframe>
-
+	<p>
+	I will post the interviews as they get complete, so stay tuned!
+	</p>
 
 	<div id="disqus_thread"></div>
 	<script type="text/javascript">
