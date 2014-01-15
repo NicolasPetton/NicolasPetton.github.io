@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 15 Jan 2014 15:57:13 +0100</pubDate>
-  <lastBuildDate>Wed, 15 Jan 2014 15:57:13 +0100</lastBuildDate>
+  <pubDate>Wed, 15 Jan 2014 16:06:51 +0100</pubDate>
+  <lastBuildDate>Wed, 15 Jan 2014 16:06:51 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5c</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -126,8 +126,7 @@
 
 	<p>
 	But what I really like is developing. Recently, I&rsquo;ve been working on
-	Pillar (<a href="http://www.smalltalkhub.com/#!/~Pier/Pillar">http://www.smalltalkhub.com/#!/~Pier/Pillar</a>) and the Pharo
-	Launcher (<a href="http://www.smalltalkhub.com/#!/~Pharo/PharoLauncher">http://www.smalltalkhub.com/#!/~Pharo/PharoLauncher</a>).
+	<a href="http://www.smalltalkhub.com/#!/~Pier/Pillar">Pillar</a> and the <a href="http://www.smalltalkhub.com/#!/~Pharo/PharoLauncher">Pharo Launcher</a>.
 	</p>
 
 	<p>
@@ -175,7 +174,7 @@
 	</p>
 
 	<p>
-	<b><i>What question would you ask to another member of the team?</i></b>
+	<b><i>What question would you ask another member of the team?</i></b>
 	</p>
 
 	<p>
