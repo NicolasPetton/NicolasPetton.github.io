@@ -14,35 +14,16 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 15 Jan 2014 16:03:30 +0100</pubDate>
-  <lastBuildDate>Wed, 15 Jan 2014 16:03:30 +0100</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.5c</generator>
+  <pubDate>Wed, 29 Jan 2014 15:22:50 +0100</pubDate>
+  <lastBuildDate>Wed, 29 Jan 2014 15:22:50 +0100</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.5g</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
-	<url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
+	<url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
 	<title>(Nicolas Petton's weblog)</title>
 	<link>http://nicolas-petton.fr/blog/</link>
   </image>
 
-  <div id="table-of-contents">
-	<h2>Table of Contents</h2>
-	<div id="text-table-of-contents">
-	  <ul>
-		<li><a href="#sec-1">1. Interview with Damien Cassou</a></li>
-		<li><a href="#sec-2">2. How is it to work at RMoD? <i>A series of interviews</i>.</a></li>
-		<li><a href="#sec-3">3. Poll: What would you like to have in future releases of Amber?</a></li>
-		<li><a href="#sec-4">4. Keybindings in Amber's new IDE</a></li>
-		<li><a href="#sec-5">5. Amber 0.12.2 released!</a></li>
-		<li><a href="#sec-6">6. Slides from my presentation at Smalltalks 2013</a></li>
-		<li><a href="#sec-7">7. Amber 0.12.0 released!</a></li>
-		<li><a href="#sec-8">8. Amber's new compiler</a></li>
-		<li><a href="#sec-9">9. Arrived in Buenos Aires</a></li>
-		<li><a href="#sec-10">10. Installing Pharo on Ubuntu</a></li>
-		<li><a href="#sec-11">11. Blogging with <code>org-mode</code></a></li>
-		<li><a href="#sec-12">12. Amber 0.10.0 released!</a></li>
-	  </ul>
-	</div>
-  </div>
   <p>
 	You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>

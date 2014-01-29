@@ -14,12 +14,12 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 14 Jan 2014 17:24:28 +0100</pubDate>
-  <lastBuildDate>Tue, 14 Jan 2014 17:24:28 +0100</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.5c</generator>
+  <pubDate>Wed, 29 Jan 2014 15:22:51 +0100</pubDate>
+  <lastBuildDate>Wed, 29 Jan 2014 15:22:51 +0100</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.5g</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
-	<url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
+	<url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
 	<title>helios-keybindings</title>
 	<link>http://nicolas-petton.fr/blog/</link>
   </image>
@@ -28,7 +28,7 @@
 	<h2>Table of Contents</h2>
 	<div id="text-table-of-contents">
 	  <ul>
-		<li><a href="#sec-1">1. Keybindings in Amber's new IDE</a></li>
+		<li><a href="#sec-1">Keybindings in Amber's new IDE</a></li>
 	  </ul>
 	</div>
   </div>
