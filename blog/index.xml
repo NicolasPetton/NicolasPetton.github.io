@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Jan 2014 15:38:43 +0100</pubDate>
-  <lastBuildDate>Wed, 29 Jan 2014 15:38:43 +0100</lastBuildDate>
+  <pubDate>Wed, 29 Jan 2014 16:45:52 +0100</pubDate>
+  <lastBuildDate>Wed, 29 Jan 2014 16:45:52 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5g</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -29,10 +29,48 @@
   </p>
 
   <item>
-	<title>discover-js2-refactor</title>
+	<title>Help us write a documentation for Amber!</title>
 	<link>http://nicolas-petton.fr/blog/index.html#sec-1</link>
 	<author>Nicolas Petton</author>
 	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-1</guid>
+	<pubDate>Wed, 29 Jan 2014 16:42:00 +0100</pubDate>
+	<category><![CDATA[amber]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	January 29, 2014
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	There&rsquo;s a new website in Amber-land: <a href="http://docs.amber-lang.net">docs.amber-lang.net</a>.
+	</p>
+
+	<p>
+	We just started to extract pages from our Github <a href="https://github.com/amber-smalltalk/amber/wiki">wiki</a> into a new
+	website dedicated to Amber&rsquo;s documentation. It often requires
+	rewriting and quality improvements. As the current wiki misses a lot
+	of content and is far from covering all aspects of Amber, there&rsquo;s
+	quite some work yet to be done.
+	</p>
+
+	<p>
+	You can help us make Amber a better documented language! You can
+	contribute on <a href="https://github.com/amber-smalltalk/amber-documentation">github</a>, send us pull requests, report typos and other
+	issues or ask for for specific topics to be covered.
+	</p>
+
+	<p>
+	We need more topics covered, reviews, etc.
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>discover-js2-refactor</title>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-2</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-2</guid>
 	<pubDate>Wed, 29 Jan 2014 15:37:00 +0100</pubDate>
 	<category><![CDATA[emacs]]></category>
 	<category><![CDATA[javascript]]></category>
@@ -58,9 +96,9 @@
   </item>
   <item>
 	<title>Interview with Damien Cassou</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-2</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-3</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-2</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-3</guid>
 	<pubDate>Wed, 15 Jan 2014 16:00:00 +0100</pubDate>
 	<category><![CDATA[RMoD]]></category>
 	<category><![CDATA[interview]]></category>
@@ -86,9 +124,9 @@
 
   <item>
 	<title>How is it to work at [[http://rmod.lille.inria.fr/web/][RMoD]]? /A series of interviews/.</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-3</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-4</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-3</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-4</guid>
 	<pubDate>Tue, 14 Jan 2014 12:59:00 +0100</pubDate>
 	<category><![CDATA[RMoD]]></category>
 	<category><![CDATA[interview]]></category>
@@ -133,9 +171,9 @@
   </item>
   <item>
 	<title>Poll: What would you like to have in future releases of Amber?</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-4</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-5</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-4</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-5</guid>
 	<pubDate>Mon, 13 Jan 2014 14:28:00 +0100</pubDate>
 	<category><![CDATA[amber]]></category>
 	<description><![CDATA[
@@ -159,9 +197,9 @@
   </item>
   <item>
 	<title>Keybindings in Amber's new IDE</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-5</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-6</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-5</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-6</guid>
 	<pubDate>Mon, 13 Jan 2014 13:10:00 +0100</pubDate>
 	<category><![CDATA[helios]]></category>
 	<category><![CDATA[amber]]></category>
@@ -187,9 +225,9 @@
   </item>
   <item>
 	<title>Amber 0.12.2 released!</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-6</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-7</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-6</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-7</guid>
 	<pubDate>Tue, 03 Dec 2013 15:31:00 +0100</pubDate>
 	<category><![CDATA[amber]]></category>
 	<category><![CDATA[smalltalk]]></category>
@@ -213,9 +251,9 @@
   </item>
   <item>
 	<title>Slides from my presentation at Smalltalks 2013</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-7</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-8</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-7</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-8</guid>
 	<pubDate>Tue, 03 Dec 2013 15:18:00 +0100</pubDate>
 	<category><![CDATA[amber]]></category>
 	<category><![CDATA[agentina]]></category>
@@ -235,9 +273,9 @@
   </item>
   <item>
 	<title>Amber 0.12.0 released!</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-8</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-9</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-8</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-9</guid>
 	<pubDate>Tue, 12 Nov 2013 00:43:00 +0100</pubDate>
 	<category><![CDATA[amber]]></category>
 	<category><![CDATA[smalltalk]]></category>
@@ -266,9 +304,9 @@
   </item>
   <item>
 	<title>Amber's new compiler</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-9</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-10</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-9</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-10</guid>
 	<pubDate>Fri, 18 Oct 2013 06:55:00 +0200</pubDate>
 	<category><![CDATA[amber]]></category>
 	<category><![CDATA[smalltalk]]></category>
@@ -300,9 +338,9 @@
   </item>
   <item>
 	<title>Arrived in Buenos Aires</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-10</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-11</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-10</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-11</guid>
 	<pubDate>Fri, 18 Oct 2013 01:49:00 +0200</pubDate>
 	<category><![CDATA[argentina]]></category>
 	<category><![CDATA[smalltalk]]></category>
@@ -333,9 +371,9 @@
   </item>
   <item>
 	<title>Installing Pharo on Ubuntu</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-11</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-12</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-11</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-12</guid>
 	<pubDate>Tue, 15 Oct 2013 20:59:00 +0200</pubDate>
 	<category><![CDATA[pharo]]></category>
 	<category><![CDATA[ubuntu]]></category>
@@ -362,9 +400,9 @@
   </item>
   <item>
 	<title>Blogging with =org-mode=</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-12</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-13</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-12</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-13</guid>
 	<pubDate>Tue, 15 Oct 2013 13:47:00 +0200</pubDate>
 	<category><![CDATA[emacs]]></category>
 	<category><![CDATA[orgmode]]></category>
@@ -392,9 +430,9 @@
 
   <item>
 	<title>Amber 0.10.0 released!</title>
-	<link>http://nicolas-petton.fr/blog/index.html#sec-13</link>
+	<link>http://nicolas-petton.fr/blog/index.html#sec-14</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-13</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-14</guid>
 	<pubDate>Wed, 13 Mar 2013 12:00:00 +0100</pubDate>
 	<category><![CDATA[amber]]></category>
 	<category><![CDATA[smalltalk]]></category>
