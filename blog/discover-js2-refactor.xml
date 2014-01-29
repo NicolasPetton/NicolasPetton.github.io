@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	 xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns:atom="http://www.w3.org/2005/Atom"
+	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	 xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>discover-js2-refactor</title>
+  <atom:link href="http://nicolas-petton.fr/blog/discover-js2-refactor.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Wed, 29 Jan 2014 15:39:26 +0100</pubDate>
+  <lastBuildDate>Wed, 29 Jan 2014 15:39:26 +0100</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.5g</generator>
+  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <image>
+	<url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+	<title>discover-js2-refactor</title>
+	<link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+  <div id="table-of-contents">
+	<h2>Table of Contents</h2>
+	<div id="text-table-of-contents">
+	  <ul>
+		<li><a href="#sec-1">discover-js2-refactor</a>
+		<ul>
+		  <li><a href="#sec-1-1">Making js2-refactor more discoverable</a></li>
+		  <li><a href="#sec-1-2">Installing discover-js2-refactor</a></li>
+		</ul>
+		</li>
+	  </ul>
+	</div>
+  </div>
+  <item>
+	<title>discover-js2-refactor</title>
+	<link>http://nicolas-petton.fr/blog/discover-js2-refactor.html#sec-1</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/discover-js2-refactor.html#sec-1</guid>
+	<pubDate>Wed, 29 Jan 2014 15:37:00 +0100</pubDate>
+	<category><![CDATA[emacs]]></category>
+	<category><![CDATA[javascript]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	January 29, 2014
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+	]]></description>
+  </item>
+</channel>
+</rss>
