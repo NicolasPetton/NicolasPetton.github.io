@@ -1,7 +1,7 @@
 .centered {
   margin: 0 auto;
-  max-width: 900px;
-  width: 900px;
+  max-width: 600px;
+  width: 600px;
 }
 body {
   font-family: "Open Sans", Helvetica, Arial, sans;
@@ -90,8 +90,8 @@ body .org-info-js_info-navigation {
 body #content,
 body #postamble {
   margin: 0 auto;
-  max-width: 900px;
-  width: 900px;
+  max-width: 600px;
+  width: 600px;
 }
 body #content {
   margin-top: 70px;

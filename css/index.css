@@ -1,6 +1,10 @@
 .title {
   display: none;
 }
+#content {
+  max-width: 900px !important;
+  width: 900px !important;
+}
 .index .column {
   float: left;
 }
