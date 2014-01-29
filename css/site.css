@@ -1,6 +1,7 @@
 .centered {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 900px;
+  width: 900px;
 }
 body {
   font-family: "Open Sans", Helvetica, Arial, sans;
@@ -12,7 +13,7 @@ body h2,
 body h3,
 body h4 {
   color: #666666;
-  font-weight: 400;
+  font-weight: bold;
 }
 body h1 img,
 body h2 img,
@@ -22,17 +23,17 @@ body h4 img {
   border: 0 none;
 }
 body h1 {
-  color: #0088cc;
+  font-size: 32px;
 }
 body h2 {
-  color: #0088cc;
+  color: #666666;
   margin-top: 50px;
   position: relative;
+  font-weight: bold;
+  font-size: 24px;
 }
 body h3 {
-  font-weight: normal;
-  font-size: 22px;
-  color: #0088cc;
+  font-size: 18px;
 }
 body a {
   text-decoration: none;
@@ -89,7 +90,8 @@ body .org-info-js_info-navigation {
 body #content,
 body #postamble {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 900px;
+  width: 900px;
 }
 body #content {
   margin-top: 70px;
@@ -136,4 +138,7 @@ body .nav ul li a:hover {
 }
 body #disqus_thread {
   margin-top: 40px;
+}
+body .clearfix {
+  clear: both;
 }

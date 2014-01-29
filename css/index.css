@@ -1,0 +1,23 @@
+.title {
+  display: none;
+}
+.index .column {
+  float: left;
+}
+.index .column.first {
+  width: 300px;
+  margin-right: 100px;
+}
+.index .column.last {
+  width: 500px;
+}
+.index .column.last h2 {
+  font-size: 42px;
+}
+.index:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
