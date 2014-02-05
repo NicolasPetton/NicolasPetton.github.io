@@ -14,9 +14,9 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Jan 2014 15:22:49 +0100</pubDate>
-  <lastBuildDate>Wed, 29 Jan 2014 15:22:49 +0100</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.5g</generator>
+  <pubDate>Tue, 04 Feb 2014 12:29:26 +0100</pubDate>
+  <lastBuildDate>Tue, 04 Feb 2014 12:29:26 +0100</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
 	<url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
@@ -56,10 +56,12 @@
 	</p>
 
 	<p>
-	Esteban joined RMoD almost at the same time as I did, two years
-	ago. We since became very good friends, and often meet after work or
-	during weekends, being for a beer somewhere in Lille or an evening
-	sharing a dinner or simply talking, with other colleagues or friends.
+	<a href="http://smallworks.com.ar/web/blog">Esteban</a> is one of the <a href="http://playingwithobjects.wordpress.com/">many</a> <a href="http://marianopeck.wordpress.com/">argentinians</a> who have been working at
+	<a href="http://inria.fr">Inria</a>. Esteban joined <a href="http://rmod.lille.inria.fr">RMoD</a> almost at the same time as I did, two
+	years ago. We since became very good friends, and often meet after
+	work or during weekends, being for a beer <a href="http://www.cafecitoyen.org/">somewhere</a> in Lille or an
+	evening sharing a dinner or simply talking, with other colleagues or
+	friends.
 	</p>
 
 	<p>
@@ -67,6 +69,13 @@
 	together on <a href="http://smalltalkhub.com/#!/~francois/MongoTalk">various</a> <a href="http://smalltalkhub.com/#!/~estebanlm/Voyage/">projects</a>. We are both passionate about
 	Smalltalk, web development and databases.
 	</p>
+
+
+	<div class="figure">
+	<p><img src="http://nicolas-petton.fr/blog/../images/esteban1.jpg" alt="Esteban Lorenzano image" align="center" />
+	</p>
+	<p><span class="figure-number">Figure 1:</span> Esteban, focused and working hard as always</p>
+	</div>
 
 	<p>
 	<b><i>Hi Esteban, thanks for taking this interview. Can you tell me a
@@ -86,32 +95,38 @@
 	moment and forever. It was not always easy thought, and I spent too
 	many years programming in mainstream languages (I like some, I hate
 	others) until I re-discovered my programmer vocation one day that I
-	downloaded a Seaside, &ldquo;just to have inspiration and fun, while
-	working on really boring stuff&rdquo;... and the rest is history: I left my
-	position of &ldquo;senior architect&rdquo; and founded my own company with two
-	friends (smallworks.eu) to work on Pharo (very new at the moment)
-	and Seaside, and I&rsquo;ve been contributing with Pharo since then, in
-	different small projects. 
+	downloaded a Seaside image, &ldquo;just to have inspiration and fun, while
+	working on really boring stuff&rdquo;... and the rest is history: I left
+	my position as a &ldquo;senior architect&rdquo; and founded my own company
+	<a href="http://smallworks.eu">smallworks.eu</a> with two friends to work on Pharo (very new at the
+	moment) and Seaside, and I&rsquo;ve been contributing to Pharo since then,
+	in different small projects.
 	</p>
 
 	<p>
-	Then for different non-work related reasons, after two years me and
+	Then for different non work-related reasons, after two years me and
 	my company became just one (my friends needed to switch to other
 	projects) and I was also ending a relationship. Just at the same
-	time Stef and Marcus proposed me to join the RMoD team as Pharo
+	time Stef and Marcus proposed me to join the RMoD team as a Pharo
 	engineer. It was perfect timing for me, and here I am, in the best
-	job I have ever had.  
+	job I have ever had.
 	</p>
 
 	<p>
 	When I&rsquo;m not hacking something (at work or at my place), I have also
 	a lot of different interests: I love to read, to write stories, to
-	travel, to learn new stuff: I studied philosophy (yet not ended) and
-	I try to be aware of the problems at my country and the world (and
-	even try to help, when I see that I can do something). Last but not
-	least, I love to spend time just hanging out with my friends.
+	travel, to learn new stuff: I studied philosophy (yet not finished)
+	and I try to be aware of the problems at my country and the world
+	(and even try to help, when I see that I can do something). Last but
+	not least, I love to spend time just hanging out with my friends.
 	</p>
 
+
+	<div class="figure">
+	<p><img src="http://nicolas-petton.fr/blog/../images/esteban2.jpg" alt="Mate image" align="center" />
+	</p>
+	<p><span class="figure-number">Figure 2:</span> Esteban&rsquo;s Mate</p>
+	</div>
 
 	<p>
 	<b><i>Damien had a question for the next interview: What would you change
@@ -124,16 +139,22 @@
 
 	<p>
 	I think as a team we have a lot of stimulus and excitment, but
-	sometimes due the very nature of the team (which in fact is a research
-	team), we have problems to get focus in the engineering part of Pharo:
-	we are so exited for including new stuff or exploring some areas that
-	we lose the need of committing to a task and not stop until is
-	finished. If I have to improve something, it would be that part.
+	sometimes due the very nature of the team (which in fact is a
+	research team), we have problems to get focus in the engineering
+	part of Pharo: we are so excited about including new stuff or
+	exploring some areas that we lose the need of committing to a task
+	and not stopping until it is finished. If I had to improve
+	something, it would be that part.
 	</p>
 
 
 	<p>
 	<b><i>Thank you Esteban!</i></b>
+	</p>
+
+	<p>
+	If you liked this interview, you might also want to check out the
+	<a href="http://nicolas-petton.fr/blog/interview-damien.html">interview of Damien Cassou</a>.
 	</p>
 
 	<div id="disqus_thread"></div>
