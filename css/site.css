@@ -6,13 +6,13 @@
 body {
   font-family: "Open Sans", Helvetica, Arial, sans;
   background: white;
-  color: #666666;
+  color: #444444;
 }
 body h1,
 body h2,
 body h3,
 body h4 {
-  color: #666666;
+  color: #444444;
   font-weight: bold;
 }
 body h1 img,
@@ -26,7 +26,7 @@ body h1 {
   font-size: 32px;
 }
 body h2 {
-  color: #666666;
+  color: #444444;
   margin-top: 50px;
   position: relative;
   font-weight: bold;
@@ -50,7 +50,7 @@ body code {
   background: #eee;
   border: 1px solid #ccc;
   padding: 2px 4px;
-  color: #666666;
+  color: #444444;
 }
 body img {
   border: 1px solid #ccc;
@@ -100,7 +100,7 @@ body #postamble {
   font-size: 0.8em;
   margin-top: 50px;
   text-align: center;
-  color: #666666;
+  color: #444444;
 }
 body .nav {
   z-index: 10;
