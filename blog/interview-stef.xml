@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 07 Feb 2014 10:46:04 +0100</pubDate>
-  <lastBuildDate>Fri, 07 Feb 2014 10:46:04 +0100</lastBuildDate>
+  <pubDate>Fri, 07 Feb 2014 14:56:21 +0100</pubDate>
+  <lastBuildDate>Fri, 07 Feb 2014 14:56:21 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -90,18 +90,18 @@
 	there for 30 years.  I started programming in Lisp and I like
 	objects so I worked in CLOS and I was a CLOS expert MOPer. I
 	declined a job for the company building tools to develop 3d Objects
-	(they did for example the ones of Lord of Ring with the software),
-	because it was not research, in California and without green
-	card. So in 1996 I started to work on reengineeting after my PhD as
-	a postdoc at Bern (where I stayed there during 10 years) - I knew
-	nothing on it.
+	(they did for example the ones of The Lord of The Ring with the
+	software), because it was not research, in California and without
+	green card. So in 1996 I started to work on reengineeting after my
+	PhD as a postdoc at Bern (where I stayed there during 10 years) - I
+	knew nothing on it.
 	</p>
 
 	<p>
 	At Bern, in my office there was a big sun station (and I was living
 	in my office because my wife was working 900 km during 9 months) so
 	I stole the Smalltalk implementation of the University of Nice and
-	started to learn nSmalltalk for real. Before I could not run a
+	started to learn Smalltalk for real. Before I could not run a
 	smalltalk on my machine. I was shocked. The language was made for
 	me: dynamic + objects. So I decided to give a lecture and I read
 	everything I could learn. Then we bought a license for Smalltalk and
@@ -112,7 +112,7 @@
 	</p>
 
 	<p>
-	I looked at squeak at that time and I started to program with it the
+	I looked at Squeak at that time and I started to program with it the
 	night and the day I was working in VisualWorks.
 	</p>
 
@@ -121,7 +121,7 @@
 	design and got a lot of fun around traits, classboxes and others. I
 	had a dream: a great open-source wonderful Smalltalk. Slowly I got
 	more and more involved into Squeak and I finished to be the release
-	master of Squeak 3.9. in 2008 I quitted the Squeak community because
+	master of Squeak 3.9. In 2008 I quitted the Squeak community because
 	I really wanted to get a real clean and lean Smalltalk of 2000 and
 	not something of the past. So I had a difficult decision: either I
 	quit Smalltalk and do something else, or I build a new one from
@@ -154,7 +154,7 @@
 	where everybody is expected to speak perfect english but where
 	people judging others barely speak one language: their own. From my
 	naive perspective, I would like to build a better world. I’m a bit
-	sick of hyper consumption, pollution, people making too much money,
+	sick of hyper consumerism, pollution, people making too much money,
 	exploitation of other people (and many other things that if you
 	really think about them you feel sick inside). May be one day I will
 	do politics to try to change our world because we only have one.
@@ -180,16 +180,16 @@
 
 	<p>
 	Now I hope that I help them to give the best of themselves and make
-	their dreams come true. I think that one part of the my duties is
-	to be an enabler: make sure smart guys come in the team, expand and
-	have fun, building their life. May be I&rsquo;m an umbrella or oak that
+	their dreams come true. I think that one part of my duties is to be
+	an enabler: make sure smart guys come in the team, expand and have
+	fun, building their life. May be I&rsquo;m an umbrella or oak that
 	protects little plants to grow nicely around me.
 	</p>
 
 	<p>
 	I have a vision and usually I feel the direction where we should
 	go. Fuel is a nice example of a really successful idea that we built
-	step by step with tristan, martin, mariano and now max.
+	step by step with Tristan, Martin, Mariano and now Max.
 	</p>
 
 	<p>
@@ -247,13 +247,13 @@
 	<p>
 	Then I read, review articles, write articles - usually when I put my
 	name on a paper I worked a lot on it. Now lately with the community,
-	synectique and other tasks, it happens that I just read the paper (and
-	this is a bit frustrating but this is the priviledge of the age). I
-	work on project proposals. And I talk talk talk with people, listen
-	listen listen to people, make sure information flo from x to z, that k
-	and t talk together. Then when nobody is around or when people are on
-	vacation I like to pair program on cleaning Pharo. I got great coding
-	sessions with igor or esteban cleaning boring code. 
+	Synectique and other tasks, it happens that I just read the paper
+	(and this is a bit frustrating but this is the priviledge of the
+	age). I work on project proposals. And I talk talk talk with people,
+	listen listen listen to people, make sure information flow from x to
+	z, that k and t talk together. Then when nobody is around or when
+	people are on vacation I like to pair program on cleaning Pharo. I
+	got great coding sessions with Igor or Esteban cleaning boring code.
 	</p>
 
 	<p>

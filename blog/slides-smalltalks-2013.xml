@@ -9,18 +9,18 @@
 	 xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Amber's new compiler)</title>
-  <atom:link href="http://nicolas-petton.fr/blog/amber-compiler.xml" rel="self" type="application/rss+xml" />
+  <title>slides-smalltalks-2013</title>
+  <atom:link href="http://nicolas-petton.fr/blog/slides-smalltalks-2013.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 07 Feb 2014 11:33:06 +0100</pubDate>
-  <lastBuildDate>Fri, 07 Feb 2014 11:33:06 +0100</lastBuildDate>
+  <pubDate>Fri, 07 Feb 2014 11:32:59 +0100</pubDate>
+  <lastBuildDate>Fri, 07 Feb 2014 11:32:59 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
 	<url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-	<title>(Amber's new compiler)</title>
+	<title>slides-smalltalks-2013</title>
 	<link>http://nicolas-petton.fr/blog/</link>
   </image>
 
@@ -28,42 +28,29 @@
 	<h2>Table of Contents</h2>
 	<div id="text-table-of-contents">
 	  <ul>
-		<li><a href="#sec-1">Amber's new compiler</a>
-		<ul>
-		  <li><a href="#sec-1-1">The new architecture</a></li>
-		  <li><a href="#sec-1-2">The public API</a></li>
-		  <li><a href="#sec-1-3">The end</a></li>
-		</ul>
-		</li>
+		<li><a href="#sec-1">Slides from my presentation at Smalltalks 2013</a></li>
 	  </ul>
 	</div>
   </div>
-
   <item>
-	<title>Amber's new compiler</title>
-	<link>http://nicolas-petton.fr/blog/amber-compiler.html#sec-1</link>
+	<title>Slides from my presentation at Smalltalks 2013</title>
+	<link>http://nicolas-petton.fr/blog/slides-smalltalks-2013.html#sec-1</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-compiler.html#sec-1</guid>
-	<pubDate>Fri, 18 Oct 2013 06:55:00 +0200</pubDate>
-
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/slides-smalltalks-2013.html#sec-1</guid>
+	<pubDate>Tue, 03 Dec 2013 15:18:00 +0100</pubDate>
+	<category><![CDATA[amber]]></category>
+	<category><![CDATA[agentina]]></category>
+	<category><![CDATA[smalltalks]]></category>
 	<description><![CDATA[
 	<div class="pubdate">
 	<p>
-	October 18, 2013
+	December 3, 2013
 	</p>
 	<i class="fa fa-calendar-o"></i>
 	</div>
 
 	<p>
-	Amber&rsquo;s compiler has been improved some months ago and a post
-	explaining its new architecture was a long overdue.
-	</p>
-
-	<p>
-	Following Opal (the new <a href="http://pharo-project.org">Pharo</a> compiler) architecture, the compiler
-	has been entirely rewritten from a single, complex and stateful AST
-	visitor into several smaller, single-purpose classes, making it a
-	more flexible and extensible compiler.
+	I just put online <a href="http://nicolas-petton.fr/ressources/amber-smalltalks-2013/index.html">slides</a> from my presentation of <a href="http://amber-lang.net">Amber</a> at <a href="http://www.fast.org.ar/smalltalks2013/">Smalltalks 2013</a> in Rosario.
 	</p>
 	]]></description>
   </item>
