@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	 xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns:atom="http://www.w3.org/2005/Atom"
+	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	 xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Nicolas Petton's weblog)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/index.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Fri, 07 Feb 2014 11:33:01 +0100</pubDate>
+  <lastBuildDate>Fri, 07 Feb 2014 11:33:01 +0100</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
+  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <image>
+	<url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+	<title>(Nicolas Petton's weblog)</title>
+	<link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+  <p>
+	You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
+  </p>
+
+  <item>
+	<title>Interview with Stéphane Ducasse</title>
+	<link>http://nicolas-petton.fr/blog/interview-stef.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-stef.html</guid>
+	<pubDate>Fri, 07 Feb 2014 10:29:00 +0100</pubDate>
+	<category><![CDATA[interview]]></category>
+	<category><![CDATA[RMoD]]></category>
+	<description><![CDATA[<div class="pubdate">
+	<p>
+	  February 7, 2014
+	</p>
+	<i class="fa fa-calendar-o"></i>
+  </div>
+
+  <p>
+	This is the third post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
+	colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France). This is the
+	interview of Stéphane Ducasse, our leader and the backbone of RMoD.
+  </p>
+
+  <p>
+	<a href="http://nicolas-petton.fr/blog/interview-stef.html">Read the interview!</a>
+  </p>
+	]]></description>
+  </item>
+  <item>
+	<title>Interview with Esteban Lorenzano</title>
+	<link>http://nicolas-petton.fr/blog/interview-esteban.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-esteban.html</guid>
+	<pubDate>Thu, 06 Feb 2014 17:15:00 +0100</pubDate>
+	<category><![CDATA[interview]]></category>
+	<category><![CDATA[RMoD]]></category>
+	<description><![CDATA[<div class="pubdate">
+	<p>
+	  February 6, 2014
+	</p>
+	<i class="fa fa-calendar-o"></i>
+  </div>
+
+  <p>
+	This is the second post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
+	colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France). This time I
+	interview Esteban Lorenzano, my neighbour, colleague and friend.
+  </p>
+
+  <p>
+	<a href="http://nicolas-petton.fr/blog/interview-esteban.html">Read the interview!</a>
+  </p>
+	]]></description>
+  </item>
+  <item>
+	<title>Details matter</title>
+	<link>http://nicolas-petton.fr/blog/details-matter.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/details-matter.html</guid>
+	<pubDate>Thu, 06 Feb 2014 10:56:00 +0100</pubDate>
+	<category><![CDATA[helios]]></category>
+	<category><![CDATA[amber]]></category>
+	<category><![CDATA[smalltalk]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	February 6, 2014
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	Helios is moving forward with interesting new features, especially
+	regarding navigation in code. These improvements are for the major
+	part small and might be seen as unimportant details. The thing is
+	details matter! Polishing Helios is now a priority in Amber&rsquo;s
+	development, and a full replacement of the old IDE is planned for
+	one of the next releases.
+	</p>
+
+	<p>
+	Here&rsquo;s a short video demonstrating some of the changes I like the
+	most.
+	</p>
+
+	<iframe width="560" height="315" src="//www.youtube.com/embed/7SkkE3Y8sIk" frameborder="0" allowfullscreen></iframe>
+
+	<p>
+	<a href="http://nicolas-petton.fr/blog/details-matter.html">Comments</a>.
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>Help us write a documentation for Amber!</title>
+	<link>http://nicolas-petton.fr/blog/help-amber-doc.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/help-amber-doc.html</guid>
+	<pubDate>Wed, 29 Jan 2014 16:42:00 +0100</pubDate>
+	<category><![CDATA[amber]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	January 29, 2014
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	There&rsquo;s a new website in Amber-land: <a href="http://docs.amber-lang.net">docs.amber-lang.net</a>.
+	</p>
+
+	<p>
+	We just started to extract pages from our Github <a href="https://github.com/amber-smalltalk/amber/wiki">wiki</a> into a new
+	website dedicated to Amber&rsquo;s documentation. It often requires
+	rewriting and quality improvements. As the current wiki misses a lot
+	of content and is far from covering all aspects of Amber, there&rsquo;s
+	quite some work yet to be done.
+	</p>
+
+	<p>
+	You can help us make Amber a better documented language! You can
+	contribute on <a href="https://github.com/amber-smalltalk/amber-documentation">github</a>, send us pull requests, report typos and other
+	issues or ask for for specific topics to be covered.
+	</p>
+
+	<p>
+	We need more topics covered, reviews, etc.
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>discover-js2-refactor</title>
+	<link>http://nicolas-petton.fr/blog/discover-js2-refactor.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/discover-js2-refactor.html</guid>
+	<pubDate>Wed, 29 Jan 2014 15:37:00 +0100</pubDate>
+	<category><![CDATA[emacs]]></category>
+	<category><![CDATA[javascript]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	January 29, 2014
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	Since I started using Emacs for most of my development, I&rsquo;ve been a
+	big fan of <a href="https://github.com/mooz/js2-mode/">js2-mode</a>, a major mode for editing JavaScript files based
+	on an AST, and <a href="https://github.com/magnars/js2-refactor.el">js2-refactor</a>, a library built on top of it to perform
+	refactorings.
+	</p>
+
+	<p>
+	<a href="http://nicolas-petton.fr/blog/discover-js2-refactor.html">Read more.</a>
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>Interview with Damien Cassou</title>
+	<link>http://nicolas-petton.fr/blog/interview-damien.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-damien.html</guid>
+	<pubDate>Wed, 15 Jan 2014 16:00:00 +0100</pubDate>
+	<category><![CDATA[RMoD]]></category>
+	<category><![CDATA[interview]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	January 15, 2014
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	This is the first post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
+	colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France), with the hope that I
+	can share part of what it really means to work here.
+	</p>
+
+	<p>
+	<a href="http://nicolas-petton.fr/blog/interview-damien.html">Read the interview</a>.
+	</p>
+	]]></description>
+  </item>
+
+  <item>
+	<title>How is it to work at RMoD? /A series of interviews/.</title>
+	<link>http://nicolas-petton.fr/blog/working-at-rmod.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/working-at-rmod.html</guid>
+	<pubDate>Tue, 14 Jan 2014 12:59:00 +0100</pubDate>
+	<category><![CDATA[RMoD]]></category>
+	<category><![CDATA[interview]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	January 14, 2014
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	I have the incredible chance to work in an amazing environment,
+	surrounded by smart and passionate people. This place is <a href="http://rmod.lille.inria.fr/web/">RMoD</a>, a
+	research team at <a href="http://www.inria.fr/">Inria</a> <a href="https://www.inria.fr/en/centre/lille">Lille</a>. 
+	</p>
+
+	<p>
+	At RMoD we not only make <a href="http://pharo-project.org">Pharo</a>, <a href="http://amber-lang.net">Amber</a>, work on <a href="http://www.moosetechnology.org/">Moose</a> and do
+	<a href="http://rmod.lille.inria.fr/web/pier/research">research</a>. For me the work is all about the people, the energy and
+	shared passion. A lot of the culture of the team is actually built
+	<i>outside</i> of the office, during the friday evenings at <i>Café Citoyen</i>
+	sharing a beer, or during other events. I&rsquo;m actually proud to say
+	that many of my colleagues became very good friends over time.
+	</p>
+
+	<p>
+	I decided to share my experiences of working there, and to do so I
+	will start a series of interviews of the team members on my blog. My
+	goal is not to ask technical questions about Pharo or a PhD thesis,
+	but to share the human side of the story.
+	</p>
+
+	<p>
+	I will post the interviews as they get completed, so stay tuned!
+	</p>
+
+	<p>
+	<a href="http://nicolas-petton.fr/blog/working-at-rmod.html">Comments</a>
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>Poll: What would you like to have in future releases of Amber?</title>
+	<link>http://nicolas-petton.fr/blog/amber-poll.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-poll.html</guid>
+	<pubDate>Mon, 13 Jan 2014 14:28:00 +0100</pubDate>
+	<category><![CDATA[amber]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	January 13, 2014
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	A new release of <a href="http://amber-lang.net">Amber</a> is approaching. In order to focus on what
+	matters to users, we created an online <a href="https://docs.google.com/forms/d/1wNTxIk3LZh2JHCVL_SSst_QJmLKh6znrkRWzwD8RuEY/viewform">poll</a> asking about what users
+	want most in future releases of Amber.
+	</p>
+
+	<p>
+	Fill the form <a href="https://docs.google.com/forms/d/1wNTxIk3LZh2JHCVL_SSst_QJmLKh6znrkRWzwD8RuEY/viewform">here</a>!
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>Keybindings in Amber's new IDE</title>
+	<link>http://nicolas-petton.fr/blog/helios-keybindings.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/helios-keybindings.html</guid>
+	<pubDate>Mon, 13 Jan 2014 13:10:00 +0100</pubDate>
+	<category><![CDATA[helios]]></category>
+	<category><![CDATA[amber]]></category>
+	<category><![CDATA[smalltalk]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	January 13, 2014
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	Amber&rsquo;s new IDE, fondly named Helios, has been built with keyboard
+	power users in mind from the beginning. It evolved quite a bit over
+	time, and keyboard shortcuts as well as their UI are no exception.
+	</p>
+
+	<p>
+	<a href="http://nicolas-petton.fr/blog/helios-keybindings.html">Read more.</a>
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>Amber 0.12.2 released!</title>
+	<link>http://nicolas-petton.fr/blog/amber-0.12.2-released.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.12.2-released.html</guid>
+	<pubDate>Tue, 03 Dec 2013 15:31:00 +0100</pubDate>
+	<category><![CDATA[amber]]></category>
+	<category><![CDATA[smalltalk]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	December 3, 2013
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	This is the second minor release of <a href="http://amber-lang.net">Amber</a> 0.12 (<a href="https://groups.google.com/d/msg/amber-lang/dv6lEYiKrAk/dBdNAlLb-xMJ">announcement</a>), 20
+	days after the release of version <a href="https://groups.google.com/d/msg/amber-lang/m5dqUAYFM6M/dqzmk7nwwNwJ">0.12.1</a>.
+	</p>
+
+	<p>
+	<a href="http://nicolas-petton.fr/blog/amber-0.12.2-released.html">Read more.</a>
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>Slides from my presentation at Smalltalks 2013</title>
+	<link>http://nicolas-petton.fr/blog/slides-smalltalks-2013.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/slides-smalltalks-2013.html</guid>
+	<pubDate>Tue, 03 Dec 2013 15:18:00 +0100</pubDate>
+	<category><![CDATA[amber]]></category>
+	<category><![CDATA[agentina]]></category>
+	<category><![CDATA[smalltalks]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	December 3, 2013
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	I just put online <a href="http://nicolas-petton.fr/ressources/amber-smalltalks-2013/index.html">slides</a> from my presentation of <a href="http://amber-lang.net">Amber</a> at <a href="http://www.fast.org.ar/smalltalks2013/">Smalltalks 2013</a> in Rosario.
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>Amber 0.12.0 released!</title>
+	<link>http://nicolas-petton.fr/blog/amber-0.12.0-released.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.12.0-released.html</guid>
+	<pubDate>Tue, 12 Nov 2013 00:43:00 +0100</pubDate>
+	<category><![CDATA[amber]]></category>
+	<category><![CDATA[smalltalk]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	November 12, 2013
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	The last 3 months have been exciting in Amber-land!
+	</p>
+
+	<p>
+	The new release includes a lot of improvements, from the new package
+	management to the AST interpreter, as well as improvements in
+	Helios, the CLI tools and the compiler, among other changes.
+	</p>
+
+	<p>
+	<a href="http://nicolas-petton.fr/blog/amber-0.12.0-released.html">Read more</a>.
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>Amber's new compiler</title>
+	<link>http://nicolas-petton.fr/blog/amber-compiler.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-compiler.html</guid>
+	<pubDate>Fri, 18 Oct 2013 06:55:00 +0200</pubDate>
+	<category><![CDATA[amber]]></category>
+	<category><![CDATA[smalltalk]]></category>
+	<category><![CDATA[compiler]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	October 18, 2013
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	Amber&rsquo;s compiler has been improved some months ago and a post
+	explaining its new architecture was a long overdue.
+	</p>
+
+	<p>
+	Following Opal (the new <a href="http://pharo-project.org">Pharo</a> compiler) architecture, the compiler
+	has been entirely rewritten from a single, complex and stateful AST
+	visitor into several smaller, single-purpose classes, making it a
+	more flexible and extensible compiler.
+	</p>
+
+	<p>
+	<a href="http://nicolas-petton.fr/blog/amber-compiler.html">Read more</a>.
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>Arrived in Buenos Aires</title>
+	<link>http://nicolas-petton.fr/blog/arrived-buenos-aires.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/arrived-buenos-aires.html</guid>
+	<pubDate>Fri, 18 Oct 2013 01:49:00 +0200</pubDate>
+	<category><![CDATA[argentina]]></category>
+	<category><![CDATA[smalltalk]]></category>
+	<category><![CDATA[amber]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	October 18, 2013
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	Yesterday I arrived in Buenos Aires. 
+	</p>
+
+	<p>
+	Next week I&rsquo;ll be heading to Rosario for the <a href="http://www.fast.org.ar/smalltalks2013">Smalltalks</a> conference
+	where I&rsquo;ll be giving a <a href="http://www.fast.org.ar/smalltalks2013/talks/Amber%20Smalltalk%253A%20A%20Smalltalk%20that%20runs%20inside%20your%20web%20browser">talk</a> about <a href="http://amber-lang.net">Amber</a>. This talk will highlight
+	key features and use-cases of Amber, explain some of the internals
+	as well as important new and planned features.
+	</p>
+
+	<p>
+	I hope to see you there!
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>Installing Pharo on Ubuntu</title>
+	<link>http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.html</guid>
+	<pubDate>Tue, 15 Oct 2013 20:59:00 +0200</pubDate>
+	<category><![CDATA[pharo]]></category>
+	<category><![CDATA[ubuntu]]></category>
+	<category><![CDATA[smalltalk]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	October 15, 2013
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+
+	<p>
+	I&rsquo;m always surprised when I see that people are still installing the
+	<a href="http://pharo-project.org">Pharo</a> Virtual Machine by hand on Ubuntu while <a href="http://damiencassou.seasidehosting.st">Damien Cassou</a> has made
+	a ppa for it.
+	</p>
+
+	<p>
+	<a href="http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.html">Read more</a>.
+	</p>
+	]]></description>
+  </item>
+  <item>
+	<title>Blogging with org-mode</title>
+	<link>http://nicolas-petton.fr/blog/blogging-with-org-mode.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/blogging-with-org-mode.html</guid>
+	<pubDate>Tue, 15 Oct 2013 13:47:00 +0200</pubDate>
+	<category><![CDATA[emacs]]></category>
+	<category><![CDATA[orgmode]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	October 15, 2013
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+	<p>
+	I just switched my personal website and blog engine from <a href="http://jekyllrb.com">Jekyll</a> to
+	<a href="http://orgmode.org">Org-mode</a>. As all my blog posts were already written in the
+	<code>org-mode</code> format, switching was a breeze. Org-mode includes a <a href="http://orgmode.org/w/?p%3Dorg-mode.git%3Ba%3Dblob_plain%3Bf%3Dcontrib/lisp/ox-rss.el%3Bhb%3DHEAD">RSS
+	exporter</a> in the <i>contrib</i> directory and together with its HTML
+	<a href="http://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">publishing</a> features, it makes it a very powerful website builder.
+	</p>
+
+	<p>
+	<a href="http://nicolas-petton.fr/blog/blogging-with-org-mode.html">Read more</a>.
+	</p>
+	]]></description>
+  </item>
+
+  <item>
+	<title>Amber 0.10.0 released!</title>
+	<link>http://nicolas-petton.fr/blog/amber-0.10.0-released.html</link>
+	<author>Nicolas Petton</author>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.10.0-released.html</guid>
+	<pubDate>Wed, 13 Mar 2013 12:00:00 +0100</pubDate>
+	<category><![CDATA[amber]]></category>
+	<category><![CDATA[smalltalk]]></category>
+	<description><![CDATA[
+	<div class="pubdate">
+	<p>
+	March 13, 2013
+	</p>
+	<i class="fa fa-calendar-o"></i>
+	</div>
+
+
+	<p>
+	Today we released <a href="http://amber-lang.net">Amber 0.10.0</a>. After a year of work, we beleive this is a great release. 
+	I&rsquo;m especially glad to say that this release was a real community effort.
+	</p>
+
+	<p>
+	Read the <a href="https://groups.google.com/forum/#!searchin/amber-lang/0.10.0/amber-lang/RHEVegrCnJY/EfLzltER-XoJ">full announcement</a>.
+	</p>
+	]]></description>
+  </item>
+</channel>
+</rss>
