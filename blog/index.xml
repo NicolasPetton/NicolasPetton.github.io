@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 07 Feb 2014 11:33:01 +0100</pubDate>
-  <lastBuildDate>Fri, 07 Feb 2014 11:33:01 +0100</lastBuildDate>
+  <pubDate>Sun, 09 Mar 2014 22:53:36 +0100</pubDate>
+  <lastBuildDate>Sun, 09 Mar 2014 22:53:36 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -28,32 +28,6 @@
 	You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
 
-  <item>
-	<title>Interview with Stéphane Ducasse</title>
-	<link>http://nicolas-petton.fr/blog/interview-stef.html</link>
-	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-stef.html</guid>
-	<pubDate>Fri, 07 Feb 2014 10:29:00 +0100</pubDate>
-	<category><![CDATA[interview]]></category>
-	<category><![CDATA[RMoD]]></category>
-	<description><![CDATA[<div class="pubdate">
-	<p>
-	  February 7, 2014
-	</p>
-	<i class="fa fa-calendar-o"></i>
-  </div>
-
-  <p>
-	This is the third post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
-	colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France). This is the
-	interview of Stéphane Ducasse, our leader and the backbone of RMoD.
-  </p>
-
-  <p>
-	<a href="http://nicolas-petton.fr/blog/interview-stef.html">Read the interview!</a>
-  </p>
-	]]></description>
-  </item>
   <item>
 	<title>Interview with Esteban Lorenzano</title>
 	<link>http://nicolas-petton.fr/blog/interview-esteban.html</link>
@@ -507,7 +481,7 @@
 	<p>
 	I just switched my personal website and blog engine from <a href="http://jekyllrb.com">Jekyll</a> to
 	<a href="http://orgmode.org">Org-mode</a>. As all my blog posts were already written in the
-	<code>org-mode</code> format, switching was a breeze. Org-mode includes a <a href="http://orgmode.org/w/?p%3Dorg-mode.git%3Ba%3Dblob_plain%3Bf%3Dcontrib/lisp/ox-rss.el%3Bhb%3DHEAD">RSS
+	<code>org-mode</code> format, switching was a breeze. Org-mode includes a <a href="http://orgmode.org/w/?p=org-mode.git;a=blob_plain;f=contrib/lisp/ox-rss.el;hb=HEAD">RSS
 	exporter</a> in the <i>contrib</i> directory and together with its HTML
 	<a href="http://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">publishing</a> features, it makes it a very powerful website builder.
 	</p>

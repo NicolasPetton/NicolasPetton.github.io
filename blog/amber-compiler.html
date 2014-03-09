@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Amber's new compiler</title>
-<!-- 2014-02-07 Fri 11:34 -->
+<!-- 2014-03-09 Sun 22:53 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Nicolas Petton" />
@@ -208,8 +208,8 @@ directly in nodes.
 
 <pre class="src src-ruby">| ast ir output |
 
-ast := <span style="color: #92a65e; font-weight: bold;">Smalltalk</span> current <span style="color: #e5786d;">parse</span>: <span style="color: #95e454;">'foo true ifTrue: [ ^ self asString ]'</span>.
-(<span style="color: #92a65e; font-weight: bold;">SemanticAnalyzer</span> <span style="color: #e5786d;">on</span>: <span style="color: #92a65e; font-weight: bold;">Object</span>) visit: ast.
+ast := <span style="color: #9dbbd3; font-weight: bold;">Smalltalk</span> current <span style="color: #ffffff; font-weight: bold; font-style: italic;">parse</span>: <span style="color: #a9dc69;">'foo true ifTrue: [ ^ self asString ]'</span>.
+(<span style="color: #9dbbd3; font-weight: bold;">SemanticAnalyzer</span> <span style="color: #ffffff; font-weight: bold; font-style: italic;">on</span>: <span style="color: #9dbbd3; font-weight: bold;">Object</span>) visit: ast.
 </pre>
 </div>
 
@@ -224,7 +224,7 @@ cut down most of the tree into a flat list of instructions.
 
 <div class="org-src-container">
 
-<pre class="src src-ruby">ir := <span style="color: #92a65e; font-weight: bold;">IRASTTranslator</span> new <span style="color: #e5786d;">visit</span>: ast.
+<pre class="src src-ruby">ir := <span style="color: #9dbbd3; font-weight: bold;">IRASTTranslator</span> new <span style="color: #ffffff; font-weight: bold; font-style: italic;">visit</span>: ast.
 </pre>
 </div>
 
@@ -246,9 +246,9 @@ in the appropriate class.
 
 <div class="org-src-container">
 
-<pre class="src src-ruby">output := <span style="color: #92a65e; font-weight: bold;">IRJSTranslator</span> new
- <span style="color: #e5786d;">currentClass</span>: <span style="color: #92a65e; font-weight: bold;">Object</span>;
- <span style="color: #e5786d;">visit</span>: ir;
+<pre class="src src-ruby">output := <span style="color: #9dbbd3; font-weight: bold;">IRJSTranslator</span> new
+ <span style="color: #ffffff; font-weight: bold; font-style: italic;">currentClass</span>: <span style="color: #9dbbd3; font-weight: bold;">Object</span>;
+ <span style="color: #ffffff; font-weight: bold; font-style: italic;">visit</span>: ir;
  contents
 </pre>
 </div>
@@ -280,18 +280,18 @@ the optional inlining step.
 
 <div class="org-src-container">
 
-<pre class="src src-ruby"><span style="color: #95e454;">"Compiling without installing"</span>
-<span style="color: #92a65e; font-weight: bold;">Compiler</span> new
- <span style="color: #e5786d;">codeGeneratorClass</span>: <span style="color: #92a65e; font-weight: bold;">InliningCodeGenerator</span>; <span style="color: #95e454;">"Default, can be omitted"</span>
- <span style="color: #e5786d;">compile</span>: <span style="color: #95e454;">'foo true ifTrue: [ ^ self asString ]'</span>
- <span style="color: #e5786d;">forClass</span>: <span style="color: #92a65e; font-weight: bold;">Object</span>.
+<pre class="src src-ruby"><span style="color: #a9dc69;">"Compiling without installing"</span>
+<span style="color: #9dbbd3; font-weight: bold;">Compiler</span> new
+ <span style="color: #ffffff; font-weight: bold; font-style: italic;">codeGeneratorClass</span>: <span style="color: #9dbbd3; font-weight: bold;">InliningCodeGenerator</span>; <span style="color: #a9dc69;">"Default, can be omitted"</span>
+ <span style="color: #ffffff; font-weight: bold; font-style: italic;">compile</span>: <span style="color: #a9dc69;">'foo true ifTrue: [ ^ self asString ]'</span>
+ <span style="color: #ffffff; font-weight: bold; font-style: italic;">forClass</span>: <span style="color: #9dbbd3; font-weight: bold;">Object</span>.
 
-<span style="color: #95e454;">"Compiling and installing"</span>
-<span style="color: #92a65e; font-weight: bold;">Compiler</span> new
- <span style="color: #e5786d;">codeGeneratorClass</span>: <span style="color: #92a65e; font-weight: bold;">InliningCodeGenerator</span>; <span style="color: #95e454;">"Default, can be omitted"</span>
- <span style="color: #e5786d;">install</span>: <span style="color: #95e454;">'foo true ifTrue: [ ^ self asString ]'</span>
- <span style="color: #e5786d;">forClass</span>: <span style="color: #92a65e; font-weight: bold;">Object</span>
- <span style="color: #e5786d;">category</span>: <span style="color: #95e454;">'foo'</span>
+<span style="color: #a9dc69;">"Compiling and installing"</span>
+<span style="color: #9dbbd3; font-weight: bold;">Compiler</span> new
+ <span style="color: #ffffff; font-weight: bold; font-style: italic;">codeGeneratorClass</span>: <span style="color: #9dbbd3; font-weight: bold;">InliningCodeGenerator</span>; <span style="color: #a9dc69;">"Default, can be omitted"</span>
+ <span style="color: #ffffff; font-weight: bold; font-style: italic;">install</span>: <span style="color: #a9dc69;">'foo true ifTrue: [ ^ self asString ]'</span>
+ <span style="color: #ffffff; font-weight: bold; font-style: italic;">forClass</span>: <span style="color: #9dbbd3; font-weight: bold;">Object</span>
+ <span style="color: #ffffff; font-weight: bold; font-style: italic;">category</span>: <span style="color: #a9dc69;">'foo'</span>
 </pre>
 </div>
 </div>

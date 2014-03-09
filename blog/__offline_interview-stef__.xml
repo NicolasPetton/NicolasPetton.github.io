@@ -10,12 +10,12 @@
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>(Interview RMoD #3: Stéphane Ducasse)</title>
-  <atom:link href="http://nicolas-petton.fr/blog/interview-stef.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="http://nicolas-petton.fr/blog/__offline_interview-stef__.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 07 Feb 2014 14:56:21 +0100</pubDate>
-  <lastBuildDate>Fri, 07 Feb 2014 14:56:21 +0100</lastBuildDate>
+  <pubDate>Sun, 09 Mar 2014 22:53:40 +0100</pubDate>
+  <lastBuildDate>Sun, 09 Mar 2014 22:53:40 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -35,9 +35,9 @@
 
   <item>
 	<title>Interview with Stéphane Ducasse</title>
-	<link>http://nicolas-petton.fr/blog/interview-stef.html#sec-1</link>
+	<link>http://nicolas-petton.fr/blog/__offline_interview-stef__.html#sec-1</link>
 	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-stef.html#sec-1</guid>
+	<guid isPermaLink="false">http://nicolas-petton.fr/blog/__offline_interview-stef__.html#sec-1</guid>
 	<pubDate>Fri, 07 Feb 2014 10:24:00 +0100</pubDate>
 	<category><![CDATA[RMoD]]></category>
 	<category><![CDATA[interview]]></category>
