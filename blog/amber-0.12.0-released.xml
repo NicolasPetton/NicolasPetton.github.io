@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
-	 xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	 xmlns:dc="http://purl.org/dc/elements/1.1/"
-	 xmlns:atom="http://www.w3.org/2005/Atom"
-	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	 xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	 xmlns:georss="http://www.georss.org/georss"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>(Amber 0.12.0 released)</title>
@@ -14,89 +14,89 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sun, 09 Mar 2014 22:53:40 +0100</pubDate>
-  <lastBuildDate>Sun, 09 Mar 2014 22:53:40 +0100</lastBuildDate>
+  <pubDate>Fri, 28 Mar 2014 15:25:38 +0100</pubDate>
+  <lastBuildDate>Fri, 28 Mar 2014 15:25:38 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
-	<url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-	<title>(Amber 0.12.0 released)</title>
-	<link>http://nicolas-petton.fr/blog/</link>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>(Amber 0.12.0 released)</title>
+    <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
   <div id="table-of-contents">
-	<h2>Table of Contents</h2>
-	<div id="text-table-of-contents">
-	  <ul>
-		<li><a href="#sec-1">Amber 0.12.0 released</a></li>
-	  </ul>
-	</div>
+    <h2>Table of Contents</h2>
+    <div id="text-table-of-contents">
+      <ul>
+        <li><a href="#sec-1">Amber 0.12.0 released</a></li>
+      </ul>
+    </div>
   </div>
 
   <item>
-	<title>Amber 0.12.0 released</title>
-	<link>http://nicolas-petton.fr/blog/amber-0.12.0-released.html#sec-1</link>
-	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.12.0-released.html#sec-1</guid>
-	<pubDate>Tue, 12 Nov 2013 00:43:00 +0100</pubDate>
+    <title>Amber 0.12.0 released</title>
+    <link>http://nicolas-petton.fr/blog/amber-0.12.0-released.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.12.0-released.html#sec-1</guid>
+    <pubDate>Tue, 12 Nov 2013 00:43:00 +0100</pubDate>
 
-	<description><![CDATA[
-	<div class="pubdate">
-	<p>
-	November 12, 2013
-	</p>
-	<i class="fa fa-calendar-o"></i>
-	</div>
+    <description><![CDATA[
+    <div class="pubdate">
+    <p>
+    November 12, 2013
+    </p>
+    <i class="fa fa-calendar-o"></i>
+    </div>
 
-	<p>
-	The last 3 months have been exciting in Amber-land!
-	</p>
+    <p>
+    The last 3 months have been exciting in Amber-land!
+    </p>
 
-	<p>
-	The new release includes a lot of improvements, from the new package
-	management to the AST interpreter, as well as improvements in
-	Helios, the CLI tools and the compiler, among other changes.
-	</p>
+    <p>
+    The new release includes a lot of improvements, from the new package
+    management to the AST interpreter, as well as improvements in
+    Helios, the CLI tools and the compiler, among other changes.
+    </p>
 
-	<p>
-	This time we managed to release after 3 months of development, but
-	the goal is to shorten development cycles even more. Amber 1.0 isn&rsquo;t
-	that far away anymore, and with each new release it feels more
-	reliable and stable.
-	</p>
+    <p>
+    This time we managed to release after 3 months of development, but
+    the goal is to shorten development cycles even more. Amber 1.0 isn&rsquo;t
+    that far away anymore, and with each new release it feels more
+    reliable and stable.
+    </p>
 
-	<p>
-	Even though the compiler may change in the future I hope that the JS
-	file format won&rsquo;t change much until 1.0, making the JavaScript
-	compiled files backward compatible.
-	</p>
+    <p>
+    Even though the compiler may change in the future I hope that the JS
+    file format won&rsquo;t change much until 1.0, making the JavaScript
+    compiled files backward compatible.
+    </p>
 
-	<p>
-	Here are some numbers about this release:
-	</p>
-	<ul class="org-ul">
-	<li>660 commits
-	</li>
-	<li>10 committers
-	</li>
-	<li>66 unit tests added
-	</li>
-	<li>152 issues were closed
-	</li>
-	<li>379 unit tests in total
-	</li>
-	</ul>
-
-
-	<p>
-	Read the <a href="https://groups.google.com/forum/#!topic/amber-lang/dv6lEYiKrAk">announcement</a> and grab Amber 0.12.0 from <a href="https://github.com/amber-smalltalk/amber/archive/0.12.0.zip">here</a>!
-	</p>
+    <p>
+    Here are some numbers about this release:
+    </p>
+    <ul class="org-ul">
+    <li>660 commits
+    </li>
+    <li>10 committers
+    </li>
+    <li>66 unit tests added
+    </li>
+    <li>152 issues were closed
+    </li>
+    <li>379 unit tests in total
+    </li>
+    </ul>
 
 
+    <p>
+    Read the <a href="https://groups.google.com/forum/#!topic/amber-lang/dv6lEYiKrAk">announcement</a> and grab Amber 0.12.0 from <a href="https://github.com/amber-smalltalk/amber/archive/0.12.0.zip">here</a>!
+    </p>
 
 
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
 
@@ -106,10 +106,10 @@
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-	]]></description>
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    ]]></description>
   </item>
 </channel>
 </rss>

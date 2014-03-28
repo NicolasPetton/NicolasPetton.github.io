@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
-	 xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	 xmlns:dc="http://purl.org/dc/elements/1.1/"
-	 xmlns:atom="http://www.w3.org/2005/Atom"
-	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	 xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	 xmlns:georss="http://www.georss.org/georss"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>working-at-rmod</title>
@@ -14,81 +14,81 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sun, 09 Mar 2014 22:53:32 +0100</pubDate>
-  <lastBuildDate>Sun, 09 Mar 2014 22:53:32 +0100</lastBuildDate>
+  <pubDate>Fri, 28 Mar 2014 15:25:33 +0100</pubDate>
+  <lastBuildDate>Fri, 28 Mar 2014 15:25:33 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
-	<url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-	<title>working-at-rmod</title>
-	<link>http://nicolas-petton.fr/blog/</link>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>working-at-rmod</title>
+    <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
   <div id="table-of-contents">
-	<h2>Table of Contents</h2>
-	<div id="text-table-of-contents">
-	  <ul>
-		<li><a href="#sec-1">How is it to work at RMoD? <i>A series of interviews</i>.</a></li>
-	  </ul>
-	</div>
+    <h2>Table of Contents</h2>
+    <div id="text-table-of-contents">
+      <ul>
+        <li><a href="#sec-1">How is it to work at RMoD? <i>A series of interviews</i>.</a></li>
+      </ul>
+    </div>
   </div>
   <item>
-	<title>How is it to work at [[http://rmod.lille.inria.fr/web/][RMoD]]? /A series of interviews/.</title>
-	<link>http://nicolas-petton.fr/blog/working-at-rmod.html#sec-1</link>
-	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/working-at-rmod.html#sec-1</guid>
-	<pubDate>Tue, 14 Jan 2014 12:59:00 +0100</pubDate>
-	<category><![CDATA[RMoD]]></category>
-	<category><![CDATA[interview]]></category>
-	<description><![CDATA[
-	<div class="pubdate">
-	<p>
-	January 14, 2014
-	</p>
-	<i class="fa fa-calendar-o"></i>
-	</div>
+    <title>How is it to work at [[http://rmod.lille.inria.fr/web/][RMoD]]? /A series of interviews/.</title>
+    <link>http://nicolas-petton.fr/blog/working-at-rmod.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/working-at-rmod.html#sec-1</guid>
+    <pubDate>Tue, 14 Jan 2014 12:59:00 +0100</pubDate>
+    <category><![CDATA[RMoD]]></category>
+    <category><![CDATA[interview]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    <p>
+    January 14, 2014
+    </p>
+    <i class="fa fa-calendar-o"></i>
+    </div>
 
-	<p>
-	I have the incredible chance to work in an amazing environment,
-	surrounded by smart and passionate people. This place is <a href="http://rmod.lille.inria.fr/web/">RMoD</a>, a
-	research team at <a href="http://www.inria.fr/">Inria</a> <a href="https://www.inria.fr/en/centre/lille">Lille</a>. 
-	</p>
+    <p>
+    I have the incredible chance to work in an amazing environment,
+    surrounded by smart and passionate people. This place is <a href="http://rmod.lille.inria.fr/web/">RMoD</a>, a
+    research team at <a href="http://www.inria.fr/">Inria</a> <a href="https://www.inria.fr/en/centre/lille">Lille</a>. 
+    </p>
 
-	<p>
-	At RMoD we not only make <a href="http://pharo-project.org">Pharo</a>, <a href="http://amber-lang.net">Amber</a>, work on <a href="http://www.moosetechnology.org/">Moose</a> and do
-	<a href="http://rmod.lille.inria.fr/web/pier/research">research</a>. For me the work is all about the people, the energy and
-	shared passion. A lot of the culture of the team is actually built
-	<i>outside</i> of the office, during the friday evenings at <i>Café Citoyen</i>
-	sharing a beer, or during other events. I&rsquo;m actually proud to say
-	that many of my colleagues became very good friends over time.
-	</p>
+    <p>
+    At RMoD we not only make <a href="http://pharo-project.org">Pharo</a>, <a href="http://amber-lang.net">Amber</a>, work on <a href="http://www.moosetechnology.org/">Moose</a> and do
+    <a href="http://rmod.lille.inria.fr/web/pier/research">research</a>. For me the work is all about the people, the energy and
+    shared passion. A lot of the culture of the team is actually built
+    <i>outside</i> of the office, during the friday evenings at <i>Café Citoyen</i>
+    sharing a beer, or during other events. I&rsquo;m actually proud to say
+    that many of my colleagues became very good friends over time.
+    </p>
 
-	<p>
-	I decided to share my experiences of working there, and to do so I
-	will start a series of interviews of the team members on my blog. My
-	goal is not to ask technical questions about Pharo or a PhD thesis,
-	but to share the human side of the story.
-	</p>
+    <p>
+    I decided to share my experiences of working there, and to do so I
+    will start a series of interviews of the team members on my blog. My
+    goal is not to ask technical questions about Pharo or a PhD thesis,
+    but to share the human side of the story.
+    </p>
 
-	<p>
-	I will post the interviews as they get completed, so stay tuned!
-	</p>
+    <p>
+    I will post the interviews as they get completed, so stay tuned!
+    </p>
 
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
-	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-	var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
 
-	/* * * DON'T EDIT BELOW THIS LINE * * */
-	(function() {
-	var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	})();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-	]]></description>
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    ]]></description>
   </item>
 </channel>
 </rss>

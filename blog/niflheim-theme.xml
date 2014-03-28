@@ -9,18 +9,18 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Amber's new compiler)</title>
-  <atom:link href="http://nicolas-petton.fr/blog/amber-compiler.xml" rel="self" type="application/rss+xml" />
+  <title>(A new dark theme for Emacs)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/niflheim-theme.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 28 Mar 2014 15:25:38 +0100</pubDate>
-  <lastBuildDate>Fri, 28 Mar 2014 15:25:38 +0100</lastBuildDate>
+  <pubDate>Fri, 28 Mar 2014 15:28:29 +0100</pubDate>
+  <lastBuildDate>Fri, 28 Mar 2014 15:28:29 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Amber's new compiler)</title>
+    <title>(A new dark theme for Emacs)</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
@@ -28,11 +28,9 @@
     <h2>Table of Contents</h2>
     <div id="text-table-of-contents">
       <ul>
-        <li><a href="#sec-1">Amber's new compiler</a>
+        <li><a href="#sec-1">A dark theme for Emacs</a>
         <ul>
-          <li><a href="#sec-1-1">The new architecture</a></li>
-          <li><a href="#sec-1-2">The public API</a></li>
-          <li><a href="#sec-1-3">The end</a></li>
+          <li><a href="#sec-1-1">The best way to install it is to use the MELPA package archive:</a></li>
         </ul>
         </li>
       </ul>
@@ -40,31 +38,31 @@
   </div>
 
   <item>
-    <title>Amber's new compiler</title>
-    <link>http://nicolas-petton.fr/blog/amber-compiler.html#sec-1</link>
+    <title>A dark theme for Emacs</title>
+    <link>http://nicolas-petton.fr/blog/niflheim-theme.html#sec-1</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-compiler.html#sec-1</guid>
-    <pubDate>Fri, 18 Oct 2013 06:55:00 +0200</pubDate>
-
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/niflheim-theme.html#sec-1</guid>
+    <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
+    <category><![CDATA[emacs]]></category>
+    <category><![CDATA[theme]]></category>
     <description><![CDATA[
     <div class="pubdate">
     <p>
-    October 18, 2013
+    March 28, 2014
     </p>
     <i class="fa fa-calendar-o"></i>
     </div>
 
     <p>
-    Amber&rsquo;s compiler has been improved some months ago and a post
-    explaining its new architecture was a long overdue.
+    Together with <a href="http://benjamin.vanryseghem.com/">Benjamin</a> we made a new theme for Emacs: <a href="https://github.com/niflheim-theme/emacs">Niflheim</a>.
     </p>
 
-    <p>
-    Following Opal (the new <a href="http://pharo-project.org">Pharo</a> compiler) architecture, the compiler
-    has been entirely rewritten from a single, complex and stateful AST
-    visitor into several smaller, single-purpose classes, making it a
-    more flexible and extensible compiler.
+
+    <div class="figure">
+    <p><img src="https://raw.githubusercontent.com/niflheim-theme/emacs/master/screenshot.png" alt="niflheim" />
     </p>
+    <p><span class="figure-number">Figure 1:</span> Niflheim theme</p>
+    </div>
     ]]></description>
   </item>
 </channel>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
-	 xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	 xmlns:dc="http://purl.org/dc/elements/1.1/"
-	 xmlns:atom="http://www.w3.org/2005/Atom"
-	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	 xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	 xmlns:georss="http://www.georss.org/georss"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>slides-smalltalks-2013</title>
@@ -14,45 +14,45 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sun, 09 Mar 2014 22:53:32 +0100</pubDate>
-  <lastBuildDate>Sun, 09 Mar 2014 22:53:32 +0100</lastBuildDate>
+  <pubDate>Fri, 28 Mar 2014 15:25:33 +0100</pubDate>
+  <lastBuildDate>Fri, 28 Mar 2014 15:25:33 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
-	<url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-	<title>slides-smalltalks-2013</title>
-	<link>http://nicolas-petton.fr/blog/</link>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>slides-smalltalks-2013</title>
+    <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
   <div id="table-of-contents">
-	<h2>Table of Contents</h2>
-	<div id="text-table-of-contents">
-	  <ul>
-		<li><a href="#sec-1">Slides from my presentation at Smalltalks 2013</a></li>
-	  </ul>
-	</div>
+    <h2>Table of Contents</h2>
+    <div id="text-table-of-contents">
+      <ul>
+        <li><a href="#sec-1">Slides from my presentation at Smalltalks 2013</a></li>
+      </ul>
+    </div>
   </div>
   <item>
-	<title>Slides from my presentation at Smalltalks 2013</title>
-	<link>http://nicolas-petton.fr/blog/slides-smalltalks-2013.html#sec-1</link>
-	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/slides-smalltalks-2013.html#sec-1</guid>
-	<pubDate>Tue, 03 Dec 2013 15:18:00 +0100</pubDate>
-	<category><![CDATA[amber]]></category>
-	<category><![CDATA[agentina]]></category>
-	<category><![CDATA[smalltalks]]></category>
-	<description><![CDATA[
-	<div class="pubdate">
-	<p>
-	December 3, 2013
-	</p>
-	<i class="fa fa-calendar-o"></i>
-	</div>
+    <title>Slides from my presentation at Smalltalks 2013</title>
+    <link>http://nicolas-petton.fr/blog/slides-smalltalks-2013.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/slides-smalltalks-2013.html#sec-1</guid>
+    <pubDate>Tue, 03 Dec 2013 15:18:00 +0100</pubDate>
+    <category><![CDATA[amber]]></category>
+    <category><![CDATA[agentina]]></category>
+    <category><![CDATA[smalltalks]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    <p>
+    December 3, 2013
+    </p>
+    <i class="fa fa-calendar-o"></i>
+    </div>
 
-	<p>
-	I just put online <a href="http://nicolas-petton.fr/ressources/amber-smalltalks-2013/index.html">slides</a> from my presentation of <a href="http://amber-lang.net">Amber</a> at <a href="http://www.fast.org.ar/smalltalks2013/">Smalltalks 2013</a> in Rosario.
-	</p>
-	]]></description>
+    <p>
+    I just put online <a href="http://nicolas-petton.fr/ressources/amber-smalltalks-2013/index.html">slides</a> from my presentation of <a href="http://amber-lang.net">Amber</a> at <a href="http://www.fast.org.ar/smalltalks2013/">Smalltalks 2013</a> in Rosario.
+    </p>
+    ]]></description>
   </item>
 </channel>
 </rss>

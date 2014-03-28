@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
-	 xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	 xmlns:dc="http://purl.org/dc/elements/1.1/"
-	 xmlns:atom="http://www.w3.org/2005/Atom"
-	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	 xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	 xmlns:georss="http://www.georss.org/georss"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>arrived-buenos-aires</title>
@@ -14,56 +14,56 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sun, 09 Mar 2014 22:53:37 +0100</pubDate>
-  <lastBuildDate>Sun, 09 Mar 2014 22:53:37 +0100</lastBuildDate>
+  <pubDate>Fri, 28 Mar 2014 15:25:36 +0100</pubDate>
+  <lastBuildDate>Fri, 28 Mar 2014 15:25:36 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
-	<url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-	<title>arrived-buenos-aires</title>
-	<link>http://nicolas-petton.fr/blog/</link>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>arrived-buenos-aires</title>
+    <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
   <div id="table-of-contents">
-	<h2>Table of Contents</h2>
-	<div id="text-table-of-contents">
-	  <ul>
-		<li><a href="#sec-1">Arrived in Buenos Aires</a></li>
-	  </ul>
-	</div>
+    <h2>Table of Contents</h2>
+    <div id="text-table-of-contents">
+      <ul>
+        <li><a href="#sec-1">Arrived in Buenos Aires</a></li>
+      </ul>
+    </div>
   </div>
   <item>
-	<title>Arrived in Buenos Aires</title>
-	<link>http://nicolas-petton.fr/blog/arrived-buenos-aires.html#sec-1</link>
-	<author>Nicolas Petton</author>
-	<guid isPermaLink="false">http://nicolas-petton.fr/blog/arrived-buenos-aires.html#sec-1</guid>
-	<pubDate>Fri, 18 Oct 2013 01:49:00 +0200</pubDate>
-	<category><![CDATA[argentina]]></category>
-	<category><![CDATA[smalltalk]]></category>
-	<category><![CDATA[amber]]></category>
-	<description><![CDATA[
-	<div class="pubdate">
-	<p>
-	October 18, 2013
-	</p>
-	<i class="fa fa-calendar-o"></i>
-	</div>
+    <title>Arrived in Buenos Aires</title>
+    <link>http://nicolas-petton.fr/blog/arrived-buenos-aires.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/arrived-buenos-aires.html#sec-1</guid>
+    <pubDate>Fri, 18 Oct 2013 01:49:00 +0200</pubDate>
+    <category><![CDATA[argentina]]></category>
+    <category><![CDATA[smalltalk]]></category>
+    <category><![CDATA[amber]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    <p>
+    October 18, 2013
+    </p>
+    <i class="fa fa-calendar-o"></i>
+    </div>
 
-	<p>
-	Yesterday I arrived in Buenos Aires. 
-	</p>
+    <p>
+    Yesterday I arrived in Buenos Aires. 
+    </p>
 
-	<p>
-	Next week I&rsquo;ll be heading to Rosario for the <a href="http://www.fast.org.ar/smalltalks2013">Smalltalks</a> conference
-	where I&rsquo;ll be giving a <a href="http://www.fast.org.ar/smalltalks2013/talks/Amber%20Smalltalk%253A%20A%20Smalltalk%20that%20runs%20inside%20your%20web%20browser">talk</a> about <a href="http://amber-lang.net">Amber</a>. This talk will highlight
-	key features and use-cases of Amber, explain some of the internals
-	as well as important new and planned features.
-	</p>
+    <p>
+    Next week I&rsquo;ll be heading to Rosario for the <a href="http://www.fast.org.ar/smalltalks2013">Smalltalks</a> conference
+    where I&rsquo;ll be giving a <a href="http://www.fast.org.ar/smalltalks2013/talks/Amber%20Smalltalk%253A%20A%20Smalltalk%20that%20runs%20inside%20your%20web%20browser">talk</a> about <a href="http://amber-lang.net">Amber</a>. This talk will highlight
+    key features and use-cases of Amber, explain some of the internals
+    as well as important new and planned features.
+    </p>
 
-	<p>
-	I hope to see you there!
-	</p>
-	]]></description>
+    <p>
+    I hope to see you there!
+    </p>
+    ]]></description>
   </item>
 </channel>
 </rss>
