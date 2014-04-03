@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 28 Mar 2014 15:29:29 +0100</pubDate>
-  <lastBuildDate>Fri, 28 Mar 2014 15:29:29 +0100</lastBuildDate>
+  <pubDate>Thu, 03 Apr 2014 11:17:58 +0200</pubDate>
+  <lastBuildDate>Thu, 03 Apr 2014 11:17:58 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -29,10 +29,81 @@
   </p>
 
   <item>
-    <title>A dark theme for Emacs</title>
+    <title>Running Helios as a desktop app</title>
     <link>http://nicolas-petton.fr/blog/index.html#sec-1</link>
     <author>Nicolas Petton</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-1</guid>
+    <pubDate>Thu, 03 Apr 2014 11:17:00 +0200</pubDate>
+    <category><![CDATA[amber]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    <p>
+    April 3, 2014
+    </p>
+    <i class="fa fa-calendar-o"></i>
+    </div>
+
+    <p>
+    I just pushed on the <a href="https://github.com/amber-smalltalk/amber/tree/nw-helios-app">nw-helios-app</a> branch a working version of
+    Helios running as a desktop app, remotely connected to an Amber app.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/nw-helios.png" alt="niflheim" />  
+    </p>
+    <p><span class="figure-number">Figure 1:</span> Niflheim theme</p>
+    </div>
+
+    <p>
+    To try it yourself, you&rsquo;ll first need to install <a href="https://github.com/rogerwang/node-webkit">node-webkit</a> then
+    run from the `hw-helios-app` branch:
+    </p>
+
+    <div class="bash">
+    <p>
+    nw helios.nw
+    </p>
+
+    </div>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/nw-helios.html">Comments</a>.
+    </p>
+    ]]></description>
+  </item>
+
+  <item>
+    <title>Interview with Stéphane Ducasse</title>
+    <link>http://nicolas-petton.fr/blog/interview-stef.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-stef.html</guid>
+    <pubDate>Fri, 07 Feb 2014 10:29:00 +0100</pubDate>
+    <category><![CDATA[interview]]></category>
+    <category><![CDATA[RMoD]]></category>
+    <description><![CDATA[<div class="pubdate">
+    <p>
+      February 7, 2014
+    </p>
+    <i class="fa fa-calendar-o"></i>
+  </div>
+
+  <p>
+    This is the third post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
+    colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France). This is the
+    interview of Stéphane Ducasse, our leader and the backbone of RMoD.
+  </p>
+
+  <p>
+    <a href="http://nicolas-petton.fr/blog/interview-stef.html">Read the interview!</a>
+  </p>
+    ]]></description>
+  </item>
+  <item>
+    <title>A dark theme for Emacs</title>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-3</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-3</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
@@ -52,7 +123,7 @@
     <div class="figure">
     <p><img src="https://raw.githubusercontent.com/niflheim-theme/emacs/master/screenshot.png" alt="niflheim" />
     </p>
-    <p><span class="figure-number">Figure 1:</span> Niflheim theme</p>
+    <p><span class="figure-number">Figure 2:</span> Niflheim theme</p>
     </div>
     ]]></description>
   </item>
