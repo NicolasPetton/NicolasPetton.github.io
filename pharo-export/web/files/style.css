@@ -58,6 +58,10 @@ h1 {
     padding-bottom: 20px;
 }
 
+#main {
+    margin-top: 60px;
+}
+
 .navbar-default {
     background: white;
     border: 0 none;
