@@ -232,6 +232,10 @@ i.fa.fa-heart {
     font-weight: bold;
 }
 
+.col-title {
+    text-align: right;
+}
+
 .contributor {
     width: 135px;
     height: 100px;
