@@ -1,6 +1,3 @@
-/* Sticky footer */
-
-html, body {height: 100%;}
 
 @media (min-width: 1200px) { .container { max-width: 900px; } }
 
@@ -8,13 +5,19 @@ html, body {height: 100%;}
 
 @media (max-width: 600px) { h1 { font-size: 2em !important; } }
 
+
+/* Sticky footer */
+* {margin:0;padding:0;} 
+
+html, body {height: 100%;}
+
 #wrap {min-height: 100%;}
 
 #main {overflow:auto;
 	padding-bottom: 220px;}  /* must be same height as the footer */
 
 #footer {position: relative;
-	margin-top: -180px; /* negative value of footer height */
+	margin-top: -181px; /* negative value of footer height */
 	height: 180px;
 	clear:both;} 
 
@@ -58,9 +61,6 @@ h1 {
     padding-bottom: 20px;
 }
 
-#main {
-    margin-top: 60px;
-}
 
 .navbar-default {
     background: white;
@@ -214,8 +214,22 @@ body.index-page .separator.magnifier {
     font-size: 1em;
 }
 
+.btn.download:hover {
+    background: #0ae;
+}
+
 i.fa.fa-heart {
     color: #f44;
+}
+
+.col-aside {
+    background: #f4f4f4;
+    border: 2px solid #ddd;
+}
+
+.col-aside h3 {
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .contributor {

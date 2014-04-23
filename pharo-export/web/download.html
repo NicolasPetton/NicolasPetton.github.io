@@ -16,7 +16,7 @@
     <body class="default">
         <div id="wrap">
             <div id="main">
-                <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <nav class="navbar navbar-default" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -52,14 +52,8 @@
 <p>For OS X, Linux, and Windows. The zip files contain all necessary files. Just download and run the executable.</p>
 <p><a class="btn download" href="http://files.pharo.org/platform/Pharo3.0-mac.zip"><i class="fa fa-apple"></i> Mac OSX</a>
 <a class="btn download" href="http://files.pharo.org/platform/Pharo3.0-win.zip"><i class="fa fa-windows"></i> Windows</a>
-<a class="btn download" href="http://files.pharo.org/platform/Pharo3.0-linux.zip"><i class="fa fa-linux"></i> Linux</a>
-<a class="btn download" href="https://launchpad.net/~pharo/+archive/stable"><i class="fa fa-linux"></i> Ubuntu ppa</a></p>
+<a class="btn download" href="http://files.pharo.org/platform/Pharo3.0-linux.zip"><i class="fa fa-linux"></i> Linux</a></p>
 </div>
-<h2>Custom Downloads</h2>
-<p>To run Pharo you need an image, changes, and a sources file, as well as a VM for your platform. </p>
-<p>When downloads are completed, uncompress all files and put them into the same directory (this directory should then contain a .image, .changes, and a .sources file). Then start the VM.</p>
-<ul><li> <a href="http://files.pharo.org/image/30/Pharo-Image-3.0-latest.zip">Pharo 3 image</a></li><li> <a href="http://files.pharo.org/vm/pharo/mac/Pharo-VM-mac-stable.zip">Mac OSX virtual machine</a></li><li> <a href="http://files.pharo.org/vm/pharo/win/Pharo-VM-linux-stable.zip">Windows virtual machine</a></li><li> <a href="http://files.pharo.org/vm/pharo/linux/Pharo-VM-linux-stable.zip">Linux virtual machine</a></li></ul>
-<p>Other downloads can be found on the <a href="http://files.pharo.org/">Pharo file server</a>.</p>
 <h2> Ubuntu ppa</h2>
 <p>Ubuntu users can use the dedicated ppa to install Pharo:</p>
 <pre>sudo add-apt-repository ppa:pharo/stable
@@ -67,6 +61,16 @@ sudo apt-get update
 sudo apt-get install pharo-launcher</pre>
 <p>If you don't have the add-apt-repository command, install the software-properties-common package and try again.</p>
 <p>If you are on a server (no GUI), you can get a Pharo Virtual Machine by installing pharo-vm-core.</p>
+<h2> Zeroconf script</h2>
+<p>An alternative way to get Pharo is to use <a href="http://get.pharo.org/">Zeroconf</a> from a terminal.</p>
+<pre>curl get.pharo.org | bash
+# or if curl is not available:
+wget -O- get.pharo.org | bash</pre>
+<h2>Custom Downloads</h2>
+<p>To run Pharo you need an image, changes, and a sources file, as well as a VM for your platform. </p>
+<p>When downloads are completed, uncompress all files and put them into the same directory (this directory should then contain a .image, .changes, and a .sources file). Then start the VM.</p>
+<ul><li> <a href="http://files.pharo.org/image/30/Pharo-Image-3.0-latest.zip">Pharo 3 image</a></li><li> <a href="http://files.pharo.org/vm/pharo/mac/Pharo-VM-mac-stable.zip">Mac OSX virtual machine</a></li><li> <a href="http://files.pharo.org/vm/pharo/win/Pharo-VM-linux-stable.zip">Windows virtual machine</a></li><li> <a href="http://files.pharo.org/vm/pharo/linux/Pharo-VM-linux-stable.zip">Linux virtual machine</a></li></ul>
+<p>Other downloads can be found on the <a href="http://files.pharo.org/">Pharo file server</a>.</p>
                 </div>
             </div>
         </div>
