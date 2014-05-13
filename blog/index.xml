@@ -14,9 +14,9 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 11 Apr 2014 12:10:22 +0200</pubDate>
-  <lastBuildDate>Fri, 11 Apr 2014 12:10:22 +0200</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.5h</generator>
+  <pubDate>Tue, 13 May 2014 14:14:28 +0200</pubDate>
+  <lastBuildDate>Tue, 13 May 2014 14:14:28 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.6</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
@@ -27,6 +27,43 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>Amber's new test runner</title>
+    <link>http://nicolas-petton.fr/blog/helios-sunit.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/helios-sunit.html</guid>
+    <pubDate>Tue, 13 May 2014 14:08:00 +0200</pubDate>
+    <category><![CDATA[amber]]></category>
+    <category><![CDATA[smalltalk]]></category>
+    <category><![CDATA[helios]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    <p>
+    May 13, 2014
+    </p>
+    <i class="fa fa-calendar-o"></i>
+    </div>
+
+    <p>
+    Today the <code>helios-sunit</code> branch has been merged into <code>master</code>. This
+    is an important milestone for Helios, Amber&rsquo;s new IDE, as it now has
+    a fully functional test runner.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/helios-sunit.png" alt="helios sunit" width="600px" />
+    </p>
+    <p><span class="figure-number">Figure 1:</span> Helios&rsquo; test runner</p>
+    </div>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/helios-sunit.html">Comments</a>
+    </p>
+    ]]></description>
+  </item>
+
 
   <item>
     <title>Amber 0.12.4 released!</title>
@@ -81,6 +118,7 @@
     ]]></description>
   </item>
 
+
   <item>
     <title>Running Helios as a desktop app</title>
     <link>http://nicolas-petton.fr/blog/nw-helios.html</link>
@@ -105,7 +143,7 @@
     <div class="figure">
     <p><img src="http://nicolas-petton.fr/blog/../images/nw-helios.png" alt="niflheim" />  
     </p>
-    <p><span class="figure-number">Figure 1:</span> Niflheim theme</p>
+    <p><span class="figure-number">Figure 2:</span> Niflheim theme</p>
     </div>
 
     <p>
@@ -125,6 +163,7 @@
     </p>
     ]]></description>
   </item>
+
 
   <item>
     <title>Interview with Stéphane Ducasse</title>
@@ -152,11 +191,12 @@
   </p>
     ]]></description>
   </item>
+
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-4</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-5</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-4</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-5</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
@@ -176,10 +216,11 @@
     <div class="figure">
     <p><img src="https://raw.githubusercontent.com/niflheim-theme/emacs/master/screenshot.png" alt="niflheim" />
     </p>
-    <p><span class="figure-number">Figure 2:</span> Niflheim theme</p>
+    <p><span class="figure-number">Figure 3:</span> Niflheim theme</p>
     </div>
     ]]></description>
   </item>
+
 
   <item>
     <title>Interview with Esteban Lorenzano</title>
@@ -207,6 +248,7 @@
   </p>
     ]]></description>
   </item>
+
   <item>
     <title>Details matter</title>
     <link>http://nicolas-petton.fr/blog/details-matter.html</link>
@@ -245,6 +287,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>Help us write a documentation for Amber!</title>
     <link>http://nicolas-petton.fr/blog/help-amber-doc.html</link>
@@ -283,6 +326,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>discover-js2-refactor</title>
     <link>http://nicolas-petton.fr/blog/discover-js2-refactor.html</link>
@@ -311,6 +355,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>Interview with Damien Cassou</title>
     <link>http://nicolas-petton.fr/blog/interview-damien.html</link>
@@ -338,6 +383,7 @@
     </p>
     ]]></description>
   </item>
+
 
   <item>
     <title>How is it to work at RMoD? /A series of interviews/.</title>
@@ -386,6 +432,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>Poll: What would you like to have in future releases of Amber?</title>
     <link>http://nicolas-petton.fr/blog/amber-poll.html</link>
@@ -412,6 +459,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>Keybindings in Amber's new IDE</title>
     <link>http://nicolas-petton.fr/blog/helios-keybindings.html</link>
@@ -440,6 +488,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>Amber 0.12.2 released!</title>
     <link>http://nicolas-petton.fr/blog/amber-0.12.2-released.html</link>
@@ -466,6 +515,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>Slides from my presentation at Smalltalks 2013</title>
     <link>http://nicolas-petton.fr/blog/slides-smalltalks-2013.html</link>
@@ -488,6 +538,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>Amber 0.12.0 released!</title>
     <link>http://nicolas-petton.fr/blog/amber-0.12.0-released.html</link>
@@ -519,6 +570,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>Amber's new compiler</title>
     <link>http://nicolas-petton.fr/blog/amber-compiler.html</link>
@@ -553,6 +605,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>Arrived in Buenos Aires</title>
     <link>http://nicolas-petton.fr/blog/arrived-buenos-aires.html</link>
@@ -586,6 +639,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>Installing Pharo on Ubuntu</title>
     <link>http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.html</link>
@@ -615,6 +669,7 @@
     </p>
     ]]></description>
   </item>
+
   <item>
     <title>Blogging with org-mode</title>
     <link>http://nicolas-petton.fr/blog/blogging-with-org-mode.html</link>
@@ -644,6 +699,7 @@
     </p>
     ]]></description>
   </item>
+
 
   <item>
     <title>Amber 0.10.0 released!</title>

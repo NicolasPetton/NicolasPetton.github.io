@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Amber's new test runner)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/helios-sunit.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Tue, 13 May 2014 14:11:30 +0200</pubDate>
+  <lastBuildDate>Tue, 13 May 2014 14:11:30 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.6</generator>
+  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>(Amber's new test runner)</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+  <div id="table-of-contents">
+    <h2>Table of Contents</h2>
+    <div id="text-table-of-contents">
+      <ul>
+        <li><a href="#sec-1">Amber's new test runner</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <item>
+    <title>Amber's new test runner</title>
+    <link>http://nicolas-petton.fr/blog/helios-sunit.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/helios-sunit.html#sec-1</guid>
+    <pubDate>Tue, 13 May 2014 14:08:00 +0200</pubDate>
+
+    <description><![CDATA[
+    <div class="pubdate">
+    <p>
+    May 13, 2014
+    </p>
+    <i class="fa fa-calendar-o"></i>
+    </div>
+
+    <p>
+    Today the <code>helios-sunit</code> branch has been merged into <code>master</code>. This
+    is an important milestone for Helios, Amber&rsquo;s new IDE, as it now has
+    a fully functional test runner.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/helios-sunit.png" alt="helios sunit" width="600px" />
+    </p>
+    <p><span class="figure-number">Figure 1:</span> Helios&rsquo; test runner</p>
+    </div>
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    ]]></description>
+  </item>
+</channel>
+</rss>
