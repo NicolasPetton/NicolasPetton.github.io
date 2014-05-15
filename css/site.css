@@ -13,7 +13,8 @@ body h2,
 body h3,
 body h4 {
   color: #444444;
-  font-weight: bold;
+  font-weight: normal;
+  font-family: Oswald, sans;
 }
 body h1 img,
 body h2 img,
@@ -25,11 +26,13 @@ body h4 img {
 body h1 {
   font-size: 32px;
 }
+body h1.title {
+  text-align: left;
+}
 body h2 {
   color: #444444;
   margin-top: 50px;
   position: relative;
-  font-weight: bold;
   font-size: 24px;
 }
 body h3 {
@@ -54,6 +57,7 @@ body code {
 }
 body img {
   border: 1px solid #ccc;
+  max-width: 600px;
 }
 body .tag {
   background: transparent;
@@ -100,21 +104,23 @@ body #postamble {
   font-size: 0.8em;
   margin-top: 50px;
   text-align: center;
-  color: #444444;
+  color: #aaa;
+}
+body #postamble a {
+  color: #5290b0;
 }
 body .nav {
   z-index: 10;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 46px;
-  background: #31576b;
-  border-bottom: 1px solid #111e25;
+  font-family: Oswald, sans;
 }
 body .nav ul {
   list-style: none;
-  width: 600px;
+  width: 940px;
   margin: 0 auto;
   padding: 0;
 }
@@ -125,16 +131,13 @@ body .nav ul li {
 body .nav ul li a {
   line-height: 46px;
   display: inline-block;
-  color: white;
   padding: 0 20px;
   border-radius: 0;
   text-decoration: none;
+  font-weight: bold;
 }
 body .nav ul li a:hover {
-  color: white;
-  text-decoration: none;
-  background: white;
-  color: #31576b;
+  text-decoration: underline;
 }
 body #disqus_thread {
   margin-top: 40px;
