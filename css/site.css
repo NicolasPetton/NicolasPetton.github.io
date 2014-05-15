@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Open Sans", Helvetica, Arial, sans;
-  background: white;
+  background: #eeeeee;
   color: #444444;
 }
 body h1,
@@ -37,11 +37,11 @@ body h3 {
 }
 body a {
   text-decoration: none;
-  color: #0088cc;
+  color: #31576b;
   text-decoration: underline;
 }
 body a:hover {
-  color: #004466;
+  color: #111e25;
 }
 body pre {
   background: white;
@@ -60,7 +60,7 @@ body .tag {
   font-size: 0.6em;
 }
 body .tag span {
-  background: #0088cc;
+  background: #31576b;
   color: white;
   padding: 2px 5px;
   border-radius: 4px;
@@ -109,8 +109,8 @@ body .nav {
   left: 0;
   right: 0;
   height: 46px;
-  background: #0088cc;
-  border-bottom: 1px solid #004466;
+  background: #31576b;
+  border-bottom: 1px solid #111e25;
 }
 body .nav ul {
   list-style: none;
@@ -134,7 +134,7 @@ body .nav ul li a:hover {
   color: white;
   text-decoration: none;
   background: white;
-  color: #0088cc;
+  color: #31576b;
 }
 body #disqus_thread {
   margin-top: 40px;

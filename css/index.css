@@ -9,14 +9,11 @@
   float: left;
 }
 .index .column.first {
-  width: 300px;
+  width: 500px;
   margin-right: 100px;
 }
 .index .column.last {
-  width: 500px;
-}
-.index .column.last h2 {
-  font-size: 42px;
+  width: 300px;
 }
 .index:after {
   content: ".";
