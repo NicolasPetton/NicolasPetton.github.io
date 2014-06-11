@@ -1,11 +1,12 @@
 .centered {
   margin: 0 auto;
-  max-width: 600px;
-  width: 600px;
+  max-width: 900px;
+  width: 900px;
 }
 body {
   font-family: "Open Sans", Helvetica, Arial, sans;
-  background: #fafafa;
+  line-height: 1.5;
+  background: #fff;
   color: #444444;
 }
 body h1,
@@ -24,7 +25,7 @@ body h4 img {
   border: 0 none;
 }
 body h1 {
-  font-size: 32px;
+  font-size: 42px;
 }
 body h1.title {
   text-align: left;
@@ -33,7 +34,7 @@ body h2 {
   color: #444444;
   margin-top: 50px;
   position: relative;
-  font-size: 24px;
+  font-size: 32px;
 }
 body h3 {
   font-size: 18px;
@@ -75,11 +76,6 @@ body .pubdate {
   color: #aaa;
   font-size: 18px;
   margin-bottom: 20px;
-  margin-left: -350px;
-  text-align: right;
-  width: 300px;
-  margin-top: -45px;
-  position: absolute;
 }
 body .pubdate p {
   display: inline;
@@ -94,11 +90,11 @@ body .org-info-js_info-navigation {
 body #content,
 body #postamble {
   margin: 0 auto;
-  max-width: 600px;
-  width: 600px;
+  max-width: 900px;
+  width: 900px;
 }
 body #content {
-  margin-top: 70px;
+  margin-top: 10px;
 }
 body #postamble {
   font-size: 0.8em;
@@ -109,18 +105,31 @@ body #postamble {
 body #postamble a {
   color: #5290b0;
 }
+body .intro {
+  padding: 20px 0px;
+  border-bottom: 1px solid #CCC;
+  width: 900px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  color: #CCC;
+}
+body .intro h1 {
+  font-size: 42px;
+  color: #CCC;
+  margin: 0;
+  padding: 0;
+}
+body .intro p {
+  color: #aaa;
+  font-size: 14px !important;
+}
 body .nav {
-  z-index: 10;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 46px;
   font-family: Oswald, sans;
+  text-align: center;
 }
 body .nav ul {
   list-style: none;
-  width: 940px;
+  width: 900px;
   margin: 0 auto;
   padding: 0;
 }
@@ -134,7 +143,8 @@ body .nav ul li a {
   padding: 0 20px;
   border-radius: 0;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
+  color: #aaa;
 }
 body .nav ul li a:hover {
   text-decoration: underline;

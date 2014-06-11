@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 15 May 2014 14:10:18 +0200</pubDate>
-  <lastBuildDate>Thu, 15 May 2014 14:10:18 +0200</lastBuildDate>
+  <pubDate>Wed, 11 Jun 2014 15:16:27 +0200</pubDate>
+  <lastBuildDate>Wed, 11 Jun 2014 15:16:27 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.6</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -28,7 +28,7 @@
     <h2>Table of Contents</h2>
     <div id="text-table-of-contents">
       <ul>
-        <li><a href="#sec-1">Keybindings in Amber's new IDE</a></li>
+        <li><a href="#sec-1">Keybindings in Amber's new IDE&#xa0;&#xa0;&#xa0;<span class="tag"><span class="helios">helios</span>&#xa0;<span class="amber">amber</span>&#xa0;<span class="smalltalk">smalltalk</span></span></a></li>
       </ul>
     </div>
   </div>
@@ -43,10 +43,7 @@
     <category><![CDATA[smalltalk]]></category>
     <description><![CDATA[
     <div class="pubdate">
-    <p>
     January 13, 2014
-    </p>
-    <i class="fa fa-calendar-o"></i>
     </div>
 
     <p>
