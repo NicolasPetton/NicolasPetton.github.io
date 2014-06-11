@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Interview RMoD #4: Jean-Baptiste Arnaud)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/interview-jean-baptiste.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Wed, 11 Jun 2014 15:58:32 +0200</pubDate>
+  <lastBuildDate>Wed, 11 Jun 2014 15:58:32 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.6</generator>
+  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>(Interview RMoD #4: Jean-Baptiste Arnaud)</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+  <div id="table-of-contents">
+    <h2>Table of Contents</h2>
+    <div id="text-table-of-contents">
+      <ul>
+        <li><a href="#sec-1">Interview with Jean-Baptiste Arnaud&#xa0;&#xa0;&#xa0;<span class="tag"><span class="RMoD">RMoD</span>&#xa0;<span class="interview">interview</span></span></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <item>
+    <title>Interview with Jean-Baptiste Arnaud</title>
+    <link>http://nicolas-petton.fr/blog/interview-jean-baptiste.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-jean-baptiste.html#sec-1</guid>
+    <pubDate>Wed, 11 Jun 2014 15:53:00 +0200</pubDate>
+    <category><![CDATA[RMoD]]></category>
+    <category><![CDATA[interview]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    June 11, 2014
+    </div>
+
+    <p>
+    This is the fourth post of my series of interviews, in which I
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team.
+    </p>
+
+    <p>
+    Jean-Baptiste was already part of the team when I arrived, so as far
+    as I&rsquo;m concerned he&rsquo;s been there forever! He currently shares his
+    office with Damien Pollet, two doors from mine. 
+    </p>
+
+    <p>
+    He is a fun guy to work with, and he always has something to say
+    about any topic, being work-related or not.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/jb-1.jpeg" alt="Jean-Baptiste Arnaud image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 1:</span> JB at work</p>
+    </div>
+
+
+    <p>
+    <b><i>Hi Jean-Baptiste, thanks for taking this interview. Can you start
+    by telling me a bit about yourself?</i></b>
+    </p>
+
+
+    <p>
+    My name is Jean-Baptiste Arnaud, I&rsquo;m 28 years old. I am in the Pharo
+    community and in the RMoD team since 5 years. 
+    </p>
+
+    <p>
+    Two years ago I finished a PhD in language design and security, and
+    obviously all of the experiments were done using the Pharo image and
+    virtual machine.
+    </p>
+
+    <p>
+    I am now a Post-doc in the RmoD team, still working on different
+    language projects.
+    </p>
+
+    <p>
+    When I was young, I wanted to be an inventor. You know like Gyro
+    Gearloose from &ldquo;Duck Tales&rdquo;. Unfortunately high school do not offer
+    this kind of career. I was always passionnate about &ldquo;how&rdquo; things
+    work, this passion can probably explain my strange academic career:
+    two years in Computer science, one year in biological science, two
+    years in management (where I meet Stephane) and then my second
+    master year in computer science with a focus on research. After
+    that I started my PhD in the RMoD team.
+    </p>
+
+    <p>
+    I am the annoying guy of the team, the guy talking too much (and I
+    shared my office with the most silent guy of the team).
+    </p>
+
+    <p>
+    On the personal side, I am a multi-passion kind of guy with a lot of
+    short term passions and a couple of really long term ones.  I like
+    books (art, RPG, comics and real book with only words in it), video
+    games and obviously movies.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/jb-2.jpg" alt="Raspberry" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 2:</span> Two of JB&rsquo;s toys</p>
+    </div>
+
+    <p>
+    <b><i>What was your experience of the RMoD team as a PhD student?</i></b>
+    </p>
+
+    <p>
+    The first years, you enjoy it a lot: you have a lot to learn, to
+    teach and you can have fun producing nice prototype :-).  It was
+    also my first real experience in the scientific world, I wasn&rsquo;t
+    really prepared to do a Phd. So it was a mix of bad and good
+    surprises, but mostly good!
+    </p>
+
+    <p>
+    The second year your try to produce papers, in my case that was a
+    pain not from the ideas point of view but for the writing one. I am
+    disorthographic so writing is not really my best skill. Except from
+    that the second year was really cool for my research because I
+    started to have enough knowledge and my research began to be
+    mature.  
+    </p>
+
+    <p>
+    And the Third year, well... I do not remember! At least the last 6
+    months. Writing a PhD thesis is hard for everyone I think, and as
+    every PhD student, I was disappointed not to be able to go deeper.
+    </p>
+
+    <p>
+    But overall, It was a good experience, I learned a lot, and I like the
+    spirit of the team.
+    </p>
+
+    <p>
+    I will stay in the Rmod team for my post-doc. Put me back five years
+    in the past and I would redo it, some aspects differently, but I
+    woudld definitely redo It.
+    </p>
+
+
+    <p>
+    <b><i>Stéphane had a question for the next interview: What would you like to invent?</i></b>
+    </p>
+
+    <p>
+    Good question! I will change it to <b>what you want to offer to the world?</b> 
+    </p>
+
+    <p>
+    I think most of the people expected my silence. But, I will answer a
+    &ldquo;little helper&rdquo; :-).
+    </p>
+
+    <p>
+    <b><i>What question would you ask another member of the team?</i></b>
+    </p>
+
+    <p>
+    Only one ? Ok I will try: Would you like to small talk?
+    </p>
+
+    <p>
+    <b><i>Thank you Jean-Baptiste!</i></b>
+    </p>
+
+    <p>
+    If you liked this interview, you might also want to check out the
+    <a href="http://nicolas-petton.fr/blog/interview-stef.html">Interview with Stéphane Ducasse</a>.
+    </p>
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    ]]></description>
+</item>
+</channel>
+</rss>

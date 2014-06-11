@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 11 Jun 2014 15:17:27 +0200</pubDate>
-  <lastBuildDate>Wed, 11 Jun 2014 15:17:27 +0200</lastBuildDate>
+  <pubDate>Wed, 11 Jun 2014 15:54:23 +0200</pubDate>
+  <lastBuildDate>Wed, 11 Jun 2014 15:54:23 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.6</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -27,6 +27,36 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>Interview with Jean-Baptiste Arnaud</title>
+    <link>http://nicolas-petton.fr/blog/interview-jean-baptiste.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-jean-baptiste.html</guid>
+    <pubDate>Wed, 11 Jun 2014 15:54:00 +0200</pubDate>
+    <category><![CDATA[interview]]></category>
+    <category><![CDATA[rmod]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    June 11, 2014
+    </div>
+
+
+    <p>
+    This is the fourth post of my series of interviews, in which I
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team.
+    </p>
+
+    <p>
+    This time I interview Jean-Baptiste Arnaud.
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html">Read the interview!</a>
+    </p>
+    ]]></description>
+  </item>
+
 
   <item>
     <title>Amber's new test runner</title>
@@ -182,9 +212,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-5</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-6</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-5</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-6</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
