@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Contact</title>
+<title>Managing Emacs settings per-computer</title>
 <!-- 2014-06-13 Fri 16:17 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
@@ -89,7 +89,8 @@
   /*]]>*/-->
 </style>
 <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
-<link rel='stylesheet' href='css/site.css' type='text/css'/>
+<link rel='stylesheet' href='../css/site.css' type='text/css'/>
+<link rel='stylesheet' href='../css/blog.css' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 <link href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'><script>
@@ -101,6 +102,9 @@
   ga('create', 'UA-2614862-2', 'nicolas-petton.fr');
   ga('send', 'pageview');
 </script>
+<link rel="alternate" type="application/rss+xml"
+                href="http://nicolas-petton.fr/blog/index.xml"
+                title="RSS feed">
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -166,84 +170,96 @@ for the JavaScript code in this tag.
 </div>
 </div>
 <div id="content">
-<h1 class="title">Contact</h1>
+<h1 class="title">Managing Emacs settings per-computer</h1>
 
 <div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><a id="ID-0f39df25-88d0-4207-b7c1-2cbf429ded73" name="ID-0f39df25-88d0-4207-b7c1-2cbf429ded73"></a>@Inria</h2>
+<h2 id="sec-1"><a id="ID-ea6ec1bf-628c-4ba4-b693-acad76967f49" name="ID-ea6ec1bf-628c-4ba4-b693-acad76967f49"></a>Per-computer Emacs settings&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span></span></h2>
 <div class="outline-text-2" id="text-1">
-<p>
-RMod, Inria Lille - Nord Europe
-</p>
 
-<p>
-Parc Scientifique de la Haute Borne
-</p>
-
-<p>
-40, avenue Halley
-</p>
-
-<p>
-Bât.A, Park Plaza
-</p>
-
-
-
-<p>
-Office: Inria B, room 302
-</p>
-
-<p>
-+33 3 59 35 87 38
-</p>
-
-<p>
-<i>nicolas.petton@inria.fr</i>
-</p>
-</div>
+<div class="pubdate">
+June 13, 2014
 </div>
 
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><a id="ID-3ebca5e4-b9f7-4733-8285-1a78b44fb8c8" name="ID-3ebca5e4-b9f7-4733-8285-1a78b44fb8c8"></a>@Objectfusion</h2>
-<div class="outline-text-2" id="text-2">
 <p>
-Objectfusion S.A.R.L.
+I use Emacs on all of my machines, being laptops or servers. While
+my Emacs settings are shared among all of my computers, some of
+these settings really matter for one specific computer.
 </p>
 
 <p>
-171 quai Auguste Meynier
+For instance, I only read my emails on my main laptop, and I only
+use my Orgmode files on two computers.
 </p>
 
 <p>
-34280 Carnon
+I decided to have some of my settings machine-specific, using the
+<code>hostname</code> of each computer.
 </p>
 
 <p>
-<i>nico@objectfusion.fr</i>
+The idea is straightforward, in my <code>init.el</code>, I load an
+<code>init-HOSTNAME.el</code> file if it is present in the <code>hosts/</code>
+subdirectory.
 </p>
+
+<p>
+Here's a snippet from my <code>emacs.d</code> configuration:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-elisp">(<span style="color: #f7af75; font-weight: bold;">defvar</span> <span style="color: #aaccff;">host</span> (substring (shell-command-to-string <span style="color: #789771;">"hostname"</span>) 0 -1))
+(<span style="color: #f7af75; font-weight: bold;">defvar</span> <span style="color: #aaccff;">host-dir</span> (concat <span style="color: #789771;">"~/.emacs.d/hosts/"</span> host))
+(add-to-list 'load-path host-dir)
+
+(<span style="color: #f7af75; font-weight: bold;">let</span> ((init-host-feature (intern (concat <span style="color: #789771;">"init-"</span> host))))
+  (<span style="color: #f7af75; font-weight: bold;">require</span> <span style="color: #da8548; font-weight: bold;">init-host-feature</span> nil 'noerror))
+</pre>
 </div>
+
+<p>
+Another way to split settings is to keep some files private. Some
+settings might contain sensitive information that you might not want
+to share along with your Emacs configuration.
+</p>
+
+<p>
+To sove this issue I load files from a private directory in
+<code>~/.priv/elisp/</code>:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-elisp">(<span style="color: #f7af75; font-weight: bold;">defvar</span> <span style="color: #aaccff;">private-dir</span> <span style="color: #789771;">"~/.priv/elisp"</span> 
+  <span style="color: #70a56f;">"Private elisp directory"</span>)
+
+(<span style="color: #f7af75; font-weight: bold;">if</span> (file-exists-p private-dir)
+    (add-to-list 'load-path private-dir))
+</pre>
 </div>
 
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3"><a id="ID-fb473262-016b-4cba-b044-f36cdce0ae22" name="ID-fb473262-016b-4cba-b044-f36cdce0ae22"></a>Social</h2>
-<div class="outline-text-2" id="text-3">
-<ul class="org-ul">
-<li>GTalk <i>petton.nicolas AT gmail DOT com</i>
-</li>
-<li>Skype <i>petton.nicolas</i>
-</li>
-<li>Twitter <a href="http://twitter.com/NicolasPetton">@NicolasPetton</a>
-</li>
-<li>GitHub <a href="http://github.com/NicolasPetton">NicolasPetton</a>
-</li>
-</ul>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <div class='footer'>
 Copyright 2014 Nicolas Petton.<br>
-Last updated 2014-05-19 Mon 15:01. <br>
+Last updated 2014-06-13 Fri 16:15. <br>
 Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.6).
 </div>
 </div>
