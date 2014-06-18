@@ -14,9 +14,9 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 11 Jun 2014 15:16:30 +0200</pubDate>
-  <lastBuildDate>Wed, 11 Jun 2014 15:16:30 +0200</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.6</generator>
+  <pubDate>Wed, 18 Jun 2014 15:40:01 +0200</pubDate>
+  <lastBuildDate>Wed, 18 Jun 2014 15:40:01 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.7</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
@@ -24,14 +24,6 @@
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
-  <div id="table-of-contents">
-    <h2>Table of Contents</h2>
-    <div id="text-table-of-contents">
-      <ul>
-        <li><a href="#sec-1">Amber 0.12.4 released!&#xa0;&#xa0;&#xa0;<span class="tag"><span class="amber">amber</span>&#xa0;<span class="smalltalk">smalltalk</span></span></a></li>
-      </ul>
-    </div>
-  </div>
 
   <item>
     <title>Amber 0.12.4 released!</title>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Interview RMoD #5: Guillermo Polito)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/interview-guille.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Wed, 18 Jun 2014 15:39:42 +0200</pubDate>
+  <lastBuildDate>Wed, 18 Jun 2014 15:39:42 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.7</generator>
+  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>(Interview RMoD #5: Guillermo Polito)</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+
+  <item>
+    <title>Interview with Guillermo Polito</title>
+    <link>http://nicolas-petton.fr/blog/interview-guille.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-guille.html#sec-1</guid>
+    <pubDate>Wed, 18 Jun 2014 15:20:00 +0200</pubDate>
+    <category><![CDATA[RMoD]]></category>
+    <category><![CDATA[interview]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    June 18, 2014
+    </div>
+
+    <p>
+    This is the fifth post of my series of interviews, in which I
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team. After the <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html">Interview with
+    Jean-Baptiste Arnaud</a>, I interview <a href="http://playingwithobjects.wordpress.com/">Guillermo Polito</a>.
+    </p>
+
+    <p>
+    Guille (pronounce it Guiche) is another one of the <a href="http://playingwithobjects.wordpress.com/">many</a> <a href="http://marianopeck.wordpress.com/">argentinians</a>
+    who have been working at <a href="http://inria.fr">Inria</a>. Guille is doing a PhD in RMoD, he
+    drinks mate all day long (which argentinian doesn&rsquo;t?), and he&rsquo;s
+    always in when it comes to go for a beer <a href="http://www.cafecitoyen.org/">somewhere</a> in Lille after
+    work.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/guille1.jpeg" alt="Guillermo Polito image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 1:</span> Guille at his desk</p>
+    </div>
+
+    <p>
+    <b><i>Hi Guille, thanks for taking this interview. Can you tell me a
+    bit about yourself?</i></b>
+    </p>
+
+    <p>
+    Hi Nico, you&rsquo;re welcome.
+    </p>
+
+    <p>
+    My name is Guille(rmo) Polito. Please call me Guille :). And pronounce
+    every letter. Specially the &lsquo;ll&rsquo; as the english sound for &lsquo;sh&rsquo; or the
+    french &lsquo;ch&rsquo;.
+    </p>
+
+    <p>
+    Bref. I come from Buenos Aires, Argentina. 27. I am a systems engineer from
+    there. I worked many years in C#, Java, Android, Python. I used to teach
+    there a bit also. And started doing some open source with Pharo before
+    graduating. Now, I&rsquo;m doing a PhD at Lille/Douai where I have fun with
+    Pharo, the CAR and RMoD teams. The PhD topic is fuzzy. I don&rsquo;t want to talk
+    about my phd. Arghhh stop it!!!
+    </p>
+
+    <p>
+    People tell me I&rsquo;m not at all polite, despite what my surname
+    is. Bah, maybe that&rsquo;s a bit true. Acid, yeller, hate
+    formalities. Sometimes they call me Lorenzo after Lorenzo Lamas
+    because of the long dark hair I think (they can say better
+    probably). In fact, a picture of him inspired a picture of me.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/guille3.png" alt="Guillermo Lamas image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 2:</span> Guillermo Lamas</p>
+    </div>
+
+    <p>
+    I use to use. Funny fact: when I started my blog I had that picture
+    in the front page. Guess where I had the most clicks on? Certainly
+    not my posts...
+    </p>
+
+    <p>
+    Last but not least: Bostero. That is, fan of the best football team in the
+    world, you know? If you don&rsquo;t know Boca Juniors, you know nothing about
+    football.
+    </p>
+
+
+    <p>
+    <b><i>What are you working on in the RMoD team?</i></b>
+    </p>
+
+    <p>
+    Plenty of stuff! Concretely I&rsquo;m doing a Phd, i&rsquo;m in the last year. I would
+    say that my Phd topic is about the manipulation of first class
+    representations of object environments, those that we call object spaces,
+    or Oz :)... And on top of that there are some things going on, in
+    particular the Pharo bootstrap, and Tornado (my secret project that will
+    come to light soon).
+    </p>
+
+    <p>
+    Besides my Phd obligations, I also participate in Pharo, as almost everyone
+    in RMoD. Sometimes doing VM stuff, sometimes on the image side... Sometimes
+    when I have time I do things around DBXTalk and Glorp too. But basically
+    I&rsquo;d say I have fun :).
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/guille2.jpeg" alt="Mate image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 3:</span> Guille&rsquo;s Mate</p>
+    </div>
+
+
+    <p>
+    <b><i>How would you describe RMoD besides work?</i></b>
+    </p>
+
+    <p>
+    I&rsquo;d describe it as fun. I actually really enjoy coming to the lab, except
+    when Nico is there (joke!).
+    </p>
+
+    <p>
+    No, really, you always find somebody open to discuss, to work in pairs, or
+    even to just drink a mate. It&rsquo;s not difficult to find people that would
+    like to share a beer after work. People receive you with jokes or insults,
+    that makes me feel at home :). Really!
+    </p>
+
+    <p>
+    <b><i>Esteban had a question for the next interview: &ldquo;Would you like
+    another beer?</i></b>
+    </p>
+
+    <p>
+    Actually that&rsquo;s a great question in the context of our team! I think RMoD
+    is located in one of the best places in the world beer-wise speaking :).
+    </p>
+
+    <p>
+    So... Bien sûr! Une Kwak stp!
+    </p>
+
+    <p>
+    <b><i>What question would you ask another member of the team?</i></b>
+    </p>
+
+    <p>
+    God, there are so many good ones like...
+    </p>
+
+    <p>
+    What question would you ask another member of the team?
+    When is that beer?
+    Emacs or Vim?
+    </p>
+
+    <p>
+    But I&rsquo;d better go for... Do you prepare mate?
+    </p>
+
+
+
+    <p>
+    <b><i>Thank you Guille!</i></b>
+    </p>
+
+    <p>
+    If you liked this interview, you might also want to check out the
+    <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html">Interview with Jean-Baptiste Arnaud</a>.
+    </p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    ]]></description>
+</item>
+</channel>
+</rss>

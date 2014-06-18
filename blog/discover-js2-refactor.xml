@@ -14,9 +14,9 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 11 Jun 2014 15:16:27 +0200</pubDate>
-  <lastBuildDate>Wed, 11 Jun 2014 15:16:27 +0200</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.6</generator>
+  <pubDate>Wed, 18 Jun 2014 15:39:45 +0200</pubDate>
+  <lastBuildDate>Wed, 18 Jun 2014 15:39:45 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.7</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
@@ -24,19 +24,6 @@
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
-  <div id="table-of-contents">
-    <h2>Table of Contents</h2>
-    <div id="text-table-of-contents">
-      <ul>
-        <li><a href="#sec-1">discover-js2-refactor&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span>&#xa0;<span class="javascript">javascript</span></span></a>
-        <ul>
-          <li><a href="#sec-1-1">Making js2-refactor more discoverable</a></li>
-          <li><a href="#sec-1-2">Installing discover-js2-refactor</a></li>
-        </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
   <item>
     <title>discover-js2-refactor</title>
     <link>http://nicolas-petton.fr/blog/discover-js2-refactor.html#sec-1</link>

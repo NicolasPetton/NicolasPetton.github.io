@@ -14,9 +14,9 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 13 Jun 2014 16:19:26 +0200</pubDate>
-  <lastBuildDate>Fri, 13 Jun 2014 16:19:26 +0200</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.6</generator>
+  <pubDate>Wed, 18 Jun 2014 15:41:05 +0200</pubDate>
+  <lastBuildDate>Wed, 18 Jun 2014 15:41:05 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.7</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
@@ -29,10 +29,44 @@
   </p>
 
   <item>
-    <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-1</link>
+    <title>Interview with Guillermo Polito</title>
+    <link>http://nicolas-petton.fr/blog/interview-guille.html</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-1</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-guille.html</guid>
+    <pubDate>Wed, 18 Jun 2014 15:40:00 +0200</pubDate>
+    <category><![CDATA[RMoD]]></category>
+    <category><![CDATA[interview]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    June 18, 2014
+    </div>
+
+    <p>
+    This is the fifth post of my series of interviews, in which I
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team. After the <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html">Interview with
+    Jean-Baptiste Arnaud</a>, I interview <a href="http://playingwithobjects.wordpress.com/">Guillermo Polito</a>.
+    </p>
+
+    <p>
+    Guille (pronounce it Guiche) is another one of the <a href="http://playingwithobjects.wordpress.com/">many</a> <a href="http://marianopeck.wordpress.com/">argentinians</a>
+    who have been working at <a href="http://inria.fr">Inria</a>. Guille is doing a PhD in RMoD, he
+    drinks mate all day long (which argentinian doesn&rsquo;t?), and he&rsquo;s
+    always in when it comes to go for a beer <a href="http://www.cafecitoyen.org/">somewhere</a> in Lille after
+    work.
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/interview-guille.html">Read the interview</a>!
+    </p>
+    ]]></description>
+  </item>
+
+
+  <item>
+    <title>Per-computer Emacs settings</title>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-2</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-2</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
     <description><![CDATA[
@@ -236,9 +270,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-7</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-8</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-7</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-8</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
