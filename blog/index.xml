@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 02 Jul 2014 13:02:25 +0200</pubDate>
-  <lastBuildDate>Wed, 02 Jul 2014 13:02:25 +0200</lastBuildDate>
+  <pubDate>Thu, 03 Jul 2014 15:35:31 +0200</pubDate>
+  <lastBuildDate>Thu, 03 Jul 2014 15:35:31 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.7a</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -27,6 +27,62 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>tmate.io: terminal sharing made easy</title>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-1</guid>
+    <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
+    <category><![CDATA[pairprogramming]]></category>
+    <category><![CDATA[emacs]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    July 3, 2014
+    </div>
+
+    <p>
+    Recently I was looking for good remote pair programming tools, like
+    screen sharing tools. 
+    </p>
+
+    <p>
+    For audio, Jabber and Skype work fine.
+    </p>
+
+    <p>
+    For screen sharing I used <a href="http://teamviewer.com">Teamviewer</a> in the past, but the quality
+    isn&rsquo;t always enough to share an Emacs window, and it is a commercial
+    application.
+    </p>
+
+    <p>
+    I decided to give the famous tmux a try, and stumbled upon <a href="http://tmate.io">Tmate</a>, a
+    tmux fork that makes terminal sharing a breeze. 
+    </p>
+
+    <p>
+    The idea behind tmate is simple, it&rsquo;s like tmux but with sugar on
+    top so that you don&rsquo;t have to setup anything (you can setup your own
+    tmate server if you want though), just start <code>tmate</code> in a terminal
+    and it will handle the ssh server connection for you and give you a
+    one time ssh access that you can copy/paste to you mates.
+    </p>
+
+    <p>
+    It&rsquo;s as good as tmux: it&rsquo;s fast, reliable and works great in
+    general, even with slow bandwidths. Best of all, it&rsquo;s opensource,
+    works on Linux and OSX. I finally have a great tool to share an
+    Emacs session.
+    </p>
+
+    <p>
+    <a href="http://tmate.io">Tmate website</a>.
+    </p>
+    ]]></description>
+  </item>
+
+
 
   <item>
     <title>Amber 0.12.6 released!</title>
@@ -83,9 +139,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-3</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-4</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-3</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-4</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
     <description><![CDATA[
@@ -289,9 +345,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-9</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-10</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-9</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-10</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
