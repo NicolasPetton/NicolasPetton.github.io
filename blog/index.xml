@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 03 Jul 2014 15:35:31 +0200</pubDate>
-  <lastBuildDate>Thu, 03 Jul 2014 15:35:31 +0200</lastBuildDate>
+  <pubDate>Thu, 03 Jul 2014 15:38:00 +0200</pubDate>
+  <lastBuildDate>Thu, 03 Jul 2014 15:38:00 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.7a</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -43,17 +43,19 @@
 
     <p>
     Recently I was looking for good remote pair programming tools, like
-    screen sharing tools. 
+    screen sharing and audio/video tools. 
     </p>
 
     <p>
-    For audio, Jabber and Skype work fine.
+    For audio, Jabber and Skype work fine. I also use Google Hangout
+    from time to time.
     </p>
 
     <p>
     For screen sharing I used <a href="http://teamviewer.com">Teamviewer</a> in the past, but the quality
-    isn&rsquo;t always enough to share an Emacs window, and it is a commercial
-    application.
+    isn&rsquo;t always good enough to share an Emacs window, and it is a
+    commercial application. Skype&rsquo;s screen sharing works fine but it&rsquo;s
+    read-only sharing.
     </p>
 
     <p>
