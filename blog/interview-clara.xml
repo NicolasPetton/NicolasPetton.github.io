@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Interview RMoD #6: Clara Allende)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/interview-clara.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Fri, 18 Jul 2014 15:22:32 +0200</pubDate>
+  <lastBuildDate>Fri, 18 Jul 2014 15:22:32 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.7b</generator>
+  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>(Interview RMoD #6: Clara Allende)</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+
+  <item>
+    <title>Interview with Clara Allende</title>
+    <link>http://nicolas-petton.fr/blog/interview-clara.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-clara.html#sec-1</guid>
+    <pubDate>Wed, 11 Jun 2014 15:53:00 +0200</pubDate>
+    <category><![CDATA[RMoD]]></category>
+    <category><![CDATA[interview]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    July 18, 2014
+    </div>
+
+    <p>
+    This is the sixth post of my series of interviews, in which I
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team.
+    </p>
+
+    <p>
+    Clara joined RMoD recently for an internship in the team. I first
+    met her in Argentina for the Smalltalks conference last year, where
+    we had a couple (well, a bit more than that) beers together with
+    other argentinians, talked about Smalltalk among other things. She&rsquo;s
+    now a good friend of mine and I&rsquo;m really happy to make this
+    interview with her, probably my last interview of the RMoD team
+    members, as I&rsquo;m leaving the team today.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/clara-1.jpeg" alt="Clara Allende image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 1:</span> Clara at work</p>
+    </div>
+
+
+    <p>
+    <b><i>Hi Clara, thanks for taking this interview. Can you start
+    by telling me a bit about yourself?</i></b>
+    </p>
+
+    <p>
+    I am 23 (my birthday is in August :P), I come from Buenos Aires. I&rsquo;m a
+    Systems Engineering student (whatever is it that it means...), in two
+    years I&rsquo;ll get my degree, I hope.  
+    </p>
+
+    <p>
+    I have two siblings, both younger than me. My mother is a teacher, so
+    everybody kind of thought that I would be a teacher as well which
+    actually I did, at university....  I also sing and play the guitar,
+    and dance (rock, lindy hop, salsa, bellydance... very diverse
+    background). I love reading, especially science fiction, detective
+    stuff (I don&rsquo;t know how you say &ldquo;novela policial&rdquo; in english, but I
+    love Sherlock Holmes stories and the like).
+    </p>
+
+    <p>
+    I joined RMoD after participating in GSoC 2013... Guille told me about the
+    chance of doing an internship here and Stef invited me during last year&rsquo;s
+    Smalltalks at Rosario. And then I had to postpone it until I finished
+    sitting for exams, but finally I came here for a six month internship. And
+    I&rsquo;m glad, because working here is really cool and I am always learning new
+    stuff :)
+    </p>
+
+    <p>
+    And I don&rsquo;t know what else... I am a big Star Wars fan as well :)
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/clara-2.jpeg" alt="Clara Allende image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 2:</span> Clara&rsquo;s current book</p>
+    </div>
+
+
+    <p>
+    <b><i>How does a typical day at RMoD looks like?</i></b>
+    </p>
+
+    <p>
+    hmm... well, I still can&rsquo;t get to wake up very early in the mornings, so I
+    come here around 10, 10.30... The office is very quiet in general, which
+    comes as a change for me because at the office back in Argentina it&rsquo;s
+    always so crowded and noisy. I think I got used very to that, so I tend to
+    work with music on, or after lunch I like drinking mate with the other
+    argentinians of the team (and whoever wants to join us) in the hall, often
+    listening to music as well. We are noisy, sorry about that. Et nous sommes
+    fous aussi :)
+    </p>
+
+    <p>
+    I like the bit when I put Pink Floyd and everybody comes to listen :)
+    Overall everybody is really nice to me and it&rsquo;s a cool place to work in,
+    with a lot of freedom to do what you like, and full of very smart people
+    with cool ideas. And not just that, people here are very willing to share
+    experiences and discussions, and to me this is super important, to get to
+    now some other points of view because I&rsquo;m young and I want to learn :D
+    </p>
+
+    <p>
+    <b>/Guille had a question for the next interview, and I find it
+    quite appropriate: &ldquo;Do you prepare mate?"/</b>
+    </p>
+
+    <p>
+    JAJAJAJA, bien sûr!  Without sugar, with sugar, tereré (which is made with
+    juice or cold water). J&rsquo;aime bien boire, faire et partager le mate :)
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/clara-3.jpeg" alt="Clara Allende with other argentinians image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 3:</span> Clara and some other argentinians of the team</p>
+    </div>
+
+    <p>
+    <b><i>If you were giving an interview, what question would you ask
+    another member of the team?</i></b>
+    </p>
+
+    <p>
+    ja! Totally OT:
+    If you had a superpower, which one would be?
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/clara-4.jpeg" alt="Clara Allende dancing image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 4:</span> Clara dancing</p>
+    </div>
+
+
+    <p>
+    <b><i>Thank you Clara!</i></b>
+    </p>
+
+    <p>
+    If you liked this interview, you might also want to check out the
+    <a href="http://nicolas-petton.fr/blog/interview-stef.html">Interview with Stéphane Ducasse</a>.
+    </p>
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    ]]></description>
+</item>
+</channel>
+</rss>
