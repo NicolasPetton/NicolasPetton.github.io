@@ -14,9 +14,9 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 18 Jul 2014 15:46:48 +0200</pubDate>
-  <lastBuildDate>Fri, 18 Jul 2014 15:46:48 +0200</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.7b</generator>
+  <pubDate>Tue, 26 Aug 2014 14:05:12 +0200</pubDate>
+  <lastBuildDate>Tue, 26 Aug 2014 14:05:12 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
@@ -28,11 +28,71 @@
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
 
+
+  <item>
+    <title>iSearch thing</title>
+    <link>http://nicolas-petton.fr/blog/isearch-thing.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/isearch-thing.html</guid>
+    <pubDate>Tue, 26 Aug 2014 14:00:00 +0200</pubDate>
+    <category><![CDATA[emacs]]></category>
+    <description><![CDATA[
+    <p>
+    Wouldn&rsquo;t it be awesome if when using iSearch, I could search for the symbol
+    under the cursor, or the active region if any?
+    </p>
+
+    <p>
+    Unfortunately, AFAIK iSearch can search for the next word (with <code>C-w</code>), but not
+    the symbol at point or the region contents. This small snippet fixes the
+    problem!
+    </p>
+
+    <p>
+    Note: it overrides <code>C-t</code> in isearch-mode, but as I never use it, I do not mind :)
+    </p>
+
+    <div class="org-src-container">
+
+    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">symbol-name-at-point</span> ()
+    (<span style="color: #f7af75; font-weight: bold;">let</span> ((symbol (symbol-at-point)))
+    (<span style="color: #f7af75; font-weight: bold;">if</span> symbol
+    (symbol-name symbol)
+    <span style="color: #789771;">""</span>)))
+
+    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">current-thing</span> ()
+    <span style="color: #70a56f;">"Return the current \"thing\":</span>
+    <span style="color: #70a56f;">- if the region is active, return the region's text and deactivate the mark</span>
+    <span style="color: #70a56f;">- else return the symbol at point or the empty string."</span>
+    (<span style="color: #f7af75; font-weight: bold;">let</span> ((thing (<span style="color: #f7af75; font-weight: bold;">if</span> (region-active-p)
+    (buffer-substring (region-beginning) (region-end))
+    (symbol-name-at-point))))
+    (deactivate-mark)
+    thing))
+
+    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">isearch-thing</span> ()
+    <span style="color: #70a56f;">"Search for the current \"thing\":</span>
+    <span style="color: #70a56f;">- if the region is active, return the region's text and deactivate the mark</span>
+    <span style="color: #70a56f;">- else return the symbol at point or the empty string."</span>
+    (interactive)
+    (isearch-yank-string (current-thing)))
+
+    (define-key isearch-mode-map (kbd <span style="color: #789771;">"C-t"</span>) #'isearch-thing)
+    </pre>
+    </div>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/isearch-thing.html">Comments</a>
+    </p>
+    ]]></description>
+  </item>
+
+
   <item>
     <title>Farewell RMoD!</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-1</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-2</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-1</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-2</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
     <category><![CDATA[RMoD]]></category>
     <description><![CDATA[
@@ -110,9 +170,9 @@
 
   <item>
     <title>Tide & Marina presentation @RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-3</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-4</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-3</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-4</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
     <category><![CDATA[presentation]]></category>
     <category><![CDATA[rmod]]></category>
@@ -140,9 +200,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-4</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-5</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-4</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-5</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
     <category><![CDATA[pairprogramming]]></category>
     <category><![CDATA[emacs]]></category>
@@ -251,9 +311,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-7</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-8</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-7</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-8</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
     <description><![CDATA[
@@ -457,9 +517,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-13</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-14</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-13</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-14</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
