@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 05 Sep 2014 13:02:49 +0200</pubDate>
-  <lastBuildDate>Fri, 05 Sep 2014 13:02:49 +0200</lastBuildDate>
+  <pubDate>Fri, 05 Sep 2014 13:27:34 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Sep 2014 13:27:34 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -33,6 +33,11 @@
     <pubDate>Fri, 05 Sep 2014 13:01:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
     <description><![CDATA[
+    <p>
+    <b>Update</b>: <a href="http://damiencassou.seasidehosting.st/">Damien Cassou</a> tricked me into extracting it in a
+    package. You can get it here: <a href="https://github.com/NicolasPetton/noccur.el">github.com/NicolasPetton/noccur.el</a>.
+    </p>
+
     <p>
     <a href="http://www.emacswiki.org/emacs/OccurMode">Occur-mode</a> is one of the awesome modes that come builtin with
     Emacs. 
@@ -107,6 +112,6 @@
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     ]]></description>
-  </item>
+</item>
 </channel>
 </rss>
