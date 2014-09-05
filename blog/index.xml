@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 29 Aug 2014 09:31:53 +0200</pubDate>
-  <lastBuildDate>Fri, 29 Aug 2014 09:31:53 +0200</lastBuildDate>
+  <pubDate>Fri, 05 Sep 2014 13:02:49 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Sep 2014 13:02:49 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -27,6 +27,78 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>Multi-occur on projects</title>
+    <link>http://nicolas-petton.fr/blog/multi-occur-on-projects.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/multi-occur-on-projects.html</guid>
+    <pubDate>Fri, 05 Sep 2014 13:01:00 +0200</pubDate>
+    <category><![CDATA[emacs]]></category>
+    <description><![CDATA[
+    <p>
+    <a href="http://www.emacswiki.org/emacs/OccurMode">Occur-mode</a> is one of the awesome modes that come builtin with
+    Emacs. 
+    </p>
+
+    <p>
+    Sometimes I just want to run <code>multi-occur</code> on all (or a subdirectory)
+    of a project I&rsquo;m working on. Used with keyboard macros it makes it a
+    snap to perform modifications on many buffers at once.
+    </p>
+
+    <p>
+    I wrote a tiny package containing the following functions that does just that:
+    </p>
+
+
+    <div class="org-src-container">
+
+    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">require</span> '<span style="color: #da8548; font-weight: bold;">projectile</span>)
+
+    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">noccur-dired</span> (regexp <span style="color: #92a65e; font-weight: bold;">&amp;optional</span> nlines)
+    <span style="color: #70a56f;">"Perform `</span><span style="color: #da8548; font-weight: bold;">multi-occur</span><span style="color: #70a56f;">' with REGEXP in all dired marked files.</span>
+    <span style="color: #70a56f;">When called with a prefix argument NLINES, display NLINES lines before and after."</span>
+    (interactive (occur-read-primary-args))
+    (multi-occur (mapcar #'find-file (dired-get-marked-files)) regexp nlines))
+
+    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">noccur-project</span> (regexp <span style="color: #92a65e; font-weight: bold;">&amp;optional</span> nlines)
+    <span style="color: #70a56f;">"Perform `</span><span style="color: #da8548; font-weight: bold;">multi-occur</span><span style="color: #70a56f;">' in the current project files."</span>
+    (interactive (occur-read-primary-args))
+    (<span style="color: #f7af75; font-weight: bold;">let*</span> ((directory (read-directory-name <span style="color: #789771;">"Search in directory: "</span>))
+    (files (<span style="color: #f7af75; font-weight: bold;">if</span> (and directory (not (string= directory (projectile-project-root))))
+    (projectile-files-in-project-directory directory)
+    (projectile-current-project-files)))
+    (buffers (mapcar #'find-file 
+    (mapcar #'(<span style="color: #f7af75; font-weight: bold;">lambda</span> (file)
+    (expand-file-name file (projectile-project-root)))
+    files))))
+    (multi-occur buffers regexp nlines)))
+
+    (<span style="color: #f7af75; font-weight: bold;">provide</span> '<span style="color: #da8548; font-weight: bold;">noccur</span>)
+    </pre>
+    </div>
+
+    <p>
+    It requires projectile for the `noccur-project` function, but
+    `noccur-dired` is very similar and doesn&rsquo;t require it.
+    </p>
+
+    <p>
+    The way I use it is the following:
+    </p>
+
+    <p>
+    <code>M-x noccur-project RET foo RET</code> then I can edit the occur buffer&rsquo;s
+    content with <code>occur-edit-mode</code> (bound to <code>e</code>). To save changes in all
+    modified buffer and go back to <code>occur-mode</code> press <code>C-c C-c</code>.
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/mutli-occur-on-projects.html">Comments</a>
+    </p>
+    ]]></description>
+  </item>
 
 
   <item>
@@ -141,9 +213,9 @@
 
   <item>
     <title>Farewell RMoD!</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-3</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-4</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-3</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-4</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
     <category><![CDATA[RMoD]]></category>
     <description><![CDATA[
@@ -221,9 +293,9 @@
 
   <item>
     <title>Tide & Marina presentation @RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-5</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-6</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-5</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-6</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
     <category><![CDATA[presentation]]></category>
     <category><![CDATA[rmod]]></category>
@@ -251,9 +323,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-6</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-7</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-6</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-7</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
     <category><![CDATA[pairprogramming]]></category>
     <category><![CDATA[emacs]]></category>
@@ -362,9 +434,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-9</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-10</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-9</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-10</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
     <description><![CDATA[
@@ -568,9 +640,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-15</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-16</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-15</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-16</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
