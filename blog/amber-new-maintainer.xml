@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>amber-new-maintainer</title>
+  <atom:link href="http://nicolas-petton.fr/blog/amber-new-maintainer.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Thu, 11 Sep 2014 16:05:14 +0200</pubDate>
+  <lastBuildDate>Thu, 11 Sep 2014 16:05:14 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
+  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>amber-new-maintainer</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+  <item>
+    <title>Amber has a new maintainer</title>
+    <link>http://nicolas-petton.fr/blog/amber-new-maintainer.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-new-maintainer.html</guid>
+    <pubDate>Thu, 11 Sep 2014 16:05:00 +0200</pubDate>
+    <category><![CDATA[amber]]></category>
+    <description><![CDATA[
+    <p>
+    As you have probably noticed, I&rsquo;ve been a bit away from Amber for some
+    time.
+    </p>
+
+    <p>
+    Herby has been the unofficial maintainer of Amber since then and he has
+    done an amazing job!
+    </p>
+
+    <p>
+    So, after some discussions we decided to make it a bit more official,
+    so here it is: Herbert Vojčík is the new maintainer of Amber.
+    </p>
+
+    <p>
+    It does not mean that I will totally disappear, I&rsquo;ll stay around!
+    </p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    ]]></description>
+  </item>
+</channel>
+</rss>

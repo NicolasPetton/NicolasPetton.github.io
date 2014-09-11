@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 05 Sep 2014 13:27:34 +0200</pubDate>
-  <lastBuildDate>Fri, 05 Sep 2014 13:27:34 +0200</lastBuildDate>
+  <pubDate>Thu, 11 Sep 2014 16:05:13 +0200</pubDate>
+  <lastBuildDate>Thu, 11 Sep 2014 16:05:13 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -27,6 +27,39 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>Amber has a new maintainer</title>
+    <link>http://nicolas-petton.fr/blog/amber-new-maintainer.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-new-maintainer.html</guid>
+    <pubDate>Thu, 11 Sep 2014 16:05:00 +0200</pubDate>
+    <category><![CDATA[amber]]></category>
+    <description><![CDATA[
+    <p>
+    As you have probably noticed, I&rsquo;ve been a bit away from Amber for some
+    time.
+    </p>
+
+    <p>
+    Herby has been the unofficial maintainer of Amber since then and he has
+    done an amazing job!
+    </p>
+
+    <p>
+    So, after some discussions we decided to make it a bit more official,
+    so here it is: Herbert Vojčík is the new maintainer of Amber.
+    </p>
+
+    <p>
+    It does not mean that I will totally disappear, I&rsquo;ll stay around!
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/amber-new-maintainer.html">Comments</a>
+    </p>
+    ]]></description>
+  </item>
 
   <item>
     <title>Multi-occur on projects</title>
@@ -218,9 +251,9 @@
 
   <item>
     <title>Farewell RMoD!</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-4</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-5</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-4</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-5</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
     <category><![CDATA[RMoD]]></category>
     <description><![CDATA[
@@ -298,9 +331,9 @@
 
   <item>
     <title>Tide & Marina presentation @RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-6</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-7</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-6</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-7</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
     <category><![CDATA[presentation]]></category>
     <category><![CDATA[rmod]]></category>
@@ -328,9 +361,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-7</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-8</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-7</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-8</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
     <category><![CDATA[pairprogramming]]></category>
     <category><![CDATA[emacs]]></category>
@@ -439,9 +472,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-10</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-11</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-10</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-11</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
     <description><![CDATA[
@@ -645,9 +678,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-16</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-17</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-16</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-17</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
