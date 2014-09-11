@@ -9,20 +9,21 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>amber-new-maintainer</title>
+  <title>(Amber has a new maintainer)</title>
   <atom:link href="http://nicolas-petton.fr/blog/amber-new-maintainer.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 11 Sep 2014 16:05:14 +0200</pubDate>
-  <lastBuildDate>Thu, 11 Sep 2014 16:05:14 +0200</lastBuildDate>
+  <pubDate>Thu, 11 Sep 2014 16:11:18 +0200</pubDate>
+  <lastBuildDate>Thu, 11 Sep 2014 16:11:18 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>amber-new-maintainer</title>
+    <title>(Amber has a new maintainer)</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
+
 
   <item>
     <title>Amber has a new maintainer</title>
