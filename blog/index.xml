@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 11 Sep 2014 16:05:13 +0200</pubDate>
-  <lastBuildDate>Thu, 11 Sep 2014 16:05:13 +0200</lastBuildDate>
+  <pubDate>Fri, 10 Oct 2014 14:22:49 +0200</pubDate>
+  <lastBuildDate>Fri, 10 Oct 2014 14:22:49 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -27,6 +27,24 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>Amber 0.13 released!</title>
+    <link>http://nicolas-petton.fr/blog/amber-0.13-released.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.13-released.html</guid>
+    <pubDate>Fri, 10 Oct 2014 14:22:00 +0200</pubDate>
+    <category><![CDATA[amber]]></category>
+    <description><![CDATA[
+    <p>
+    Amber 0.13.1 has been released!
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/amber-0.13-released.html">Read more</a>
+    </p>
+    ]]></description>
+  </item>
 
   <item>
     <title>Amber has a new maintainer</title>
@@ -251,9 +269,9 @@
 
   <item>
     <title>Farewell RMoD!</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-5</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-6</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-5</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-6</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
     <category><![CDATA[RMoD]]></category>
     <description><![CDATA[
@@ -331,9 +349,9 @@
 
   <item>
     <title>Tide & Marina presentation @RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-7</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-8</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-7</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-8</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
     <category><![CDATA[presentation]]></category>
     <category><![CDATA[rmod]]></category>
@@ -361,9 +379,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-8</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-9</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-8</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-9</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
     <category><![CDATA[pairprogramming]]></category>
     <category><![CDATA[emacs]]></category>
@@ -472,9 +490,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-11</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-12</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-11</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-12</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
     <description><![CDATA[
@@ -678,9 +696,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-17</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-18</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-17</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-18</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
