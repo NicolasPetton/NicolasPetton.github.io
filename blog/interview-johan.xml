@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Interview Företagsplatsen #1: Johan Degerfeldt)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/interview-johan.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Thu, 16 Oct 2014 11:58:38 +0200</pubDate>
+  <lastBuildDate>Thu, 16 Oct 2014 11:58:38 +0200</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
+  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>(Interview Företagsplatsen #1: Johan Degerfeldt)</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+
+  <item>
+    <title>Interview with Johan Degerfeldt</title>
+    <link>http://nicolas-petton.fr/blog/interview-johan.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-johan.html#sec-1</guid>
+    <pubDate>Wed, 11 Jun 2014 15:53:00 +0200</pubDate>
+    <category><![CDATA[interview]]></category>
+    <category><![CDATA[ftgp]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    Oct 16, 2014
+    </div>
+
+    <p>
+    Two months ago I moved to Stockholm, working full-time at
+    <a href="http://foretagsplatsen.se/en">Företagsplatsen</a> as a software engineer. Företagsplatsen (or FTGP for
+    short as we call it) is a really fun IT company to work at, I really
+    enjoy the people and the culture. Just like I did with my previous
+    job at Inria, I decided to do another series of interviews of my
+    colleagues at FTGP.
+    </p>
+
+    <p>
+    As the CEO of the company, it only made sense to interview Johan
+    first. I guess Johan looks like what we imagine of a viking: tall,
+    light hair and a beard, but he is definitely more talkative than the
+    average Swedish guy. He&rsquo;s half of the time joking around and the
+    other half really serious talking business and stuff, making him a
+    really cool guy to work with.
+    </p>
+
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/johan1.jpg" alt="Johan Degerfeldt image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 1:</span> Johan Degerfeldt</p>
+    </div>
+
+    <p>
+    <b><i>Hi Johan, thanks for taking this interview. Can you start
+    by telling me a bit about yourself?</i></b>
+    </p>
+
+    <p>
+    My name is Johan Degerfeldt, I am 38, married (Ida) and have 3 kids.
+    9(Albin), 7(Elmer) and 3 (Nora) years old.
+    </p>
+
+    <p>
+    I live in the northern part of Sweden, in Skellefteå where I was born and
+    raised on the countryside. Both of my grandfathers and my dad have been
+    entrepreneurs and running their own businesses so when I graduated from the
+    university with a masters degree in International Business Administration
+    and a bachelors degree in Informatics an upportunity opened to start up a
+    business in Stockholm with three friends, I took that chance. For 3-4 years
+    we did consultancy work to finance the developement of a product that we
+    now offer the swedish, norwegian and danish tax and accounting agency
+    market. The application helps them to report their finished work so that
+    their clients can appriciate and understand business reports. After living
+    in Stockholm for 5-6 years we moved back north for family reasons as all my
+    kids grandparents live here. Therefore I work 1 week a month from Stockholm
+    and the rest in Skellefteå. Now we are 7-8 employees and growing which is a
+    lot of fun.
+    </p>
+
+    <p>
+    My priorities in life is first to be the best father and husband I can be,
+    second, to stay healthy and work out every lunch and third, to do my best
+    at work.
+    </p>
+
+    <p>
+    My responsibilities at work is to keep the team happy, take care of sales
+    and customer support. Now that we are releasing a brand new version a lot
+    of my time will also be spent on testing.
+    The most fun part of my job is strategic selling and of course to design
+    new features.
+    </p>
+
+    <p>
+    In my spear time I am a soccer coach for both my sons teams.
+    </p>
+
+    <p>
+    Lets end with a few fact about me:
+    </p>
+    <ul class="org-ul">
+    <li>I see myself as being a top 5% father.
+    </li>
+    <li>I am taller than the medium sized Swede.
+    </li>
+    <li>I dream about being a fighter pilot, computer geek or a
+    designer. I am neither!
+    </li>
+    <li>My PR on rowing 500 m is 1:31.
+    </li>
+    <li>On my tombstone it will say, &ldquo;Johan Degerfeldt, a nice guy, above
+    average at most things, great at nothing!&rdquo;
+    </li>
+    </ul>
+
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/johan2.jpg" alt="Johan" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 2:</span> Johan the business man</p>
+    </div>
+
+    <p>
+    <b><i>What do you do to keep the team happy?</i></b>
+    </p>
+
+    <p>
+    Being positive, making coffee and asking questions so that others feel
+    smarter than they really are.
+    And I try to make the team communicate and to focus on ones own
+    contribution to the team.
+    </p>
+
+    <p>
+    <b><i>Can you quickly describe the company and what it does?</i></b>
+    </p>
+
+    <p>
+    Bookkeeping, the art of registration of all business activities into a
+    software for legal and taxation purposes does almost never serve any
+    benefit for small size companies. However larger companies use expert
+    personnel to understand and learn from the history of a company.
+    Företagsplatsen aims to present such bookkeeping data in a way that also
+    small and medium sized companies can understand their company’s financial
+    situation and development.
+    </p>
+
+    <p>
+    Sweden, the land of regulations and standards, have off course given us a
+    kick start on this solution as the entire bookkeeping industry have agreed
+    on a standard export-import format for moving bookkeeping data between the
+    input software and to annual report and taxation software. What we do in
+    Sweden is therefore just do base the entire input on that file standard.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/boardmeeting.jpg" alt="board meeting" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 3:</span> A board meeting</p>
+    </div>
+
+    <p>
+    <b><i>What does a typical day at work look like?</i></b>
+    </p>
+
+    <p>
+    Arrive at 7:52 after leaving my daughter at kinder care.
+    </p>
+
+    <p>
+    Drinking 4,2 cups of coffee.
+    Answering 3,2 support mails from clients.
+    Engaging in 2,3 sales calls.
+    Participate in 0,9 internal meeting on hangout with the developers
+    Creating 0,8 new themes and test accounts for potential customers
+    Having contact with 0,5 partners/resellers on phone or email
+    Doing crossfit on my lunch break for 32 minutes with 1,2 training partners
+    </p>
+
+    <p>
+    Reading 2.1 funny emails that I get sent by someone
+    Creating 0,3 new quotations
+    </p>
+
+    <p>
+    Receiving 0,9 incoming sales calls.
+    </p>
+
+    <p>
+    Doing 0,6 administrative tasks for the company
+    </p>
+
+    <p>
+    Participate in feature discussions for 22 minutes
+    </p>
+
+    <p>
+    Testing new code/features for 16 minutes
+    </p>
+
+    <p>
+    Having 1,3 typical Swedish workplace “fikas” in my shared office space fika
+    room for 13 minutes each
+    </p>
+
+    <p>
+    Engaging in 42 minutes of discussions with Anders or Henrik about business
+    decisions.
+    </p>
+
+
+    <p>
+    Leave my workplace at 16:50
+    </p>
+
+    <p>
+    <b><i>What are the last 3 books that you have read?</i></b>
+    </p>
+
+    <ul class="org-ul">
+    <li><a href="http://www.sisuidrottsbocker.se/Sa-blir-du-varldens-basta-idrottsforalder-1294.aspx">How to become the best sports parent in the world</a> (Read because of
+    my 7 and 9 year old)
+    </li>
+    <li><a href="http://www.barnboksprat.se/tag/knacka-pa/">Nock Nock</a> (Read to my 3 year old)
+    </li>
+    <li><a href="http://harrypotter.wikia.com/wiki/Deathly_Hallows">Deathly Hollows</a> (Read to my 9 year old)
+    </li>
+    </ul>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/johan3.jpg" alt="Johan" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 4:</span> Johan the family man</p>
+    </div>
+
+    <p>
+    <b><i>If you were doing an interview of one of your colleagues, what
+    question would you ask him?</i></b>
+    </p>
+
+    <p>
+    To Ben and Nico:
+    We have an official ranking on &ldquo;Most Gay on Företagsplatsen&rdquo;
+    </p>
+
+    <ol class="org-ol">
+    <li>Henrik
+    </li>
+    <li>Johan
+    </li>
+    <li>Anders
+    </li>
+    <li>Dennis
+    </li>
+    <li>Mikael
+    </li>
+    </ol>
+
+    <p>
+    How do you guys rank yourself in that respect?
+    </p>
+
+
+    <p>
+    <b><i>Thank you Johan!</i></b>
+    </p>
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    ]]></description>
+</item>
+</channel>
+</rss>
