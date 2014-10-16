@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 16 Oct 2014 11:58:38 +0200</pubDate>
-  <lastBuildDate>Thu, 16 Oct 2014 11:58:38 +0200</lastBuildDate>
+  <pubDate>Thu, 16 Oct 2014 15:11:18 +0200</pubDate>
+  <lastBuildDate>Thu, 16 Oct 2014 15:11:18 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -183,47 +183,40 @@
     Arrive at 7:52 after leaving my daughter at kinder care.
     </p>
 
-    <p>
-    Drinking 4,2 cups of coffee.
-    Answering 3,2 support mails from clients.
-    Engaging in 2,3 sales calls.
-    Participate in 0,9 internal meeting on hangout with the developers
-    Creating 0,8 new themes and test accounts for potential customers
-    Having contact with 0,5 partners/resellers on phone or email
-    Doing crossfit on my lunch break for 32 minutes with 1,2 training partners
-    </p>
-
-    <p>
-    Reading 2.1 funny emails that I get sent by someone
-    Creating 0,3 new quotations
-    </p>
-
-    <p>
-    Receiving 0,9 incoming sales calls.
-    </p>
-
-    <p>
-    Doing 0,6 administrative tasks for the company
-    </p>
-
-    <p>
-    Participate in feature discussions for 22 minutes
-    </p>
-
-    <p>
-    Testing new code/features for 16 minutes
-    </p>
-
-    <p>
-    Having 1,3 typical Swedish workplace “fikas” in my shared office space fika
+    <ul class="org-ul">
+    <li>Drinking 4,2 cups of coffee.
+    </li>
+    <li>Answering 3,2 support mails from clients.
+    </li>
+    <li>Engaging in 2,3 sales calls.
+    </li>
+    <li>Participate in 0,9 internal meeting on hangout with the developers
+    </li>
+    <li>Creating 0,8 new themes and test accounts for potential customers
+    </li>
+    <li>Having contact with 0,5 partners/resellers on phone or email
+    </li>
+    <li>Doing crossfit on my lunch break for 32 minutes with 1,2 training partners
+    </li>
+    <li>Reading 2.1 funny emails that I get sent by someone
+    </li>
+    <li>Creating 0,3 new quotations
+    </li>
+    <li>Receiving 0,9 incoming sales calls.
+    </li>
+    <li>Doing 0,6 administrative tasks for the company
+    </li>
+    <li>Participate in feature discussions for 22 minutes
+    </li>
+    <li>Testing new code/features for 16 minutes
+    </li>
+    <li>Having 1,3 typical Swedish workplace “fikas” in my shared office space fika
     room for 13 minutes each
-    </p>
-
-    <p>
-    Engaging in 42 minutes of discussions with Anders or Henrik about business
+    </li>
+    <li>Engaging in 42 minutes of discussions with Anders or Henrik about business
     decisions.
-    </p>
-
+    </li>
+    </ul>
 
     <p>
     Leave my workplace at 16:50
