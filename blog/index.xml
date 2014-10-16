@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 10 Oct 2014 14:22:49 +0200</pubDate>
-  <lastBuildDate>Fri, 10 Oct 2014 14:22:49 +0200</lastBuildDate>
+  <pubDate>Thu, 16 Oct 2014 12:47:05 +0200</pubDate>
+  <lastBuildDate>Thu, 16 Oct 2014 12:47:05 +0200</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
@@ -27,6 +27,44 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>Interview with Johan Degerfeldt</title>
+    <link>http://nicolas-petton.fr/blog/interview-johan.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-johan.html</guid>
+    <pubDate>Thu, 16 Oct 2014 12:43:00 +0200</pubDate>
+    <category><![CDATA[interview]]></category>
+    <category><![CDATA[ftgp]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    Oct 16, 2014
+    </div>
+
+    <p>
+    Two months ago I moved to Stockholm, working full-time at
+    <a href="http://foretagsplatsen.se/en">Företagsplatsen</a> as a software engineer. Företagsplatsen (or FTGP for
+    short as we call it) is a really fun IT company to work at, I really
+    enjoy the people and the culture. Just like I did with my previous
+    job at Inria, I decided to do another series of interviews of my
+    colleagues at FTGP.
+    </p>
+
+    <p>
+    As the CEO of the company, it only made sense to interview Johan
+    first. I guess Johan looks like what we imagine of a viking: tall,
+    light hair and a beard, but he is definitely more talkative than the
+    average Swedish guy. He&rsquo;s half of the time joking around and the
+    other half really serious talking business and stuff, making him a
+    really cool guy to work with.
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/interview-johan.html">Read the interview</a>
+    </p>
+    ]]></description>
+  </item>
+
 
   <item>
     <title>Amber 0.13 released!</title>
@@ -269,9 +307,9 @@
 
   <item>
     <title>Farewell RMoD!</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-6</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-7</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-6</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-7</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
     <category><![CDATA[RMoD]]></category>
     <description><![CDATA[
@@ -349,9 +387,9 @@
 
   <item>
     <title>Tide & Marina presentation @RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-8</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-9</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-8</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-9</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
     <category><![CDATA[presentation]]></category>
     <category><![CDATA[rmod]]></category>
@@ -379,9 +417,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-9</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-10</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-9</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-10</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
     <category><![CDATA[pairprogramming]]></category>
     <category><![CDATA[emacs]]></category>
@@ -490,9 +528,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-12</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-13</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-12</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-13</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
     <description><![CDATA[
@@ -696,9 +734,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-18</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-19</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-18</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-19</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
