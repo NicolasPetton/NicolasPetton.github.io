@@ -9,8 +9,8 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(A dark window decoration for Emacs)</title>
-  <atom:link href="http://nicolas-petton.fr/blog/emacs-dark-window-decoration.xml" rel="self" type="application/rss+xml" />
+  <title>(buffer-watcher.el)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/buffer-watcher.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
@@ -20,53 +20,64 @@
   <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(A dark window decoration for Emacs)</title>
+    <title>(buffer-watcher.el)</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
-    <title>Using a dark window decoration for Emacs in Gnome</title>
-    <link>http://nicolas-petton.fr/blog/emacs-dark-window-decoration.html#sec-1</link>
+    <title>Watching file changes with buffer-watcher.el</title>
+    <link>http://nicolas-petton.fr/blog/buffer-watcher.html#sec-1</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/emacs-dark-window-decoration.html#sec-1</guid>
-    <pubDate>Fri, 29 Aug 2014 09:25:00 +0200</pubDate>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/buffer-watcher.html#sec-1</guid>
+    <pubDate>Fri, 24 Oct 2014 17:55:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
-    <category><![CDATA[gnome]]></category>
     <description><![CDATA[
+    <div class="pubdate">
+    October 24, 2014
+    </div>
+
     <p>
-    Gnome 3&rsquo;s default theme Adwaita has support for both light and dark
-    window decorations. Many media apps like Totem use the dark theme. It
-    puts the focus on the content and it&rsquo;s easier on the eyes.
+    <a href="https://github.com/NicolasPetton/emacs.d/tree/master/local-packages/buffer-watcher">buffer-watcher.el</a> makes it easy to evaluate shell commands each time
+    a buffer is saved in Emacs.
     </p>
 
     <p>
-    Emacs with a <a href="https://github.com/niflheim-theme/emacs">dark theme</a> and the large white-ish window decoration
-    isn&rsquo;t really a fit on my desktop, but that can be easily fixed using a
-    bit of elisp with xprop!
+    You can specify a mode and base path for which a specific script
+    should be evaluated, and each time you save a buffer that matches
+    the criteria, the hook will be run.
+    </p>
+
+    <p>
+    Here&rsquo;s an example that runs <code>lessc</code> each time a less file is saved
+    in the project <code>proj</code>:
     </p>
 
     <div class="org-src-container">
 
-    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">set-selected-frame-dark</span> ()
-    (interactive)
-    (<span style="color: #f7af75; font-weight: bold;">let</span> ((frame-name (get-frame-name (selected-frame))))
-    (call-process-shell-command (concat <span style="color: #789771;">"xprop -f _GTK_THEME_VARIANT 8u -set _GTK_THEME_VARIANT \"dark\" -name \""</span>
-    frame-name
-    <span style="color: #789771;">"\""</span>))))
-
-    (<span style="color: #f7af75; font-weight: bold;">if</span> (window-system)
-    (set-selected-frame-dark))
+    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">require</span> '<span style="color: #da8548; font-weight: bold;">buffer-watcher</span>)
+    (add-to-list 'buffer-watcher-commands '(<span style="color: #789771;">"Lessc hook"</span> less-mode <span style="color: #789771;">"~/projects/proj/"</span> <span style="color: #789771;">"lessc % &gt; style.css"</span>))
     </pre>
     </div>
 
     <p>
-    Here&rsquo;s a screenshot of both versions:
+    The command will be run from within the same folder as the save file,
+    and <code>%</code> is expanded to the buffer&rsquo;s file name.
     </p>
 
     <p>
-    <img src="http://nicolas-petton.fr/blog/../images/emacs-light.png" alt="emacs-light.png" />
-    <img src="http://nicolas-petton.fr/blog/../images/emacs-dark.png" alt="emacs-dark.png" />
+    If you&rsquo;re into <code>customize</code>, you can <code>M-x customize-group RET
+    buffer-watcher</code> to add your commands.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/buffer-watcher.png" alt="buffer-watcher.png" />
+    </p>
+    </div>
+
+    <p>
+    You can grab buffer-watcher from my <a href="https://github.com/NicolasPetton/emacs.d/tree/master/local-packages/buffer-watcher">emacs settings</a> on GitHub.
     </p>
 
 
