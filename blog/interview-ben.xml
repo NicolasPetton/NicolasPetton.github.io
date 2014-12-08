@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Interview Företagsplatsen #2: Benjamin Van Ryseghem)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/interview-ben.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Mon, 08 Dec 2014 18:06:02 +0100</pubDate>
+  <lastBuildDate>Mon, 08 Dec 2014 18:06:02 +0100</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.10</generator>
+  <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>(Interview Företagsplatsen #2: Benjamin Van Ryseghem)</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+
+  <item>
+    <title>Interview with Benjamin Van Ryseghem</title>
+    <link>http://nicolas-petton.fr/blog/interview-ben.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-ben.html#sec-1</guid>
+    <pubDate>Mon, 08 Dec 2014 17:38:00 +0100</pubDate>
+    <category><![CDATA[FTGP]]></category>
+    <category><![CDATA[interview]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    Dec 8, 2014
+    </div>
+
+    <p>
+    Four months ago I moved to Stockholm, working full-time at
+    <a href="http://foretagsplatsen.se/en">Företagsplatsen</a> as a software engineer. Företagsplatsen (or FTGP for
+    short as we call it) is a really fun IT company to work at, I really
+    enjoy the people and the culture. Just like I did with my previous
+    job at Inria, I decided to do another series of interviews of my
+    colleagues at FTGP.
+    </p>
+
+    <p>
+    This is the second post of my series of interviews of my colleagues
+    at <a href="http://foretagsplatsen.se">FTGP</a>.
+    </p>
+
+    <p>
+    Ben joined FTGP almost a year ago. We previously worked together in
+    the <a href="http://rmod.inria.fr">RMOD</a> team at Inria. We shared our office with <a href="http://damiencassou.seasidehosting.st">Damien</a> and the
+    three of us had a lot of fun working together.
+    </p>
+
+    <p>
+    Ben is a very close friend and a wonderful colleague, always joking
+    around while always being ready to work. We do a lot of
+    pair-programming sessions together, and often meet after work for a
+    beer (those of you who know him know that I would be the one taking
+    a beer, he would always take a coke), and do some coding evenings on
+    opensource <a href="http://www.teamwall.io/">projects</a> together.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/ben-at-work.jpg" alt="Benjamin Van Ryseghem image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 1:</span> Ben at work</p>
+    </div>
+
+
+    <p>
+    <b><i>Hi Benjamin, thanks for taking this interview.
+    First things first, could you tell me a bit about yourself?</i></b>
+    </p>
+
+    <p>
+    Really?
+    </p>
+
+    <p>
+    Like we did not work together for the last 4 years? ;)
+    </p>
+
+    <p>
+    So, I am Ben, 26yo, french and currently living in Stockholm for some months.
+    I am a former Smalltalker, but nowadays more interested by Clojure/ClojureScript.
+    </p>
+
+    <p>
+    At work I mainly work on the client part of our application done in Javascript.
+    We are currently redoing the whole UI/UX and I really enjoy this :)
+    </p>
+
+    <p>
+    I also spend quite a lot convincing Henrik (our CTO) to use more and
+    more design patterns (like a lot ^^).
+    </p>
+
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/ben-laptop.jpg" alt="Ben's laptop image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 2:</span> Ben&rsquo;s laptop</p>
+    </div>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/ben-keyboard.jpg" alt="Ben's keyboard image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 3:</span> Ben&rsquo;s keyboard</p>
+    </div>
+
+    <p>
+    <b><i>Can you describe a typical work day at Företagsplatsen?</i></b>
+    </p>
+
+    <p>
+    I always start my day by emptying my email inbox (I am a &ldquo;0 email
+    inbox” addict), and catching up what happened in the world, and in our
+    codebase.
+    </p>
+
+    <p>
+    I usually then spend 30 minutes to one hour to review the open pull
+    requests (it goes with the “catching up” of what happened).
+    </p>
+
+    <p>
+    Then depending on when I arrived at the office, either I pick a
+    ticket and start working on it or I plan our 11am meeting. We have a
+    daily meeting at 11am to plan the day, joke a lot and drink a
+    coffee.  We try to have it short but it is usually around half an
+    hour.
+    </p>
+
+    <p>
+    We then work roughly half an hour and go to eat all together. These
+    days, it’s between burgers and pizzas ;) It’s usually no longer than
+    one hour.
+    </p>
+
+    <p>
+    The afternoon is spent killing as many tickets as I can, often pair
+    programming with others. Then I harass Henrik so he reviews my PRs
+    (or “push the green button” as we call it :P)
+    </p>
+
+    <p>
+    I try to end the day with a bit a &ldquo;relaxation coding” by coding a
+    bit on my own projects.
+    </p>
+
+    <p>
+    I think this sums it up :)
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/ben-fika.jpg" alt="fika" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 4:</span> A swedish fika</p>
+    </div>
+
+    <p>
+    <b><i>What do you do on your free time? (both in front of and
+    away from your computer)</i></b>
+    </p>
+
+    <p>
+    In front of my computer, I like to experiment a lot.
+    </p>
+
+    <p>
+    It explains why I have a lot of GitHub projects (most of them are
+    just prototypes). Nowadays I am discovering Clojure and really like
+    it.
+    </p>
+
+    <p>
+    When I am away of my computer, I like to read (currently reading again
+    LoTR), I am also a gamer (video games but also tabletop games).
+    </p>
+
+    <p>
+    And when my brain is off, I watch series and movies (with a little
+    preferences for grade-Z movies ^^).
+    </p>
+
+    <p>
+    And for the days I am not afraid of natural light, I enjoy sharing a
+    drink with friends.
+    </p>
+
+    <p>
+    <b><i>In his <a href="http://nicolas-petton.fr/blog/interview-johan.html">interview</a>, Johan has a question for you: We have an official ranking on &ldquo;Most Gay on Företagsplatsen&rdquo;. How do you rank yourself in that respect?</i></b>
+    </p>
+
+    <p>
+    Well well well… I think I would slip between Dennis and Mikael. I
+    have longer hairs than Mikael, and I do not ass kick people on a
+    regular basis so ;)
+    </p>
+
+    <p>
+    <b><i>If you were giving an interview, what question would you ask another member of the team?</i></b>
+    </p>
+
+    <p>
+    What’s the biggest change since you had the (amazing/crazy) idea to hire to frenchies? ;)
+    </p>
+
+    <p>
+    <b><i>Thank you Ben!</i></b>
+    </p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    ]]></description>
+</item>
+</channel>
+</rss>

@@ -14,10 +14,10 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 24 Oct 2014 18:12:11 +0200</pubDate>
-  <lastBuildDate>Fri, 24 Oct 2014 18:12:11 +0200</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
-  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <pubDate>Mon, 08 Dec 2014 17:53:01 +0100</pubDate>
+  <lastBuildDate>Mon, 08 Dec 2014 17:53:01 +0100</lastBuildDate>
+  <generator>Emacs 24.3 Org-mode 8.2.10</generator>
+  <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
     <title>(Nicolas Petton's weblog)</title>
@@ -27,6 +27,36 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>Interview with Benjamin Van Ryseghem</title>
+    <link>http://nicolas-petton.fr/blog/interview-ben.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-ben.html</guid>
+    <pubDate>Mon, 08 Dec 2014 17:51:00 +0100</pubDate>
+    <category><![CDATA[interview]]></category>
+    <category><![CDATA[ftgp]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    Dec 8, 2014
+    </div>
+
+    <p>
+    This is the second post of my series of interviews of my colleagues
+    at <a href="http://foretagsplatsen.se">FTGP</a>.
+    </p>
+
+    <p>
+    Ben joined FTGP almost a year ago. We previously worked together in
+    the <a href="http://rmod.inria.fr">RMOD</a> team at Inria. We shared our office with <a href="http://damiencassou.seasidehosting.st">Damien</a> and the
+    three of us had a lot of fun working together.
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/interview-ben.html">Read the interview</a>
+    </p>
+    ]]></description>
+  </item>
 
   <item>
     <title>Watching file changes with buffer-watcher.el</title>
@@ -368,9 +398,9 @@
 
   <item>
     <title>Farewell RMoD!</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-8</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-9</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-8</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-9</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
     <category><![CDATA[RMoD]]></category>
     <description><![CDATA[
@@ -448,9 +478,9 @@
 
   <item>
     <title>Tide & Marina presentation @RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-10</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-11</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-10</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-11</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
     <category><![CDATA[presentation]]></category>
     <category><![CDATA[rmod]]></category>
@@ -478,9 +508,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-11</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-12</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-11</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-12</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
     <category><![CDATA[pairprogramming]]></category>
     <category><![CDATA[emacs]]></category>
@@ -589,9 +619,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-14</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-15</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-14</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-15</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
     <description><![CDATA[
@@ -795,9 +825,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-20</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-21</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-20</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-21</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
