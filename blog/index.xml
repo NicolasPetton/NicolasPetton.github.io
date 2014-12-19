@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 08 Dec 2014 17:53:01 +0100</pubDate>
-  <lastBuildDate>Mon, 08 Dec 2014 17:53:01 +0100</lastBuildDate>
+  <pubDate>Fri, 19 Dec 2014 12:29:55 +0100</pubDate>
+  <lastBuildDate>Fri, 19 Dec 2014 12:29:55 +0100</lastBuildDate>
   <generator>Emacs 24.3 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -27,6 +27,42 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>No, I'm no doing any Smalltalk anymore</title>
+    <link>http://nicolas-petton.fr/blog/no-more-smalltalk.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/no-more-smalltalk.html</guid>
+    <pubDate>Fri, 19 Dec 2014 12:29:00 +0100</pubDate>
+    <category><![CDATA[amber]]></category>
+    <category><![CDATA[iliad]]></category>
+    <category><![CDATA[smalltalk]]></category>
+    <description><![CDATA[
+    <div class="pubdate">
+    December 19, 2014
+    </div>
+
+    <p>
+    ... at least for now!
+    </p>
+
+    <p>
+    Since I decided to step down as <a href="http://nicolas-petton.fr/blog/amber-new-maintainer.html">Amber maintainer</a>, several colleagues
+    and friends have asked me why I wasn&rsquo;t doing any Smalltalk anymore,
+    some urging me to get back on track.
+    </p>
+
+    <p>
+    This is an attempt to explain why I&rsquo;m currently not doing any
+    Smalltalk.
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/no-more-smalltalk.html">Read the full post</a>.
+    </p>
+    ]]></description>
+  </item>
+
 
   <item>
     <title>Interview with Benjamin Van Ryseghem</title>
@@ -398,9 +434,9 @@
 
   <item>
     <title>Farewell RMoD!</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-9</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-10</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-9</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-10</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
     <category><![CDATA[RMoD]]></category>
     <description><![CDATA[
@@ -478,9 +514,9 @@
 
   <item>
     <title>Tide & Marina presentation @RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-11</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-12</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-11</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-12</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
     <category><![CDATA[presentation]]></category>
     <category><![CDATA[rmod]]></category>
@@ -508,9 +544,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-12</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-13</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-12</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-13</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
     <category><![CDATA[pairprogramming]]></category>
     <category><![CDATA[emacs]]></category>
@@ -619,9 +655,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-15</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-16</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-15</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-16</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
     <category><![CDATA[emacs]]></category>
     <description><![CDATA[
@@ -825,9 +861,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-21</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-22</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-21</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-22</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
     <category><![CDATA[emacs]]></category>
     <category><![CDATA[theme]]></category>
