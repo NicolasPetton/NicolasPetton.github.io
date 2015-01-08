@@ -14,9 +14,9 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 19 Dec 2014 12:29:55 +0100</pubDate>
-  <lastBuildDate>Fri, 19 Dec 2014 12:29:55 +0100</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.10</generator>
+  <pubDate>Thu, 08 Jan 2015 22:04:49 +0100</pubDate>
+  <lastBuildDate>Thu, 08 Jan 2015 22:04:49 +0100</lastBuildDate>
+  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
@@ -845,17 +845,17 @@
     <category><![CDATA[RMoD]]></category>
     <description><![CDATA[<div class="pubdate">
     February 7, 2014
-  </div>
+    </div>
 
-  <p>
+    <p>
     This is the third post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
     colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France). This is the
     interview of Stéphane Ducasse, our leader and the backbone of RMoD.
-  </p>
+    </p>
 
-  <p>
+    <p>
     <a href="http://nicolas-petton.fr/blog/interview-stef.html">Read the interview!</a>
-  </p>
+    </p>
     ]]></description>
   </item>
 
@@ -896,17 +896,17 @@
     <category><![CDATA[RMoD]]></category>
     <description><![CDATA[<div class="pubdate">
     February 6, 2014
-  </div>
+    </div>
 
-  <p>
+    <p>
     This is the second post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
     colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France). This time I
     interview Esteban Lorenzano, my neighbour, colleague and friend.
-  </p>
+    </p>
 
-  <p>
+    <p>
     <a href="http://nicolas-petton.fr/blog/interview-esteban.html">Read the interview!</a>
-  </p>
+    </p>
     ]]></description>
   </item>
 
@@ -1164,11 +1164,11 @@
     <category><![CDATA[smalltalks]]></category>
     <description><![CDATA[
     <div class="pubdate">
-    December 3, 2013
+      December 3, 2013
     </div>
 
     <p>
-    I just put online <a href="http://nicolas-petton.fr/ressources/amber-smalltalks-2013/index.html">slides</a> from my presentation of <a href="http://amber-lang.net">Amber</a> at <a href="http://www.fast.org.ar/smalltalks2013/">Smalltalks 2013</a> in Rosario.
+      I just put online <a href="http://nicolas-petton.fr/ressources/amber-smalltalks-2013/index.html">slides</a> from my presentation of <a href="http://amber-lang.net">Amber</a> at <a href="http://www.fast.org.ar/smalltalks2013/">Smalltalks 2013</a> in Rosario.
     </p>
     ]]></description>
   </item>

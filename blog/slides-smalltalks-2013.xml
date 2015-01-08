@@ -14,10 +14,10 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 24 Oct 2014 18:08:05 +0200</pubDate>
-  <lastBuildDate>Fri, 24 Oct 2014 18:08:05 +0200</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
-  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <pubDate>Thu, 08 Jan 2015 22:04:40 +0100</pubDate>
+  <lastBuildDate>Thu, 08 Jan 2015 22:04:40 +0100</lastBuildDate>
+  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
     <title>slides-smalltalks-2013</title>
@@ -35,11 +35,11 @@
     <category><![CDATA[smalltalks]]></category>
     <description><![CDATA[
     <div class="pubdate">
-    December 3, 2013
+      December 3, 2013
     </div>
 
     <p>
-    I just put online <a href="http://nicolas-petton.fr/ressources/amber-smalltalks-2013/index.html">slides</a> from my presentation of <a href="http://amber-lang.net">Amber</a> at <a href="http://www.fast.org.ar/smalltalks2013/">Smalltalks 2013</a> in Rosario.
+      I just put online <a href="http://nicolas-petton.fr/ressources/amber-smalltalks-2013/index.html">slides</a> from my presentation of <a href="http://amber-lang.net">Amber</a> at <a href="http://www.fast.org.ar/smalltalks2013/">Smalltalks 2013</a> in Rosario.
     </p>
     ]]></description>
   </item>

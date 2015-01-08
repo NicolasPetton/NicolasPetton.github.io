@@ -14,10 +14,10 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 24 Oct 2014 18:08:07 +0200</pubDate>
-  <lastBuildDate>Fri, 24 Oct 2014 18:08:07 +0200</lastBuildDate>
-  <generator>Emacs 24.3 Org-mode 8.2.7c</generator>
-  <webMaster>petton.nicolas@gmail.com (Nicolas Petton)</webMaster>
+  <pubDate>Thu, 08 Jan 2015 22:04:45 +0100</pubDate>
+  <lastBuildDate>Thu, 08 Jan 2015 22:04:45 +0100</lastBuildDate>
+  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
     <title>(Interview Företagsplatsen #1: Johan Degerfeldt)</title>
@@ -249,27 +249,22 @@
     </p>
 
     <p>
-    To Ben and Nico:
-    We have an official ranking on &ldquo;Most Gay on Företagsplatsen&rdquo;
+    Ben: I would like you to compare Sweden and France on the following
+    5 questions (better or worse):
     </p>
 
-    <ol class="org-ol">
-    <li>Henrik
+    <ul class="org-ul">
+    <li>Sweden is ...... than France at Ice hockey.
     </li>
-    <li>Johan
+    <li>Swedish hamburgers are ....... tasting than french ones.
     </li>
-    <li>Anders
+    <li>Swedish salaries are ....... than French ones.
     </li>
-    <li>Dennis
+    <li>Swedish co-workers are ....... than French ones.
     </li>
-    <li>Mikael
+    <li>Swedish girls are ....... looking than French ones.
     </li>
-    </ol>
-
-    <p>
-    How do you guys rank yourself in that respect?
-    </p>
-
+    </ul>
 
     <p>
     <b><i>Thank you Johan!</i></b>
