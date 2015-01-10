@@ -4,8 +4,10 @@
   width: 900px;
 }
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans;
+  font-family: Georgia, sans-serif;
   line-height: 1.5;
+  letter-spacing: 0.01rem;
+  font-size: 20px;
   background: #fff;
   color: #444444;
 }
@@ -37,15 +39,15 @@ body h2 {
   font-size: 32px;
 }
 body h3 {
-  font-size: 18px;
+  font-size: 24px;
 }
 body a {
   text-decoration: none;
-  color: #31576b;
+  color: #0e958b;
   text-decoration: underline;
 }
 body a:hover {
-  color: #111e25;
+  color: #053834;
 }
 body pre {
   background: white;
@@ -56,6 +58,9 @@ body code {
   padding: 2px 4px;
   color: #444444;
 }
+body li {
+  list-style: circle;
+}
 body img {
   border: 1px solid #ccc;
   max-width: 600px;
@@ -65,7 +70,7 @@ body .tag {
   font-size: 0.6em;
 }
 body .tag span {
-  background: #31576b;
+  background: #0e958b;
   color: white;
   padding: 2px 5px;
   border-radius: 4px;
@@ -103,7 +108,7 @@ body #postamble {
   color: #aaa;
 }
 body #postamble a {
-  color: #5290b0;
+  color: #1feadb;
 }
 body .intro {
   padding: 20px 0px;
