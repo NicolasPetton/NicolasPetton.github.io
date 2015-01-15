@@ -137,15 +137,16 @@ body #postamble {
 body #postamble a {
   color: #5bbfed;
 }
+@media (min-width: 800px) {
+  body #preamble {
+    width: 800px;
+    margin: 0px auto;
+    position: relative;
+  }
+}
 body .intro {
   padding-top: 20px;
   color: #BBB;
-}
-@media (min-width: 800px) {
-  body .intro {
-    width: 800px;
-    margin: 0px auto;
-  }
 }
 body .intro h1 {
   font-size: 42px;
@@ -165,7 +166,7 @@ body .nav {
   body .nav {
     font-size: 16px;
     position: absolute;
-    right: 38px;
+    right: 0;
     top: 0;
   }
 }
@@ -184,7 +185,6 @@ body .nav ul li {
   margin: 0;
 }
 body .nav ul li a {
-  line-height: 46px;
   display: inline-block;
   padding-right: 6px;
   border-radius: 0;
