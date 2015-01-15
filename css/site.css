@@ -169,6 +169,11 @@ body .nav ul {
     margin: 0 auto;
   }
 }
+@media (max-width: 800px) {
+  body .nav ul {
+    font-size: 14px;
+  }
+}
 body .nav ul li {
   color: #999;
   display: inline-block;

@@ -15,5 +15,14 @@
     -webkit-column-gap: 3em;
     column-count: 2;
     column-gap: 3em;
+    list-style: outside disc;
+  }
+  .index .org-ul li {
+    margin-left: 1em;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -o-column-break-inside: avoid;
+    -ms-column-break-inside: avoid;
+    column-break-inside: avoid;
   }
 }
