@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 08 Jan 2015 22:04:50 +0100</pubDate>
-  <lastBuildDate>Thu, 08 Jan 2015 22:04:50 +0100</lastBuildDate>
+  <pubDate>Thu, 15 Jan 2015 00:38:41 +0100</pubDate>
+  <lastBuildDate>Thu, 15 Jan 2015 00:38:41 +0100</lastBuildDate>
   <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -26,12 +26,12 @@
 
 
   <item>
-    <title>Farewell RMoD!</title>
+    <title>*Farewell* RMoD!</title>
     <link>http://nicolas-petton.fr/blog/farewell-rmod.html#sec-1</link>
     <author>Nicolas Petton</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/farewell-rmod.html#sec-1</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
-    <category><![CDATA[RMoD]]></category>
+
     <description><![CDATA[
     <p>
     Today is my last day at <a href="http://rmod.inria.fr/">RMoD</a>. 

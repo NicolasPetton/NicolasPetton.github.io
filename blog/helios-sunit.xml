@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 08 Jan 2015 22:04:49 +0100</pubDate>
-  <lastBuildDate>Thu, 08 Jan 2015 22:04:49 +0100</lastBuildDate>
+  <pubDate>Thu, 15 Jan 2015 00:38:41 +0100</pubDate>
+  <lastBuildDate>Thu, 15 Jan 2015 00:38:41 +0100</lastBuildDate>
   <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -26,14 +26,12 @@
 
 
   <item>
-    <title>Amber's new test runner</title>
+    <title>*Amber* test runner</title>
     <link>http://nicolas-petton.fr/blog/helios-sunit.html#sec-1</link>
     <author>Nicolas Petton</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/helios-sunit.html#sec-1</guid>
     <pubDate>Tue, 13 May 2014 14:08:00 +0200</pubDate>
-    <category><![CDATA[amber]]></category>
-    <category><![CDATA[smalltalk]]></category>
-    <category><![CDATA[helios]]></category>
+
     <description><![CDATA[
     <div class="pubdate">
     May 13, 2014

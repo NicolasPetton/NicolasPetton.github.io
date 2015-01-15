@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 08 Jan 2015 22:04:50 +0100</pubDate>
-  <lastBuildDate>Thu, 08 Jan 2015 22:04:50 +0100</lastBuildDate>
+  <pubDate>Thu, 15 Jan 2015 00:38:41 +0100</pubDate>
+  <lastBuildDate>Thu, 15 Jan 2015 00:38:41 +0100</lastBuildDate>
   <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -25,14 +25,12 @@
   </image>
 
   <item>
-    <title>Keybindings in Amber's new IDE</title>
+    <title>*Keybindings* in Amber's new IDE</title>
     <link>http://nicolas-petton.fr/blog/helios-keybindings.html#sec-1</link>
     <author>Nicolas Petton</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/helios-keybindings.html#sec-1</guid>
     <pubDate>Mon, 13 Jan 2014 13:10:00 +0100</pubDate>
-    <category><![CDATA[helios]]></category>
-    <category><![CDATA[amber]]></category>
-    <category><![CDATA[smalltalk]]></category>
+
     <description><![CDATA[
     <div class="pubdate">
     January 13, 2014

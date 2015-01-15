@@ -9,29 +9,29 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Amber has a new maintainer)</title>
+  <title>((bold (:begin 1 :end 9 :contents-begin 2 :contents-end 7 :post-blank 1 :parent #0) Amber) update)</title>
   <atom:link href="http://nicolas-petton.fr/blog/amber-new-maintainer.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 08 Jan 2015 22:04:51 +0100</pubDate>
-  <lastBuildDate>Thu, 08 Jan 2015 22:04:51 +0100</lastBuildDate>
+  <pubDate>Thu, 15 Jan 2015 00:38:43 +0100</pubDate>
+  <lastBuildDate>Thu, 15 Jan 2015 00:38:43 +0100</lastBuildDate>
   <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Amber has a new maintainer)</title>
+    <title>((bold (:begin 1 :end 9 :contents-begin 2 :contents-end 7 :post-blank 1 :parent #0) Amber) update)</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
-    <title>Amber has a new maintainer</title>
+    <title>*Amber* has a new maintainer</title>
     <link>http://nicolas-petton.fr/blog/amber-new-maintainer.html</link>
     <author>Nicolas Petton</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-new-maintainer.html</guid>
     <pubDate>Thu, 11 Sep 2014 16:05:00 +0200</pubDate>
-    <category><![CDATA[amber]]></category>
+
     <description><![CDATA[
     <p>
     As you have probably noticed, I&rsquo;ve been a bit away from Amber for some

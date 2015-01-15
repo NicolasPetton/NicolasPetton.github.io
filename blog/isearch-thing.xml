@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 08 Jan 2015 22:04:44 +0100</pubDate>
-  <lastBuildDate>Thu, 08 Jan 2015 22:04:44 +0100</lastBuildDate>
+  <pubDate>Thu, 15 Jan 2015 01:28:52 +0100</pubDate>
+  <lastBuildDate>Thu, 15 Jan 2015 01:28:52 +0100</lastBuildDate>
   <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -25,20 +25,20 @@
   </image>
 
   <item>
-    <title>iSearch thing</title>
+    <title>*isearch* thing</title>
     <link>http://nicolas-petton.fr/blog/isearch-thing.html#sec-1</link>
     <author>Nicolas Petton</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/isearch-thing.html#sec-1</guid>
     <pubDate>Tue, 26 Aug 2014 14:00:00 +0200</pubDate>
-    <category><![CDATA[emacs]]></category>
+
     <description><![CDATA[
     <p>
-    Wouldn&rsquo;t it be awesome if when using iSearch, I could search for the symbol
+    Wouldn&rsquo;t it be awesome if when using isearch, I could search for the symbol
     under the cursor, or the active region if any?
     </p>
 
     <p>
-    Unfortunately, AFAIK iSearch can search for the next word (with <code>C-w</code>), but not
+    Unfortunately, AFAIK isearch can search for the next word (with <code>C-w</code>), but not
     the symbol at point or the region contents. This small snippet fixes the
     problem!
     </p>

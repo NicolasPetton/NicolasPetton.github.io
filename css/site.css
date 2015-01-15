@@ -1,23 +1,33 @@
-.centered {
-  margin: 0 auto;
-  max-width: 900px;
-  width: 900px;
+@media (min-width: 800px) {
+  .centered {
+    margin: 0 auto;
+    max-width: 800px !important;
+    width: 800px !important;
+  }
 }
 body {
-  font-family: Georgia, serif;
+  font-family: Helvetica, sans-serif;
   line-height: 1.5;
-  letter-spacing: 0.01rem;
-  font-size: 20px;
+  font-size: 18px;
   background: #fff;
-  color: #444444;
+  color: #666666;
 }
 body h1,
 body h2,
 body h3,
 body h4 {
-  color: #444444;
   font-weight: normal;
-  font-family: Oswald, sans;
+  margin: 0;
+  padding: 0;
+  color: #444444;
+}
+body h1 b,
+body h2 b,
+body h3 b,
+body h4 b {
+  display: block;
+  line-height: 1;
+  font-size: 150%;
 }
 body h1 img,
 body h2 img,
@@ -28,56 +38,66 @@ body h4 img {
 }
 body h1 {
   font-size: 42px;
+  margin-top: 40px;
 }
 body h1.title {
-  text-align: left;
+  display: none;
 }
 body h2 {
-  color: #444444;
-  margin-top: 50px;
+  margin-top: 60px;
   position: relative;
   font-size: 32px;
 }
 body h3 {
-  font-size: 24px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 body a {
   text-decoration: none;
-  color: #0e958b;
-  text-decoration: underline;
+  color: #1692cc;
 }
 body a:hover {
-  color: #053834;
+  color: #0c5070;
+  text-decoration: underline;
 }
 body pre {
   background: white;
+}
+body pre.src {
+  overflow-y: auto !important;
+  font-size: 16px;
 }
 body code {
   background: #eee;
   border: 1px solid #ccc;
   padding: 2px 4px;
-  color: #444444;
-}
-body li {
-  list-style: circle;
+  color: #666666;
+  overflow-x: auto;
 }
 body img {
   border: 1px solid #ccc;
-  max-width: 600px;
+  height: auto;
+  max-width: 70%;
+}
+@media (max-width: 800px) {
+  body img {
+    max-width: 100%;
+  }
+}
+body img.no-border {
+  border: none;
 }
 body .tag {
   background: transparent;
   font-size: 0.6em;
 }
 body .tag span {
-  background: #0e958b;
+  background: #1692cc;
   color: white;
   padding: 2px 5px;
   border-radius: 4px;
 }
 body .pubdate {
-  font-family: "Libre Baskerville", Georgia, "Times New Roman", sans-serif;
-  font-style: italic;
   color: #aaa;
   font-size: 18px;
   margin-bottom: 20px;
@@ -92,11 +112,13 @@ body .nav-blog {
 body .org-info-js_info-navigation {
   background: #bbbbbb;
 }
-body #content,
-body #postamble {
-  margin: 0 auto;
-  max-width: 900px;
-  width: 900px;
+@media (min-width: 800px) {
+  body #content,
+  body #postamble {
+    margin: 0 auto;
+    max-width: 800px !important;
+    width: 800px !important;
+  }
 }
 body #content {
   margin-top: 10px;
@@ -104,23 +126,27 @@ body #content {
 body #postamble {
   font-size: 0.8em;
   margin-top: 50px;
-  text-align: center;
+  text-align: right;
   color: #aaa;
 }
 body #postamble a {
-  color: #1feadb;
+  color: #5bbfed;
 }
 body .intro {
   padding: 20px 0px;
-  border-bottom: 1px solid #CCC;
-  width: 900px;
-  margin: 0px auto;
+  border-bottom: 1px solid #BBB;
   margin-bottom: 20px;
-  color: #CCC;
+  color: #BBB;
+}
+@media (min-width: 800px) {
+  body .intro {
+    width: 800px;
+    margin: 0px auto;
+  }
 }
 body .intro h1 {
   font-size: 42px;
-  color: #CCC;
+  color: #BBB;
   margin: 0;
   padding: 0;
 }
@@ -129,27 +155,33 @@ body .intro p {
   font-size: 14px !important;
 }
 body .nav {
-  font-family: Oswald, sans;
-  text-align: center;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 8px;
 }
 body .nav ul {
   list-style: none;
-  width: 900px;
-  margin: 0 auto;
   padding: 0;
 }
+@media (min-width: 800px) {
+  body .nav ul {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
 body .nav ul li {
+  color: #999;
   display: inline-block;
   margin: 0;
 }
 body .nav ul li a {
   line-height: 46px;
   display: inline-block;
-  padding: 0 20px;
+  padding-right: 6px;
   border-radius: 0;
   text-decoration: none;
-  font-weight: normal;
-  color: #aaa;
+  font-weight: bold;
+  color: #ccc;
 }
 body .nav ul li a:hover {
   text-decoration: underline;
@@ -159,4 +191,14 @@ body #disqus_thread {
 }
 body .clearfix {
   clear: both;
+}
+@media (min-width: 800px) {
+  body .contact {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-gap: 3em;
+    -webkit-column-gap: 3em;
+    column-count: 2;
+    column-gap: 3em;
+  }
 }

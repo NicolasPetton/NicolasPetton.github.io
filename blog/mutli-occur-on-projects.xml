@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 08 Jan 2015 22:04:44 +0100</pubDate>
-  <lastBuildDate>Thu, 08 Jan 2015 22:04:44 +0100</lastBuildDate>
+  <pubDate>Thu, 15 Jan 2015 00:38:36 +0100</pubDate>
+  <lastBuildDate>Thu, 15 Jan 2015 00:38:36 +0100</lastBuildDate>
   <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -26,12 +26,12 @@
 
 
   <item>
-    <title>Multi-occur on projects</title>
+    <title>*Multi-occur* on projects</title>
     <link>http://nicolas-petton.fr/blog/multi-occur-on-projects.html</link>
     <author>Nicolas Petton</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/multi-occur-on-projects.html</guid>
     <pubDate>Fri, 05 Sep 2014 13:01:00 +0200</pubDate>
-    <category><![CDATA[emacs]]></category>
+
     <description><![CDATA[
     <p>
     <b>Update</b>: <a href="http://damiencassou.seasidehosting.st/">Damien Cassou</a> tricked me into extracting it in a
