@@ -47,6 +47,7 @@ body h2 {
   margin-top: 60px;
   position: relative;
   font-size: 32px;
+  border-bottom: 1px solid #bbb;
 }
 body h3 {
   font-size: 20px;
@@ -104,6 +105,7 @@ body .pubdate {
   color: #aaa;
   font-size: 18px;
   margin-bottom: 20px;
+  text-align: right;
 }
 body .pubdate p {
   display: inline;
@@ -136,9 +138,7 @@ body #postamble a {
   color: #5bbfed;
 }
 body .intro {
-  padding: 20px 0px;
-  border-bottom: 1px solid #BBB;
-  margin-bottom: 20px;
+  padding-top: 20px;
   color: #BBB;
 }
 @media (min-width: 800px) {
@@ -158,24 +158,25 @@ body .intro p {
   font-size: 14px !important;
 }
 body .nav {
-  font-weight: bold;
   text-align: left;
   margin-top: 8px;
+}
+@media (min-width: 800px) {
+  body .nav {
+    font-size: 16px;
+    position: absolute;
+    right: 38px;
+    top: 0;
+  }
+}
+@media (max-width: 800px) {
+  body .nav {
+    font-size: 14px;
+  }
 }
 body .nav ul {
   list-style: none;
   padding: 0;
-}
-@media (min-width: 800px) {
-  body .nav ul {
-    width: 800px;
-    margin: 0 auto;
-  }
-}
-@media (max-width: 800px) {
-  body .nav ul {
-    font-size: 14px;
-  }
 }
 body .nav ul li {
   color: #999;
@@ -187,12 +188,8 @@ body .nav ul li a {
   display: inline-block;
   padding-right: 6px;
   border-radius: 0;
-  text-decoration: none;
-  font-weight: bold;
-  color: #ccc;
-}
-body .nav ul li a:hover {
   text-decoration: underline;
+  font-weight: normal;
 }
 body #disqus_thread {
   margin-top: 40px;
