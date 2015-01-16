@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 15 Jan 2015 17:50:26 +0100</pubDate>
-  <lastBuildDate>Thu, 15 Jan 2015 17:50:26 +0100</lastBuildDate>
+  <pubDate>Fri, 16 Jan 2015 01:45:18 +0100</pubDate>
+  <lastBuildDate>Fri, 16 Jan 2015 01:45:18 +0100</lastBuildDate>
   <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -579,7 +579,7 @@
 
     <p>
     It&rsquo;s as good as tmux: it&rsquo;s fast, reliable and works great in
-    general, even with slow bandwidths. Best of all, it&rsquo;s opensource,
+    general, even with slow bandwidths. Best of all, it&rsquo;s free software,
     works on Linux and OSX. I finally have a great tool to share an
     Emacs session.
     </p>
