@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 16 Jan 2015 01:45:18 +0100</pubDate>
-  <lastBuildDate>Fri, 16 Jan 2015 01:45:18 +0100</lastBuildDate>
+  <pubDate>Mon, 19 Jan 2015 00:47:26 +0100</pubDate>
+  <lastBuildDate>Mon, 19 Jan 2015 00:47:26 +0100</lastBuildDate>
   <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -27,6 +27,42 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>Emacs meetup</title>
+    <link>http://nicolas-petton.fr/blog/emacs-meetup.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/emacs-meetup.html</guid>
+    <pubDate>Mon, 19 Jan 2015 00:45:00 +0100</pubDate>
+
+    <description><![CDATA[
+    <div class="pubdate">
+    January 19, 2015
+    </div>
+
+    <p>
+    Next Friday I&rsquo;ll be hosting the first <a href="http://www.meetup.com/Stockholm-Emacs-Meetup/events/219189463/">Emacs Meetup</a> in Stockholm at
+    <a href="http://foretagsplatsen.se/">Företagsplatsen</a>! 
+    </p>
+
+    <p>
+    I have planned to show the basics of Emacs and its terminology,
+    maybe go over the builtin tutorial, then to dive into some
+    interesting modes and tools that can be of great help to
+    developers. If I have enough time, I would also like to explore
+    Emacs Lisp, at least the basics :)
+    </p>
+
+    <p>
+    I would also of course be very interested in sharing experiences and
+    tips, so bring your laptops with you!
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/emacs-meetup.html">Comments</a>.
+    </p>
+    ]]></description>
+  </item>
 
   <item>
     <title>No Smalltalk anymore</title>
@@ -429,9 +465,9 @@
 
   <item>
     <title>Farewell RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-10</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-11</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-10</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-11</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -508,9 +544,9 @@
 
   <item>
     <title>Tide and Marina at RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-12</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-13</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-12</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-13</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -537,9 +573,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-13</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-14</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-13</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-14</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -645,24 +681,24 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-16</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-17</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-16</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-17</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
 
     <description><![CDATA[
     <div class="pubdate">
-      June 11, 2014
+    June 11, 2014
     </div>
 
     <p>
-      I use Emacs on all of my machines, being laptops or servers. While
-      my Emacs settings are shared among all of my computers, some of
-      these settings really matter for one specific computer.
+    I use Emacs on all of my machines, being laptops or servers. While
+    my Emacs settings are shared among all of my computers, some of
+    these settings really matter for one specific computer.
     </p>
 
     <p>
-      <a href="http://nicolas-petton.fr/blog/per-computer-emacs-settings.html">Read the post</a>.
+    <a href="http://nicolas-petton.fr/blog/per-computer-emacs-settings.html">Read the post</a>.
     </p>
     ]]></description>
   </item>
@@ -846,9 +882,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-22</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-23</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-22</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-23</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
 
     <description><![CDATA[
