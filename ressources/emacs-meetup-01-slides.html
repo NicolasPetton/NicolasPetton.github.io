@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- Created by htmlize-1.47 in css mode. -->
+<html>
+  <head>
+    <title>meetup-slides.org</title>
+    <style type="text/css">
+    <!--
+      body {
+        color: #b8c4cf;
+        background-color: #303030;
+        font-size: 2em;
+      }
+      .bold {
+        /* bold */
+        font-weight: bold;
+      }
+      .flyspell-duplicate {
+        /* flyspell-duplicate */
+        text-decoration: underline;
+      }
+      .flyspell-incorrect {
+        /* flyspell-incorrect */
+        text-decoration: underline;
+      }
+      .org-block-background {
+      }
+      .org-block-begin-line {
+        /* org-block-begin-line */
+        color: #929283;
+      }
+      .org-block-end-line {
+        /* org-block-end-line */
+        color: #929283;
+      }
+      .org-checkbox {
+        /* org-checkbox */
+        font-weight: bold;
+      }
+      .org-code {
+        /* org-code */
+        color: #b3b3b3;
+      }
+      .org-hide {
+        /* org-hide */
+        color: #303030;
+      }
+      .org-level-1 {
+        /* org-level-1 */
+        color: #ffcd8e;
+      }
+      .org-level-2 {
+        /* org-level-2 */
+        color: #cbaaf5;
+      }
+      .org-link {
+        /* org-link */
+        color: #7ac1ff;
+        text-decoration: underline;
+      }
+      .org-meta-line {
+        /* org-meta-line */
+        color: #929283;
+      }
+      .org-verbatim {
+        /* org-verbatim */
+        color: #b3b3b3;
+      }
+      .string {
+        /* font-lock-string-face */
+        color: #789771;
+      }
+
+      a {
+        color: inherit;
+        background-color: inherit;
+        font: inherit;
+        text-decoration: inherit;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    -->
+    </style>
+  </head>
+  <body>
+    <pre>
+This slides were displayed as one org file per top-level heading.
+For convenience, I made a single-file version of it.
+
+This HTML version was done using the <span class="org-verbatim">=htmlize-buffer=</span> command.
+
+<span class="org-level-1">* Welcome to the first </span><span class="org-level-1"><span class="bold">*Emacs Meetup*</span></span><span class="org-level-1"> in </span><span class="org-level-1"><span class="flyspell-incorrect">Sthlm</span></span><span class="org-level-1">!</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Some words about me</span>
+
+   Nicolas <span class="flyspell-incorrect">Petton</span>
+
+   - I'm french and don't speak Swedish :)
+   - Sotfware engineer
+   - Emacs user since ~2009
+   
+   Web:      <span class="org-link"><a href="http://nicolas-petton.fr">nicolas-petton.fr</a></span>
+   Email:    <span class="org-link"><a href="mailto:nicolas@petton.fr">nicolas@petton.fr</a></span>
+   Twitter:  <span class="org-link"><a href="http://twitter.com/NicolasPetton">@NicolasPetton</a></span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Many thanks to </span><span class="org-link"><a href="http://foretagsplatsen.se">F&#246;retagsplatsen</a></span><span class="org-level-2"> for sponsoring this </span><span class="org-level-2"><span class="flyspell-duplicate">Meetup</span></span>
+
+<span class="org-level-1">* Agenda</span>
+
+  - Discover the basics
+
+  - Interesting modes 
+    (share what you like!)
+
+  - Break?
+
+  - Customizing &amp; Extending Emacs
+
+  - Improvisation
+
+
+<span class="org-block-begin-line">#+BEGIN_SRC emacs-lisp
+</span><span class="org-block-background">(animate-string </span><span class="string"><span class="org-block-background">"*Discovering Emacs*"</span></span><span class="org-block-background">
+                (/ (window-height) 2)
+                (- (/ (window-width) 2) 10))
+</span><span class="org-block-end-line">#+END_SRC
+</span>
+<span class="org-level-1">* Emacs is not a text editor</span>
+
+  It is a system, but it does contain (very efficient) a text editor
+
+<span class="org-level-1">* Emacs is also...</span>
+
+  - Lisp/Clojure/JS/etc. IDE
+
+  - Terminal emulator
+
+  - Email client
+
+  - IRC client
+
+  - Psychotherapist
+
+  - Many other things
+
+
+<span class="org-level-1">* Emacs is extremely extensible</span>
+
+  "People talk about getting used to a new editor, but over time, it
+  is precisely the opposite that should happen - the editor should get
+  used to us." - Vivek Haldar
+
+
+  For this slides I wrote a few lines of <span class="flyspell-incorrect">Elisp</span>
+
+<span class="org-level-1">* Emacs is </span><span class="org-level-1"><span class="bold">*old*</span></span>
+  1976 by Richard Stallman and Guy L. Steele, Jr
+
+  Latest release: Emacs 24.4
+
+<span class="org-level-1">* It doesn't look very modern by default</span>
+
+<span class="org-block-begin-line">  #+BEGIN_SRC sh
+</span><span class="org-block-background">  emacs -q
+</span><span class="org-block-end-line">  #+END_SRC
+</span>
+<span class="org-meta-line">  #+RESULTS:</span>
+
+<span class="org-level-1">* It has a different terminology from other editors</span>
+
+  - Buffer
+  - Frame
+  - Window
+  - Point
+  - Mark
+  - Mode-line
+
+<span class="org-level-1">* Emacs &amp; modes</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Each buffer has one major-mode active</span>
+
+   A major mode defines the core editing behavior for a buffer.
+
+<span class="org-hide">*</span><span class="org-level-2">* Each buffer can have many minor-modes active</span>
+
+   A minor mode defines additional behavior that is 
+   orthogonal to major modes.
+
+<span class="org-level-1">* Emacs UI is vastly based on key bindings</span>
+
+  - All default key bindings are different 
+    from what you are used to
+
+  - Do not try to learn them all at once
+
+  - Instead, <span class="bold">*learn how to learn*</span> Emacs
+
+  - Their terminology is also different
+
+    C-x C-s
+    
+    M-x
+
+    C-x b
+
+<span class="org-level-1">* Emacs basic help</span>
+
+  - C-h t: Built-in tutorial
+
+  - C-h i: Info manual
+
+  - C-h k: Describe key
+
+  - C-x C-s: Save buffer
+
+  - C-x C-c: Exit Emacs
+
+  - M-x: Evaluate interactive command
+
+
+<span class="org-level-1">* Basic movements</span>
+
+                          Previous line, C-p
+                                  <span class="org-code">:
+</span>                                  <span class="org-code">:
+</span>   Backward, C-b .... Current cursor position .... Forward, C-f
+                                  <span class="org-code">:
+</span>                                  <span class="org-code">:
+</span>                            Next line, C-n
+
+
+
+
+        C-f     Move forward a character
+        C-b     Move backward a character
+
+        M-f     Move forward a word
+        M-b     Move backward a word
+
+        C-n     Move to next line
+        C-p     Move to previous line
+
+        C-a     Move to beginning of line
+        C-e     Move to end of line
+
+        M-a     Move back to beginning of sentence
+        M-e     Move forward to end of sentence
+
+        C-v     Move forward one screenful
+        M-v     Move backward one <span class="flyspell-duplicate">screenful</span>
+        C-l     Center the cursor on the screen
+
+
+<span class="org-level-1">* The .emacs customization file</span>
+
+  It can be placed in
+
+  - ~/.emacs
+  - ~/.emacs.<span class="flyspell-duplicate">el</span>
+  - ~/.emacs.d/init.<span class="flyspell-duplicate">el</span>
+
+  - _emacs (Windows)
+
+<span class="org-level-1">* Exploring some Emacs modes</span>
+
+  - <span class="org-checkbox">[X]</span> dired (w/ tramp &amp; read-write)
+  - <span class="org-checkbox">[X]</span> eshell
+    - tramp
+    - pseudo-devices (/dev/kill)
+    - calling lisp
+    - redirecting to buffers
+  - <span class="org-checkbox">[ ]</span> undo-tree
+  - <span class="org-checkbox">[ ]</span> ace-jump-mode
+  - <span class="org-checkbox">[ ]</span> js2-refactor
+  - <span class="org-checkbox">[ ]</span> paredit
+  - <span class="org-checkbox">[ ]</span> multiple-cursors
+  - <span class="org-checkbox">[ ]</span> magit
+  - <span class="org-checkbox">[ ]</span> org
+  - <span class="org-checkbox">[ ]</span> mu 
+
+
+</pre>
+  </body>
+</html>
