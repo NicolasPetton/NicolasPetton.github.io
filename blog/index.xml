@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 19 Jan 2015 00:47:26 +0100</pubDate>
-  <lastBuildDate>Mon, 19 Jan 2015 00:47:26 +0100</lastBuildDate>
+  <pubDate>Fri, 30 Jan 2015 13:19:16 +0100</pubDate>
+  <lastBuildDate>Fri, 30 Jan 2015 13:19:16 +0100</lastBuildDate>
   <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -27,6 +27,37 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>Interview with Louise Axhake</title>
+    <link>http://nicolas-petton.fr/blog/interview-louise.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-louise.html</guid>
+    <pubDate>Fri, 30 Jan 2015 13:17:00 +0100</pubDate>
+
+    <description><![CDATA[
+    <div class="pubdate">
+    Jan 30, 2015
+    </div>
+
+    <p>
+    It&rsquo;s been almost six months now since I moved to Stockholm, working
+    full-time at <a href="http://foretagsplatsen.se/en">Företagsplatsen</a> as a software engineer, and this is the
+    third post of my series of interviews of my colleagues.
+    </p>
+
+    <p>
+    Louise joined the team in January. She was previously working at
+    PwC, one of our customers. We started doing this interview on her
+    first week in the team, and I&rsquo;ve been working with her for a month
+    now, which has been a lot of fun!
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/interview-louise.html">Read the interview</a>.
+    </p>
+    ]]></description>
+  </item>
 
   <item>
     <title>Emacs meetup</title>
@@ -465,9 +496,9 @@
 
   <item>
     <title>Farewell RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-11</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-12</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-11</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-12</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -544,9 +575,9 @@
 
   <item>
     <title>Tide and Marina at RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-13</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-14</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-13</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-14</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -573,9 +604,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-14</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-15</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-14</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-15</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -681,9 +712,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-17</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-18</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-17</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-18</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -882,9 +913,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-23</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-24</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-23</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-24</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
 
     <description><![CDATA[
