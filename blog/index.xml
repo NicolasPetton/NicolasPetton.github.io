@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 30 Jan 2015 13:19:16 +0100</pubDate>
-  <lastBuildDate>Fri, 30 Jan 2015 13:19:16 +0100</lastBuildDate>
+  <pubDate>Wed, 18 Mar 2015 11:14:50 +0100</pubDate>
+  <lastBuildDate>Wed, 18 Mar 2015 11:14:50 +0100</lastBuildDate>
   <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -27,6 +27,45 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>emacs-meetup-orgmode.html</title>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-1</guid>
+    <pubDate>Wed, 18 Mar 2015 11:14:00 +0100</pubDate>
+
+    <description><![CDATA[
+    <div class="pubdate">
+    March 18, 2015
+    </div>
+
+    <p>
+    The next <a href="http://www.meetup.com/Stockholm-Emacs-Meetup/events/221122996/">Emacs meetup</a> in Stockholm is scheduled for Thursday, April 9!
+    </p>
+
+    <p>
+    This meetup will be dedicated to <a href="http://orgmode.org/">Orgmode</a>. Org mode is a unique and
+    wonderful mode for keeping notes, maintaining TODO lists, planning
+    projects, and authoring documents with a fast and effective
+    plain-text system.
+    </p>
+
+    <p>
+    Together we will learn how to use the main features of this mode, as
+    well as the builtin agenda, the capturing system, and more!
+    </p>
+
+    <p>
+    I would also of course be very interested in sharing experiences and
+    tips, so bring your laptops with you!
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/emacs-meetup-orgmode.html">Comments</a>.
+    </p>
+    ]]></description>
+  </item>
 
   <item>
     <title>Interview with Louise Axhake</title>
@@ -496,9 +535,9 @@
 
   <item>
     <title>Farewell RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-12</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-13</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-12</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-13</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -575,9 +614,9 @@
 
   <item>
     <title>Tide and Marina at RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-14</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-15</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-14</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-15</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -604,9 +643,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-15</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-16</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-15</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-16</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -712,9 +751,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-18</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-19</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-18</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-19</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -913,9 +952,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-24</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-25</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-24</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-25</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
 
     <description><![CDATA[
