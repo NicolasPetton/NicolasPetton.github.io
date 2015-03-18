@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 18 Mar 2015 11:14:50 +0100</pubDate>
-  <lastBuildDate>Wed, 18 Mar 2015 11:14:50 +0100</lastBuildDate>
+  <pubDate>Wed, 18 Mar 2015 14:48:02 +0100</pubDate>
+  <lastBuildDate>Wed, 18 Mar 2015 14:48:02 +0100</lastBuildDate>
   <generator>Emacs 24.4 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -29,10 +29,10 @@
   </p>
 
   <item>
-    <title>emacs-meetup-orgmode.html</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-1</link>
+    <title>Third Emacs meetup</title>
+    <link>http://nicolas-petton.fr/blog/emacs-meetup-orgmode.html</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-1</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/emacs-meetup-orgmode.html</guid>
     <pubDate>Wed, 18 Mar 2015 11:14:00 +0100</pubDate>
 
     <description><![CDATA[
