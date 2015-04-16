@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- Created by htmlize-1.47 in css mode. -->
+<html>
+  <head>
+    <title>emacs-meetup-03-slides.org</title>
+    <style type="text/css">
+    <!--
+      body {
+        color: #b8c4cf;
+        background-color: #303030;
+        font-size: 2em;
+      }
+      .bold {
+        /* bold */
+        font-weight: bold;
+      }
+      .flyspell-duplicate {
+        /* flyspell-duplicate */
+        text-decoration: underline;
+      }
+      .flyspell-incorrect {
+        /* flyspell-incorrect */
+        text-decoration: underline;
+      }
+      .org-block-background {
+      }
+      .org-block-begin-line {
+        /* org-block-begin-line */
+        color: #929283;
+      }
+      .org-block-end-line {
+        /* org-block-end-line */
+        color: #929283;
+      }
+      .org-checkbox {
+        /* org-checkbox */
+        font-weight: bold;
+      }
+      .org-checkbox-statistics-done {
+        /* org-checkbox-statistics-done */
+        color: #7ac1ff;
+        font-weight: bold;
+      }
+      .org-checkbox-statistics-todo {
+        /* org-checkbox-statistics-todo */
+        color: #ff5b66;
+        font-weight: bold;
+      }
+      .org-date {
+        /* org-date */
+        color: #00ffff;
+        text-decoration: underline;
+      }
+      .org-footnote {
+        /* org-footnote */
+        color: #00ffff;
+        text-decoration: underline;
+      }
+      .org-hide {
+        /* org-hide */
+        color: #303030;
+      }
+      .org-level-1 {
+        /* org-level-1 */
+        color: #ffcd8e;
+      }
+      .org-level-2 {
+        /* org-level-2 */
+        color: #cbaaf5;
+      }
+      .org-level-3 {
+        /* org-level-3 */
+        color: #7ac1ff;
+      }
+      .org-link {
+        /* org-link */
+        color: #7ac1ff;
+        text-decoration: underline;
+      }
+      .org-list-dt {
+        /* org-list-dt */
+        font-weight: bold;
+      }
+      .org-meta-line {
+        /* org-meta-line */
+        color: #929283;
+      }
+      .org-special-keyword {
+        /* org-special-keyword */
+        color: #f7af75;
+        font-weight: bold;
+      }
+      .org-table {
+        /* org-table */
+        color: #87cefa;
+      }
+      .org-tag {
+        /* org-tag */
+        font-weight: bold;
+      }
+      .org-todo {
+        /* org-todo */
+        color: #ff5b66;
+        font-weight: bold;
+      }
+      .org-verbatim {
+        /* org-verbatim */
+        color: #b3b3b3;
+      }
+      .string {
+        /* font-lock-string-face */
+        color: #789771;
+      }
+
+      a {
+        color: inherit;
+        background-color: inherit;
+        font: inherit;
+        text-decoration: inherit;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    -->
+    </style>
+  </head>
+  <body>
+    <pre>
+This slides were displayed as one org file per top-level heading.
+For convenience, I made a single-file version of it.
+
+This HTML version was done using the <span class="org-verbatim">=htmlize-buffer=</span> command.
+
+<span class="org-level-1">* Welcome to the third </span><span class="org-level-1"><span class="bold">*Emacs Meetup*</span></span><span class="org-level-1"> in </span><span class="org-level-1"><span class="flyspell-incorrect">Sthlm</span></span><span class="org-level-1">!</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Some words about me</span>
+
+   Nicolas Petton
+
+   - I'm french and don't speak Swedish :)
+   - Sotfware engineer
+   - Emacs user since ~2009
+   
+   Web:      <span class="org-link"><a href="http://nicolas-petton.fr">nicolas-petton.fr</a></span>
+   Email:    <span class="org-link"><a href="nicolas@petton.fr">nicolas@petton.fr</a></span>
+   Twitter:  <span class="org-link"><a href="http://twitter.com/NicolasPetton">@NicolasPetton</a></span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Many thanks to F&#246;retagsplatsen for sponsoring this </span><span class="org-level-2"><span class="flyspell-duplicate">Meetup</span></span>
+
+<span class="org-level-1">* Agenda</span>
+
+  - OrgMode presentation/tutorial
+  - Break?
+  - Short presentations
+
+
+<span class="org-level-1">* Org mode is for </span>
+
+- keeping notes
+- maintaining TODO lists
+- planning projects
+- and authoring documents 
+
+with a fast and effective <span class="bold">*plain-text*</span> system.<span class="org-footnote">[fn:1]</span>
+
+<span class="org-footnote">[fn:1]</span> From <span class="org-link"><a href="http://orgmode.org">http://orgmode.org</a></span>
+
+
+<span class="org-level-1">* The basics</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Managing outlines</span>
+
+- <span class="org-list-dt">M-up/M-down ::</span> Move headlines up/down
+- <span class="org-list-dt">M-left/right ::</span> Promote/demote
+- <span class="org-list-dt">M-S-left/right ::</span> Promote/demote (with sub items)
+- <span class="org-list-dt">M-RET ::</span> Insert headline
+
+<span class="org-hide">*</span><span class="org-level-2">* Visibity cycling</span>
+
+- <span class="org-list-dt">TAB ::</span> folding/unfolding
+- <span class="org-list-dt">S-TAB ::</span> global folding/unfolding
+
+This commands are easy to use and remember
+
+<span class="org-hide">*</span><span class="org-level-2">* Hyperlinks...</span>
+
+...to pretty <span class="org-link"><a href="*Visibity%20cycling">anything</a></span>: gnus, bbdb, email, files, directories,
+webpages, unix man pages, info pages, etc.
+
+- <span class="org-list-dt">C-c C-l ::</span> to insert a link
+- <span class="org-list-dt">C-c l ::</span> to store a link
+- <span class="org-list-dt">C-c C-o ::</span> open link
+
+
+<span class="org-level-1">* The basics (2)</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Tables</span>
+
+Tables are really easy to maintain in org-mode
+
+<span class="org-hide">*</span><span class="org-level-2">* Spreadsheets</span><span class="org-footnote">[fn:1]</span>
+
+Get help from the <span class="org-link"><a href="info:org#References">info file</a></span>!
+
+<span class="org-table">| Credit | Debit | Total |</span>
+<span class="org-table">|--------+-------+-------|</span>
+<span class="org-table">|    200 |       |       |</span>
+<span class="org-table">|        |  -130 |       |</span>
+<span class="org-table">|    330 |       |       |</span>
+<span class="org-table">|        |   -30 |       |</span>
+<span class="org-table">|    210 |       |       |</span>
+<span class="org-table">|--------+-------+-------|</span>
+<span class="org-table">|    740 |  -160 |   580 |</span>
+<span class="org-meta-line">#+TBLFM: @&gt;$1=vsum(@I..@II)::@&gt;$2=vsum(@I..@II)::@&gt;$3=$1+$2</span>
+
+<span class="org-footnote">[fn:1]</span> Not that basic, <span class="flyspell-incorrect">ok</span>...
+
+<span class="org-level-1">* Org-mode as a project planner</span>
+
+org-mode is a fantastic project planner and TODO list
+
+<span class="org-hide">*</span><span class="org-level-2">* </span><span class="org-level-2"><span class="flyspell-incorrect">TODOs</span></span>
+
+<span class="org-hide">**</span><span class="org-level-3">* </span><span class="org-level-3"><span class="flyspell-incorrect">Keybindings</span></span>
+
+- <span class="org-list-dt">S-LEFT/S-RIGHT ::</span> Cycle TODO state
+- <span class="org-list-dt">C-S-RET ::</span> Insert new TODO entry
+- Set custom todo keywords:
+
+<span class="org-hide">**</span><span class="org-level-3">* Configuration</span>
+
+<span class="org-block-begin-line">#+BEGIN_SRC emacs-lisp
+</span><span class="org-block-background">(setq org-todo-keywords
+  '((sequence </span><span class="string"><span class="org-block-background">"TODO"</span></span><span class="org-block-background"> </span><span class="string"><span class="org-block-background">"IN-PROGRESS"</span></span><span class="org-block-background"> </span><span class="string"><span class="org-block-background">"WAITING"</span></span><span class="org-block-background"> </span><span class="string"><span class="org-block-background">"DONE"</span></span><span class="org-block-background">)))
+</span><span class="org-block-end-line">#+END_SRC
+</span>
+<span class="org-hide">**</span><span class="org-level-3">* Tags                                                             </span><span class="org-level-3"><span class="org-tag">:tag1:tag2:</span></span>
+
+- <span class="org-list-dt">C-c C-c ::</span> Set a tag on a headline
+
+<span class="org-hide">**</span><span class="org-level-3">* Checkboxes &amp; cookies </span><span class="org-checkbox-statistics-todo">[0/2]</span>
+- <span class="org-checkbox">[ ]</span> step 1
+- <span class="org-checkbox">[ ]</span> step 2
+
+- <span class="org-list-dt">C-c C-c ::</span> Change a checkbox state / update a counter
+
+<span class="org-hide">**</span><span class="org-level-3">* </span><span class="org-todo">TODO</span><span class="org-level-3"> Manipulating timestamps</span>
+<span class="org-special-keyword">SCHEDULED:</span> <span class="org-date">&lt;2015-04-10 Fri 14:00 +1m&gt;</span>
+
+- <span class="org-list-dt">C-c C-s ::</span> Scheduling
+- <span class="org-list-dt">C-c C-d ::</span> Adding a deadline
+
+<span class="org-hide">*</span><span class="org-level-2">* Clocking</span>
+<span class="org-special-keyword">CLOCK:</span> <span class="org-date">[2015-04-09 Thu 11:11]--[2015-04-09 Thu 19:13]</span> =&gt;  8:02
+
+- <span class="org-list-dt">C-c C-x i ::</span> Starting a clock
+- <span class="org-list-dt">C-c C-x o ::</span> Stopping a clock
+
+<span class="org-level-1">* </span><span class="org-level-1"><span class="flyspell-incorrect">Exemple</span></span>
+
+<span class="org-hide">*</span><span class="org-level-2">* IN-PROGRESS buy milk</span>
+<span class="org-special-keyword">SCHEDULED:</span> <span class="org-date">&lt;2015-04-13 Mon 13:00&gt;</span>
+<span class="org-hide">*</span><span class="org-level-2">* </span><span class="org-todo">TODO</span><span class="org-level-2"> buy chocolate</span>
+<span class="org-special-keyword">DEADLINE:</span> <span class="org-date">&lt;2015-04-12 Sun&gt;</span>
+<span class="org-hide">*</span><span class="org-level-2">* </span><span class="org-level-2"><span class="flyspell-duplicate">Checkboxes</span></span><span class="org-level-2"> </span><span class="org-checkbox-statistics-done">[2/2]</span><span class="org-level-2">                                                  </span><span class="org-level-2"><span class="org-tag">:tag1:tag2:</span></span>
+- <span class="org-checkbox">[X]</span> step one
+- <span class="org-checkbox">[X]</span> step two
+
+
+<span class="org-level-1">* Exporting</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* org-mode can export org files in various formats, including</span>...
+<span class="org-hide">*</span><span class="org-level-2">* Keybindings</span>...</pre>
+  </body>
+</html>
