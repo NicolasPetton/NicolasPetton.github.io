@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Fourth Emacs meetup)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/fourth-emacs-meetup.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Sun, 14 Jun 2015 15:38:59 +0200</pubDate>
+  <lastBuildDate>Sun, 14 Jun 2015 15:38:59 +0200</lastBuildDate>
+  <generator>Emacs 24.5 Org-mode 8.2.10</generator>
+  <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>(Fourth Emacs meetup)</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+
+  <item>
+    <title>Fourth *Emacs Meetup*</title>
+    <link>http://nicolas-petton.fr/blog/fourth-emacs-meetup.html#sec-1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/fourth-emacs-meetup.html#sec-1</guid>
+    <pubDate>Sun, 14 Jun 2015 15:37:00 +0200</pubDate>
+
+    <description><![CDATA[
+    <div class="pubdate">
+    June 14, 2015
+    </div>
+
+    <p>
+    Last Thursday I hosted the <a href="http://www.meetup.com/Stockholm-Emacs-Meetup/events/222609506/">fourth Emacs Meetup</a>.
+    </p>
+
+    <p>
+    The plan was to have a look at how to write a major-mode, and after
+    some smalltalk around a beer and a slice of pizza, <a href="https://github.com/Lindydancer">Anders Lindgren</a>
+    made <a href="http://nicolas-petton.fr/blog/../ressources/presentation-stripped6.html">a presentation</a> about <code>font-lock</code>.  After that we had a close a
+    look at <a href="https://github.com/NicolasPetton/pass-mode">pass-mode</a>, a major-mode for managing <a href="http://passwordstore.org/">pass</a> keychains.
+    </p>
+
+    <p>
+    I plan to host another meetup in August, so stay tuned!
+    </p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    ]]></description>
+  </item>
+</channel>
+</rss>

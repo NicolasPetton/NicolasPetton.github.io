@@ -1,0 +1,586 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- Created by htmlize-1.47 in css mode. -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>presentation-stripped.org</title>
+    <style type="text/css">
+    <!--
+      body {
+        color: #000000;
+        background-color: #ffffff;
+      }
+      .builtin {
+        /* font-lock-builtin-face */
+        color: #2e8b57;
+      }
+      .comment {
+        /* font-lock-comment-face */
+        color: #e06060;
+      }
+      .comment-delimiter {
+        /* font-lock-comment-delimiter-face */
+        color: #e06060;
+      }
+      .constant {
+        /* font-lock-constant-face */
+        color: #1c86ee;
+      }
+      .default {
+        /* default */
+        color: #000000;
+        background-color: #ffffff;
+      }
+      .doc {
+        /* font-lock-doc-face */
+        color: #B00000;
+        background-color: #F0F0F0;
+      }
+      .function-name {
+        /* font-lock-function-name-face */
+        color: #0000ff;
+      }
+      .keyword {
+        /* font-lock-keyword-face */
+        color: #cd00cd;
+      }
+      .lisp-extra-font-lock-backquote {
+        /* lisp-extra-font-lock-backquote */
+        color: #ff0000;
+      }
+      .lisp-extra-font-lock-quoted {
+        /* lisp-extra-font-lock-quoted */
+        color: #7f7f7f;
+      }
+      .lisp-extra-font-lock-special-variable-name {
+        /* lisp-extra-font-lock-special-variable-name */
+        color: #ff0000;
+      }
+      .negation-char {
+        /* font-lock-negation-char-face */
+        color: #ff0000;
+      }
+      .objc-font-lock-background {
+        /* objc-font-lock-background */
+        background-color: #d9d9d9;
+      }
+      .objc-font-lock-bracket {
+        /* objc-font-lock-bracket */
+        color: #ff0000;
+      }
+      .objc-font-lock-function-name {
+        /* objc-font-lock-function-name */
+        color: #0000ff;
+      }
+      .org-block-background {
+      }
+      .org-block-begin-line {
+        /* org-block-begin-line */
+        color: #e06060;
+      }
+      .org-block-end-line {
+        /* org-block-end-line */
+        color: #e06060;
+      }
+      .org-formula {
+        /* org-formula */
+        color: #b22222;
+      }
+      .org-level-1 {
+        /* org-level-1 */
+        color: #0000ff;
+      }
+      .org-level-2 {
+        /* org-level-2 */
+        color: #b8860b;
+      }
+      .org-level-3 {
+        /* org-level-3 */
+        color: #cd00cd;
+      }
+      .org-link {
+        /* org-link */
+        color: #3a5fcd;
+        text-decoration: underline;
+      }
+      .org-meta-line {
+        /* org-meta-line */
+        color: #e06060;
+      }
+      .org-table {
+        /* org-table */
+        color: #0000ff;
+      }
+      .preproc-font-lock-preprocessor-background {
+        /* preproc-font-lock-preprocessor-background */
+        background-color: #d9d9d9;
+      }
+      .preprocessor {
+        /* font-lock-preprocessor-face */
+        color: #2e8b57;
+      }
+      .regexp-grouping-backslash {
+        /* font-lock-regexp-grouping-backslash */
+        background-color: #A0FFA0;
+      }
+      .regexp-grouping-construct {
+        /* font-lock-regexp-grouping-construct */
+        background-color: #A0FFA0;
+      }
+      .string {
+        /* font-lock-string-face */
+        color: #B00000;
+        background-color: #F0F0F0;
+      }
+      .type {
+        /* font-lock-type-face */
+        color: #008b00;
+      }
+      .variable-name {
+        /* font-lock-variable-name-face */
+        color: #b8860b;
+      }
+      .warning {
+        /* font-lock-warning-face */
+        color: #ff0000;
+      }
+
+      a {
+        color: inherit;
+        background-color: inherit;
+        font: inherit;
+        text-decoration: inherit;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    -->
+    </style>
+  </head>
+  <body>
+    <pre>
+<span class="org-level-1"> Syntax Highlighting using font-lock in Emacs</span>
+
+  <span class="org-table">| </span><span class="org-formula">= Anders Lindgren -- Lindydancer = </span><span class="org-table">|</span>
+
+<span class="org-level-1"> Make the world a more colorful place!</span>
+
+<span class="org-level-2"> Before:</span>
+<span class="org-block-begin-line">
+</span><span class="org-block-background">int main(void)
+{
+  printf("Hello World\n");
+}</span><span class="org-meta-line"><span class="org-block-background">
+</span></span><span class="org-block-end-line">
+</span><span class="org-level-2"> After:</span>
+<span class="org-block-begin-line">
+</span><span class="type"><span class="org-block-background">int</span></span><span class="org-block-background"> </span><span class="function-name"><span class="org-block-background">main</span></span><span class="org-block-background">(</span><span class="type"><span class="org-block-background">void</span></span><span class="org-block-background">)
+{
+  printf(</span><span class="string"><span class="org-block-background">"Hello World\n"</span></span><span class="org-block-background">);
+}
+</span><span class="org-block-end-line">
+</span>
+<span class="org-level-1"> Anders Lindgren -- Lindydancer</span>
+
+<span class="org-level-2"> Compiler developer at IAR Systems in Uppsala</span>
+
+IAR Systems make development tools for the embedded industry. I've
+been with the company since 1997 -- 18 years!
+
+<span class="org-level-2"> Emacs user since (at least) 1991</span>
+
+<span class="org-level-2"> Author of the following built-in Emacs packages:</span>
+- follow-mode
+- (global-)auto-revert-mode
+- cwarn-mode
+
+<span class="org-level-2"> Involved with the OS X port of Emacs</span>
+- ns-auto-hide-menu-bar
+
+<span class="org-level-2"> Author or co-author of</span>
+- Multicolumn
+- el2markdown
+- ini-mode
+- Erlang-mode (with Robert Virding et.al.)
+- REXX-mode
+- Folding-mode (with Jamie Lokier and Jari Aalto)
+
+<span class="org-level-2"> Known as Lindydancer on:</span>
+- GitHub
+- Stack Overflow / Emacs Stack Excange
+
+<span class="org-level-1"> Syntax Highlighting</span>
+
+<span class="org-level-2"> Or "font-lock", as it's called in the Emacs world</span>
+
+Why do I want to learn more about it?
+
+- Fix problems
+- Tweek your environment
+- Write packages providing additional highlighting
+- Write your own major mode
+
+<span class="org-level-1"> Font-lock Phases</span>
+
+<span class="org-level-2"> Syntactic phase (comment and strings)</span>
+
+In most cases, a properly defined "syntax-table" takes care of this
+for you.
+
+<span class="org-level-2"> Keyword phase</span>
+
+A "keyword list" is a list of rules, provided by the major mode, or by
+additional packages, describing what should be highlighted and how.
+
+<span class="org-level-1"> Font-lock keywords</span>
+
+<span class="org-level-2"> Simplest form:</span>
+
+   (MATCHER HIGHLIGHT)
+
+For example:
+
+<span class="org-block-begin-line">
+</span><span class="org-block-background">  (</span><span class="string"><span class="org-block-background">"alpha"</span></span><span class="org-block-background"> font-lock-constant-face)
+</span><span class="org-block-end-line">
+</span>
+Ok, ok, this is not a good example, as it will match "alpha" in any
+context.
+
+<span class="org-level-2"> Regexp MATCHER</span>
+
+Fortunately, MATCHER is a "regular expression" (regexp). It provides
+some special features. For example, the following will match "alpha"
+but only when on it's own:
+
+<span class="org-block-begin-line">
+</span><span class="org-block-background">  (</span><span class="string"><span class="org-block-background">"\\_&lt;alpha\\_&gt;"</span></span><span class="org-block-background"> font-lock-constant-face)
+</span><span class="org-block-end-line">
+</span>
+<span class="org-level-1"> Font-lock keywords</span>
+
+<span class="org-level-2"> Groups</span>
+
+You can use "\\(" and "\\)" to group things, only to match part of
+something bigger. Here HIGHLIGHT is not simply the face to use, it
+also specifies it should only highlight group 1 (i.e. "alpha" but not
+"beta").
+
+<span class="org-block-begin-line">
+</span><span class="org-block-background">  (</span><span class="string"><span class="org-block-background">"\\_&lt;</span></span><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">(</span></span></span><span class="string"><span class="org-block-background">alpha</span></span><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">)</span></span></span><span class="string"><span class="org-block-background">beta\\_&gt;"</span></span><span class="org-block-background"> (1 font-lock-constant-face))
+</span><span class="org-block-end-line">
+</span>
+<span class="org-level-1"> Font-lock keywords</span>
+
+<span class="org-level-2"> Multiple HIGHLIGHT:s</span>
+
+<span class="org-block-begin-line">
+</span><span class="org-block-background">  (</span><span class="string"><span class="org-block-background">"\\_&lt;</span></span><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">(</span></span></span><span class="string"><span class="org-block-background">alpha</span></span><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">)</span></span></span><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">(</span></span></span><span class="string"><span class="org-block-background">beta</span></span><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">)</span></span></span><span class="string"><span class="org-block-background">\\_&gt;"</span></span><span class="org-block-background">
+   (1 font-lock-constant-face)
+   (2 font-lock-builtin-face))
+</span><span class="org-block-end-line">
+</span>
+<span class="org-level-1"> Font-lock keywords</span>
+
+<span class="org-level-2"> Anchored search</span>
+
+An "anchored search" is a search within a search.
+
+<span class="org-block-begin-line">
+</span><span class="org-block-background">  (</span><span class="string"><span class="org-block-background">"\\_&lt;alpha\\_&gt;"</span></span><span class="org-block-background">
+   (1 font-lock-constant-face)
+   (</span><span class="string"><span class="org-block-background">"\\_&lt;beta\\_&gt;"</span></span><span class="org-block-background">
+    nil          </span><span class="comment-delimiter"><span class="org-block-background">; </span></span><span class="comment"><span class="org-block-background">Pre-match form
+</span></span><span class="org-block-background">    nil          </span><span class="comment-delimiter"><span class="org-block-background">; </span></span><span class="comment"><span class="org-block-background">Post-match form
+</span></span><span class="org-block-background">    (2 font-lock-builtin-face)))
+</span><span class="org-block-end-line">
+</span>
+This highlights any number of "beta":s found after an "alpha".
+
+You can use the pre- and post-match forms to move the point around
+before or after the sub-searches. The pre-match form also controls the
+extent of the search -- it is possible to make the search span
+multiple lines.
+
+<span class="org-level-1"> Font-lock keywords</span>
+
+<span class="org-level-2"> Flags</span>
+
+A HIGHLIGHT has two optional flag fields:
+
+    (SUBEXP FACE OVERRIDE LAXMATCH)
+
+<span class="org-level-3"> OVERRIDE</span>
+
+OVERRIDE controls what happens when there already was a face at the
+location. If not present, the match is not applied. In most cases this
+is the desired effect, as we don't want to mess up comments or
+strings. Legal values are "t", "keep", "append", and "prepend".
+
+Hint: Prefer "prepend" over "t", as it behaves better when the new and
+existing face provides different attributes, for example when the
+existing face specifies a background color and the new doesn't.
+
+<span class="org-level-3"> LAXMATCH</span>
+
+Don't signal an error if there is no match for SUBEXP.
+
+<span class="org-level-1"> The power of code (over constants)</span>
+
+<span class="org-level-2"> Arbitrary expressions</span>
+
+MATCHER and FACE doesn't have to be constants. In fact, they can be
+arbitrary code, which makes font-lock packages really powerful.
+
+Unfortunately, this talk it to short to dig into this in detail...
+
+<span class="org-level-1"> Adding font-lock keywords to an existing mode</span>
+
+<span class="org-level-2"> font-lock-add-keywords</span>
+
+You can use font-lock-add-keywords in two different ways
+
+<span class="org-level-3"> Add to current buffer</span>
+
+This is the way I prefere to use it. The main difference is that if I
+make an error, I can simply kill the buffer, fix the error and reload
+the file.
+
+<span class="org-block-begin-line">
+</span><span class="org-block-background">(</span><span class="keyword"><span class="org-block-background">defun</span></span><span class="org-block-background"> </span><span class="function-name"><span class="org-block-background">my-c-mode-common-hook</span></span><span class="org-block-background"> ()
+  (font-lock-add-keywords
+   nil
+   '</span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">((</span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background">"\\&lt;</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">(</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background">k[A-Z0-9][a-zA-Z0-9_]*</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">)</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background">\\&gt;"</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background"> 1 font-lock-constant-face))</span></span><span class="org-block-background">))
+(add-hook '</span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">c-mode-common-hook</span></span><span class="org-block-background"> '</span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">my-c-mode-common-hook</span></span><span class="org-block-background">)
+</span><span class="org-block-end-line">
+</span>
+<span class="org-level-3"> Add to a specific major mode</span>
+
+<span class="org-block-begin-line">
+</span><span class="org-block-background">(font-lock-add-keywords '</span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">emacs-lisp-mode</span></span><span class="org-block-background">
+                        '</span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">((</span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background">"(</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">(</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background">my-user-error</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">)</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background">\\_&gt;"</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">
+                           (1 font-lock-warning-face)))</span></span><span class="org-block-background">)
+</span><span class="org-block-end-line">
+</span>
+
+<span class="org-level-1"> Providing font-lock keywords to a major mode</span>
+
+<span class="org-block-begin-line">
+</span><span class="org-block-background">(</span><span class="keyword"><span class="org-block-background">defvar</span></span><span class="org-block-background"> </span><span class="variable-name"><span class="org-block-background">my-font-lock-keywords</span></span><span class="org-block-background">
+  '</span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">((</span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background">"^\\[</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">(</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background">.*</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">)</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background">\\]"</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">
+     (1 font-lock-function-name-face))
+    (</span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background">"^</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">(</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background">[</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="negation-char"><span class="org-block-background">^</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background"> \t\n=]+</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-backslash"><span class="org-block-background">\\</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="regexp-grouping-construct"><span class="org-block-background">)</span></span></span></span><span class="lisp-extra-font-lock-quoted"><span class="string"><span class="org-block-background"> *="</span></span></span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">
+     (1 font-lock-variable-name-face)))</span></span><span class="org-block-background">
+  </span><span class="doc"><span class="org-block-background">"Highlight rules for `</span></span><span class="doc"><span class="constant"><span class="org-block-background">my-mode</span></span></span><span class="doc"><span class="org-block-background">'."</span></span><span class="org-block-background">)
+
+(</span><span class="keyword"><span class="org-block-background">define-derived-mode</span></span><span class="org-block-background"> </span><span class="function-name"><span class="org-block-background">my-mode</span></span><span class="org-block-background"> prog-mode </span><span class="string"><span class="org-block-background">"My"</span></span><span class="org-block-background">
+  </span><span class="doc"><span class="org-block-background">"My own mode"</span></span><span class="org-block-background">
+  (setq font-lock-defaults '</span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">(my-font-lock-keywords nil)</span></span><span class="org-block-background">))
+</span><span class="org-block-end-line">
+</span>
+<span class="org-level-1"> Debugging font-lock keywords</span>
+
+<span class="org-level-2"> Font-lock is not developer friendly:</span>
+- Errors are silently ignored
+- A badly written rule could hang Emacs
+
+<span class="org-level-1"> font-lock-studio</span>
+
+Font-lock Studio is an interactive debugger for font-lock keywords.
+
+Overview:
+
+- Two-window setup -- Source and list of font-lock keywords
+- Single step keyowords, match by match
+- Visualizes matches using a palette of background colors
+- Invoke the debugger if an error occurs
+- Integrated with edebug (i.e. step into lisp code)
+- Explain rules in "plain english"
+- Set breakpoints, run, etc.
+- Great for reverse engineering existing packages.
+
+<span class="org-level-1"> <img src="demo.png" alt="./demo.png" /></span>
+<span class="org-level-1"> Regression tests</span>
+
+<span class="org-level-2"> Faceup -- Markup language for texts with faces</span>
+
+The package "faceup" makes it possible to save a text representation
+of a syntax highlighted buffer.
+
+Together with "ert" (the Emacs Regression Test package), it's possible
+to verify that a package highlights a buffer exactly like it did when
+the reference file was first generated.
+
+For example:
+
+<span class="org-block-begin-line">
+</span><span class="org-block-background">&#171;t:int&#187; &#171;f:main&#187;(&#171;t:void&#187;)
+{
+  printf(&#171;s:"Hello World\n"&#187;);
+}</span><span class="org-meta-line"><span class="org-block-background">
+</span></span><span class="org-block-end-line">
+</span>
+<span class="org-level-1"> Font-lock examples</span>
+
+The following slides contains a number of examples of font-lock
+packages demonstrating some of the things that are possible to do in
+font-lock.
+
+<span class="org-level-1"> cwarn-mode</span>
+
+In C, highlight assignments in expressions and stray semicolons.
+For example:
+
+<span class="org-block-begin-line">
+</span><span class="type"><span class="org-block-background">int</span></span><span class="org-block-background"> </span><span class="function-name"><span class="org-block-background">test</span></span><span class="org-block-background">()
+{
+  </span><span class="keyword"><span class="org-block-background">if</span></span><span class="org-block-background"> (x </span><span class="warning"><span class="org-block-background">=</span></span><span class="org-block-background"> 17)</span><span class="warning"><span class="org-block-background">;</span></span><span class="org-block-background">
+    </span><span class="keyword"><span class="org-block-background">return</span></span><span class="org-block-background"> 1;
+  </span><span class="keyword"><span class="org-block-background">return</span></span><span class="org-block-background"> 2;
+}
+</span><span class="org-block-end-line">
+</span>
+<span class="org-level-1"> cmake-font-lock</span>
+
+CMake is a build system generator that can generate Makefiles,
+ninjafiles, Visual Studio projects etc. Unfortunately, the CMake
+language is really hard to read, since it does not have normal return
+values. (To make a long story short), a word passed to a function can
+be a keyword, the name of a variable, a string, a property, a
+target...
+
+cmake-font-lock knows about the signature of all CMake functions, and
+can highlight them accordingly:
+
+<span class="org-block-begin-line">
+</span><span class="keyword"><span class="org-block-background">function</span></span><span class="org-block-background">(</span><span class="function-name"><span class="org-block-background">my_get_dirs</span></span><span class="org-block-background"> </span><span class="variable-name"><span class="org-block-background">var</span></span><span class="org-block-background">)
+  </span><span class="function-name"><span class="org-block-background">set</span></span><span class="org-block-background">(</span><span class="variable-name"><span class="org-block-background">dirs</span></span><span class="org-block-background"> </span><span class="string"><span class="org-block-background">""</span></span><span class="org-block-background">)
+  </span><span class="keyword"><span class="org-block-background">foreach</span></span><span class="org-block-background">(</span><span class="variable-name"><span class="org-block-background">file</span></span><span class="org-block-background"> </span><span class="default"><span class="org-block-background">${</span></span><span class="variable-name"><span class="org-block-background">ARGN</span></span><span class="default"><span class="org-block-background">}</span></span><span class="org-block-background">)
+    </span><span class="function-name"><span class="org-block-background">get_filename_component</span></span><span class="org-block-background">(</span><span class="variable-name"><span class="org-block-background">abs_file</span></span><span class="org-block-background"> </span><span class="default"><span class="org-block-background">${</span></span><span class="variable-name"><span class="org-block-background">file</span></span><span class="default"><span class="org-block-background">}</span></span><span class="org-block-background"> </span><span class="type"><span class="org-block-background">ABSOLUTE</span></span><span class="org-block-background">)
+    </span><span class="function-name"><span class="org-block-background">get_filename_component</span></span><span class="org-block-background">(</span><span class="variable-name"><span class="org-block-background">abs_path</span></span><span class="org-block-background"> </span><span class="default"><span class="org-block-background">${</span></span><span class="variable-name"><span class="org-block-background">abs_file</span></span><span class="default"><span class="org-block-background">}</span></span><span class="org-block-background"> </span><span class="type"><span class="org-block-background">PATH</span></span><span class="org-block-background">)
+    </span><span class="function-name"><span class="org-block-background">list</span></span><span class="org-block-background">(</span><span class="type"><span class="org-block-background">FIND</span></span><span class="org-block-background"> </span><span class="variable-name"><span class="org-block-background">dirs</span></span><span class="org-block-background"> </span><span class="default"><span class="org-block-background">${</span></span><span class="variable-name"><span class="org-block-background">abs_path</span></span><span class="default"><span class="org-block-background">}</span></span><span class="org-block-background"> </span><span class="variable-name"><span class="org-block-background">present</span></span><span class="org-block-background">)
+    </span><span class="keyword"><span class="org-block-background">if</span></span><span class="org-block-background">(</span><span class="default"><span class="org-block-background">${</span></span><span class="variable-name"><span class="org-block-background">present</span></span><span class="default"><span class="org-block-background">}</span></span><span class="org-block-background"> </span><span class="type"><span class="org-block-background">EQUAL</span></span><span class="org-block-background"> -1)
+      </span><span class="function-name"><span class="org-block-background">list</span></span><span class="org-block-background">(</span><span class="type"><span class="org-block-background">APPEND</span></span><span class="org-block-background"> </span><span class="variable-name"><span class="org-block-background">dirs</span></span><span class="org-block-background"> </span><span class="default"><span class="org-block-background">${</span></span><span class="variable-name"><span class="org-block-background">abs_path</span></span><span class="default"><span class="org-block-background">}</span></span><span class="org-block-background">)
+    </span><span class="keyword"><span class="org-block-background">endif</span></span><span class="org-block-background">()
+  </span><span class="keyword"><span class="org-block-background">endforeach</span></span><span class="org-block-background">()
+  </span><span class="function-name"><span class="org-block-background">set</span></span><span class="org-block-background">(</span><span class="default"><span class="org-block-background">${</span></span><span class="variable-name"><span class="org-block-background">var</span></span><span class="default"><span class="org-block-background">}</span></span><span class="org-block-background"> </span><span class="default"><span class="org-block-background">${</span></span><span class="variable-name"><span class="org-block-background">dirs</span></span><span class="default"><span class="org-block-background">}</span></span><span class="org-block-background"> </span><span class="type"><span class="org-block-background">PARENT_SCOPE</span></span><span class="org-block-background">)
+</span><span class="keyword"><span class="org-block-background">endfunction</span></span><span class="org-block-background">()
+
+</span><span class="function-name"><span class="org-block-background">my_get_dirs</span></span><span class="org-block-background">(DIRS alpha/one.h alpha/two.h beta/three.h)
+
+</span><span class="function-name"><span class="org-block-background">message</span></span><span class="org-block-background">(</span><span class="type"><span class="org-block-background">STATUS</span></span><span class="org-block-background"> </span><span class="string"><span class="org-block-background">"Directories:"</span></span><span class="org-block-background">)
+</span><span class="keyword"><span class="org-block-background">foreach</span></span><span class="org-block-background">(</span><span class="variable-name"><span class="org-block-background">d</span></span><span class="org-block-background"> </span><span class="default"><span class="org-block-background">${</span></span><span class="variable-name"><span class="org-block-background">DIRS</span></span><span class="default"><span class="org-block-background">}</span></span><span class="org-block-background">)
+  </span><span class="function-name"><span class="org-block-background">message</span></span><span class="org-block-background">(</span><span class="type"><span class="org-block-background">STATUS</span></span><span class="org-block-background"> </span><span class="string"><span class="org-block-background">"  ${</span></span><span class="string"><span class="variable-name"><span class="org-block-background">d</span></span></span><span class="string"><span class="org-block-background">}"</span></span><span class="org-block-background">)
+</span><span class="keyword"><span class="org-block-background">endforeach</span></span><span class="org-block-background">()
+</span><span class="org-block-end-line">
+</span>
+<span class="org-level-1"> preproc-font-lock</span>
+
+Make preprocessor macro definitions stand out. I find this especially
+useful for multiline macros.
+
+
+<span class="org-block-begin-line">
+</span><span class="comment-delimiter"><span class="org-block-background">* </span></span><span class="comment"><span class="org-block-background">Include directive </span></span><span class="comment-delimiter"><span class="org-block-background">*</span></span><span class="org-block-background">
+</span><span class="preproc-font-lock-preprocessor-background"><span class="preprocessor"><span class="org-block-background">#incude</span></span></span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background"> &lt;stdio.h&gt;</span></span><span class="org-block-background">
+
+</span><span class="comment-delimiter"><span class="org-block-background">* </span></span><span class="comment"><span class="org-block-background">Normal macro </span></span><span class="comment-delimiter"><span class="org-block-background">*</span></span><span class="org-block-background">
+</span><span class="preproc-font-lock-preprocessor-background"><span class="preprocessor"><span class="org-block-background">#define</span></span></span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background"> </span></span><span class="preproc-font-lock-preprocessor-background"><span class="variable-name"><span class="org-block-background">HORSE</span></span></span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background"> 1</span></span><span class="org-block-background">
+
+</span><span class="comment-delimiter"><span class="org-block-background">* </span></span><span class="comment"><span class="org-block-background">Multiline macro </span></span><span class="comment-delimiter"><span class="org-block-background">*</span></span><span class="org-block-background">
+</span><span class="preproc-font-lock-preprocessor-background"><span class="preprocessor"><span class="org-block-background">#define</span></span></span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background"> </span></span><span class="preproc-font-lock-preprocessor-background"><span class="function-name"><span class="org-block-background">MAX</span></span></span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background">(</span></span><span class="preproc-font-lock-preprocessor-background"><span class="variable-name"><span class="org-block-background">x</span></span></span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background">, </span></span><span class="preproc-font-lock-preprocessor-background"><span class="variable-name"><span class="org-block-background">y</span></span></span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background">)                              \</span></span><span class="org-block-background">
+</span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background">  (  (x) &gt; (y)                                 \</span></span><span class="org-block-background">
+</span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background">   ? (x)                                       \</span></span><span class="org-block-background">
+</span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background">   : (y))</span></span><span class="org-block-background">
+</span><span class="org-block-end-line">
+</span>
+A nice side effect is that helps you find broken macros:
+
+<span class="org-block-begin-line">
+</span><span class="comment-delimiter"><span class="org-block-background">* </span></span><span class="comment"><span class="org-block-background">Broken multiline macro (end-of-line backslash missing) </span></span><span class="comment-delimiter"><span class="org-block-background">*</span></span><span class="org-block-background">
+</span><span class="preproc-font-lock-preprocessor-background"><span class="preprocessor"><span class="org-block-background">#define</span></span></span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background"> </span></span><span class="preproc-font-lock-preprocessor-background"><span class="function-name"><span class="org-block-background">MIN</span></span></span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background">(</span></span><span class="preproc-font-lock-preprocessor-background"><span class="variable-name"><span class="org-block-background">x</span></span></span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background">, </span></span><span class="preproc-font-lock-preprocessor-background"><span class="variable-name"><span class="org-block-background">y</span></span></span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background">)                              \</span></span><span class="org-block-background">
+</span><span class="preproc-font-lock-preprocessor-background"><span class="org-block-background">  (  (x) &lt; (y)</span></span><span class="org-block-background">
+   ? (x)                                       \
+   : (y))
+</span><span class="org-block-end-line">
+</span>
+
+<span class="org-level-1"> obj-font-lock</span>
+
+Objective-C function calls are really hard to spot, not so any more:
+
+<span class="org-block-begin-line">
+</span><span class="type"><span class="org-block-background">void</span></span><span class="org-block-background"> </span><span class="function-name"><span class="org-block-background">test</span></span><span class="org-block-background">()
+{
+  </span><span class="objc-font-lock-background"><span class="objc-font-lock-bracket"><span class="org-block-background">[</span></span></span><span class="objc-font-lock-background"><span class="type"><span class="org-block-background">NSColor</span></span></span><span class="objc-font-lock-background"><span class="org-block-background"> </span></span><span class="objc-font-lock-background"><span class="objc-font-lock-function-name"><span class="org-block-background">colorWithCalibratedRed</span></span></span><span class="objc-font-lock-background"><span class="org-block-background">: first + 0.01</span></span><span class="org-block-background">
+                            </span><span class="objc-font-lock-background"><span class="objc-font-lock-function-name"><span class="org-block-background">green</span></span></span><span class="objc-font-lock-background"><span class="org-block-background">: fourth + (second/third)</span></span><span class="org-block-background">
+                             </span><span class="objc-font-lock-background"><span class="objc-font-lock-function-name"><span class="org-block-background">blue</span></span></span><span class="objc-font-lock-background"><span class="org-block-background">: (CGFloat)</span></span><span class="objc-font-lock-background"><span class="objc-font-lock-background"><span class="objc-font-lock-bracket"><span class="org-block-background">[</span></span></span></span><span class="objc-font-lock-background"><span class="objc-font-lock-background"><span class="org-block-background">my_string </span></span></span><span class="objc-font-lock-background"><span class="objc-font-lock-background"><span class="objc-font-lock-function-name"><span class="org-block-background">length</span></span></span></span><span class="objc-font-lock-background"><span class="objc-font-lock-background"><span class="objc-font-lock-bracket"><span class="org-block-background">]</span></span></span></span><span class="org-block-background">
+                            </span><span class="objc-font-lock-background"><span class="objc-font-lock-function-name"><span class="org-block-background">alpha</span></span></span><span class="objc-font-lock-background"><span class="org-block-background">: fourth</span></span><span class="objc-font-lock-background"><span class="objc-font-lock-bracket"><span class="org-block-background">]</span></span></span><span class="org-block-background">;
+}
+</span><span class="org-block-end-line">
+</span>
+<span class="org-level-1"> lisp-extra-font-lock</span>
+
+Highlights bound variables: parameters, "let" etc.
+Highlights special (global) variables in a different face.
+Highlights quoted expressions.
+Backquotes, and the related "," and ",@" operators, are highlighted in
+a special face.
+
+<span class="org-block-begin-line">
+</span><span class="org-block-background">(</span><span class="keyword"><span class="org-block-background">defun</span></span><span class="org-block-background"> </span><span class="function-name"><span class="org-block-background">my-function</span></span><span class="org-block-background"> (</span><span class="variable-name"><span class="org-block-background">next</span></span><span class="org-block-background">)                          </span><span class="comment-delimiter"><span class="org-block-background">; </span></span><span class="comment"><span class="org-block-background">&lt;- Parameters
+</span></span><span class="org-block-background">  (</span><span class="keyword"><span class="org-block-background">let</span></span><span class="org-block-background"> ((</span><span class="variable-name"><span class="org-block-background">numbers</span></span><span class="org-block-background"> '</span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">(one two three)</span></span><span class="org-block-background">)                 </span><span class="comment-delimiter"><span class="org-block-background">; </span></span><span class="comment"><span class="org-block-background">&lt;- `</span></span><span class="comment"><span class="constant"><span class="org-block-background">let</span></span></span><span class="comment"><span class="org-block-background">' and quoted expr
+</span></span><span class="org-block-background">        (</span><span class="lisp-extra-font-lock-special-variable-name"><span class="org-block-background">buffer-read-only</span></span><span class="org-block-background"> t))                      </span><span class="comment-delimiter"><span class="org-block-background">; </span></span><span class="comment"><span class="org-block-background">&lt;- Special variable
+</span></span><span class="org-block-background">    </span><span class="lisp-extra-font-lock-backquote"><span class="org-block-background">`</span></span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">(</span></span><span class="lisp-extra-font-lock-backquote"><span class="org-block-background">,@</span></span><span class="org-block-background">numbers</span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background"> and </span></span><span class="lisp-extra-font-lock-backquote"><span class="org-block-background">,</span></span><span class="org-block-background">next</span><span class="lisp-extra-font-lock-quoted"><span class="org-block-background">)</span></span><span class="org-block-background">))                       </span><span class="comment-delimiter"><span class="org-block-background">; </span></span><span class="comment"><span class="org-block-background">&lt;- Backquote and comma
+</span></span><span class="org-block-end-line">
+</span>
+<span class="org-level-1"> World premiere for --</span>
+
+<span class="org-level-1"> World premiere for -- e2ansi</span>
+
+<span class="org-level-2"> Syntax highlighting in `less', powered by Emacs.</span>
+
+<span class="org-level-3"> Renders a syntax highlighted Emacs buffer using ANSI sequences.</span>
+
+<span class="org-level-3"> Command line tool "e2ansi-cat"</span>
+
+Use an Emacs in batch mode to perform the convertion.
+
+<span class="org-level-3"> "less" and input filters</span>
+
+You can configure "less" to use "e2ansi-cat" to render all viewed
+files:
+
+<span class="org-block-begin-line">
+</span><span class="builtin"><span class="org-block-background">export</span></span><span class="org-block-background"> </span><span class="string"><span class="org-block-background">"LESSOPEN=||-emacs --batch -Q -l ~/.emacs -l e2ansi-silent -l bin/e2ansi-cat %s"</span></span><span class="org-block-background">
+</span><span class="builtin"><span class="org-block-background">export</span></span><span class="org-block-background"> </span><span class="string"><span class="org-block-background">"LESS=-r -j20"</span></span><span class="org-block-background">
+
+</span><span class="builtin"><span class="org-block-background">alias</span></span><span class="org-block-background"> </span><span class="string"><span class="org-block-background">"more=less -X -E"</span></span><span class="org-block-background">
+</span><span class="org-block-end-line">
+</span>
+<span class="org-level-1"> The end!</span>
+
+All packages (except font-lock itself) presented here were written by
+me and released under the GNU General Public License.
+
+<span class="org-level-2"> Contact information</span>
+
+email: andlind@gmail.com
+GitHub: <span class="org-link"><a href="https://github.com/Lindydancer">https://github.com/Lindydancer</a></span>
+EmacsWiki: <span class="org-link"><a href="http://www.emacswiki.org/emacs/AndersLindgren">http://www.emacswiki.org/emacs/AndersLindgren</a></span>
+
+Most of the packages can be installed from "melpa.org".
+
+
+<span class="org-level-1"> Information about this presentation</span>
+
+This presentation was written using "org-mode" and was presented using
+"org-present".
+
+The option "org-src-fontify-natively" should be set to "t".
+
+All packages presented in this presentation should be installed in
+order for the examples to be correctly highlighted.
+</pre>
+  </body>
+</html>

@@ -14,9 +14,9 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:54 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:54 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Sun, 14 Jun 2015 15:38:58 +0200</pubDate>
+  <lastBuildDate>Sun, 14 Jun 2015 15:38:58 +0200</lastBuildDate>
+  <generator>Emacs 24.5 Org-mode 8.2.10</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
@@ -27,6 +27,39 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>Fourth *Emacs Meetup*</title>
+    <link>http://nicolas-petton.fr/blog/fourth-emacs-meetup.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/fourth-emacs-meetup.html</guid>
+    <pubDate>Sun, 14 Jun 2015 15:37:00 +0200</pubDate>
+
+    <description><![CDATA[
+    <div class="pubdate">
+    June 14, 2015
+    </div>
+
+    <p>
+    Last Thursday I hosted the <a href="http://www.meetup.com/Stockholm-Emacs-Meetup/events/222609506/">fourth Emacs Meetup</a>.
+    </p>
+
+    <p>
+    The plan was to have a look at how to write a major-mode, and after
+    some smalltalk around a beer and a slice of pizza, <a href="https://github.com/Lindydancer">Anders Lindgren</a>
+    made <i>a presentation</i> about <code>font-lock</code>.  After that we had a close a
+    look at <a href="https://github.com/NicolasPetton/pass-mode">pass-mode</a>, a major-mode for managing <a href="http://passwordstore.org/">pass</a> keychains.
+    </p>
+
+    <p>
+    I plan to host another meetup in August, so stay tuned!
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/fourth-emacs-meetup.html">Comments</a>.
+    </p>
+    ]]></description>
+  </item>
 
   <item>
     <title>Third Emacs meetup</title>
@@ -535,9 +568,9 @@
 
   <item>
     <title>Farewell RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-13</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-14</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-13</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-14</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -614,9 +647,9 @@
 
   <item>
     <title>Tide and Marina at RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-15</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-16</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-15</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-16</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -643,9 +676,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-16</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-17</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-16</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-17</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
 
     <description><![CDATA[
@@ -751,24 +784,24 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-19</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-20</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-19</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-20</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
 
     <description><![CDATA[
     <div class="pubdate">
-    June 11, 2014
+      June 11, 2014
     </div>
 
     <p>
-    I use Emacs on all of my machines, being laptops or servers. While
-    my Emacs settings are shared among all of my computers, some of
-    these settings really matter for one specific computer.
+      I use Emacs on all of my machines, being laptops or servers. While
+      my Emacs settings are shared among all of my computers, some of
+      these settings really matter for one specific computer.
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/per-computer-emacs-settings.html">Read the post</a>.
+      <a href="http://nicolas-petton.fr/blog/per-computer-emacs-settings.html">Read the post</a>.
     </p>
     ]]></description>
   </item>
@@ -952,9 +985,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-25</link>
+    <link>http://nicolas-petton.fr/blog/index.html#sec-26</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-25</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-26</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
 
     <description><![CDATA[
