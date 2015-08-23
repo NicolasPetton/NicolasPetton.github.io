@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- Created by htmlize-1.47 in css mode. -->
+<html>
+  <head>
+    <title>elisp.el</title>
+    <style type="text/css">
+    <!--
+      body {
+        color: #abb2bf;
+        background-color: #282c34;
+      }
+      .comment {
+        /* font-lock-comment-face */
+        color: #687080;
+        font-style: italic;
+      }
+      .comment-delimiter {
+        /* font-lock-comment-delimiter-face */
+        color: #687080;
+        font-style: italic;
+      }
+      .constant {
+        /* font-lock-constant-face */
+        color: #da8548;
+        font-weight: bold;
+      }
+      .doc {
+        /* font-lock-doc-face */
+        color: #9eac8c;
+      }
+      .function-name {
+        /* font-lock-function-name-face */
+        color: #61afef;
+      }
+      .keyword {
+        /* font-lock-keyword-face */
+        color: #c678dd;
+        font-weight: bold;
+      }
+      .string {
+        /* font-lock-string-face */
+        color: #98be65;
+      }
+      .variable-name {
+        /* font-lock-variable-name-face */
+        color: #61afef;
+      }
+      .visible-mark-face1 {
+        /* visible-mark-face1 */
+        color: #ddbd78;
+      }
+
+      a {
+        color: inherit;
+        background-color: inherit;
+        font: inherit;
+        text-decoration: inherit;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    -->
+    </style>
+  </head>
+  <body>
+    <pre>
+<span class="comment-delimiter"><span class="visible-mark-face1">;</span></span><span class="comment-delimiter">;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">What's wrong with all these parentheses?
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+hello(<span class="string">"world"</span>)<span class="comment-delimiter">;</span><span class="comment">
+</span>
+<span class="comment-delimiter">;; </span><span class="comment">vs
+</span>
+(hello <span class="string">"world"</span>)
+
+
+<span class="comment-delimiter">;;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">Arithmetic expressions
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+(+ 3 (+ 1 2)) <span class="comment-delimiter">;; </span><span class="comment">evaluation is done with with C-x C-e
+</span>
+(+ 3 1 2)
+
+(/ 4 (+ 1 2))
+
+
+<span class="comment-delimiter">;;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">Variables
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+(<span class="keyword">defvar</span> <span class="variable-name">me</span> <span class="string">"nico"</span>)
+
+(<span class="keyword">setq</span> me <span class="string">"Nicolas"</span>)
+
+
+<span class="comment-delimiter">;;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">Functions
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+<span class="comment-delimiter">;; </span><span class="comment">one argument
+</span>(insert <span class="string">"Hello"</span>)
+
+<span class="comment-delimiter">;; </span><span class="comment">2 arguments
+</span>(insert <span class="string">"Hello"</span> <span class="string">" world!"</span>)
+
+
+<span class="comment-delimiter">;;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">function definition
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+(<span class="keyword">defun</span> <span class="function-name">hello</span> (name)
+  <span class="doc">"Doc string"</span>
+  (insert <span class="string">"Hello from "</span> name))
+
+(hello me)
+
+
+<span class="comment-delimiter">;;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">Local variable bindings with `</span><span class="comment"><span class="constant">let</span></span><span class="comment">'
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+(<span class="keyword">let</span> ((name <span class="string">"HAL"</span>))
+  (hello name))
+
+
+<span class="comment-delimiter">;;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">formatting strings
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+(format <span class="string">"Hello, %s"</span> <span class="string">"you"</span>)
+
+(<span class="keyword">defun</span> <span class="function-name">hello</span> (name)
+  (format <span class="string">"Hello from %s!\n"</span> name))
+
+
+<span class="comment-delimiter">;;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">Lists
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+(<span class="keyword">defvar</span> <span class="variable-name">list-of-names</span> '(<span class="string">"nicolas"</span> <span class="string">"benjamin"</span> <span class="string">"henrik"</span>))
+
+<span class="comment-delimiter">;; </span><span class="comment">Adding to a list
+</span>
+(cons <span class="string">"mikael"</span> list-of-names)
+(<span class="keyword">push</span> <span class="string">"mikael"</span> list-of-names)
+
+<span class="comment-delimiter">;; </span><span class="comment">Push is "similar" to
+</span>(<span class="keyword">setq</span> var (cons new-value var))
+
+<span class="comment-delimiter">;; </span><span class="comment">car &amp; cdr
+</span>
+(car list-of-names)
+(cdr list-of-names)
+
+<span class="comment-delimiter">;; </span><span class="comment">nil &amp; lists
+</span>
+(listp nil)
+(null nil)
+
+(<span class="keyword">if</span> nil
+    'truthy
+  'falsy)
+
+(<span class="keyword">if</span> 'non-nil
+    'truthy
+  'falsy)
+
+<span class="comment-delimiter">;; </span><span class="comment">Mapping
+</span>
+(<span class="keyword">defun</span> <span class="function-name">greetings-from</span> (names)
+  (mapcar #'hello names))
+
+(greetings-from list-of-names)
+
+<span class="comment-delimiter">;;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">Symbols
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+'hello
+
+(eq 'hello 'hello)
+(eq <span class="string">"hello"</span> <span class="string">"hello"</span>)
+
+(symbol-name 'hello)
+(intern <span class="string">"hello"</span>)
+
+(eq (intern <span class="string">"hello"</span>) 'hello)
+
+(make-symbol <span class="string">"hello"</span>)
+(eq (make-symbol <span class="string">"hello"</span>) 'hello)
+
+<span class="comment-delimiter">;;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">Quoting
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+'(+ 1 2) <span class="comment-delimiter">;; </span><span class="comment">=&gt; (+ 1 2)
+</span>(+ 1 2)  <span class="comment-delimiter">;; </span><span class="comment">=&gt; 3
+</span>'t       <span class="comment-delimiter">;; </span><span class="comment">=&gt; t
+</span>t        <span class="comment-delimiter">;; </span><span class="comment">=&gt; t
+</span>'1       <span class="comment-delimiter">;; </span><span class="comment">=&gt; 1
+</span>1        <span class="comment-delimiter">;; </span><span class="comment">=&gt; 1
+</span>
+
+<span class="comment-delimiter">;;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">Quasi-quoting
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+`(foo ,emacs-version bar)
+
+
+<span class="comment-delimiter">;;;</span><span class="comment">
+</span><span class="comment-delimiter">;;; </span><span class="comment">code as data &amp; macros
+</span><span class="comment-delimiter">;;;</span><span class="comment">
+</span>
+'(+ 1 2 3)
+(eval '(+ 1 2 3))
+
+(+ 1 2 3)
+
+(3 2 1 +)
+
+(<span class="keyword">defmacro</span> <span class="function-name">postfixed</span> (list)
+  (reverse list))
+
+(postfixed (1 2 3 +))
+
+<span class="comment-delimiter">;; </span><span class="comment">macroexpansion
+</span>
+(macroexpand '(postfixed (1 2 3 +)))
+
+(<span class="keyword">defmacro</span> <span class="function-name">inc</span> (n)
+  (list 'setq n (list '+ n 1)))
+
+<span class="comment-delimiter">;; </span><span class="comment">With quasi-quoting
+</span>(<span class="keyword">defmacro</span> <span class="function-name">inc</span> (n)
+  `(<span class="keyword">setq</span> ,n (+ ,n 1)))
+
+(macroexpand '(inc foo))
+
+(<span class="keyword">defvar</span> <span class="variable-name">val</span> 3)
+(inc val)
+val
+
+
+<span class="comment-delimiter">;; </span><span class="comment">if-not macro
+</span>
+(<span class="keyword">defmacro</span> <span class="function-name">if-not</span> (condition then else)
+  `(<span class="keyword">if</span> (not ,condition)
+       ,then
+     ,else))
+
+<span class="comment-delimiter">;; </span><span class="comment">Hygienic macros
+</span>
+(<span class="keyword">defmacro</span> <span class="function-name">dorepeat</span> (n form) <span class="comment-delimiter">;; </span><span class="comment">dotimes already exists and is much better ;)
+</span>  `(<span class="keyword">let</span> ((max 0))
+    (<span class="keyword">while</span> (&lt; max ,n)
+      ,form
+      (inc max))))
+
+(dorepeat 5 (inc val))
+
+<span class="comment-delimiter">;; </span><span class="comment">so far so good, but...
+</span>
+(<span class="keyword">defvar</span> <span class="variable-name">max</span> 0)
+(dorepeat 5 (inc max))
+max
+
+<span class="comment-delimiter">;; </span><span class="comment">What went wrong?
+</span>
+(macroexpand '(dorepeat 5 (inc max)))
+
+
+<span class="comment-delimiter">;; </span><span class="comment">Let's fix it!
+</span>
+(<span class="keyword">defmacro</span> <span class="function-name">dorepeat</span> (n form)
+  (<span class="keyword">let</span> ((max (make-symbol <span class="string">"max"</span>)))
+    `(<span class="keyword">let</span> ((,max 0))
+       (<span class="keyword">while</span> (&lt; ,max ,n)
+         ,form
+         (inc ,max)))))
+
+(dorepeat 5 (inc max))
+ </pre>
+  </body>
+</html>
