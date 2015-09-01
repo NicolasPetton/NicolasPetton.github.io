@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- Created by htmlize-1.47 in css mode. -->
+<html>
+  <head>
+    <title>seq.el and map.el</title>
+    <style type="text/css">
+    <!--
+      body {
+        color: #abb2bf;
+        font-size: 18px;
+        background-color: #282c34;
+      }
+      .bold {
+        /* bold */
+        font-weight: bold;
+      }
+      .comment {
+        /* font-lock-comment-face */
+        color: #687080;
+        font-style: italic;
+      }
+      .comment-delimiter {
+        /* font-lock-comment-delimiter-face */
+        color: #687080;
+        font-style: italic;
+      }
+      .constant {
+        /* font-lock-constant-face */
+        color: #da8548;
+        font-weight: bold;
+      }
+      .flyspell-duplicate {
+        /* flyspell-duplicate */
+        text-decoration: underline;
+      }
+      .keyword {
+        /* font-lock-keyword-face */
+        color: #c678dd;
+        font-weight: bold;
+      }
+      .org-block-begin-line {
+        /* org-block-begin-line */
+        color: #687080;
+        font-style: italic;
+      }
+      .org-block-end-line {
+        /* org-block-end-line */
+        color: #687080;
+        font-style: italic;
+      }
+      .org-hide {
+        /* org-hide */
+        color: #282c34;
+      }
+      .org-level-1 {
+        /* org-level-1 */
+        color: #61afef;
+        font-weight: bold;
+      }
+      .org-level-2 {
+        /* org-level-2 */
+        color: #c678dd;
+        font-weight: bold;
+      }
+      .org-level-3 {
+        /* org-level-3 */
+        font-weight: bold;
+      }
+      .org-link {
+        /* org-link */
+        color: #61afef;
+        text-decoration: underline;
+      }
+      .org-table {
+        /* org-table */
+        color: #87cefa;
+      }
+      .org-verbatim {
+        /* org-verbatim */
+        color: #b3b3b3;
+      }
+      .string {
+        /* font-lock-string-face */
+        color: #98be65;
+      }
+      .type {
+        /* font-lock-type-face */
+        color: #61afef;
+      }
+      .variable-name {
+        /* font-lock-variable-name-face */
+        color: #61afef;
+      }
+
+      a {
+        color: inherit;
+        background-color: inherit;
+        font: inherit;
+        text-decoration: inherit;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    -->
+    </style>
+  </head>
+  <body>
+    <pre>
+<span class="org-level-1">* seq.el &amp; map.</span><span class="org-level-1"><span class="flyspell-duplicate">el</span></span>
+  (in Emacs 25.1)
+
+
+  Nicolas Petton
+
+
+  This slides are available online at
+  <span class="org-link"><a href="http://nicolas-petton.fr/ressources/emacsconf2015/">nicolas-petton.fr/ressources/emacsconf2015/</a></span>
+
+
+<span class="org-level-1">* Some words about me</span>
+
+  Nicolas Petton 
+
+  - Sotfware engineer working in Stockholm, Sweden
+
+  - I'm french
+
+  - Organizer of the Stockholm Emacs Meetup
+
+  - Maintainer or co-maintainer of several Emacs packages 
+    (js2-refactor, seq.el, map.el, stream.el)
+
+  Web:      <span class="org-link"><a href="http://nicolas-petton.fr">nicolas-petton.fr</a></span>
+  Email:    <span class="org-link"><a href="nicolas@petton.fr">nicolas@petton.fr</a></span>
+  Twitter:  <span class="org-link"><a href="http://twitter.com/NicolasPetton">@NicolasPetton</a></span>
+
+
+<span class="org-level-1">* What are seq.el and map.el?</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* New libraries in Emacs 25.1</span>
+<span class="org-hide">*</span><span class="org-level-2">* Provides a high level API for collections</span>
+<span class="org-hide">*</span><span class="org-level-2">* Provides better support for vectors, hash-tables, etc.</span>
+
+
+   _____________________________________________
+  <span class="org-table">|                                             |</span>
+  <span class="org-table">|          Sequence                           |</span>
+  <span class="org-table">|  ______   ________________________________  |</span>
+  <span class="org-table">| |      | |                                | |</span>
+  <span class="org-table">| | List | |             Array              | |</span>
+  <span class="org-table">| |      | |    ________       ________     | |</span>
+  <span class="org-table">| |______| |   |        |     |        |    | |</span>
+  <span class="org-table">|          |   | Vector |     | String |    | |</span>
+  <span class="org-table">|          |   |________|     |________|    | |</span>
+  <span class="org-table">|          |  ____________   _____________  | |</span>
+  <span class="org-table">|          | |            | |             | | |</span>
+  <span class="org-table">|          | | Char-table | | Bool-vector | | |</span>
+  <span class="org-table">|          | |____________| |_____________| | |</span>
+  <span class="org-table">|          |________________________________| |</span>
+  <span class="org-table">|_____________________________________________|</span>
+
+
+<span class="org-level-1">* Why not dash.</span><span class="org-level-1"><span class="flyspell-duplicate">el</span></span><span class="org-level-1">?</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Dash only works with lists</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Dash includes other features</span>
+   (such as threading macros, anaphoric macros, etc.)
+
+<span class="org-hide">*</span><span class="org-level-2">* seq.el is extensible to new sequence implementations</span>
+
+
+
+<span class="org-level-1">* Quick overview of the seq.el</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* seq.el works on sequence types: lists, vectors, and strings</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* seq.el is extensible to new types</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* All functions are prefixes with </span><span class="org-level-2"><span class="org-verbatim">=seq-=</span></span>
+
+<span class="org-hide">*</span><span class="org-level-2">* All functions are free of side-effect</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* All functions are tested in </span><span class="org-level-2"><span class="org-verbatim">=seq-tests.</span></span><span class="org-level-2"><span class="org-verbatim"><span class="flyspell-duplicate">el</span></span></span><span class="org-level-2"><span class="org-verbatim">=</span></span>
+
+
+<span class="org-level-1">* seq.el &amp; side-effects</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* seq treats sequences as </span><span class="org-level-2"><span class="bold">*values*</span></span>
+   (No mutation of sequences)
+
+<span class="org-hide">*</span><span class="org-level-2">* No side-effect</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Mapping, filtering, reversing return copies of the original sequences</span>
+
+
+<span class="org-level-1">* Examples</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Predicates</span>
+
+<span class="org-block-begin-line">#+BEGIN_SRC elisp
+</span>
+(<span class="keyword">require</span> '<span class="constant">seq</span>)
+
+(seq-p [2 4])
+(seq-empty-p <span class="string">""</span>)
+
+<span class="comment-delimiter">;; </span><span class="comment">Actually returns the first match
+</span>(seq-some-p #'oddp '(1 2 3))
+
+(seq-every-p #'evenp '(2 4 6))
+
+(seq-contains-p <span class="string">"Hello"</span> ?e)
+
+<span class="org-block-end-line">#+END_SRC
+</span>
+<span class="org-hide">*</span><span class="org-level-2">* Iterating, mapping &amp; filtering</span>
+
+<span class="org-block-begin-line">#+BEGIN_SRC elisp
+</span>
+<span class="comment-delimiter">;; </span><span class="comment">`</span><span class="comment"><span class="constant">seq-doseq</span></span><span class="comment">' is similar to `</span><span class="comment"><span class="constant">dolist</span></span><span class="comment">', but works on all sequence types
+</span>(<span class="keyword">seq-doseq</span> (elt '(1 2 3 4))
+  (print elt))
+
+(<span class="keyword">seq-doseq</span> (elt [1 2 3 4])
+  (print elt))
+
+(<span class="keyword">seq-doseq</span> (elt <span class="string">"Hello world"</span>)
+  (print elt))
+
+<span class="comment-delimiter">;; </span><span class="comment">similar to `</span><span class="comment"><span class="constant">mapc</span></span><span class="comment">'
+</span>(seq-do #'print '(1 2 3 4))
+
+<span class="comment-delimiter">;; </span><span class="comment">similar to `</span><span class="comment"><span class="constant">mapcar</span></span><span class="comment">'
+</span>(seq-map #'1+ '(1 2 3 4))
+(seq-map #'1+ [1 2 3 4])
+(seq-map #'1+ <span class="string">"Hello"</span>)
+
+<span class="comment-delimiter">;; </span><span class="comment">filtering/removing
+</span>(seq-filter #'oddp '(1 2 3 4))
+(seq-remove #'oddp '[1 2 3 4])
+
+<span class="comment-delimiter">;; </span><span class="comment">Reducing
+</span>(seq-reduce #'+ [2 4 6] 0)
+
+<span class="org-block-end-line">#+END_SRC
+</span>
+<span class="org-hide">*</span><span class="org-level-2">* Accessing elements</span>
+
+<span class="org-block-begin-line">#+BEGIN_SRC elisp
+</span>
+(seq-elt [1 2 3 4] 2)
+(seq-elt '(1 2 3 4) 2)
+(seq-elt <span class="string">"Hello"</span> 2)
+
+<span class="comment-delimiter">;; </span><span class="comment">Supports gv.el
+</span><span class="comment-delimiter">;; </span><span class="comment">This is the only case of side effect in seq.el
+</span>(<span class="keyword">setf</span> (seq-elt [1 2 3 4] 2) 6)
+
+(seq-subseq <span class="string">"Hello"</span> 0 4)
+
+(seq-drop '(1 2 3 4) 2)
+(seq-take [1 2 3 4] 2)
+(seq-take-while #'oddp '(1 3 4))
+(seq-drop-while #'oddp '(1 3 4))
+
+<span class="org-block-end-line">#+END_SRC
+</span>
+<span class="org-hide">*</span><span class="org-level-2">* seq.el and pcase</span>
+
+<span class="org-hide">**</span><span class="org-level-3">* Destructuring</span>
+
+<span class="org-block-begin-line">#+BEGIN_SRC elisp
+</span>
+(<span class="keyword">seq-let</span> (first _ third <span class="type">&amp;rest</span> rest) [1 2 3 4 5]
+  (message <span class="string">"First element: %s, third: %s, and rest: %s"</span> 
+           first third rest))
+
+<span class="comment-delimiter">;; </span><span class="comment">Nested &amp; on various sequence types
+</span>(<span class="keyword">seq-let</span> (a (b (c))) [1 (2 <span class="string">"Hello"</span>)]
+  (message <span class="string">"a is: %s, b: %s, and c: %s"</span> a b c))
+
+<span class="org-block-end-line">#+END_SRC
+</span>
+<span class="org-hide">**</span><span class="org-level-3">* Pattern matching</span>
+
+<span class="org-block-begin-line">#+BEGIN_SRC elisp
+</span>
+(<span class="keyword">let</span> ((myseq [1 2 3 4]))
+  (<span class="keyword">pcase</span> myseq
+    ((seq _ _ third) (message <span class="string">"%s"</span> third))))
+
+<span class="org-block-end-line">#+END_SRC
+</span>
+
+
+<span class="org-level-1">* Extending seq.el: stream.el</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* stream.el provides a lazy seq implementation</span>
+<span class="org-hide">*</span><span class="org-level-2">* stream.el implements a new seq type: lazy seq, or streams</span>
+
+
+<span class="org-level-1">* What about map.el?</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Similar to seq.el, but for key/value data structures</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Currently supports alists, hash-tables and arrays</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* In Emacs 25.1 (but not in ELPA)</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Unlike seq.el, </span><span class="org-level-2"><span class="org-verbatim">=map-put=</span></span><span class="org-level-2"> and </span><span class="org-level-2"><span class="org-verbatim">=map-delete=</span></span><span class="org-level-2"> have side-effect</span>
+
+
+<span class="org-level-1">* Examples</span>
+
+<span class="org-hide">*</span><span class="org-level-2">* Accessing map elements</span>
+   - map-elt
+   - map-put
+   - map-delete
+
+<span class="org-block-begin-line">#+BEGIN_SRC elisp
+</span>
+(<span class="keyword">require</span> '<span class="constant">map</span>)
+
+(map-elt '((a . 1) (b . 2)) 
+         'b)
+
+(<span class="keyword">let</span> ((ht (make-hash-table)))
+  (puthash 'a 2 ht)
+  (map-elt ht 'a))
+
+(map-elt [10 11 12 13]
+         2)
+
+(map-elt <span class="string">"Hello world"</span>
+         3)
+
+(<span class="keyword">let</span> ((alist '((a . 1) (b . 2))))
+  (map-put alist 'b 3)
+  (map-elt alist 'b))
+
+(map-put [a b c] 1 'd)
+
+<span class="comment-delimiter">;; </span><span class="comment">same support for gv.el as in seq.el
+</span>(<span class="keyword">setf</span> (map-elt [a b c] 1) 'd)
+
+<span class="org-block-end-line">#+END_SRC
+</span>
+<span class="org-hide">*</span><span class="org-level-2">* Predicates</span>
+
+<span class="org-block-begin-line">#+BEGIN_SRC elisp
+</span>
+(map-p (make-hash-table))
+
+(map-empty-p [])
+
+(map-contains-key-p '((a . 1) (b . 2)) 'c)
+
+(map-some-p (<span class="keyword">lambda</span> (k v) (oddp v))
+            '((a . 1) (b . 2) (c . 3)))
+
+(map-every-p (<span class="keyword">lambda</span> (k v) (oddp v))
+             [1 3 5 7])
+
+<span class="org-block-end-line">#+END_SRC
+</span>
+<span class="org-hide">*</span><span class="org-level-2">* Accessing keys, values, and nested elements</span>
+
+<span class="org-block-begin-line">#+BEGIN_SRC elisp
+</span>
+(map-keys [a b c])
+(map-values '((a . 1) (b . 2)))
+
+(map-nested-elt '((a . ((c . 3))) (b . 2)) 
+                '(a c))
+
+(map-nested-elt [<span class="string">"Hello"</span> <span class="string">"World"</span> ((a . 1))]
+                '(2 a))
+
+<span class="org-block-end-line">#+END_SRC
+</span>
+<span class="org-hide">*</span><span class="org-level-2">* Iterating, mapping &amp; filtering</span>
+
+<span class="org-block-begin-line">#+BEGIN_SRC elisp
+</span>
+(map-apply (<span class="keyword">lambda</span> (key value)
+             (message <span class="string">"Key: %s, value: %s"</span> key value))
+           '((a . 1) (b . 2)))
+
+<span class="comment-delimiter">;; </span><span class="comment">map-keys-apply &amp; map-values-apply
+</span>
+
+<span class="comment-delimiter">;; </span><span class="comment">Return a copy of the original map
+</span>(map-filter (<span class="keyword">lambda</span> (k v) (oddp v))
+            '((a . 1) (b . 2) (c . 3) (d . 4)))
+
+(map-remove (<span class="keyword">lambda</span> (k v) (oddp v))
+            '((a . 1) (b . 2) (c . 3) (d . 4)))
+
+<span class="org-block-end-line">#+END_SRC
+</span>
+<span class="org-hide">*</span><span class="org-level-2">* Destructuring &amp; pcase</span>
+
+<span class="org-block-begin-line">#+BEGIN_SRC elisp
+</span>
+(<span class="keyword">defvar</span> <span class="variable-name">mymap</span> '((a . 1) (b . 2) (c . 3)))
+
+(map-let (b c) mymap
+  (message <span class="string">"Value for key b is %s"</span> b))
+
+(map-let (('b val1)
+          ('c val2)) 
+         mymap
+  (message <span class="string">"Value for key b is %s"</span> val1))
+
+(<span class="keyword">pcase</span> mymap
+  ((map a b) (message <span class="string">"Value for key a is %s"</span> a)))
+
+<span class="org-block-end-line">#+END_SRC
+</span>
+ 
+<span class="org-level-1">* Start using seq &amp; map in your packages!</span>
+
+
+  This slides are available online at
+  <span class="org-link"><a href="http://nicolas-petton.fr/ressources/emacsconf2015/">nicolas-petton.fr/ressources/emacsconf2015/</a></span>
+</pre>
+  </body>
+</html>
