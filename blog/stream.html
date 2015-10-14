@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2015-10-14 Wed 17:24 -->
+<!-- 2015-10-14 Wed 17:31 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
-<title>Objectfusion</title>
+<title>stream.el</title>
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Nicolas Petton" />
 <style type="text/css">
@@ -95,7 +95,8 @@
   /*]]>*/-->
 </style>
 <link href='/images/favicon.ico' rel='shortcut icon' type='image/x-icon'>
-<link rel='stylesheet' href='css/site.css?v=2' type='text/css'/>
+<link rel='stylesheet' href='../css/site.css?v=2' type='text/css'/>
+<link rel='stylesheet' href='../css/blog.css?v=2' type='text/css'/>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <script src='/js/Hyphenator.js' type='text/javascript'></script>
 <script src='/js/jquery.js' type='text/javascript'></script>
@@ -108,6 +109,9 @@
   ga('create', 'UA-2614862-2', 'nicolas-petton.fr');
   ga('send', 'pageview');
 </script>
+<link rel="alternate" type="application/rss+xml"
+                href="http://nicolas-petton.fr/blog/index.xml"
+                title="RSS feed">
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -173,39 +177,149 @@ for the JavaScript code in this tag.
 </div>
 </div>
 <div id="content">
-<h1 class="title">Objectfusion</h1>
+<h1 class="title">stream.el</h1>
 
-<div class="figure">
-<p><img src="./images/objectfusion_logo.png" alt="objectfusion_logo.png" class="no-border" />
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1"><a id="ID-85192591-76e0-4af4-9af1-9022c567cb90"></a><b>Lazy sequences</b> in Emacs with stream.el</h2>
+<div class="outline-text-2" id="text-orgheadline1">
+<div class="pubdate">
+October 14, 2015
+</div>
+
+
+<p>
+I just pushed to GNU ELPA the first version of <a href="https://github.com/NicolasPetton/stream">stream</a>, a new streaming library
+for Emacs. Streams are implemented as delayed evaluation of cons cells, and are
+immutable. In that sense they are similar to streams in the SICP book<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup> or to
+Clojure's lazy sequences.
 </p>
+
+<p>
+<code>stream</code> requires Emacs &gt;= 25, as it leverages the extensibility of <a href="https://github.com/NicolasPetton/seq.el">seq.el</a>: all
+functions defined in <code>seq</code> will work on streams, meaning that it's possible to
+consume a stream using <code>seq-take</code>, map and filter it using <code>seq-map</code> and
+<code>seq-filter</code>, and so forth.
+</p>
+
+<p>
+Streams could be created from any sequential input data:
+</p>
+<ul class="org-ul">
+<li>sequences, making operation on them lazy</li>
+<li>a set of 2 forms (first and rest), making it easy to represent infinite sequences</li>
+<li>buffers (by character)</li>
+<li>buffers (by line)</li>
+<li>buffers (by page)</li>
+<li>IO streams</li>
+<li>orgmode table cells</li>
+<li>&#x2026;</li>
+</ul>
+
+<p>
+The generic <code>stream</code> function currently accepts lists, strings, arrays and
+buffers as input, but it can be cleanly extended to support pretty much any kind
+of data.
+</p>
+
+<p>
+All operations on streams are lazy (including the functions from seq.el), unless
+data is actually needed.
+</p>
+
+<p>
+Here is an example of an infinite stream of ones:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(<span style="color: #c678dd; font-weight: bold;">defun</span> <span style="color: #61afef;">ones</span> ()
+  (<span style="color: #c678dd; font-weight: bold;">stream-cons</span> 0 (ones)))
+
+(ones) <span style="color: #687080; font-style: italic;">;; </span><span style="color: #687080; font-style: italic;">=&gt; stream</span>
+</pre>
 </div>
 
 <p>
-Objectfusion was a company dedicated into building custom web
-applications. Sébastien Audier and I co-founded the company in 2010 in
-Montpellier, France, and worked on creating applications in Smalltalk
-for 4 years.
+The next example shows an implementation of the Fibonacci numbers
+implemented as in infinite stream:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(<span style="color: #c678dd; font-weight: bold;">defun</span> <span style="color: #61afef;">fib</span> (a b)
+  (<span style="color: #c678dd; font-weight: bold;">stream-cons</span> a (fib b (+ a b))))
+
+(fib 0 1)
+</pre>
+</div>
+
+<p>
+The following example returns a stream of the first 50 characters of the
+current buffer:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(seq-take (stream (current-buffer)) 50) <span style="color: #687080; font-style: italic;">;; </span><span style="color: #687080; font-style: italic;">=&gt; stream</span>
+</pre>
+</div>
+
+<p>
+Because <code>stream</code> implements the <code>seq</code> protocol, it is also possible to use
+mapping, filtering, etc. functions, you just have to remember that all
+operations on streams are lazy:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(seq-map #'1+ (seq-take (fib 0 1) 50)) <span style="color: #687080; font-style: italic;">;; </span><span style="color: #687080; font-style: italic;">=&gt; stream</span>
+</pre>
+</div>
+
+<p>
+There are many more things to show about <code>stream</code>, one of them being how to
+extend <code>seq</code> with new sequence types.  
 </p>
 
 <p>
-We worked on several free software projects at Objectfusion, including
-<a href="http://smalltalkhub.com/#!/~Objectfusion/Iliad">Iliad</a>, a Smalltalk web framework, <a href="http://amber-lang.net/">Amber</a>, a Smalltalk dialect that runs
-on the JavaScript runtime, and <a href="http://smalltalkhub.com/">Smalltalkhub</a>, a Monticello repository
-for Smalltalk.
-</p>
-
-<p>
-In November 2014, we decided that it was time for us to move on and
-shut down the company.
+If you use a recent version of Emacs built from the git repository, you can
+install stream through <code>M-x package-install RET stream</code>.
 </p>
 </div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5">https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5</a>
+</p>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div></div>
+
+
+</div>
+</div></div>
 <div id="postamble" class="status">
 <script type='text/javascript'>
     $('p').addClass('hyphenate');
    Hyphenator.run();
 </script><div class='footer'>
 Copyright 2015 Nicolas Petton.<br>
-Last updated 2015-01-16 Fri 01:44. <br>
+Last updated 2015-10-14 Wed 17:30. <br>
 Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.50.7 (<a href="http://orgmode.org">Org</a> mode 8.3.1).
 </div>
 </div>
