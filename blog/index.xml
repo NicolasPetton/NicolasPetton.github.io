@@ -14,9 +14,9 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sun, 14 Jun 2015 15:38:58 +0200</pubDate>
-  <lastBuildDate>Sun, 14 Jun 2015 15:38:58 +0200</lastBuildDate>
-  <generator>Emacs 24.5 Org-mode 8.2.10</generator>
+  <pubDate>Thu, 22 Oct 2015 00:48:20 +0200</pubDate>
+  <lastBuildDate>Thu, 22 Oct 2015 00:48:20 +0200</lastBuildDate>
+  <generator>Emacs 25.0 Org-mode 8.3.2</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
@@ -29,14 +29,71 @@
   </p>
 
   <item>
+    <title>Working on the *Emacs logo*</title>
+    <link>http://nicolas-petton.fr/blog/working-on-the-emacs-logo.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/working-on-the-emacs-logo.html</guid>
+    <pubDate>Thu, 22 Oct 2015 00:48:00 +0200</pubDate>
+
+    <description><![CDATA[<div class="pubdate">
+    October 21, 2015
+    </div>
+
+    <p>
+    Recently I've been working on a new iteration of the Emacs logo.  My final
+    goal is to improve the first experience newcomers have with Emacs, from the
+    website to Emacs startup screen.
+    </p>
+
+    <p>
+    As a first step, I'm working on dusting off our logo, improving the
+    current website, and designing a proper website for GNU ELPA.
+    </p>
+
+
+    <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/emacs-in-context2.png" alt="emacs-in-context2.png" />
+    </p>
+    </div>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/working-on-the-emacs-logo.html#MissingReference">Read more</a>.
+    </p>
+    ]]></description>
+  </item>
+
+  <item>
+    <title>*Lazy sequences* in Emacs with stream.el</title>
+    <link>http://nicolas-petton.fr/blog/stream.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/stream.html</guid>
+    <pubDate>Thu, 22 Oct 2015 00:48:00 +0200</pubDate>
+
+    <description><![CDATA[<div class="pubdate">
+    October 14, 2015
+    </div>
+
+    <p>
+    I just pushed to GNU ELPA the first version of <a href="https://github.com/NicolasPetton/stream">stream</a>, a new streaming library
+    for Emacs. Streams are implemented as delayed evaluation of cons cells, and
+    are immutable. In that sense they are similar to streams in the SICP book or
+    to Clojure's lazy sequences.
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/stream.html">Read more</a>.
+    </p>
+    ]]></description>
+  </item>
+
+  <item>
     <title>Fourth *Emacs Meetup*</title>
     <link>http://nicolas-petton.fr/blog/fourth-emacs-meetup.html</link>
     <author>Nicolas Petton</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/fourth-emacs-meetup.html</guid>
     <pubDate>Sun, 14 Jun 2015 15:37:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     June 14, 2015
     </div>
 
@@ -47,7 +104,7 @@
     <p>
     The plan was to have a look at how to write a major-mode, and after
     some smalltalk around a beer and a slice of pizza, <a href="https://github.com/Lindydancer">Anders Lindgren</a>
-    made <i>a presentation</i> about <code>font-lock</code>.  After that we had a close a
+    made <a href="http://nicolas-petton.fr/blog/../ressources/presentation-stripped6.html">a presentation</a> about <code>font-lock</code>.  After that we had a close a
     look at <a href="https://github.com/NicolasPetton/pass-mode">pass-mode</a>, a major-mode for managing <a href="http://passwordstore.org/">pass</a> keychains.
     </p>
 
@@ -56,7 +113,7 @@
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/fourth-emacs-meetup.html">Comments</a>.
+    <a href="http://nicolas-petton.fr/blog/fourth-emacs-meetup.html#MissingReference">Comments</a>.
     </p>
     ]]></description>
   </item>
@@ -68,8 +125,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/emacs-meetup-orgmode.html</guid>
     <pubDate>Wed, 18 Mar 2015 11:14:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     March 18, 2015
     </div>
 
@@ -107,13 +163,12 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-louise.html</guid>
     <pubDate>Fri, 30 Jan 2015 13:17:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     Jan 30, 2015
     </div>
 
     <p>
-    It&rsquo;s been almost six months now since I moved to Stockholm, working
+    It's been almost six months now since I moved to Stockholm, working
     full-time at <a href="http://foretagsplatsen.se/en">Företagsplatsen</a> as a software engineer, and this is the
     third post of my series of interviews of my colleagues.
     </p>
@@ -121,7 +176,7 @@
     <p>
     Louise joined the team in January. She was previously working at
     PwC, one of our customers. We started doing this interview on her
-    first week in the team, and I&rsquo;ve been working with her for a month
+    first week in the team, and I've been working with her for a month
     now, which has been a lot of fun!
     </p>
 
@@ -138,13 +193,12 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/emacs-meetup.html</guid>
     <pubDate>Mon, 19 Jan 2015 00:45:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     January 19, 2015
     </div>
 
     <p>
-    Next Friday I&rsquo;ll be hosting the first <a href="http://www.meetup.com/Stockholm-Emacs-Meetup/events/219189463/">Emacs Meetup</a> in Stockholm at
+    Next Friday I'll be hosting the first <a href="http://www.meetup.com/Stockholm-Emacs-Meetup/events/219189463/">Emacs Meetup</a> in Stockholm at
     <a href="http://foretagsplatsen.se/">Företagsplatsen</a>! 
     </p>
 
@@ -162,7 +216,7 @@
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/emacs-meetup.html">Comments</a>.
+    <a href="http://nicolas-petton.fr/blog/emacs-meetup.html#MissingReference">Comments</a>.
     </p>
     ]]></description>
   </item>
@@ -174,8 +228,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/no-more-smalltalk.html</guid>
     <pubDate>Fri, 19 Dec 2014 12:29:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     December 19, 2014
     </div>
 
@@ -184,13 +237,13 @@
     </p>
 
     <p>
-    Since I decided to step down as <a href="http://nicolas-petton.fr/blog/amber-new-maintainer.html">Amber maintainer</a>, several colleagues
-    and friends have asked me why I wasn&rsquo;t doing any Smalltalk anymore,
+    Since I decided to step down as <a href="http://nicolas-petton.fr/blog/amber-new-maintainer.html#MissingReference">Amber maintainer</a>, several colleagues
+    and friends have asked me why I wasn't doing any Smalltalk anymore,
     some urging me to get back on track.
     </p>
 
     <p>
-    This is an attempt to explain why I&rsquo;m currently not doing any
+    This is an attempt to explain why I'm currently not doing any
     Smalltalk.
     </p>
 
@@ -208,19 +261,18 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-ben.html</guid>
     <pubDate>Mon, 08 Dec 2014 17:51:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     Dec 8, 2014
     </div>
 
     <p>
     This is the second post of my series of interviews of my colleagues
-    at <a href="http://foretagsplatsen.se">FTGP</a>.
+    at <a href="http://foretagsplatsen.se/">FTGP</a>.
     </p>
 
     <p>
     Ben joined FTGP almost a year ago. We previously worked together in
-    the <a href="http://rmod.inria.fr">RMOD</a> team at Inria. We shared our office with <a href="http://damiencassou.seasidehosting.st">Damien</a> and the
+    the <a href="http://rmod.inria.fr/">RMOD</a> team at Inria. We shared our office with <a href="http://damiencassou.seasidehosting.st/">Damien</a> and the
     three of us had a lot of fun working together.
     </p>
 
@@ -237,8 +289,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/buffer-watcher.html</guid>
     <pubDate>Fri, 24 Oct 2014 17:55:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     October 24, 2014
     </div>
 
@@ -254,24 +305,24 @@
     </p>
 
     <p>
-    Here&rsquo;s an example that runs <code>lessc</code> each time a less file is saved
+    Here's an example that runs <code>lessc</code> each time a less file is saved
     in the project <code>proj</code>:
     </p>
 
     <div class="org-src-container">
 
-    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">require</span> '<span style="color: #da8548; font-weight: bold;">buffer-watcher</span>)
-    (add-to-list 'buffer-watcher-commands '(<span style="color: #789771;">"Lessc hook"</span> less-css-mode <span style="color: #789771;">"~/projects/proj/"</span> <span style="color: #789771;">"lessc % &gt; style.css"</span>))
+    <pre class="src src-emacs-lisp">(<span style="color: #8e57e0;">require</span> '<span style="color: #008b8b;">buffer-watcher</span>)
+    (add-to-list 'buffer-watcher-commands '(<span style="color: #cd1076;">"Lessc hook"</span> less-css-mode <span style="color: #cd1076;">"~/projects/proj/"</span> <span style="color: #cd1076;">"lessc % &gt; style.css"</span>))
     </pre>
     </div>
 
     <p>
     The command will be run from within the same folder as the save file,
-    and <code>%</code> is expanded to the buffer&rsquo;s file name.
+    and <code>%</code> is expanded to the buffer's file name.
     </p>
 
     <p>
-    If you&rsquo;re into <code>customize</code>, you can <code>M-x customize-group RET
+    If you're into <code>customize</code>, you can <code>M-x customize-group RET
     buffer-watcher</code> to add your commands.
     </p>
 
@@ -298,8 +349,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-johan.html</guid>
     <pubDate>Thu, 16 Oct 2014 12:43:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     Oct 16, 2014
     </div>
 
@@ -316,13 +366,13 @@
     As the CEO of the company, it only made sense to interview Johan
     first. I guess Johan looks like what we imagine of a viking: tall,
     light hair and a beard, but he is definitely more talkative than the
-    average Swedish guy. He&rsquo;s half of the time joking around and the
+    average Swedish guy. He's half of the time joking around and the
     other half really serious talking business and stuff, making him a
     really cool guy to work with.
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/interview-johan.html">Read the interview</a>
+    <a href="http://nicolas-petton.fr/blog/interview-johan.html#MissingReference">Read the interview</a>
     </p>
     ]]></description>
   </item>
@@ -335,14 +385,13 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.13-released.html</guid>
     <pubDate>Fri, 10 Oct 2014 14:22:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <p>
-      Amber 0.13.1 has been released!
-    </p>
+    <description><![CDATA[<p>
+    Amber 0.13.1 has been released!
+  </p>
 
-    <p>
-      <a href="http://nicolas-petton.fr/blog/amber-0.13-released.html">Read more</a>
-    </p>
+  <p>
+    <a href="http://nicolas-petton.fr/blog/amber-0.13-released.html#MissingReference">Read more</a>
+  </p>
     ]]></description>
   </item>
 
@@ -353,9 +402,8 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-new-maintainer.html</guid>
     <pubDate>Thu, 11 Sep 2014 16:05:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <p>
-    As you have probably noticed, I&rsquo;ve been a bit away from Amber for some
+    <description><![CDATA[<p>
+    As you have probably noticed, I've been a bit away from Amber for some
     time.
     </p>
 
@@ -370,11 +418,11 @@
     </p>
 
     <p>
-    It does not mean that I will totally disappear, I&rsquo;ll stay around!
+    It does not mean that I will totally disappear, I'll stay around!
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/amber-new-maintainer.html">Comments</a>
+    <a href="http://nicolas-petton.fr/blog/amber-new-maintainer.html#MissingReference">Comments</a>
     </p>
     ]]></description>
   </item>
@@ -386,8 +434,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/multi-occur-on-projects.html</guid>
     <pubDate>Fri, 05 Sep 2014 13:01:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <p>
+    <description><![CDATA[<p>
     <b>Update</b>: <a href="http://damiencassou.seasidehosting.st/">Damien Cassou</a> tricked me into extracting it in a
     package. You can get it here: <a href="https://github.com/NicolasPetton/noccur.el">github.com/NicolasPetton/noccur.el</a>.
     </p>
@@ -399,7 +446,7 @@
 
     <p>
     Sometimes I just want to run <code>multi-occur</code> on all (or a subdirectory)
-    of a project I&rsquo;m working on. Used with keyboard macros it makes it a
+    of a project I'm working on. Used with keyboard macros it makes it a
     snap to perform modifications on many buffers at once.
     </p>
 
@@ -410,34 +457,34 @@
 
     <div class="org-src-container">
 
-    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">require</span> '<span style="color: #da8548; font-weight: bold;">projectile</span>)
+    <pre class="src src-emacs-lisp">(<span style="color: #8e57e0;">require</span> '<span style="color: #008b8b;">projectile</span>)
 
-    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">noccur-dired</span> (regexp <span style="color: #92a65e; font-weight: bold;">&amp;optional</span> nlines)
-    <span style="color: #70a56f;">"Perform `</span><span style="color: #da8548; font-weight: bold;">multi-occur</span><span style="color: #70a56f;">' with REGEXP in all dired marked files.</span>
-    <span style="color: #70a56f;">When called with a prefix argument NLINES, display NLINES lines before and after."</span>
-    (interactive (occur-read-primary-args))
+    (<span style="color: #8e57e0;">defun</span> <span style="color: #1d41a6;">noccur-dired</span> (regexp <span style="color: #228b22;">&amp;optional</span> nlines)
+    <span style="color: #cd1076;">"Perform `</span><span style="color: #008b8b;">multi-occur</span><span style="color: #cd1076;">' with REGEXP in all dired marked files.</span>
+    <span style="color: #cd1076;">When called with a prefix argument NLINES, display NLINES lines before and after."</span>
+    (<span style="color: #8e57e0;">interactive</span> (occur-read-primary-args))
     (multi-occur (mapcar #'find-file (dired-get-marked-files)) regexp nlines))
 
-    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">noccur-project</span> (regexp <span style="color: #92a65e; font-weight: bold;">&amp;optional</span> nlines)
-    <span style="color: #70a56f;">"Perform `</span><span style="color: #da8548; font-weight: bold;">multi-occur</span><span style="color: #70a56f;">' in the current project files."</span>
-    (interactive (occur-read-primary-args))
-    (<span style="color: #f7af75; font-weight: bold;">let*</span> ((directory (read-directory-name <span style="color: #789771;">"Search in directory: "</span>))
-    (files (<span style="color: #f7af75; font-weight: bold;">if</span> (and directory (not (string= directory (projectile-project-root))))
+    (<span style="color: #8e57e0;">defun</span> <span style="color: #1d41a6;">noccur-project</span> (regexp <span style="color: #228b22;">&amp;optional</span> nlines)
+    <span style="color: #cd1076;">"Perform `</span><span style="color: #008b8b;">multi-occur</span><span style="color: #cd1076;">' in the current project files."</span>
+    (<span style="color: #8e57e0;">interactive</span> (occur-read-primary-args))
+    (<span style="color: #8e57e0;">let*</span> ((directory (read-directory-name <span style="color: #cd1076;">"Search in directory: "</span>))
+    (files (<span style="color: #8e57e0;">if</span> (<span style="color: #8e57e0;">and</span> directory (not (string= directory (projectile-project-root))))
     (projectile-files-in-project-directory directory)
     (projectile-current-project-files)))
     (buffers (mapcar #'find-file 
-    (mapcar #'(<span style="color: #f7af75; font-weight: bold;">lambda</span> (file)
+    (mapcar #'(lambda (file)
     (expand-file-name file (projectile-project-root)))
     files))))
     (multi-occur buffers regexp nlines)))
 
-    (<span style="color: #f7af75; font-weight: bold;">provide</span> '<span style="color: #da8548; font-weight: bold;">noccur</span>)
+    (<span style="color: #8e57e0;">provide</span> '<span style="color: #008b8b;">noccur</span>)
     </pre>
     </div>
 
     <p>
     It requires projectile for the `noccur-project` function, but
-    `noccur-dired` is very similar and doesn&rsquo;t require it.
+    `noccur-dired` is very similar and doesn't require it.
     </p>
 
     <p>
@@ -445,13 +492,13 @@
     </p>
 
     <p>
-    <code>M-x noccur-project RET foo RET</code> then I can edit the occur buffer&rsquo;s
+    <code>M-x noccur-project RET foo RET</code> then I can edit the occur buffer's
     content with <code>occur-edit-mode</code> (bound to <code>e</code>). To save changes in all
     modified buffer and go back to <code>occur-mode</code> press <code>C-c C-c</code>.
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/mutli-occur-on-projects.html">Comments</a>
+    <a href="http://nicolas-petton.fr/blog/mutli-occur-on-projects.html#MissingReference">Comments</a>
     </p>
     ]]></description>
   </item>
@@ -464,35 +511,34 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/emacs-dark-window-decoration.html</guid>
     <pubDate>Fri, 29 Aug 2014 09:25:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <p>
-    Gnome 3&rsquo;s default theme Adwaita has support for both light and dark
+    <description><![CDATA[<p>
+    Gnome 3's default theme Adwaita has support for both light and dark
     window decorations. Many media apps like Totem use the dark theme. It
-    puts the focus on the content and it&rsquo;s easier on the eyes.
+    puts the focus on the content and it's easier on the eyes.
     </p>
 
     <p>
     Emacs with a <a href="https://github.com/niflheim-theme/emacs">dark theme</a> and the large white-ish window decoration
-    isn&rsquo;t really a fit on my desktop, but that can be easily fixed using a
+    isn't really a fit on my desktop, but that can be easily fixed using a
     bit of elisp with xprop!
     </p>
 
     <div class="org-src-container">
 
-    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">set-selected-frame-dark</span> ()
-    (interactive)
-    (<span style="color: #f7af75; font-weight: bold;">let</span> ((frame-name (get-frame-name (selected-frame))))
-    (call-process-shell-command (concat <span style="color: #789771;">"xprop -f _GTK_THEME_VARIANT 8u -set _GTK_THEME_VARIANT \"dark\" -name \""</span>
+    <pre class="src src-emacs-lisp">(<span style="color: #8e57e0;">defun</span> <span style="color: #1d41a6;">set-selected-frame-dark</span> ()
+    (<span style="color: #8e57e0;">interactive</span>)
+    (<span style="color: #8e57e0;">let</span> ((frame-name (get-frame-name (selected-frame))))
+    (call-process-shell-command (concat <span style="color: #cd1076;">"xprop -f _GTK_THEME_VARIANT 8u -set _GTK_THEME_VARIANT \"dark\" -name \""</span>
     frame-name
-    <span style="color: #789771;">"\""</span>))))
+    <span style="color: #cd1076;">"\""</span>))))
 
-    (<span style="color: #f7af75; font-weight: bold;">if</span> (window-system)
+    (<span style="color: #8e57e0;">if</span> (window-system)
     (set-selected-frame-dark))
     </pre>
     </div>
 
     <p>
-    Here&rsquo;s a screenshot of both versions:
+    Here's a screenshot of both versions:
     </p>
 
     <p>
@@ -501,7 +547,7 @@
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/emacs-dark-window-decoration.html">Comments</a>
+    <a href="http://nicolas-petton.fr/blog/emacs-dark-window-decoration.html#MissingReference">Comments</a>
     </p>
     ]]></description>
   </item>
@@ -514,9 +560,8 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/isearch-thing.html</guid>
     <pubDate>Tue, 26 Aug 2014 14:00:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <p>
-    Wouldn&rsquo;t it be awesome if when using isearch, I could search for the symbol
+    <description><![CDATA[<p>
+    Wouldn't it be awesome if when using isearch, I could search for the symbol
     under the cursor, or the active region if any?
     </p>
 
@@ -532,35 +577,35 @@
 
     <div class="org-src-container">
 
-    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">symbol-name-at-point</span> ()
-    (<span style="color: #f7af75; font-weight: bold;">let</span> ((symbol (symbol-at-point)))
-    (<span style="color: #f7af75; font-weight: bold;">if</span> symbol
+    <pre class="src src-emacs-lisp">(<span style="color: #8e57e0;">defun</span> <span style="color: #1d41a6;">symbol-name-at-point</span> ()
+    (<span style="color: #8e57e0;">let</span> ((symbol (symbol-at-point)))
+    (<span style="color: #8e57e0;">if</span> symbol
     (symbol-name symbol)
-    <span style="color: #789771;">""</span>)))
+    <span style="color: #cd1076;">""</span>)))
 
-    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">current-thing</span> ()
-    <span style="color: #70a56f;">"Return the current \"thing\":</span>
-    <span style="color: #70a56f;">- if the region is active, return the region's text and deactivate the mark</span>
-    <span style="color: #70a56f;">- else return the symbol at point or the empty string."</span>
-    (<span style="color: #f7af75; font-weight: bold;">let</span> ((thing (<span style="color: #f7af75; font-weight: bold;">if</span> (region-active-p)
+    (<span style="color: #8e57e0;">defun</span> <span style="color: #1d41a6;">current-thing</span> ()
+    <span style="color: #cd1076;">"Return the current \"thing\":</span>
+    <span style="color: #cd1076;">- if the region is active, return the region's text and deactivate the mark</span>
+    <span style="color: #cd1076;">- else return the symbol at point or the empty string."</span>
+    (<span style="color: #8e57e0;">let</span> ((thing (<span style="color: #8e57e0;">if</span> (region-active-p)
     (buffer-substring (region-beginning) (region-end))
     (symbol-name-at-point))))
     (deactivate-mark)
     thing))
 
-    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">isearch-thing</span> ()
-    <span style="color: #70a56f;">"Search for the current \"thing\":</span>
-    <span style="color: #70a56f;">- if the region is active, return the region's text and deactivate the mark</span>
-    <span style="color: #70a56f;">- else return the symbol at point or the empty string."</span>
-    (interactive)
+    (<span style="color: #8e57e0;">defun</span> <span style="color: #1d41a6;">isearch-thing</span> ()
+    <span style="color: #cd1076;">"Search for the current \"thing\":</span>
+    <span style="color: #cd1076;">- if the region is active, return the region's text and deactivate the mark</span>
+    <span style="color: #cd1076;">- else return the symbol at point or the empty string."</span>
+    (<span style="color: #8e57e0;">interactive</span>)
     (isearch-yank-string (current-thing)))
 
-    (define-key isearch-mode-map (kbd <span style="color: #789771;">"C-t"</span>) #'isearch-thing)
+    (define-key isearch-mode-map (kbd <span style="color: #cd1076;">"C-t"</span>) #'isearch-thing)
     </pre>
     </div>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/isearch-thing.html">Comments</a>
+    <a href="http://nicolas-petton.fr/blog/isearch-thing.html#MissingReference">Comments</a>
     </p>
     ]]></description>
   </item>
@@ -568,28 +613,27 @@
 
   <item>
     <title>Farewell RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-14</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline16</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-14</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline16</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <p>
+    <description><![CDATA[<p>
     Today is my last day at <a href="http://rmod.inria.fr/">RMoD</a>. 
     </p>
 
     <p>
-    The last two years have been an incredibly rich experience, and I&rsquo;m
+    The last two years have been an incredibly rich experience, and I'm
     profoundly sad to leave my colleagues. I have in the past two years
     met and worked with a lot of very smart people and many of them
-    became very close friends. I&rsquo;m still saying goodbye to people, so
-    I&rsquo;ll make this post short. :)
+    became very close friends. I'm still saying goodbye to people, so
+    I'll make this post short. :)
     </p>
 
     <p>
     The first thing that comes to my mind when I think about the last
-    two years is that I&rsquo;m very proud of having been part of RMoD. It
-    hasn&rsquo;t always been easy, but it has been all in all a very joyful
+    two years is that I'm very proud of having been part of RMoD. It
+    hasn't always been easy, but it has been all in all a very joyful
     experience.
     </p>
 
@@ -599,13 +643,13 @@
     </p>
 
     <p>
-    In two weeks I&rsquo;ll be packing my stuff to go to Stockholm, where I
-    will be working in another development team. It&rsquo;s a totally new
+    In two weeks I'll be packing my stuff to go to Stockholm, where I
+    will be working in another development team. It's a totally new
     adventure that will begin, so stay tuned!
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/farewell-rmod.html">Comments</a>
+    <a href="http://nicolas-petton.fr/blog/farewell-rmod.html#MissingReference">Comments</a>
     </p>
     ]]></description>
   </item>
@@ -618,28 +662,27 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-clara.html</guid>
     <pubDate>Wed, 11 Jun 2014 15:53:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     July 18, 2014
     </div>
 
     <p>
     This is the sixth post of my series of interviews, in which I
-    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team.
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team.
     </p>
 
     <p>
     Clara joined RMoD recently for an internship in the team. I first
     met her in Argentina for the Smalltalks conference last year, where
     we had a couple (well, a bit more than that) beers together with
-    other argentinians, talked about Smalltalk among other things. She&rsquo;s
-    now a good friend of mine and I&rsquo;m really happy to make this
+    other argentinians, talked about Smalltalk among other things. She's
+    now a good friend of mine and I'm really happy to make this
     interview with her, probably my last interview of the RMoD team
-    members, as I&rsquo;m leaving the team today.
+    members, as I'm leaving the team today.
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/interview-clara.html">Read the interview!</a>
+    <a href="http://nicolas-petton.fr/blog/interview-clara.html#MissingReference">Read the interview!</a>
     </p>
     ]]></description>
   </item>
@@ -647,13 +690,12 @@
 
   <item>
     <title>Tide and Marina at RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-16</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline18</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-16</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline18</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     July 3, 2014
     </div>
 
@@ -665,7 +707,7 @@
 
     <p>
     Tide is a new web framework that makes Pharo and Amber communication
-    a breeze. Marina is the CMS that powers <a href="http://pharo.org">the new Pharo website</a>.
+    a breeze. Marina is the CMS that powers <a href="http://pharo.org/">the new Pharo website</a>.
     </p>
 
     <p>
@@ -676,13 +718,12 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-17</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline19</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-17</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline19</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     July 3, 2014
     </div>
 
@@ -697,34 +738,34 @@
     </p>
 
     <p>
-    For screen sharing I used <a href="http://teamviewer.com">Teamviewer</a> in the past, but the quality
-    isn&rsquo;t always good enough to share an Emacs window, and it is a
-    commercial application. Skype&rsquo;s screen sharing works fine but it&rsquo;s
+    For screen sharing I used <a href="http://teamviewer.com/">Teamviewer</a> in the past, but the quality
+    isn't always good enough to share an Emacs window, and it is a
+    commercial application. Skype's screen sharing works fine but it's
     read-only sharing.
     </p>
 
     <p>
-    I decided to give the famous tmux a try, and stumbled upon <a href="http://tmate.io">Tmate</a>, a
+    I decided to give the famous tmux a try, and stumbled upon <a href="http://tmate.io/">Tmate</a>, a
     tmux fork that makes terminal sharing a breeze. 
     </p>
 
     <p>
-    The idea behind tmate is simple, it&rsquo;s like tmux but with sugar on
-    top so that you don&rsquo;t have to setup anything (you can setup your own
+    The idea behind tmate is simple, it's like tmux but with sugar on
+    top so that you don't have to setup anything (you can setup your own
     tmate server if you want though), just start <code>tmate</code> in a terminal
     and it will handle the ssh server connection for you and give you a
     one time ssh access that you can copy/paste to you mates.
     </p>
 
     <p>
-    It&rsquo;s as good as tmux: it&rsquo;s fast, reliable and works great in
-    general, even with slow bandwidths. Best of all, it&rsquo;s free software,
+    It's as good as tmux: it's fast, reliable and works great in
+    general, even with slow bandwidths. Best of all, it's free software,
     works on Linux and OSX. I finally have a great tool to share an
     Emacs session.
     </p>
 
     <p>
-    <a href="http://tmate.io">Tmate website</a>.
+    <a href="http://tmate.io/">Tmate website</a>.
     </p>
     ]]></description>
   </item>
@@ -738,8 +779,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-1.12.6-released.html</guid>
     <pubDate>Tue, 01 Jul 2014 17:02:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     July 1, 2014
     </div>
 
@@ -756,27 +796,26 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-guille.html</guid>
     <pubDate>Wed, 18 Jun 2014 15:40:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     June 18, 2014
     </div>
 
     <p>
     This is the fifth post of my series of interviews, in which I
-    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team. After the <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html">Interview with
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team. After the <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html#MissingReference">Interview with
     Jean-Baptiste Arnaud</a>, I interview <a href="http://playingwithobjects.wordpress.com/">Guillermo Polito</a>.
     </p>
 
     <p>
     Guille (pronounce it Guiche) is another one of the <a href="http://playingwithobjects.wordpress.com/">many</a> <a href="http://marianopeck.wordpress.com/">argentinians</a>
-    who have been working at <a href="http://inria.fr">Inria</a>. Guille is doing a PhD in RMoD, he
-    drinks mate all day long (which argentinian doesn&rsquo;t?), and he&rsquo;s
+    who have been working at <a href="http://inria.fr/">Inria</a>. Guille is doing a PhD in RMoD, he
+    drinks mate all day long (which argentinian doesn't?), and he's
     always in when it comes to going for a beer <a href="http://www.cafecitoyen.org/">somewhere</a> in Lille after
     work.
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/interview-guille.html">Read the interview</a>!
+    <a href="http://nicolas-petton.fr/blog/interview-guille.html#MissingReference">Read the interview</a>!
     </p>
     ]]></description>
   </item>
@@ -784,24 +823,23 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-20</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline22</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-20</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline22</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
-      June 11, 2014
+    <description><![CDATA[<div class="pubdate">
+    June 11, 2014
     </div>
 
     <p>
-      I use Emacs on all of my machines, being laptops or servers. While
-      my Emacs settings are shared among all of my computers, some of
-      these settings really matter for one specific computer.
+    I use Emacs on all of my machines, being laptops or servers. While
+    my Emacs settings are shared among all of my computers, some of
+    these settings really matter for one specific computer.
     </p>
 
     <p>
-      <a href="http://nicolas-petton.fr/blog/per-computer-emacs-settings.html">Read the post</a>.
+    <a href="http://nicolas-petton.fr/blog/per-computer-emacs-settings.html#MissingReference">Read the post</a>.
     </p>
     ]]></description>
   </item>
@@ -813,15 +851,14 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-jean-baptiste.html</guid>
     <pubDate>Wed, 11 Jun 2014 15:54:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     June 11, 2014
     </div>
 
 
     <p>
     This is the fourth post of my series of interviews, in which I
-    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team.
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team.
     </p>
 
     <p>
@@ -829,7 +866,7 @@
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html">Read the interview!</a>
+    <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html#MissingReference">Read the interview!</a>
     </p>
     ]]></description>
   </item>
@@ -842,14 +879,13 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/helios-sunit.html</guid>
     <pubDate>Tue, 13 May 2014 14:08:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     May 13, 2014
     </div>
 
     <p>
     Today the <code>helios-sunit</code> branch has been merged into <code>master</code>. This
-    is an important milestone for Helios, Amber&rsquo;s new IDE, as it now has
+    is an important milestone for Helios, Amber's new IDE, as it now has
     a fully functional test runner.
     </p>
 
@@ -857,11 +893,11 @@
     <div class="figure">
     <p><img src="http://nicolas-petton.fr/blog/../images/helios-sunit.png" alt="helios sunit" width="600px" />
     </p>
-    <p><span class="figure-number">Figure 2:</span> Helios&rsquo; test runner</p>
+    <p><span class="figure-number">Figure 3:</span> Helios' test runner</p>
     </div>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/helios-sunit.html">Comments</a>
+    <a href="http://nicolas-petton.fr/blog/helios-sunit.html#MissingReference">Comments</a>
     </p>
     ]]></description>
   </item>
@@ -874,8 +910,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-1.12.4-released.html</guid>
     <pubDate>Fri, 11 Apr 2014 12:07:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     April 11, 2014
     </div>
     <p>
@@ -889,29 +924,26 @@
     </p>
 
     <ul class="org-ul">
-    <li>Several improvements in Helios, including UI-related and debugger improvements
-    </li>
-    <li>Loading Amber without cloning the repository has been simplified
-    </li>
-    <li>A new documentation (in progress) can be found at <a href="http://docs.amber-lang.net/[1">http://docs.amber-lang.net/[1</a>]
-    </li>
+    <li>Several improvements in Helios, including UI-related and debugger improvements</li>
+    <li>Loading Amber without cloning the repository has been simplified</li>
+    <li>A new documentation (in progress) can be found at <a href="http://docs.amber-lang.net/%5B1">http://docs.amber-lang.net/%5B1</a>]</li>
     </ul>
 
     <p>
-    Commits: <a href="https://github.com/amber-smalltalk/amber/compare/0.12.3...0.12.4[2">https://github.com/amber-smalltalk/amber/compare/0.12.3...0.12.4[2</a>]
+    Commits: <a href="https://github.com/amber-smalltalk/amber/compare/0.12.3...0.12.4%5B2">https://github.com/amber-smalltalk/amber/compare/0.12.3...0.12.4%5B2</a>]
     </p>
 
     <p>
-    Issues: <a href="https://github.com/amber-smalltalk/amber/issues?milestone=12&state=closed[3">https://github.com/amber-smalltalk/amber/issues?milestone=12&state=closed[3</a>]
+    Issues: <a href="https://github.com/amber-smalltalk/amber/issues?milestone=12&amp;state=closed%5B3">https://github.com/amber-smalltalk/amber/issues?milestone=12&state=closed%5B3</a>]
     </p>
 
 
     <p>
-    Install Amber 0.12.4 from <a href="http://docs.amber-lang.net">here</a>!
+    Install Amber 0.12.4 from <a href="http://docs.amber-lang.net/">here</a>!
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/amber-1.12.4-released.html">Comments</a>
+    <a href="http://nicolas-petton.fr/blog/amber-1.12.4-released.html#MissingReference">Comments</a>
     </p>
     ]]></description>
   </item>
@@ -924,8 +956,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/nw-helios.html</guid>
     <pubDate>Thu, 03 Apr 2014 11:17:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     April 3, 2014
     </div>
 
@@ -938,15 +969,15 @@
     <div class="figure">
     <p><img src="http://nicolas-petton.fr/blog/../images/nw-helios.png" alt="niflheim" />  
     </p>
-    <p><span class="figure-number">Figure 3:</span> Niflheim theme</p>
+    <p><span class="figure-number">Figure 4:</span> Niflheim theme</p>
     </div>
 
     <p>
-    To try it yourself, you&rsquo;ll first need to install <a href="https://github.com/rogerwang/node-webkit">node-webkit</a> then
+    To try it yourself, you'll first need to install <a href="https://github.com/rogerwang/node-webkit">node-webkit</a> then
     run from the `hw-helios-app` branch:
     </p>
 
-    <div class="bash">
+    <div class="BASH">
     <p>
     nw helios.nw
     </p>
@@ -954,7 +985,7 @@
     </div>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/nw-helios.html">Comments</a>.
+    <a href="http://nicolas-petton.fr/blog/nw-helios.html#MissingReference">Comments</a>.
     </p>
     ]]></description>
   </item>
@@ -972,39 +1003,38 @@
     </div>
 
     <p>
-    This is the third post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
+    This is the third post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my
     colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France). This is the
     interview of Stéphane Ducasse, our leader and the backbone of RMoD.
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/interview-stef.html">Read the interview!</a>
+    <a href="http://nicolas-petton.fr/blog/interview-stef.html#MissingReference">Read the interview!</a>
     </p>
     ]]></description>
   </item>
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#sec-26</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline28</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#sec-26</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline28</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     March 28, 2014
-    </div>
+  </div>
 
-    <p>
+  <p>
     Together with <a href="http://benjamin.vanryseghem.com/">Benjamin</a> we made a new theme for Emacs: <a href="https://github.com/niflheim-theme/emacs">Niflheim</a>.
-    </p>
+  </p>
 
 
-    <div class="figure">
+  <div class="figure">
     <p><img src="https://raw.githubusercontent.com/niflheim-theme/emacs/master/screenshot.png" alt="niflheim" />
     </p>
-    <p><span class="figure-number">Figure 4:</span> Niflheim theme</p>
-    </div>
+    <p><span class="figure-number">Figure 5:</span> Niflheim theme</p>
+  </div>
     ]]></description>
   </item>
 
@@ -1021,13 +1051,13 @@
     </div>
 
     <p>
-    This is the second post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
+    This is the second post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my
     colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France). This time I
     interview Esteban Lorenzano, my neighbour, colleague and friend.
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/interview-esteban.html">Read the interview!</a>
+    <a href="http://nicolas-petton.fr/blog/interview-esteban.html#MissingReference">Read the interview!</a>
     </p>
     ]]></description>
   </item>
@@ -1039,8 +1069,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/details-matter.html</guid>
     <pubDate>Thu, 06 Feb 2014 10:56:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     February 6, 2014
     </div>
 
@@ -1048,18 +1077,18 @@
     Helios is moving forward with interesting new features, especially
     regarding navigation in code. These improvements are for the major
     part small and might be seen as unimportant details. The thing is
-    details matter! Polishing Helios is now a priority in Amber&rsquo;s
+    details matter! Polishing Helios is now a priority in Amber's
     development, and a full replacement of the old IDE is planned for
     one of the next releases.
     </p>
 
     <p>
-    Here&rsquo;s a short video demonstrating some of the changes I like the
+    Here's a short video demonstrating some of the changes I like the
     most.
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/details-matter.html">Watch the screencast</a>.
+    <a href="http://nicolas-petton.fr/blog/details-matter.html#MissingReference">Watch the screencast</a>.
     </p>
     ]]></description>
   </item>
@@ -1071,20 +1100,19 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/help-amber-doc.html</guid>
     <pubDate>Wed, 29 Jan 2014 16:42:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     January 29, 2014
     </div>
 
     <p>
-    There&rsquo;s a new website in Amber-land: <a href="http://docs.amber-lang.net">docs.amber-lang.net</a>.
+    There's a new website in Amber-land: <a href="http://docs.amber-lang.net/">docs.amber-lang.net</a>.
     </p>
 
     <p>
     We just started to extract pages from our Github <a href="https://github.com/amber-smalltalk/amber/wiki">wiki</a> into a new
-    website dedicated to Amber&rsquo;s documentation. It often requires
+    website dedicated to Amber's documentation. It often requires
     rewriting and quality improvements. As the current wiki misses a lot
-    of content and is far from covering all aspects of Amber, there&rsquo;s
+    of content and is far from covering all aspects of Amber, there's
     quite some work yet to be done.
     </p>
 
@@ -1107,13 +1135,12 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-damien.html</guid>
     <pubDate>Wed, 15 Jan 2014 16:00:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     January 15, 2014
     </div>
 
     <p>
-    This is the first post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
+    This is the first post of a series, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my
     colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France), with the hope that I
     can share part of what it really means to work here.
     </p>
@@ -1132,8 +1159,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/working-at-rmod.html</guid>
     <pubDate>Tue, 14 Jan 2014 12:59:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     January 14, 2014
     </div>
 
@@ -1144,11 +1170,11 @@
     </p>
 
     <p>
-    At RMoD we not only make <a href="http://pharo-project.org">Pharo</a>, <a href="http://amber-lang.net">Amber</a>, work on <a href="http://www.moosetechnology.org/">Moose</a> and do
+    At RMoD we not only make <a href="http://pharo-project.org/">Pharo</a>, <a href="http://amber-lang.net/">Amber</a>, work on <a href="http://www.moosetechnology.org/">Moose</a> and do
     <a href="http://rmod.lille.inria.fr/web/pier/research">research</a>. For me the work is all about the people, the energy and
     shared passion. A lot of the culture of the team is actually built
-    <i>outside</i> of the office, during the friday evenings at <i>Café Citoyen</i>
-    sharing a beer, or during other events. I&rsquo;m actually proud to say
+    <i>outside</i> of the office, during the friday evenings at <a href="http://www.cafecitoyen.org/">Café Citoyen</a>
+    sharing a beer, or during other events. I'm actually proud to say
     that many of my colleagues became very good friends over time.
     </p>
 
@@ -1164,7 +1190,7 @@
     </p>
 
     <p>
-    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">Comments</a>
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">Comments</a>
     </p>
     ]]></description>
   </item>
@@ -1176,13 +1202,12 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-poll.html</guid>
     <pubDate>Mon, 13 Jan 2014 14:28:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     January 13, 2014
     </div>
 
     <p>
-    A new release of <a href="http://amber-lang.net">Amber</a> is approaching. In order to focus on what
+    A new release of <a href="http://amber-lang.net/">Amber</a> is approaching. In order to focus on what
     matters to users, we created an online <a href="https://docs.google.com/forms/d/1wNTxIk3LZh2JHCVL_SSst_QJmLKh6znrkRWzwD8RuEY/viewform">poll</a> asking about what users
     want most in future releases of Amber.
     </p>
@@ -1200,13 +1225,12 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/helios-keybindings.html</guid>
     <pubDate>Mon, 13 Jan 2014 13:10:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     January 13, 2014
     </div>
 
     <p>
-    Amber&rsquo;s new IDE, fondly named Helios, has been built with keyboard
+    Amber's new IDE, fondly named Helios, has been built with keyboard
     power users in mind from the beginning. It evolved quite a bit over
     time, and keyboard shortcuts as well as their UI are no exception.
     </p>
@@ -1224,13 +1248,12 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.12.2-released.html</guid>
     <pubDate>Tue, 03 Dec 2013 15:31:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     December 3, 2013
     </div>
 
     <p>
-    This is the second minor release of <a href="http://amber-lang.net">Amber</a> 0.12 (<a href="https://groups.google.com/d/msg/amber-lang/dv6lEYiKrAk/dBdNAlLb-xMJ">announcement</a>), 20
+    This is the second minor release of <a href="http://amber-lang.net/">Amber</a> 0.12 (<a href="https://groups.google.com/d/msg/amber-lang/dv6lEYiKrAk/dBdNAlLb-xMJ">announcement</a>), 20
     days after the release of version <a href="https://groups.google.com/d/msg/amber-lang/m5dqUAYFM6M/dqzmk7nwwNwJ">0.12.1</a>.
     </p>
 
@@ -1247,14 +1270,13 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/slides-smalltalks-2013.html</guid>
     <pubDate>Tue, 03 Dec 2013 15:18:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     December 3, 2013
-    </div>
+  </div>
 
-    <p>
-    I just put online <a href="http://nicolas-petton.fr/ressources/amber-smalltalks-2013/index.html">slides</a> from my presentation of <a href="http://amber-lang.net">Amber</a> at <a href="http://www.fast.org.ar/smalltalks2013/">Smalltalks 2013</a> in Rosario.
-    </p>
+  <p>
+    I just put online <a href="http://nicolas-petton.fr/ressources/amber-smalltalks-2013/index.html">slides</a> from my presentation of <a href="http://amber-lang.net/">Amber</a> at <a href="http://www.fast.org.ar/smalltalks2013/">Smalltalks 2013</a> in Rosario.
+  </p>
     ]]></description>
   </item>
 
@@ -1265,8 +1287,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.12.0-released.html</guid>
     <pubDate>Tue, 12 Nov 2013 00:43:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     November 12, 2013
     </div>
 
@@ -1293,18 +1314,17 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-compiler.html</guid>
     <pubDate>Fri, 18 Oct 2013 06:55:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     October 18, 2013
     </div>
 
     <p>
-    Amber&rsquo;s compiler has been improved some months ago and a post
+    Amber's compiler has been improved some months ago and a post
     explaining its new architecture was a long overdue.
     </p>
 
     <p>
-    Following Opal (the new <a href="http://pharo-project.org">Pharo</a> compiler) architecture, the compiler
+    Following Opal (the new <a href="http://pharo-project.org/">Pharo</a> compiler) architecture, the compiler
     has been entirely rewritten from a single, complex and stateful AST
     visitor into several smaller, single-purpose classes, making it a
     more flexible and extensible compiler.
@@ -1323,8 +1343,7 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/arrived-buenos-aires.html</guid>
     <pubDate>Fri, 18 Oct 2013 01:49:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     October 18, 2013
     </div>
 
@@ -1333,8 +1352,8 @@
     </p>
 
     <p>
-    Next week I&rsquo;ll be heading to Rosario for the <a href="http://www.fast.org.ar/smalltalks2013">Smalltalks</a> conference
-    where I&rsquo;ll be giving a <a href="http://www.fast.org.ar/smalltalks2013/talks/Amber%20Smalltalk%253A%20A%20Smalltalk%20that%20runs%20inside%20your%20web%20browser">talk</a> about <a href="http://amber-lang.net">Amber</a>. This talk will highlight
+    Next week I'll be heading to Rosario for the <a href="http://www.fast.org.ar/smalltalks2013">Smalltalks</a> conference
+    where I'll be giving a <a href="http://www.fast.org.ar/smalltalks2013/talks/Amber%20Smalltalk%3A%20A%20Smalltalk%20that%20runs%20inside%20your%20web%20browser">talk</a> about <a href="http://amber-lang.net/">Amber</a>. This talk will highlight
     key features and use-cases of Amber, explain some of the internals
     as well as important new and planned features.
     </p>
@@ -1352,15 +1371,14 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.html</guid>
     <pubDate>Tue, 15 Oct 2013 20:59:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     October 15, 2013
     </div>
 
 
     <p>
-    I&rsquo;m always surprised when I see that people are still installing the
-    <a href="http://pharo-project.org">Pharo</a> Virtual Machine by hand on Ubuntu while <a href="http://damiencassou.seasidehosting.st">Damien Cassou</a> has made
+    I'm always surprised when I see that people are still installing the
+    <a href="http://pharo-project.org/">Pharo</a> Virtual Machine by hand on Ubuntu while <a href="http://damiencassou.seasidehosting.st/">Damien Cassou</a> has made
     a ppa for it.
     </p>
 
@@ -1377,14 +1395,13 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/blogging-with-org-mode.html</guid>
     <pubDate>Tue, 15 Oct 2013 13:47:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     October 15, 2013
     </div>
 
     <p>
-    I just switched my personal website and blog engine from <a href="http://jekyllrb.com">Jekyll</a> to
-    <a href="http://orgmode.org">Org-mode</a>. As all my blog posts were already written in the
+    I just switched my personal website and blog engine from <a href="http://jekyllrb.com/">Jekyll</a> to
+    <a href="http://orgmode.org/">Org-mode</a>. As all my blog posts were already written in the
     <code>org-mode</code> format, switching was a breeze. Org-mode includes a <a href="http://orgmode.org/w/?p=org-mode.git;a=blob_plain;f=contrib/lisp/ox-rss.el;hb=HEAD">RSS
     exporter</a> in the <i>contrib</i> directory and together with its HTML
     <a href="http://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">publishing</a> features, it makes it a very powerful website builder.
@@ -1404,15 +1421,14 @@
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.10.0-released.html</guid>
     <pubDate>Wed, 13 Mar 2013 12:00:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     March 13, 2013
     </div>
 
 
     <p>
-    Today we released <a href="http://amber-lang.net">Amber 0.10.0</a>. After a year of work, we beleive this is a great release. 
-    I&rsquo;m especially glad to say that this release was a real community effort.
+    Today we released <a href="http://amber-lang.net/">Amber 0.10.0</a>. After a year of work, we beleive this is a great release. 
+    I'm especially glad to say that this release was a real community effort.
     </p>
 
     <p>
