@@ -53,6 +53,19 @@ body {
   color: #333;
 }
 
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+  height: 50px; /* .push must be the same height as .footer */
+}
+
 h1 {
   font-size: 2em;
   margin: 0.4em;
@@ -120,6 +133,60 @@ p.centered {
   color: rgb(240, 255, 135);
   text-decoration: underline;
   background: transparent;
+}
+
+.header.small {
+  text-align: left;
+  border-width: 3px;
+}
+
+.header.small h1 {
+  display: inline;
+  font-size: 1.5em;
+  margin: 0;
+  background: url(images/elpa-small.png) center left no-repeat;
+  padding: 10px;
+  padding-left: 120px;
+}
+
+.header.small .container {
+  padding: 20px;
+}
+
+input[type="search"] {
+  border: 3px solid #ddd;
+  padding: 10px;
+  width: 100%;
+  font-size: 1.1em;
+  background: #fcfcfc;
+}
+
+input[type="search"]:focus {
+  border-color: #bbb;
+  background: #fafafa;
+}
+
+input[type="search"][placeholder] {
+  color: #666;
+}
+
+.filter-table .quick { margin-left: 0.5em; font-size: 0.8em; text-decoration: none; }
+.fitler-table .quick:hover { text-decoration: underline; }
+td.alt { background-color: #ffc; background-color: rgba(255, 255, 0, 0.2); }
+
+td, th {
+  padding: 6px;
+}
+
+th {
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  background: #fafafa;
+  font-weight: bold;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
 }
 
 .footer {
