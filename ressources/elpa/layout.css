@@ -108,7 +108,7 @@ p.centered {
 }
 
 .container {
-  padding: 80px;
+  padding: 80px 20px;
   width: 960px;
   margin: 0 auto;
 }
@@ -203,4 +203,35 @@ td {
 
 .footer p {
   margin: 5px;
+  font-size: .8em;
+}
+
+@media screen and (max-width: 999px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .container {
+    width: 400px;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  .header img {
+    width: 300px;
+  }
+
+  td:last-child, th:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .container {
+    width: 300px;
+  }
 }
