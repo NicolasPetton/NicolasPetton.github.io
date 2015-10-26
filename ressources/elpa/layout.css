@@ -116,7 +116,8 @@ p.centered {
 .header {
   color: white;
   text-align: center;
-  background: transparent linear-gradient(135deg, #c73a6c, #bb3955, #973066) repeat scroll 0% 0%;
+  background-color: #bb3955;
+  background:  #bb3955 linear-gradient(135deg, #c73a6c, #bb3955, #973066) repeat scroll 0% 0%;
   border-bottom: 6px solid #691240;
 }
 
@@ -216,9 +217,14 @@ td {
   body {
     font-size: 1em;
   }
+
+  table {
+    width: 100%;
+  }
   
   .container {
-    width: 400px;
+    width: 90%;
+    padding: 40px 5%;
   }
 
   h1 {
@@ -235,9 +241,6 @@ td {
 }
 
 @media screen and (max-width: 439px) {
-  .container {
-    width: 280px;
-  }
 
   .header img {
     width: 250px;
