@@ -213,6 +213,10 @@ td {
 }
 
 @media screen and (max-width: 639px) {
+  body {
+    font-size: 1em;
+  }
+  
   .container {
     width: 400px;
   }
@@ -232,6 +236,14 @@ td {
 
 @media screen and (max-width: 439px) {
   .container {
-    width: 300px;
+    width: 280px;
+  }
+
+  .header img {
+    width: 250px;
+  }
+  
+  h1 {
+    font-size: 1.2em;
   }
 }
