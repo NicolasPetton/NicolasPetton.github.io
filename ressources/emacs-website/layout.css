@@ -1,0 +1,540 @@
+/* Copyright (C) 2015 Free Software Foundation, Inc.
+ 
+Author: Nicolas Petton <nicolas@petton.fr>
+
+This file is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This file is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details. */
+
+/* Begin of reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End of reset */
+
+body {
+  font-family: "fira sans", sans;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  color: #333;
+}
+
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  margin: 0 auto -200px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+  height: 200px; /* .push must be the same height as .footer */
+}
+
+h1 {
+  font-size: 2.3em;
+  font-weight: bold;
+  margin: 0.4em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 1em 0px 1em;
+  font-weight: 200;
+  line-height: 2em;
+}
+
+a {
+  color: rgb(240, 255, 135);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(240, 255, 135);
+  text-decoration: underline;
+  background: transparent;
+}
+
+/* a { */
+/*   color: #9041BD; */
+/*   text-decoration: underline; */
+/* } */
+
+/* a:hover { */
+/*   color: white; */
+/*   background-color: #9041BD; */
+/*   text-decoration: none; */
+/* } */
+
+a:focus {
+  outline: 0 none;
+}
+
+tt, code {
+  background-color: #333;
+  border: 1px solid #111;
+  padding: 0px 6px;
+  border-radius: 4px;
+  color: #ddd;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+p.centered {
+  text-align: center;
+  margin: 3em 0;
+}
+
+em {
+  font-weight: 500;
+}
+
+li {
+  list-style: square;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.container {
+  padding: 20px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.separator.top {
+  border-top: 5px solid #632F9B;
+  border-bottom: 5px solid #411F5D;
+}
+
+.separator.downloads {
+  border-top: 5px solid #572A92;
+  /* border-bottom: 5px solid #3C2259; */
+}
+
+.header {
+  color: #eee;
+  text-align: left;
+  background: #262626 url("images/header-bg.png") repeat;
+}
+
+.header nav {
+  background: #111;
+  padding: 4px;
+  text-align: center;
+  font-size: .9em;
+  font-weight: 300;
+}
+
+.header nav a {
+  color: #EEE;
+  padding: 10px;
+}
+
+.header nav a:hover {
+  text-decoration: none;
+}
+
+.header .shadow {
+  color: #444;
+  text-shadow: 0 0 3px #444;
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  z-index: 0;
+}
+
+.header .container {
+  padding-top: 40px;
+  padding-bottom: 380px;
+  position: relative;
+}
+
+.header .logo {
+  overflow: hidden;
+  z-index: 1;
+}
+
+.header .logo img {
+  max-height: 100px;
+  float: left;
+}
+
+.header .logo h1 {
+  float: left;
+  font-size: 3em;
+  line-height: 110px;
+  margin: 0 20px;
+  font-weight: 500;
+}
+
+.header h2 {
+  z-index: 1;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 2.4em;
+  line-height: 1.3em;
+  margin-top: 40px;
+  font-weight: 200;
+  max-width: 760px;
+}
+
+.header .teaser {
+  position: absolute;
+  left: 128px;
+  bottom: 0;
+  box-shadow: 0 0 10px 0 #000; 
+}
+
+.header p {
+  margin: 0;
+  max-width: 760px;
+  font-weight: 200;
+}
+
+.header a {
+  color: rgb(240, 255, 135);
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: rgb(240, 255, 135);
+  text-decoration: underline;
+  background: transparent;
+}
+
+.header.small {
+  text-align: left;
+  border-width: 3px;
+}
+
+.header.small h1 {
+  display: inline;
+  font-size: 1.5em;
+  margin: 0;
+  background: url(images/elpa-small.png) center left no-repeat;
+  padding: 10px;
+  padding-left: 120px;
+}
+
+.header .links {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  font-weight: 200;
+}
+
+.header .links span {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.header .links a {
+  color: #9041BD;
+  font-weight: 300;
+  display: block;
+  transition: .2s all ease-in;
+}
+
+.header .links a.more {
+  font-size: .8em;
+  text-align: right;
+}
+
+.header .links a.more:hover {
+  text-decoration: underline;
+}
+
+.header .links a.btn {
+  border: 2px dashed #9041BD;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.header .links a.btn:hover {
+  text-decoration: none;
+  background: #9041BD;
+  color: white;
+  border: 2px solid #9041BD;
+}
+
+.header .links a i {
+  margin-right: 10px;
+}
+
+.header .learn-more {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 120px;
+  text-align: center;
+  left: 500px;
+  margin-left: -70px;
+  font-weight: 300;
+  transition: .2s all ease;
+  padding: 10px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.header .learn-more i {
+  display: block;
+  font-size: 40px;
+}
+
+.header .learn-more:hover {
+  text-decoration: none;
+  background-color: #111;
+  bottom: -10px;
+  opacity: 1;
+}
+
+.fsf-banner {
+  background: #b11107;
+  border-top: 4px solid #840902;
+  color: white;
+  overflow: hidden;
+}
+
+.fsf-banner img {
+  float: left;
+  margin-top: 10px;
+}
+
+.fsf-banner p {
+  font-size: .8em;
+  line-height: 1.3em;
+  float: left;
+  margin-left: 40px;
+  width: 560px;
+  font-style: italic;
+}
+
+.fsf-banner .container {
+  padding: 20px;
+}
+
+.features {
+  border-top: 5px solid #111;
+  background: #2E1554 linear-gradient(#4B236D, #2E1554) repeat scroll 0% 0%;
+  color: white;
+  overflow: hidden;
+}
+
+.features h2 {
+  text-align: center;
+}
+
+.features .icon {
+  display: block;
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.features .icon i {
+  background: white none repeat scroll 0% 0%;
+  color: rgb(58, 27, 94);
+  padding: 20px;
+  border-radius: 1.5em;
+  width: 1em;
+}
+
+.features li {
+  list-style: none;
+  width: 27%;
+  margin: 20px 3%;
+  float: left;
+  text-align: center;
+  min-height: 280px;
+}
+
+.downloading {
+  border-top: 5px solid #333;
+  background: #27261E;
+  color: #E0DABB;
+}
+
+.releases {
+  border-top: 4px solid #8A876E;
+  background: #EDEAC1 linear-gradient(#ECE7AF, #EDEAC1) repeat scroll 0% 0%;
+  color: #444225;
+}
+
+.releases code,
+.releases pre,
+.releases tt {
+  color: #333;
+  background: #DDC9A3;
+  border-color: #666;
+}
+
+.releases a {
+  color: #FF2D00;
+}
+
+.releases a:hover {
+  text-decoration: underline;
+}
+
+
+.footer {
+  border-top: 4px solid #181818;
+  padding-top: 15px;
+  text-align:center;
+  background: #262626 url(images/emacs-bw.png) bottom left no-repeat;
+  color: #888;
+}
+
+.footer h3 {
+  font-size: 1.3em;
+}
+
+.footer .container {
+  padding: 5px;
+  font-size: 0.8em;
+  overflow: hidden;
+  /* background: #262626 url(images/emacs-bw.png) left 70px no-repeat; */
+}
+
+.footer .container > div {
+  width: 430px;
+  float: left;
+}
+
+.footer .container > div:last-child {
+  margin-left: 100px;
+}
+
+.footer .left {
+  text-align: left;
+}
+
+.footer .right {
+  text-align: right;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer nav {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.footer nav a {
+  margin: 10px;
+}
+
+.footer nav a:after {
+  content: " ❯";
+  color: #555;
+}
+
+.footer nav a:hover {
+  text-decoration: none;
+  color: #ee3;
+}
+
+.footer a {
+  color: #eec;
+}
+
+@media screen and (max-width: 999px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  body {
+    font-size: 1em;
+  }
+
+  table {
+    width: 100%;
+  }
+  
+  .container {
+    width: 90%;
+    padding: 40px 5%;
+  }
+
+  h1 {
+    font-size: 1.4em;
+    line-height: 1.5em;
+  }
+
+  .header img {
+    width: 300px;
+  }
+
+  td:last-child, th:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 439px) {
+
+  .header img {
+    width: 250px;
+  }
+  
+  h1 {
+    font-size: 1.2em;
+  }
+}
