@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Working on the Emacs website)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/working-on-the-emacs-website.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Sun, 29 Nov 2015 00:41:33 +0100</pubDate>
+  <lastBuildDate>Sun, 29 Nov 2015 00:41:33 +0100</lastBuildDate>
+  <generator>Emacs 25.0 Org-mode 8.3.2</generator>
+  <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>(Working on the Emacs website)</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+
+  <item>
+    <title>Working on the *Emacs website*</title>
+    <link>http://nicolas-petton.fr/blog/working-on-the-emacs-website.html#orgheadline1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/working-on-the-emacs-website.html#orgheadline1</guid>
+    <pubDate>Sun, 29 Nov 2015 00:40:00 +0100</pubDate>
+
+    <description><![CDATA[<div class="pubdate">
+    November 29, 2015
+    </div>
+
+    <p>
+    After working on the <a href="http://nicolas-petton.fr/blog/working-on-the-emacs-logo.html#MissingReference">Emacs logo</a> and the <a href="http://nicolas-petton.fr/ressources/elpa/">ELPA website</a>, I'm now working on the
+    Emacs website, you can have a look at my work (in progress) <a href="http://nicolas-petton.fr/ressources/emacs-website/">here</a>!
+    </p>
+
+    <p>
+    Please note that
+    </p>
+    <ul class="org-ul">
+    <li>It's wip</li>
+    <li>Many links are broken</li>
+    <li>It's not mobile device ready yet</li>
+    </ul>
+
+    <p>
+    As always, feedback welcome!
+    </p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    ]]></description>
+  </item>
+</channel>
+</rss>

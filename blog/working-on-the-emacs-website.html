@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2015-11-29 Sun 00:41 -->
+<!-- 2015-11-29 Sun 00:45 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
-<title>stream.el</title>
+<title>Working on the Emacs website</title>
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Nicolas Petton" />
 <style type="text/css">
@@ -177,122 +177,37 @@ for the JavaScript code in this tag.
 </div>
 </div>
 <div id="content">
-<h1 class="title">stream.el</h1>
+<h1 class="title">Working on the Emacs website</h1>
 
 <div id="outline-container-orgheadline1" class="outline-2">
-<h2 id="orgheadline1"><a id="ID-85192591-76e0-4af4-9af1-9022c567cb90"></a><b>Lazy sequences</b> in Emacs with stream.el</h2>
+<h2 id="orgheadline1"><a id="ID-afb401b6-35f5-499f-851f-992f1d93d551"></a>Working on the <b>Emacs website</b></h2>
 <div class="outline-text-2" id="text-orgheadline1">
 <div class="pubdate">
-October 14, 2015
+November 29, 2015
 </div>
 
-
 <p>
-I just pushed to GNU ELPA the first version of <a href="https://github.com/NicolasPetton/stream">stream</a>, a new streaming library
-for Emacs. Streams are implemented as delayed evaluation of cons cells, and are
-immutable. In that sense they are similar to streams in the SICP book<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup> or to
-Clojure's lazy sequences.
+After working on the <a href="working-on-the-emacs-logo.html#MissingReference">Emacs logo</a> and the <a href="http://nicolas-petton.fr/ressources/elpa/">ELPA website</a>, I'm now working on the
+Emacs website, you can have a look at my work (in progress) <a href="http://nicolas-petton.fr/ressources/emacs-website/">here</a>!
 </p>
 
-<p>
-<code>stream</code> requires Emacs &gt;= 25, as it leverages the extensibility of <a href="https://github.com/NicolasPetton/seq.el">seq.el</a>: all
-functions defined in <code>seq</code> will work on streams, meaning that it's possible to
-consume a stream using <code>seq-take</code>, map and filter it using <code>seq-map</code> and
-<code>seq-filter</code>, and so forth.
+
+<div class="figure">
+<p><img src="../images/emacs-website.png" alt="emacs-website.png" />
 </p>
+</div>
 
 <p>
-Streams could be created from any sequential input data:
+Please note that
 </p>
 <ul class="org-ul">
-<li>sequences, making operation on them lazy</li>
-<li>a set of 2 forms (first and rest), making it easy to represent infinite sequences</li>
-<li>buffers (by character)</li>
-<li>buffers (by line)</li>
-<li>buffers (by page)</li>
-<li>IO streams</li>
-<li>orgmode table cells</li>
-<li>&#x2026;</li>
+<li>It's wip</li>
+<li>Many links are broken</li>
+<li>It's not mobile device ready yet</li>
 </ul>
 
 <p>
-The generic <code>stream</code> function currently accepts lists, strings, arrays and
-buffers as input, but it can be cleanly extended to support pretty much any kind
-of data.
-</p>
-
-<p>
-All operations on streams are lazy (including the functions from seq.el), unless
-data is actually needed.
-</p>
-
-<p>
-Here is an example of an infinite stream of ones:
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-emacs-lisp">(defun ones ()
-  (stream-cons 1 (ones)))
-
-(ones) ;; =&gt; stream
-</pre>
-</div>
-
-<p>
-The next example shows an implementation of the Fibonacci numbers
-implemented as in infinite stream:
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-emacs-lisp">(defun fib (a b)
-  (stream-cons a (fib b (+ a b))))
-
-(fib 0 1)
-</pre>
-</div>
-
-<p>
-The following example returns a stream of the first 50 characters of the
-current buffer:
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-emacs-lisp">(seq-take (stream (current-buffer)) 50) ;; =&gt; stream
-</pre>
-</div>
-
-<p>
-Because <code>stream</code> implements the <code>seq</code> protocol, it is also possible to use
-mapping, filtering, etc. functions, you just have to remember that all
-operations on streams are lazy:
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-emacs-lisp">(seq-map #'1+ (seq-take (fib 0 1) 50)) ;; =&gt; stream
-</pre>
-</div>
-
-<p>
-There are many more things to show about <code>stream</code>, one of them being how to
-extend <code>seq</code> with new sequence types.  
-</p>
-
-<p>
-If you use a recent version of Emacs built from the git repository, you can
-install stream through <code>M-x package-install RET stream</code>.
-</p>
-</div>
-</div>
-<div id="footnotes">
-<h2 class="footnotes">Footnotes: </h2>
-<div id="text-footnotes">
-
-<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
-<a href="https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5">https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5</a>
+As always, feedback welcome!
 </p>
 
 <div id="disqus_thread"></div>
@@ -308,18 +223,17 @@ install stream through <code>M-x package-install RET stream</code>.
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div></div>
-
-
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
-</div></div>
+</div>
+</div>
 <div id="postamble" class="status">
 <script type='text/javascript'>
     $('p').addClass('hyphenate');
    Hyphenator.run();
 </script><div class='footer'>
 Copyright 2015 Nicolas Petton.<br>
-Last updated 2015-11-29 Sun 00:40. <br>
+Last updated 2015-11-29 Sun 00:44. <br>
 Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.50.1 (<a href="http://orgmode.org">Org</a> mode 8.3.2).
 </div>
 </div>
