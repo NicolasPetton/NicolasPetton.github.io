@@ -106,21 +106,6 @@ a:hover {
   background: transparent;
 }
 
-/* a { */
-/*   color: #9041BD; */
-/*   text-decoration: underline; */
-/* } */
-
-/* a:hover { */
-/*   color: white; */
-/*   background-color: #9041BD; */
-/*   text-decoration: none; */
-/* } */
-
-a:focus {
-  outline: 0 none;
-}
-
 tt, code {
   background-color: #333;
   border: 1px solid #111;
