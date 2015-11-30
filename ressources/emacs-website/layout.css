@@ -418,7 +418,7 @@ li {
 
 .releases {
   border-top: 4px solid #8A876E;
-  background: #EDEAC1 linear-gradient(#D4CE93, #EDEAC1) repeat scroll 0% 0%;
+  background: #EDEAC1; /* linear-gradient(#D4CE93, #EDEAC1) repeat scroll 0% 0%; */
   color: #444225;
 }
 
