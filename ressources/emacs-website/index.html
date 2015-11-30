@@ -9,7 +9,6 @@
 
         <script src="javascript/jquery.min.js" type="text/javascript"></script>
         <script src="javascript/animations.js" type="text/javascript"></script>
-        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="layout.css">
         <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
     </head>
@@ -18,6 +17,17 @@
         <div class="wrapper">
             <div class="separator top"></div>
             <div class="header">
+                <div class="nav-mobile">
+                    <div class="logo">
+                        <img src="images/emacs.png" alt="Emacs"/>
+                        <h1>GNU Emacs</h1>
+                    </div>
+                    <button type="button" class="nav-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                </div>
                 <nav>
                     <a href="#features">Features</a>
                     <a href="#Obtaining">Download</a>
@@ -37,9 +47,11 @@
 
                     <div class="links">
                         <span>Download for:</span>
-                        <a href="#" class="btn gnu-linux"><i class="fa fa-linux"></i>GNU/Linux</a>
-                        <a href="#" class="btn macosx"><i class="fa fa-apple"></i>MacOS X</a>
-                        <a href="#" class="btn windows"><i class="fa fa-windows"></i>Windows</a>
+                        <div class="btns">
+                            <a href="#" class="btn gnu-linux"><i class="fa fa-linux"></i>GNU/Linux</a>
+                            <a href="#" class="btn macosx"><i class="fa fa-apple"></i>MacOS X</a>
+                            <a href="#" class="btn windows"><i class="fa fa-windows"></i>Windows</a>
+                        </div>
                         <a href="#Obtaining" class="more">More downloads...</a>
                     </div>
 
@@ -60,48 +72,60 @@
                             <div class="icon">
                                 <i class="fa fa-pencil"></i>
                             </div>
-                            Content-sensitive editing modes, including syntax coloring, for a
-                            variety of file types including plain text, source code, and
-                            HTML.
+                            <span>
+                                Content-sensitive editing modes, including syntax coloring, for a
+                                variety of file types including plain text, source code, and
+                                HTML.
+                            </span>
                         </li>
                         <li>
                             <div class="icon">
                                 <i class="fa fa-book"></i>
                             </div>
-                            Complete built-in documentation, including a tutorial for new
-                            users.
+                            <span>
+                                Complete built-in documentation, including a tutorial for new
+                                users.
+                            </span>
                         </li>
                         <li>
                             <div class="icon">
                                 <i class="fa fa-language"></i>
                             </div>
-                            Full <a href="http://unicode.org">Unicode</a> support for nearly
-                            all human languages and their scripts.
+                            <span>
+                                Full <a href="http://unicode.org">Unicode</a> support for nearly
+                                all human languages and their scripts.
+                            </span>
                         </li>
                         <li>
                             <div class="icon">
                                 <i class="fa fa-cogs"></i>
                             </div>
-                            Highly customizable, using Emacs Lisp code or a graphical
-                            interface.
+                            <span>
+                                Highly customizable, using Emacs Lisp code or a graphical
+                                interface.
+                            </span>
                         </li>
                         <li>
                             <div class="icon">
                                 <i class="fa fa-archive"></i>
                             </div>
-                            A large number of extensions that add other functionality,
-                            including a <a href="/software/emacs/manual/org.html">project
+                            <span>
+                                A large number of extensions that add other functionality,
+                                including a <a href="/software/emacs/manual/org.html">project
                                 planner</a>, <a href="/software/emacs/manual/gnus.html">mail and news
                                 reader</a>, <a href="http://www.gnu.org/software/emacs/manual/html_node/emacs/Debuggers.html">debugger
                                 interface</a>,
-                            <a href="/software/emacs/manual/html_node/emacs/Calendar_002fDiary.html">calendar</a>,
-                            and <a href="#Further">more</a>.
+                                <a href="/software/emacs/manual/html_node/emacs/Calendar_002fDiary.html">calendar</a>,
+                                and <a href="#Further">more</a>.
+                            </span>
                         </li>
                         <li>
                             <div class="icon">
                                 <i class="fa fa-download"></i>
                             </div>
-                            A packaging system (<code>M-x list-packages</code>) for downloading and installing extensions.
+                            <span>
+                                A packaging system (<code>M-x list-packages</code>) for downloading and installing extensions.
+                            </span>
                         </li>
                     </ul>
                 </div>

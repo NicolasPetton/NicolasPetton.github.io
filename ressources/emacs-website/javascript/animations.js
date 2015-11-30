@@ -42,8 +42,15 @@
 		});
 	}
 
+	function setupMobileNav() {
+		$('.nav-toggle').click(function() {
+			$('nav').toggle();
+		});
+	}
+
 	$(function() {
 		$('.header .learn-more').click(scrollAfterHeader);
 		setupAnchors();
+		setupMobileNav();
 	});
 })();
