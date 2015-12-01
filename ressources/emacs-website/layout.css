@@ -272,7 +272,7 @@ li {
 }
 
 .header .links a {
-  color: #9041BD;
+  color: #C082E3;
   font-weight: 300;
   display: block;
   transition: .2s all ease-in;
@@ -661,7 +661,7 @@ li {
     border-top: 1px solid #333;
     font-size: 1.2em;
   }
-
+  
   /* .header nav a:after { */
   /*   content: " ❯"; */
   /*   color: #555; */
@@ -670,9 +670,24 @@ li {
   .header nav a:hover {
     background: #222222;
   }
+
+  .fsf-banner img {
+    max-width: 100%;
+  }
+
+  .fsf-banner p {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 550px) {
+  .wrapper {
+    margin: 0 auto -300px;
+  }
+  .footer, .push {
+    height: 300px;
+  }
+  
   .header .links a.btn,
   .header .links a.btn:last-child {
     display: block;
@@ -698,5 +713,14 @@ li {
   .features ul li span {
     display: block;
     padding-left: 90px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .wrapper {
+    margin: 0 auto -320px;
+  }
+  .footer, .push {
+    height: 320px;
   }
 }
