@@ -31,7 +31,7 @@
 
 	function setupAnchors() {
 		$('a').click(function(evt) {
-			var anchor = $(evt.target);
+			var anchor = $(evt.target).closest('a');
 			var href = anchor.attr('href');
 			if(href[0] === '#') {
 				scrollToAnchor(href, function() {
@@ -49,7 +49,6 @@
 	}
 
 	$(function() {
-		$('.header .learn-more').click(scrollAfterHeader);
 		setupAnchors();
 		setupMobileNav();
 	});
