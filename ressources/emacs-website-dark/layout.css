@@ -64,9 +64,7 @@ body {
   font-family: "fira sans", sans;
   line-height: 1.5em;
   font-size: 1.1em;
-  color: #4E4742;
-  color: #3F3B3B;
-  background: #F5F5ED;
+  color: #333;
 }
 
 html, body {
@@ -92,19 +90,20 @@ h1 {
 
 h2 {
   font-size: 2em;
-  margin: .8em 0px .4em;
-  font-weight: 500;
+  margin: .8em 0px .8em;
+  font-weight: 300;
   line-height: 2em;
 }
 
 a {
-  color: #76319F;
-  text-decoration: underline;
-  transition: .2s all ease-in;
+  color: rgb(240, 255, 135);
+  text-decoration: none;
 }
 
 a:hover {
-  color: #3E0C5C;
+  color: rgb(240, 255, 135);
+  text-decoration: underline;
+  background: transparent;
 }
 
 tt, code, kbd {
@@ -135,16 +134,25 @@ li {
 }
 
 .container {
-  padding: 40px 0;
+  padding: 20px;
   width: 960px;
   margin: 0 auto;
-  overflow: auto;
+}
+
+.separator.top {
+  border-top: 5px solid #632F9B;
+  border-bottom: 5px solid #411F5D;
+}
+
+.separator.downloads {
+  border-top: 5px solid #572A92;
+  /* border-bottom: 5px solid #3C2259; */
 }
 
 .header {
-  color: #3F3B3B;
+  color: #eee;
   text-align: left;
-  background: #EDE6D5 linear-gradient(#EDE6D5, #F5F5ED) repeat scroll 0% 0%;
+  background: #262626 url("images/header-bg.png") repeat;
 }
 
 .header .nav-mobile {
@@ -152,30 +160,28 @@ li {
 }
 
 .header nav {
-  background: #F2EFE4;
-  border-bottom: 1px solid #D4CBB6;
-  padding: 8px;
+  background: #222;
+  padding: 4px;
   margin-bottom: 20px;
   text-align: center;
   font-size: .9em;
-  font-weight: 400;
+  font-weight: 300;
+  border-bottom: 1px solid #333;
 }
 
 .header nav a {
-  color: #3F3D32;
+  color: #EEE;
   padding: 10px;
 }
 
 .header nav a:hover {
-  color: #3F3D32;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .header .container {
   padding-top: 40px;
-  padding-bottom: 350px;
+  padding-bottom: 380px;
   position: relative;
-  overflow: hidden;
 }
 
 .header .logo {
@@ -193,7 +199,7 @@ li {
   font-size: 4em;
   line-height: 110px;
   margin: 0 20px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .header h2 {
@@ -202,7 +208,7 @@ li {
   margin-bottom: 10px;
   font-size: 2.6em;
   line-height: 1.3em;
-  margin-top: 20px;
+  margin-top: 40px;
   font-weight: 300;
   max-width: 760px;
 }
@@ -211,7 +217,7 @@ li {
   position: absolute;
   left: 128px;
   bottom: 0;
-  box-shadow: 0 0 10px 0 #666; 
+  box-shadow: 0 0 10px 0 #000; 
 }
 
 .header p {
@@ -236,7 +242,7 @@ li {
   position: absolute;
   top: 40px;
   right: 0;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .header .links li {
@@ -251,7 +257,7 @@ li {
 
 .header .links a {
   color: #C082E3;
-  font-weight: 400;
+  font-weight: 300;
   display: block;
   transition: .2s all ease-in;
 }
@@ -259,7 +265,6 @@ li {
 .header a.more {
   font-size: .8em;
   text-align: right;
-  color: #622486;
 }
 
 .header .links a.more:hover {
@@ -271,7 +276,7 @@ li {
   padding: 12px 22px;
   border-radius: 6px;
   text-decoration: none;
-  background: #7F5AB6;
+  background: #9041BD;
   color: white;
 }
 
@@ -291,10 +296,10 @@ li {
   text-align: center;
   left: 500px;
   margin-left: -70px;
-  font-weight: 400;
+  font-weight: 300;
   transition: .2s all ease;
   padding: 10px;
-  background-color: #222;
+  background-color: black;
   opacity: 0.9;
 }
 
@@ -326,7 +331,6 @@ li {
   font-size: .8em;
   line-height: 1.3em;
   float: left;
-  margin: 0;
   margin-left: 40px;
   width: 560px;
   font-style: italic;
@@ -337,71 +341,54 @@ li {
 }
 
 .features {
-  border-top: 1px solid #444242;
-  background: #7F5AB6;
-  color: #fafafa;
+  border-top: 5px solid #111;
+  background: #2E1554 linear-gradient(#4B236D, #2E1554) repeat scroll 0% 0%;
+  color: #E1D3EA;
   overflow: hidden;
-}
-
-.features .container {
-  padding-top: 20px;
 }
 
 .features a {
   color: #FFDE8F;
-  text-decoration: none;
 }
-
-.features a:hover {
-  text-decoration: underline;
-}
-
 
 .features h2 {
   text-align: center;
-  color: #EEE2FF;
+}
+
+.features .icon {
+  display: block;
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.features .icon i {
+  background: #eee;
+  color: rgb(58, 27, 94);
+  padding: 20px;
+  border-radius: 1.5em;
+  width: 1em;
 }
 
 .features li {
   list-style: none;
-  min-height: 122px;
-  width: 29%;
+  width: 27%;
   margin: 20px 3%;
   float: left;
-  padding-left: 140px;
-  padding-top: 20px;
-  background-position: left center;
-  background-repeat: no-repeat;
+  text-align: center;
+  min-height: 250px;
 }
 
-.features .modes {
-  background-image: url('images/emacs-preview-modes.png');
-}
-
-.features .documentation {
-  background-image: url('images/emacs-preview-documentation.png');
-}
-
-.features .unicode {
-  background-image: url('images/emacs-preview-unicode.png');
-}
-
-.features .customization {
-  background-image: url('images/emacs-preview-customization.png');
-}
-
-.features .extensions {
-  background-image: url('images/emacs-preview-extensions.png');
-}
-
-.features .packages {
-  background-image: url('images/emacs-preview-packages.png');
+.downloading {
+  border-top: 5px solid #333;
+  background: #27261E;
+  color: #E0DABB;
 }
 
 .releases {
-  color: #3F3B3B;
-  background: #F0EBDE;
-  /* border-top: 1px solid #e5e5c8; */
+  border-top: 4px solid #8A876E;
+  background: #E3E0C3;
+  color: #484622;
 }
 
 .releases code,
@@ -409,16 +396,24 @@ li {
 .releases tt,
 .release kbd {
   color: #333;
-  background: #e5e5c8;
+  background: #DDC9A3;
   border-color: #666;
 }
 
+.releases a {
+  color: #FF2D00;
+}
+
+.releases a:hover {
+  text-decoration: underline;
+}
+
+
 .footer {
-  border-top: 4px solid #333;
+  border-top: 4px solid #181818;
   padding-top: 15px;
   text-align:center;
-  
-  background: #434342; /* url(images/emacs-bw.png) bottom left no-repeat; */
+  background: #262626 url(images/emacs-bw.png) bottom left no-repeat;
   color: #888;
 }
 
@@ -470,15 +465,11 @@ li {
 
 .footer nav a:hover {
   text-decoration: none;
+  color: #ee3;
 }
 
 .footer a {
-  color: rgb(204, 99, 99);
-  text-decoration: none;
-}
-
-.footer a:hover {
-  text-decoration: underline;
+  color: #eec;
 }
 
 @media screen and (max-width: 999px) {
@@ -540,7 +531,7 @@ li {
   }
   
   .features ul li {
-    width: auto;
+    width: 40%;
     margin: 20px 5%;
   }
   
@@ -646,12 +637,17 @@ li {
   }
 
   .header nav a {
+    color: #DDD;
     padding: 10px;
     display: block;
     text-align: left;
-    border-top: 1px solid #666;
+    border-top: 1px solid #333;
     font-size: 1.2em;
     font-weight: 400;
+  }
+
+  .header nav a:hover {
+    background: #111;
   }
 
   .fsf-banner img {
@@ -682,5 +678,23 @@ li {
     text-align: center;
     margin: 0;
     width: auto;
+  }
+
+  .features ul li {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
+    min-height: 0;
+    text-align: left;
+  }
+
+  .features ul li .icon {
+    float: left;
+    width: 50px;
+  }
+
+  .features ul li span {
+    display: block;
+    padding-left: 90px;
   }
 }
