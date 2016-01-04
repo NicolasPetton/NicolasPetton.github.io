@@ -209,7 +209,7 @@ li {
 
 .header .teaser {
   position: absolute;
-  left: 128px;
+  left: 100px;
   bottom: 0;
   box-shadow: 0 0 10px 0 #666; 
 }
@@ -222,14 +222,17 @@ li {
 }
 
 .header a {
+  text-decoration: none;
+}
+
+.header a.learn-more {
   color: rgb(240, 255, 135);
   text-decoration: none;
 }
 
-.header a:hover {
+.header a.learn-more:hover {
   color: rgb(240, 255, 135);
-  text-decoration: underline;
-  background: transparent;
+  text-decoration: none;
 }
 
 .header .links {
@@ -245,7 +248,7 @@ li {
 }
 
 .header .links span {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: block;
 }
 
@@ -273,6 +276,11 @@ li {
   text-decoration: none;
   background: #7F5AB6;
   color: white;
+  text-align: center;
+}
+
+.header .links a.btn.gnu-linux {
+  margin-bottom: 40px;
 }
 
 .header .links a.btn:hover {
@@ -336,6 +344,21 @@ li {
   padding: 20px;
 }
 
+.videos {
+  background: #624195;
+  color: #fafafa;
+  text-align: center;
+}
+
+.videos .container {
+  padding-bottom: 0;
+}
+
+.videos video {
+  display: inline-block;
+  padding: 20px;
+}
+
 .features {
   border-top: 1px solid #444242;
   background: #7F5AB6;
@@ -347,19 +370,22 @@ li {
   padding-top: 20px;
 }
 
-.features a {
+.features a, .videos a {
   color: #FFDE8F;
   text-decoration: none;
 }
 
-.features a:hover {
+.features a:hover, .videos a:hover {
   text-decoration: underline;
 }
-
 
 .features h2 {
   text-align: center;
   color: #EEE2FF;
+}
+
+.features ul {
+  overflow: auto;
 }
 
 .features li {
