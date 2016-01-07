@@ -398,7 +398,6 @@ li {
   padding-top: 210px;
   background-position: center top;
   background-repeat: no-repeat;
-  min-height: 140px;
 }
 
 .features .modes {
@@ -612,7 +611,6 @@ li {
     padding-top: 210px;
     background-position: center top;
     background-repeat: no-repeat;
-    min-height: 110px;
   }
 }
 
