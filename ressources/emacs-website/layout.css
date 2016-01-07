@@ -600,20 +600,13 @@ li {
   }
 }
 
-@media screen and (max-width: 990px) {
-  .features li {
-    text-align: center;
-    list-style: outside none none;
-    width: 44%;
-    margin: 30px 3%;
-    float: left;
-    padding-left: 0px;
-    padding-top: 210px;
-    background-position: center top;
-    background-repeat: no-repeat;
+@media screen and (max-width: 840px) {
+  .features ul li {
+    width: auto;
+    margin: 20px 5%;
+    float: none;
   }
 }
-
 
 @media screen and (max-width: 639px) {
   body {
@@ -696,11 +689,6 @@ li {
 
   .fsf-banner p {
     margin-left: 0;
-  }
-
-  .features ul li {
-    width: auto;
-    margin: 20px 5%;
   }
 }
 
