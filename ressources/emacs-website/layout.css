@@ -15,24 +15,24 @@ GNU General Public License for more details. */
 /* Begin of reset */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+                          h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+                          a, abbr, acronym, address, big, cite, code,
+                          del, dfn, em, img, ins, kbd, q, s, samp,
+                          small, strike, strong, sub, sup, tt, var,
+                          b, u, i, center,
+                          dl, dt, dd, ol, ul, li,
+                          fieldset, form, label, legend,
+                          table, caption, tbody, tfoot, thead, tr, th, td,
+                          article, aside, canvas, details, embed, 
+                          figure, figcaption, footer, header, hgroup, 
+                          menu, nav, output, ruby, section, summary,
+                          time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -389,15 +389,16 @@ li {
 }
 
 .features li {
+  text-align: center;
   list-style: none;
-  min-height: 122px;
-  width: 29%;
-  margin: 20px 3%;
+  width: 44%;
+  margin: 30px 3%;
   float: left;
-  padding-left: 140px;
-  padding-top: 20px;
-  background-position: left center;
+  padding-left: 0;
+  padding-top: 265px;
+  background-position: top center;
   background-repeat: no-repeat;
+  min-height: 90px;
 }
 
 .features .modes {
@@ -565,11 +566,6 @@ li {
     max-width: 100%;
   }
   
-  .features ul li {
-    width: auto;
-    margin: 20px 5%;
-  }
-  
   .fsf-banner a {
     display: block;
     text-align: center;
@@ -686,6 +682,11 @@ li {
 
   .fsf-banner p {
     margin-left: 0;
+  }
+
+  .features ul li {
+    width: auto;
+    margin: 20px 5%;
   }
 }
 
