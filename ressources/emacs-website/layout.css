@@ -390,15 +390,15 @@ li {
 
 .features li {
   text-align: center;
-  list-style: none;
-  width: 44%;
+  list-style: outside none none;
+  width: 27%;
   margin: 30px 3%;
   float: left;
-  padding-left: 0;
-  padding-top: 265px;
-  background-position: top center;
+  padding-left: 0px;
+  padding-top: 210px;
+  background-position: center top;
   background-repeat: no-repeat;
-  min-height: 90px;
+  min-height: 140px;
 }
 
 .features .modes {
@@ -600,6 +600,22 @@ li {
     margin-left: 0;
   }
 }
+
+@media screen and (max-width: 990px) {
+  .features li {
+    text-align: center;
+    list-style: outside none none;
+    width: 44%;
+    margin: 30px 3%;
+    float: left;
+    padding-left: 0px;
+    padding-top: 210px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 110px;
+  }
+}
+
 
 @media screen and (max-width: 639px) {
   body {
