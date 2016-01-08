@@ -263,6 +263,8 @@ li {
   font-size: .8em;
   text-align: right;
   color: #622486;
+  display: initial;
+  float: right;
 }
 
 .header .links a.more:hover {
@@ -350,8 +352,8 @@ li {
   text-align: center;
 }
 
-.videos .container {
-  padding-bottom: 0;
+.videos h2 {
+  color: #EEE2FF;
 }
 
 .videos video {

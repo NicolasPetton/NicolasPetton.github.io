@@ -42,6 +42,7 @@
 		var target = $(name);
 		var top = target.offset().top;
 		scrollTo(top, complete);
+		history.pushState({}, name, name);
 	}
 
 	function setupAnchors() {
