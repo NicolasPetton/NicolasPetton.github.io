@@ -3,30 +3,23 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2015-11-29 Sun 00:40 -->
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>Nicolas Petton</title>
+<!-- 2016-02-09 Tue 11:38 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Nicolas Petton" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center;
-             margin-bottom: .2em; }
-  .subtitle { text-align: center;
-              font-size: medium;
-              font-weight: bold;
-              margin-top:0; }
+  .title  { text-align: center; }
   .todo   { font-family: monospace; color: red; }
-  .done   { font-family: monospace; color: green; }
-  .priority { font-family: monospace; color: orange; }
+  .done   { color: green; }
   .tag    { background-color: #eee; font-family: monospace;
             padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
@@ -65,14 +58,15 @@
   caption.t-above { caption-side: top; }
   caption.t-bottom { caption-side: bottom; }
   td, th { vertical-align:top;  }
-  th.org-right  { text-align: center;  }
-  th.org-left   { text-align: center;   }
-  th.org-center { text-align: center; }
-  td.org-right  { text-align: right;  }
-  td.org-left   { text-align: left;   }
-  td.org-center { text-align: center; }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
   dt { font-weight: bold; }
-  .footpara { display: inline; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
@@ -177,9 +171,10 @@ for the JavaScript code in this tag.
 <h1 class="title">Nicolas Petton</h1>
 <div class="index">
 
-<div id="outline-container-orgheadline1" class="outline-2 column first">
-<h2 id="orgheadline1"><a id="ID-0510203a-57fa-49e4-86c2-cf3252cd0a88"></a><b>About</b> me.</h2>
-<div class="outline-text-2" id="text-orgheadline1">
+<div id="outline-container-sec-1" class="outline-2 column first">
+<h2 id="sec-1"><a id="ID-0510203a-57fa-49e4-86c2-cf3252cd0a88" name="ID-0510203a-57fa-49e4-86c2-cf3252cd0a88"></a><b>About</b> me.</h2>
+<div class="outline-text-2" id="text-1">
+
 <p>
 I'm a Sotfware engineer, passionate about Lisp, Smalltalk and
 the Web. I split my time between Stockholm (Sweden) and Brest
@@ -187,37 +182,44 @@ the Web. I split my time between Stockholm (Sweden) and Brest
 </p>
 </div>
 
-<div id="outline-container-orgheadline2" class="outline-3">
-<h3 id="orgheadline2"><a id="ID-75905bfb-53a1-4830-8146-5036e0befe24"></a>Work.</h3>
-<div class="outline-text-3" id="text-orgheadline2">
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><a id="ID-75905bfb-53a1-4830-8146-5036e0befe24" name="ID-75905bfb-53a1-4830-8146-5036e0befe24"></a>Work.</h3>
+<div class="outline-text-3" id="text-1-1">
 <p>
 I'm an engineer in the dev team at <a href="http://foretagsplatsen.se/en">Företagsplatsen</a>. I previously
-worked in the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team at <a href="http://inria.fr/">Inria</a>. I'm also the co-founder of
-<a href="objectfusion.html#MissingReference">Objectfusion</a>, a company dedicated into building custom web
+worked in the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team at <a href="http://inria.fr">Inria</a>. I'm also the co-founder of
+<a href="objectfusion.html">Objectfusion</a>, a company dedicated into building custom web
 applications.
 </p>
 </div>
 </div>
 
 
-<div id="outline-container-orgheadline3" class="outline-3">
-<h3 id="orgheadline3"><a id="ID-72513d93-189d-4caf-a7ba-ec2ef7eac758"></a>Projects.</h3>
-<div class="outline-text-3" id="text-orgheadline3">
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><a id="ID-72513d93-189d-4caf-a7ba-ec2ef7eac758" name="ID-72513d93-189d-4caf-a7ba-ec2ef7eac758"></a>Projects.</h3>
+<div class="outline-text-3" id="text-1-2">
 <ul class="org-ul">
-<li>I'm the creator of <a href="http://amber-lang.net/">Amber</a>, a Smalltalk that runs inside the web
-browser</li>
-<li>I'm also the author of <a href="http://smalltalkhub.com/">SmalltalkHub</a>, a code repository and project
-management application for Smalltalk</li>
+<li>I'm the creator of <a href="http://amber-lang.net">Amber</a>, a Smalltalk that runs inside the web
+browser
+</li>
+<li>I'm also the author of <a href="http://smalltalkhub.com">SmalltalkHub</a>, a code repository and project
+management application for Smalltalk
+</li>
 <li>I work on/maintain several Emacs packages, including
 <a href="https://github.com/magnars/js2-refactor.el">js2-refactor</a>, <a href="https://github.com/NicolasPetton/seq.el">seq.el</a>, map.el (in Emacs 25.1), <a href="https://github.com/NicolasPetton/stream">stream.el</a>, <a href="https://github.com/NicolasPetton/amd-mode.el">amd-mode</a>, <a href="https://github.com/NicolasPetton/zerodark-theme">zerodark</a>,
-<a href="https://github.com/NicolasPetton/niflheim-emacs">niflheim</a>, as well as some others</li>
+<a href="https://github.com/NicolasPetton/niflheim-emacs">niflheim</a>, as well as some others
+</li>
 <li>I'm working with <a href="http://benjamin.vanryseghem.com/">Ben</a> on <a href="http://www.teamwall.io/">Teamwall</a>, an online tool made to help
-remote team members feel closer to each other</li>
+remote team members feel closer to each other
+</li>
 <li>I contribute to <a href="http://smalltalkhub.com/#!/~MongoTalkTeam/mongotalk">MongoTalk</a>, the Pharo driver for MongoDB, and
-<a href="http://smalltalkhub.com/#!/~gokr/Phriak">Phriak</a>, the Pharo driver for Riak.</li>
+<a href="http://smalltalkhub.com/#!/~gokr/Phriak">Phriak</a>, the Pharo driver for Riak.
+</li>
 <li>I'm working with <a href="http://smallworks.eu/">Esteban</a> on <a href="https://github.com/tide-framework/tide">Tide</a>, a new web framework for Pharo
-and Amber.</li>
-<li>I often hack my <a href="https://github.com/NicolasPetton/emacs.d">Emacs settings</a>.</li>
+and Amber.
+</li>
+<li>I often hack my <a href="https://github.com/NicolasPetton/emacs.d">Emacs settings</a>.
+</li>
 </ul>
 
 <p>
@@ -226,78 +228,112 @@ projects on my <a href="http://github.com/NicolasPetton">Github</a> and <a href=
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline4" class="outline-3">
-<h3 id="orgheadline4"><a id="ID-2b8e5e18-7633-45c3-b380-6b73444ec721"></a>Some <a href="presentations.html#MissingReference">presentations</a> I gave.</h3>
-<div class="outline-text-3" id="text-orgheadline4">
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><a id="ID-2b8e5e18-7633-45c3-b380-6b73444ec721" name="ID-2b8e5e18-7633-45c3-b380-6b73444ec721"></a>Some <a href="presentations.html">presentations</a> I gave.</h3>
+<div class="outline-text-3" id="text-1-3">
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgheadline5" class="outline-2 column last">
-<h2 id="orgheadline5"><a id="ID-768d24f4-cde6-43d0-b705-d9304193b8df"></a><b>Writings</b> &amp; notes.</h2>
-<div class="outline-text-2" id="text-orgheadline5">
+<div id="outline-container-sec-2" class="outline-2 column last">
+<h2 id="sec-2"><a id="ID-768d24f4-cde6-43d0-b705-d9304193b8df" name="ID-768d24f4-cde6-43d0-b705-d9304193b8df"></a><b>Writings</b> &amp; notes.</h2>
+<div class="outline-text-2" id="text-2">
 </div>
 
-<div id="outline-container-orgheadline6" class="outline-3">
-<h3 id="orgheadline6">I started a series of interviews of my colleagues at <a href="http://foretagsplatsen.se/en">FTGP</a>.</h3>
-<div class="outline-text-3" id="text-orgheadline6">
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1">I started a series of interviews of my colleagues at <a href="http://foretagsplatsen.se/en">FTGP</a>.</h3>
+<div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li><a href="blog/interview-louise.html">Louise Axhake</a></li>
-<li><a href="blog/interview-johan.html#MissingReference">Johan Degerfeldt</a></li>
-<li><a href="blog/interview-ben.html#MissingReference">Benjamin Van Ryseghem</a></li>
+<li><a href="blog/interview-seckin.html">Seçkin Savasçi</a>
+</li>
+<li><a href="blog/interview-louise.html">Louise Axhake</a>
+</li>
+<li><a href="blog/interview-johan.html">Johan Degerfeldt</a>
+</li>
+<li><a href="blog/interview-ben.html">Benjamin Van Ryseghem</a>
+</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgheadline7" class="outline-3">
-<h3 id="orgheadline7"><a id="ID-82f84584-3355-483f-9ced-46a08c9d51c8"></a>Latest <a href="http://amber-lang.net/">Amber</a> related posts.</h3>
-<div class="outline-text-3" id="text-orgheadline7">
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><a id="ID-82f84584-3355-483f-9ced-46a08c9d51c8" name="ID-82f84584-3355-483f-9ced-46a08c9d51c8"></a>Latest <a href="http://amber-lang.net">Amber</a> related posts.</h3>
+<div class="outline-text-3" id="text-2-2">
 <ul class="org-ul">
-<li><a href="blog/amber-0.13-released.html#MissingReference">Amber 0.13 released!</a></li>
-<li><a href="blog/amber-new-maintainer.html#MissingReference">Amber has a new maintainer</a></li>
-<li><a href="blog/amber-0.12.6-released.html">Amber 0.12.6 released!</a></li>
-<li><a href="blog/helios-sunit.html#MissingReference">Helios has a test runner</a></li>
-<li><a href="blog/amber-1.12.4-released.html#MissingReference">Amber 0.12.4 released!</a></li>
-<li><a href="blog/nw-helios.html#MissingReference">Running Helios as a desktop app</a></li>
-<li><a href="blog/details-matter.html#MissingReference">Details matter</a></li>
-<li><a href="blog/helios-keybindings.html#MissingReference">Keybindings in Amber's new IDE</a></li>
+<li><a href="blog/amber-0.13-released.html">Amber 0.13 released!</a>
+</li>
+<li><a href="blog/amber-new-maintainer.html">Amber has a new maintainer</a>
+</li>
+<li><a href="blog/amber-0.12.6-released.html">Amber 0.12.6 released!</a>
+</li>
+<li><a href="blog/helios-sunit.html">Helios has a test runner</a>
+</li>
+<li><a href="blog/amber-1.12.4-released.html">Amber 0.12.4 released!</a>
+</li>
+<li><a href="blog/nw-helios.html">Running Helios as a desktop app</a>
+</li>
+<li><a href="blog/details-matter.html">Details matter</a>
+</li>
+<li><a href="blog/helios-keybindings.html">Keybindings in Amber's new IDE</a>
+</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgheadline8" class="outline-3">
-<h3 id="orgheadline8"><a id="ID-22cb2283-6fcf-4e12-ac95-2101750ae0fc"></a>Some Emacs related posts.</h3>
-<div class="outline-text-3" id="text-orgheadline8">
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><a id="ID-22cb2283-6fcf-4e12-ac95-2101750ae0fc" name="ID-22cb2283-6fcf-4e12-ac95-2101750ae0fc"></a>Some Emacs related posts.</h3>
+<div class="outline-text-3" id="text-2-3">
 <ul class="org-ul">
-<li><a href="blog/working-on-the-emacs-website.html#MissingReference">Working on the Emacs website</a></li>
-<li><a href="blog/working-on-the-emacs-logo.html">Working on the Emacs logo</a></li>
-<li><a href="blog/stream.html">Lazy sequences in Emacs with stream.el</a></li>
-<li><a href="blog/fourth-emacs-meetup.html#MissingReference">Fourth Emacs meetup</a> in Stockholm the 14th of June</li>
-<li><a href="blog/emacs-meetup-orgmode.html">Third Emacs meetup</a> in Stockholm the 9th of April</li>
-<li><a href="blog/emacs-meetup.html#MissingReference">Emacs meetup</a> the 23rd of January</li>
-<li><a href="blog/buffer-watcher.html#MissingReference">Watching file changes with buffer-watcher.el</a></li>
-<li><a href="blog/mutli-occur-on-projects.html#MissingReference">Multi-occur on projects</a></li>
-<li><a href="blog/emacs-dark-window-decoration.html#MissingReference">A dark window decoration for Emacs in Gnome</a></li>
-<li><a href="blog/isearch-thing.html#MissingReference">isearch thing</a></li>
-<li><a href="blog/per-computer-emacs-settings.html#MissingReference">Per-computer Emacs settings</a></li>
-<li><a href="blog/niflheim-theme.html#MissingReference">A dark theme for Emacs</a></li>
-<li><a href="blog/discover-js2-refactor.html#MissingReference">discover-js2-refactor</a></li>
-<li><a href="blog/blogging-with-org-mode.html#MissingReference">Blogging with org-mode</a></li>
+<li><a href="blog/working-on-the-emacs-website.html">Working on the Emacs website</a>
+</li>
+<li><a href="blog/working-on-the-emacs-logo.html">Working on the Emacs logo</a>
+</li>
+<li><a href="blog/stream.html">Lazy sequences in Emacs with stream.el</a>
+</li>
+<li><a href="blog/fourth-emacs-meetup.html">Fourth Emacs meetup</a> in Stockholm the 14th of June 
+</li>
+<li><a href="blog/emacs-meetup-orgmode.html">Third Emacs meetup</a> in Stockholm the 9th of April
+</li>
+<li><a href="blog/emacs-meetup.html">Emacs meetup</a> the 23rd of January
+</li>
+<li><a href="blog/buffer-watcher.html">Watching file changes with buffer-watcher.el</a>
+</li>
+<li><a href="blog/mutli-occur-on-projects.html">Multi-occur on projects</a>
+</li>
+<li><a href="blog/emacs-dark-window-decoration.html">A dark window decoration for Emacs in Gnome</a>
+</li>
+<li><a href="blog/isearch-thing.html">isearch thing</a>
+</li>
+<li><a href="blog/per-computer-emacs-settings.html">Per-computer Emacs settings</a>
+</li>
+<li><a href="blog/niflheim-theme.html">A dark theme for Emacs</a>
+</li>
+<li><a href="blog/discover-js2-refactor.html">discover-js2-refactor</a>
+</li>
+<li><a href="blog/blogging-with-org-mode.html">Blogging with org-mode</a>
+</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgheadline9" class="outline-3">
-<h3 id="orgheadline9"><a id="ID-494ba429-791d-446f-b5f3-493faeedc443"></a>Interviews of my colleagues at <a href="http://rmod.lille.inria.fr/web/">RMoD</a>.</h3>
-<div class="outline-text-3" id="text-orgheadline9">
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><a id="ID-494ba429-791d-446f-b5f3-493faeedc443" name="ID-494ba429-791d-446f-b5f3-493faeedc443"></a>Interviews of my colleagues at <a href="http://rmod.lille.inria.fr/web/">RMoD</a>.</h3>
+<div class="outline-text-3" id="text-2-4">
 <ul class="org-ul">
-<li><a href="blog/interview-clara.html#MissingReference">Clara Allende</a></li>
-<li><a href="blog/interview-guille.html#MissingReference">Guillermo Polito</a></li>
-<li><a href="blog/interview-jean-baptiste.html#MissingReference">Jean-Baptiste Arnaud</a></li>
-<li><a href="blog/interview-stef.html#MissingReference">Stéphane Ducasse</a></li>
-<li><a href="blog/interview-esteban.html#MissingReference">Esteban Lorenzano</a></li>
-<li><a href="blog/interview-damien.html#MissingReference">Damien Cassou</a></li>
-<li><a href="blog/working-at-rmod.html#MissingReference">How is it to work at RMoD? <i>A series of interviews</i></a></li>
+<li><a href="blog/interview-clara.html">Clara Allende</a>
+</li>
+<li><a href="blog/interview-guille.html">Guillermo Polito</a>
+</li>
+<li><a href="blog/interview-jean-baptiste.html">Jean-Baptiste Arnaud</a>
+</li>
+<li><a href="blog/interview-stef.html">Stéphane Ducasse</a>
+</li>
+<li><a href="blog/interview-esteban.html">Esteban Lorenzano</a>
+</li>
+<li><a href="blog/interview-damien.html">Damien Cassou</a>
+</li>
+<li><a href="blog/working-at-rmod.html">How is it to work at RMoD? <i>A series of interviews</i></a>
+</li>
 </ul>
 </div>
 </div>
@@ -308,9 +344,9 @@ projects on my <a href="http://github.com/NicolasPetton">Github</a> and <a href=
     $('p').addClass('hyphenate');
    Hyphenator.run();
 </script><div class='footer'>
-Copyright 2015 Nicolas Petton.<br>
-Last updated 2015-11-29 Sun 00:39. <br>
-Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.50.1 (<a href="http://orgmode.org">Org</a> mode 8.3.2).
+Copyright 2016 Nicolas Petton.<br>
+Last updated 2016-02-09 Tue 11:36. <br>
+Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.50.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10).
 </div>
 </div>
 </body>
