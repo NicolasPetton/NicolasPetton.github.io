@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>A simple object model in JavaScript</title>
-<!-- 2016-02-12 Fri 13:59 -->
+<!-- 2016-02-12 Fri 14:02 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Nicolas Petton" />
@@ -468,7 +468,9 @@ of an infrastructure, that's something easy enough to fix!
 
 <span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">copy</span>(<span style="color: #61afef;">obj</span>) {
         <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">copy</span> = {};
-        merge(obj, copy);
+        Object.keys(obj).forEach(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">key</span>) {
+                copy[key] = obj[key];
+        });
         <span style="color: #c678dd; font-weight: bold;">return</span> copy;
 }
 </pre>
@@ -657,7 +659,7 @@ mostly because that's exactly how we think of them when writing code.
    Hyphenator.run();
 </script><div class='footer'>
 Copyright 2016 Nicolas Petton.<br>
-Last updated 2016-02-12 Fri 13:59. <br>
+Last updated 2016-02-12 Fri 14:02. <br>
 Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.50.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10).
 </div>
 </div>
