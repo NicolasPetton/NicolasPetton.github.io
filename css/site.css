@@ -10,7 +10,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   background: #fff;
-  color: #666666;
+  color: #666;
 }
 body h1,
 body h2,
@@ -19,7 +19,7 @@ body h4 {
   font-weight: normal;
   margin: 0;
   padding: 0;
-  color: #444444;
+  color: #444;
 }
 body h1 b,
 body h2 b,
@@ -74,9 +74,10 @@ body pre.src {
 body code {
   background: #eee;
   border: 1px solid #ccc;
-  padding: 2px 4px;
-  color: #666666;
+  padding: 0px 4px;
+  color: #666;
   overflow-x: auto;
+  font-size: .9em;
 }
 body img {
   border: 1px solid #ccc;
@@ -115,7 +116,7 @@ body .nav-blog {
   text-align: right;
 }
 body .org-info-js_info-navigation {
-  background: #bbbbbb;
+  background: #bbb;
 }
 @media (min-width: 800px) {
   body #content,
