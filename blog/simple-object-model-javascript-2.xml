@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(A simple object model in JavaScript (part #2))</title>
+  <atom:link href="http://nicolas-petton.fr/blog/simple-object-model-javascript-2.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Mon, 22 Feb 2016 08:52:49 +0100</pubDate>
+  <lastBuildDate>Mon, 22 Feb 2016 08:52:49 +0100</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.3</generator>
+  <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>(A simple object model in JavaScript (part #2))</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+
+  <item>
+    <title>A simple *object model* in JavaScript part #2</title>
+    <link>http://nicolas-petton.fr/blog/simple-object-model-javascript-2.html#orgheadline1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/simple-object-model-javascript-2.html#orgheadline1</guid>
+    <pubDate>Mon, 22 Feb 2016 08:52:00 +0100</pubDate>
+
+    <description><![CDATA[<div class="pubdate">
+    Feb 22, 2016
+  </div>
+
+  <p>
+    In <a href="http://nicolas-petton.fr/blog/simple-object-model-javascript.html">my previous post</a>, I wrote about an approach to class-based OO in JavaScript.
+    I mentioned class extensions (the ability to reopen and extend classes from the
+    outside of the class definition) without showing how that can be done.
+  </p>
+    ]]></description>
+  </item>
+</channel>
+</rss>

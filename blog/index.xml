@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 12 Feb 2016 17:07:23 +0100</pubDate>
-  <lastBuildDate>Fri, 12 Feb 2016 17:07:23 +0100</lastBuildDate>
+  <pubDate>Mon, 22 Feb 2016 08:52:54 +0100</pubDate>
+  <lastBuildDate>Mon, 22 Feb 2016 08:52:54 +0100</lastBuildDate>
   <generator>Emacs 25.1 Org-mode 8.3.3</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -27,6 +27,29 @@
   <p>
     You can subscribe to the RSS <a href="http://nicolas-petton.fr/blog/index.xml">feed</a>.
   </p>
+
+  <item>
+    <title>A simple object model in JavaScript #2</title>
+    <link>http://nicolas-petton.fr/blog/simple-object-model-javascript-2.html</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/simple-object-model-javascript-2.html</guid>
+    <pubDate>Mon, 22 Feb 2016 08:52:00 +0100</pubDate>
+
+    <description><![CDATA[<div class="pubdate">
+    Feb 22, 2016
+  </div>
+
+  <p>
+    In <a href="http://nicolas-petton.fr/blog/simple-object-model-javascript.html">my previous post</a>, I wrote about an approach to class-based OO in JavaScript.
+    I mentioned class extensions (the ability to reopen and extend classes from the
+    outside of the class definition) without showing how that can be done.
+  </p>
+
+  <p>
+    <a href="http://nicolas-petton.fr/blog/simple-object-model-javascript-2.html">Read more</a>.
+  </p>
+    ]]></description>
+  </item>
 
   <item>
     <title>A simple object model in JavaScript</title>
@@ -707,9 +730,9 @@
 
   <item>
     <title>Farewell RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#orgheadline19</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline20</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline19</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline20</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
 
     <description><![CDATA[<p>
@@ -784,9 +807,9 @@
 
   <item>
     <title>Tide and Marina at RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#orgheadline21</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline22</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline21</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline22</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
 
     <description><![CDATA[<div class="pubdate">
@@ -812,9 +835,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#orgheadline22</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline23</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline22</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline23</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
 
     <description><![CDATA[<div class="pubdate">
@@ -917,9 +940,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#orgheadline25</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline26</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline25</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline26</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
 
     <description><![CDATA[<div class="pubdate">
@@ -1110,9 +1133,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#orgheadline31</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline32</link>
     <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline31</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline32</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
 
     <description><![CDATA[<div class="pubdate">
