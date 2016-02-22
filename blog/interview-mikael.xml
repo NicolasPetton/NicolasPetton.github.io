@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>(Interview Företagsplatsen: Mikael Hägerbro)</title>
+  <atom:link href="http://nicolas-petton.fr/blog/interview-mikael.xml" rel="self" type="application/rss+xml" />
+  <link>http://nicolas-petton.fr/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Mon, 22 Feb 2016 09:30:10 +0100</pubDate>
+  <lastBuildDate>Mon, 22 Feb 2016 09:30:10 +0100</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.3</generator>
+  <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
+  <image>
+    <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
+    <title>(Interview Företagsplatsen: Mikael Hägerbro)</title>
+    <link>http://nicolas-petton.fr/blog/</link>
+  </image>
+
+
+  <item>
+    <title>Interview with *Mikael* Hägerbro</title>
+    <link>http://nicolas-petton.fr/blog/interview-mikael.html#orgheadline1</link>
+    <author>Nicolas Petton</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-mikael.html#orgheadline1</guid>
+    <pubDate>Mon, 22 Feb 2016 09:30:00 +0100</pubDate>
+
+    <description><![CDATA[<div class="pubdate">
+    Feb 22, 2016
+  </div>
+
+  <p>
+    This is the fifth post of my series of interviews of my colleagues
+    at <a href="http://foretagsplatsen.se">FTGP</a>.
+  </p>
+
+  <p>
+    While writing this introduction, I realized that I have been working with Mikael
+    for the past 6 years! Time really flies.
+  </p>
+
+  <p>
+    Mikael is the hacker kind of computer guy: he has a deep interest in computer
+    security, and he's obviously passionate about anything that touches computers.
+  </p>
+
+  <p>
+    During the last years, we've spent a lot of time working together, but also
+    shared countless beers, and I'm really happy to count him as a friend.
+  </p>
+
+
+  <div class="figure">
+    <p><img src="http://nicolas-petton.fr/blog/../images/mikael2.jpg" alt="Mikael hanging out at a kaffebar image" align="center" />
+    </p>
+    <p><span class="figure-number">Figure 1:</span> Mikael</p>
+  </div>
+
+  <p>
+    <b><i>Hi Mikael, thanks for taking this interview.
+    First things first, could you tell me a bit about yourself?</i></b>
+  </p>
+
+  <p>
+    Sure, my name is Mikael Hägerbro, I'm 36 years old at the time of writing this
+    and I'm one of the founders of Företagsplatsen.
+  </p>
+
+  <p>
+    I was born in a small town in the northern part of Sweden called Vilhelmina
+    and went to study computer science at Umeå University. Computers have
+    always been an interest of mine, so it was the natural choice for me. 
+  </p>
+
+  <p>
+    For what can be better than working with one of your biggest interests?  During
+    my studies I met Henrik and became friends with him. When the time came for me
+    to choose the topic of my master thesis Henrik asked me if I was interested to
+    make it about this cool web application that he and his friends in Stockholm
+    wanted to develop. He also hooked me up on some consultant work besides the
+    studies and I guess that was the start of it all.
+  </p>
+
+  <p>
+    <b><i>Question #2: Can you tell us how you became a developer?</i></b>
+  </p>
+
+  <p>
+    I have an older brother to thank for that, for it all started out with some
+    very small steps on his C64 in the late 80’s. My goal was to be able to
+    make my own fighting games (I have always been interested in martial arts)
+    but at that age it was way more fun to play the games than to read
+    complicated books about programming.
+  </p>
+
+  <p>
+    A couple of years passed and then one day I saw the arcade game Virtua
+    Fighter by Sega and that totally blew my mind and it set me on the quest of
+    doing 3d graphics.
+  </p>
+
+  <p>
+    It was not long after that I got the opportunity to explore the Internet
+    and that was the start of my interest in networks and security. I remember
+    reading about Kevin Mitnick and ip-spoofing which made me very curious. How
+    does it work? Why does it work? And can I do something similar?
+  </p>
+
+  <p>
+    <b><i>Question #3: What is your role in the company?</i></b>
+  </p>
+
+  <p>
+    Since I have been working with this from the start I have good knowledge
+    about more or less every aspect of our product, so it comes quite naturally
+    that I do a bit of everything. That is why I don't consider myself to have
+    a special role in the company.
+  </p>
+
+  <p>
+    <b><i>Question #4: What does a typical day at work look like?</i></b>
+  </p>
+
+  <p>
+    A typical day for me starts out with a cup of coffee and catching up on
+    what had happened on the issue tracker, mailing lists, github, etc. and I
+    prepare myself for our daily meeting.
+  </p>
+
+  <p>
+    During the meeting we set the roadmap for the day and discuss what to do
+    and after that it is coding time!
+  </p>
+
+  <p>
+    <b><i>Question #5: What do you do on your free time? (both in front of and away from your computer)?</i></b>
+  </p>
+
+  <p>
+    When it comes to computers I try to do different stuff in my spare time
+    just to get some variation, so at home I use to do some graphic programming
+    and play around a bit with security (mostly reverse engineering and writing
+    exploits for wargames).
+  </p>
+
+  <p>
+    Other than that I like the usual stuff, to spend time with my friends,
+    traveling, go to new restaurants and I also do some thai boxing just to try
+    to stay in shape.
+  </p>
+
+  <p>
+    <b><i>Question #6: What is your favorite movie of the year?</i></b>
+  </p>
+
+  <p>
+    I guess that would be Citizenfour.
+  </p>
+
+  <p>
+    <b><i>Question #7: If you were doing an interview of one of your colleagues, what
+    question would you ask him?</i></b>
+  </p>
+
+  <p>
+    I have my own point of view that has been formed by my experiences and
+    knowledge that provides a unique asset in our work environment :-)
+  </p>
+
+  <p>
+    <b><i>Question #8: In her interview, Louise had a question for the next interview:</i></b>
+  </p>
+
+  <p>
+    <i>What do you think that your personality can provide to Företagsplatsen, as a
+    co-worker, that no one else at this company can?</i>
+  </p>
+
+  <p>
+    I have my own point of view that has been formed by my experiences and
+    knowledge that provides a unique asset in our work environment :-)
+  </p>
+
+  <p>
+    <b><i>Thank you Mikael!</i></b>
+  </p>
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nicolas-petton'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  ]]></description>
+</item>
+</channel>
+</rss>
