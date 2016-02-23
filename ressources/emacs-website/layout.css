@@ -58,6 +58,16 @@ table {
   border-spacing: 0;
 }
 
+pre {
+  font-family: monospace;
+  padding: 10px;
+  background: #efeadc;
+  margin: 20px 0px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1.2em;
+}
+
 /* End of reset */
 
 body {
@@ -95,11 +105,23 @@ h1 {
   font-weight: 300;
 }
 
+h1 span {
+  font-weight: normal;
+  display: block;
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
 h2 {
   font-size: 2em;
-  margin: .8em 0px .4em;
+  margin: .8em 0 .4em;
   font-weight: 500;
   line-height: 2em;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: .8em 0 2em 0;
 }
 
 a {
@@ -196,6 +218,12 @@ li {
   padding: 0;
 }
 
+.header nav.gnu-nav a:hover {
+  color: #525151;
+  text-decoration: none;
+}
+
+
 .header nav.gnu-nav a:after {
   content: '·';
   padding: 0 5px;
@@ -205,15 +233,30 @@ li {
 
 .header nav.gnu-nav a:last-child:after {
   content: '';
+  padding: 0;
 }
 
 .header nav.gnu-nav a:first-child:after {
   content: '';
 }
 
+.header nav.gnu-nav a.join-fsf {
+  text-align: center;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 2px 18px;
+  background: #817F7F;
+  color: white;
+  text-decoration: none;
+}
+
+.header nav.gnu-nav a.join-fsf:hover {
+  background: #525151;
+}
+
 .header .container {
   padding-top: 40px;
-  padding-bottom: 350px;
+  padding-bottom: 40px;
   position: relative;
   overflow: hidden;
 }
@@ -248,10 +291,8 @@ li {
 }
 
 .header .teaser {
-  position: absolute;
-  left: 100px;
-  bottom: 0;
-  box-shadow: 0 0 10px 0 #666; 
+  margin-top: 40px;
+  width: 100%;
 }
 
 .header p {
@@ -446,19 +487,79 @@ li {
 }
 
 
-.videos {
+.tour-banner {
+  font-size: 1.2em;
+  text-align: center;
+  background: #4F3774;
+  color: white;
+}
+
+.tour-banner .container {
+  padding: 10px 0;
+}
+
+.videos, #video-player {
   background: #624195;
   color: #fafafa;
   text-align: center;
+}
+
+#video-player {
+  position: relative;
+}
+
+#video-player .close {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  font-size: 4em;
+  line-height: 1em;
+  color: white;
+}
+
+#video-player video {
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
 }
 
 .videos h2 {
   color: #EEE2FF;
 }
 
-.videos video {
+.videos li {
   display: inline-block;
   padding: 20px;
+}
+
+.videos li a {
+  display: inline-block;
+  background: transparent url(images/emacs-rocks-splash.png) top left no-repeat;
+  width: 200px;
+  font-size: 10px;
+  padding: 22px;
+  padding-left: 32px;
+  height: 140px;
+  padding-right: 0;
+  color: white;
+  font-family: monospace;
+  text-align: left;
+}
+
+.videos li a:hover {
+  text-decoration: none;
+}
+
+.videos li a .numb {
+  color: #ff9143;
+}
+
+.videos li a .name {
+    display: block;
+  margin-top: 1em;
+  color: #ffaf91;
 }
 
 .features {
@@ -472,7 +573,7 @@ li {
   padding-top: 20px;
 }
 
-.features a, .videos a {
+.features a, .videos a, .tour-banner a {
   color: #FFDE8F;
   text-decoration: none;
 }
@@ -529,7 +630,7 @@ li {
 .releases {
   color: #3F3B3B;
   background: #F0EBDE;
-  /* border-top: 1px solid #e5e5c8; */
+  text-align: center;
 }
 
 .releases code,
@@ -541,13 +642,22 @@ li {
   border-color: #666;
 }
 
+.releases ul, .releases p {
+  text-align: left;
+}
+
 .releases p+ul {
   margin-top: -1em;
 }
 
 .releases ul+p {
   margin-top: 2em;
+  text-align: left;
 }
+
+/* .downloading { */
+/*   background: #fcfbfa; */
+/* } */
 
 .footer {
   border-top: 4px solid #333;
