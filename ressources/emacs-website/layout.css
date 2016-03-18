@@ -454,11 +454,12 @@ li {
 }
 
 #fssbox {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #fssbox form {
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 #fssbox p {
