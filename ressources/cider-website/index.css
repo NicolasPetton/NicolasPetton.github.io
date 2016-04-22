@@ -134,7 +134,7 @@ h3 {
 a {
   cursor: pointer;
   color: #bf7344;
-  text-decoration: underline;
+  text-decoration: none;
   transition: .2s all ease-in;
 }
 
