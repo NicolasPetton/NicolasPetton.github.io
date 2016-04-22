@@ -1,0 +1,335 @@
+/* Copyright (C) 2016 Free Software Foundation, Inc.
+
+Author: Nicolas Petton <nicolas@petton.fr>
+
+This file is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This file is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details. */
+
+/* Begin of reset */
+
+html, body, div, span, applet, object, iframe,
+                          h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+                          a, abbr, acronym, address, big, cite, code,
+                          del, dfn, em, img, ins, kbd, q, s, samp,
+                          small, strike, strong, sub, sup, tt, var,
+                          b, u, i, center,
+                          dl, dt, dd, ol, ul, li,
+                          fieldset, form, label, legend,
+                          table, caption, tbody, tfoot, thead, tr, th, td,
+                          article, aside, canvas, details, embed,
+                          figure, figcaption, footer, header, hgroup,
+                          menu, nav, output, ruby, section, summary,
+                          time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+pre {
+  font-family: monospace;
+  padding: 10px;
+  background: #efeadc;
+  margin: 20px 0px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1.2em;
+}
+
+b {
+  font-weight: bold;
+}
+
+/* End of reset */
+
+body {
+  font-family: "Droid Sans", sans-serif;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  color: #3F3B3B;
+  background: white;
+}
+
+h1, h2 {
+  color: #3F3B3B;
+}
+
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  margin: 0 auto -200px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+  height: 200px; /* .push must be the same height as .footer */
+}
+
+.clear {
+  overflow: auto;
+  clear: both;
+}
+
+h1 {
+  font-size: 2.1em;
+  font-weight: bold;
+  margin: 0.4em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+h1 span {
+  font-weight: normal;
+  display: block;
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 2em;
+  margin: .8em 0 .4em;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: .8em 0 2em 0;
+}
+
+a {
+  cursor: pointer;
+  color: #bf7344;
+  text-decoration: underline;
+  transition: .2s all ease-in;
+}
+
+a:hover {
+  color: #9d5122;
+}
+
+tt, code, kbd {
+  background-color: #333;
+  border: 1px solid #111;
+  padding: 2px 6px 0px;
+  border-radius: 4px;
+  color: #ddd;
+}
+
+p {
+  margin-bottom: 2em;
+  color: #6f6b6b;
+}
+
+li {
+  list-style: square;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.container {
+  padding: 40px 0;
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.header {
+  /* background: #fafafa; */
+  /* border-bottom: 1px solid #D4CBB6; */
+}
+
+.header nav {
+  padding: 8px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: .8em;
+  font-weight: 400;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header nav a {
+  color: #777;
+  padding: 8px 12px;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.header nav img {
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+.header nav a:hover {
+  color: #3F3D32;
+}
+
+.teaser {
+  margin: 40px 0 0 0;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  border-bottom: 1px solid #aaa;
+}
+
+.teaser .small {
+  font-size: .7em;
+  line-height: 1.5em;
+}
+
+.teaser .left {
+  width: 500px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.teaser .right {
+  width: 350px;
+  display: inline;
+  position: relative;
+}
+
+.teaser .casks {
+  vertical-align: top;
+}
+
+.teaser .tasty {
+  position: absolute;
+  left: 120px;
+  bottom: 200px;
+}
+
+.teaser b {
+  font-weight: bold;
+  color: #444;
+}
+
+.teaser .btn {
+  text-decoration: none;
+  border-color: #a8a182;
+  color: #a8a182;
+  border-width: 3px;
+  border-style: solid;
+  padding: 15px 30px;
+  margin: 0 4px;
+  font-size: .8em;
+}
+
+.teaser .btn:hover {
+  color: #646040;
+  border-color: #646040;
+}
+
+.teaser .btn.main {
+  color: white;
+  background: #bf7344;
+  border-color: #bf7344;
+}
+
+.teaser .btn.main:hover {
+  background: #9d5122;
+  border-color: #9d5122;
+}
+
+.teaser .reviews {
+  text-align: center;
+  margin: 40px 0 20px 0;
+  font-size: .6em;
+}
+
+.teaser .reviews .quote {
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+  color: #666;
+}
+
+div.main {
+  background: rgb(255, 254, 250)
+}
+
+.main img {
+  border-radius: 10px;
+}
+
+.main .left, .main .left img {
+  max-width: 520px;
+}
+
+.main .left img {
+  vertical-align: bottom;
+}
+
+.main .right {
+  display: inline-block;
+  max-width: 330px;
+  margin-left: 50px;
+}
+
+.main h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Casks animation */
+
+.tasty {
+    animation-name: shake;
+    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transform-origin: 70px 0;
+}
+
+@keyframes shake {
+    0% {transform: rotate(0deg);}
+    3% {transform: rotate(10deg);}
+    9% {transform: rotate(-10deg);}
+    15% {transform: rotate(6deg);}
+    21% {transform: rotate(-6deg);}
+    27% {transform: rotate(3deg);}
+    33% {transform: rotate(-3deg);}
+    39% {transform: rotate(1deg);}
+    45% {transform: rotate(-1deg);}
+    51% {transform: rotate(0deg);}
+}
