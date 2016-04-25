@@ -5,7 +5,7 @@ function animateRepl() {
 		insertContent(content, function() {
 			insertResult(result, restartAnimation);
 		});
-	}, 8000);
+	}, 4000);
 }
 
 function insertContent(span, callback) {
@@ -41,7 +41,7 @@ function insertResult(span, callback) {
 	span.text('"Cider rocks!"');
 	$('.first .caret').hide();
 	$('.second').show();
-	// setTimeout(restartAnimation, 2000);
+	setTimeout(restartAnimation, 5000);
 }
 
 function restartAnimation() {
