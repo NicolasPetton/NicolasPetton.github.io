@@ -77,7 +77,7 @@ b {
 body {
   font-family: "Droid Sans", sans-serif;
   line-height: 1.5em;
-  font-size: 1.1em;
+  font-size: 1em;
   color: #3F3B3B;
   background: white;
 }
@@ -329,6 +329,12 @@ li {
   vertical-align: top;
 }
 
+.features {
+  max-width: 850px;
+  margin: 40px auto 0 auto;
+
+}
+
 .features img {
   vertical-align: middle;
 }
@@ -336,12 +342,13 @@ li {
 .features .left,
 .features .right {
   display: inline-block;
-  max-width: 450px;
+  max-width: 400px;
 }
 
 .features .right {
-  max-width: 400px;
+  width: 400px;
   margin-left: 50px;
+  text-align: right;
 }
 
 .repl {
@@ -353,7 +360,7 @@ li {
 .repl .prompt {
   position: absolute;
   top: 40px;
-  left: 20px;
+  left: 70px;
   font-weight: bold;
   color: #474523;
 }
@@ -361,7 +368,7 @@ li {
 .repl .animate {
   position: absolute;
   top: 40px;
-  left: 84px;
+  left: 134px;
 }
 
 .repl .second, .repl .second {
@@ -372,7 +379,7 @@ li {
 .repl .result {
   position: absolute;
   top: 60px;
-  left: 20px;
+  left: 70px;
   color: #a6a051;
 }
 
