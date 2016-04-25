@@ -383,6 +383,15 @@ li {
   color: #a6a051;
 }
 
+.repl .paren {
+  color: #b67629;
+  font-weight: bold;
+}
+
+.repl .string {
+  color: #a6a051;
+}
+
 .repl .caret {
   width: 6px;
   height: 13px;
