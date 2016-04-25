@@ -6,6 +6,9 @@
         <link rel="stylesheet" type="text/css" href="index.css">
         <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
         <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width" />
+        <script src="js/jquery.js"></script>
+        <script src="js/animations.js"></script>
+
     </head>
 
     <body>
@@ -42,25 +45,48 @@
                 </div>
             </div>
 
-            <div class="main">
+            <div class="screencast">
                 <div class="container">
-                    <h2>The best brewery in town!</h2>
-                    <!-- <div class="left">
-                         <img src="img/teaser.png"/>
-                         </div>
-                         <div class="right">
-                         <p>
-                         The features are centered around cider-mode, an
-                         Emacs minor-mode that complements clojure-mode.
-                         </p>
-                         <p>
-                         While clojure-mode supports editing Clojure source
-                         files, cider-mode adds support for interacting with
-                         a running Clojure process for compilation,
-                         debugging, definition and documentation lookup,
-                         running tests and so on.
-                         </p>
-                         </div> -->
+                    <h2>
+                        <img src="img/mug.png"/>
+                        <div>
+                            The best brewery in town!
+                            <span>Discover CIDER in video</span>
+                        </div>
+                    </h2>
+                    <img src="img/screencast.png" alt="screencast"/>
+
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="container">
+
+                    <h2>The REPL</h2>
+
+                    <div class="left">
+                        <p>CIDER comes with a powerful REPL, which is quite
+                        handy when you want to experiment with the code you're
+                        working on or just explore some stuff (e.g. a library
+                        you're playing with).</p>
+                    </div>
+
+                    <div class="right repl">
+                        <img src="img/repl.png"/>
+                        <span class="result"></span>
+                        <span class="prompt first">user =>&nbsp;</span>
+                        <span class="animate first">
+                            <span class="content"></span>
+                            <span class="caret animated"></span>
+                        </span>
+                        <span class="prompt second">user =>&nbsp;</span>
+                        <span class="animate second">
+                            <span class="caret animated"></span>
+                        </span>
+                    </div>
+
+                    <div class="gap"></div>
+
                 </div>
             </div>
         </div>

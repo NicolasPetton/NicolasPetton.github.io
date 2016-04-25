@@ -283,34 +283,125 @@ li {
   color: #666;
 }
 
-div.main {
-  background: rgb(255, 254, 250)
+.screencast {
+  background: rgb(255, 254, 250);
+  text-align: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #aaa;
 }
 
-.main img {
+.screencast img {
   border-radius: 10px;
 }
 
-.main .left, .main .left img {
+.screencast .left, .screencast .left img {
   max-width: 520px;
 }
 
-.main .left img {
+.screencast .left img {
   vertical-align: bottom;
 }
 
-.main .right {
+.screencast .right {
   display: inline-block;
   max-width: 330px;
   margin-left: 50px;
 }
 
-.main h2 {
+.screencast h2 {
   text-align: center;
   margin-bottom: 40px;
 }
 
-/* Casks animation */
+.screencast h2 div {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.screencast h2 span {
+  display: block;
+  margin-left: -20px;
+  font-size: 0.6em;
+  color: #666;
+}
+
+.screencast h2 img {
+  vertical-align: top;
+}
+
+.features img {
+  vertical-align: middle;
+}
+
+.features .left,
+.features .right {
+  display: inline-block;
+  max-width: 450px;
+}
+
+.features .right {
+  max-width: 400px;
+  margin-left: 50px;
+}
+
+.repl {
+  font-family: monospace;
+  font-size: 13px;
+  position: relative;
+}
+
+.repl .prompt {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  font-weight: bold;
+  color: #474523;
+}
+
+.repl .animate {
+  position: absolute;
+  top: 40px;
+  left: 84px;
+}
+
+.repl .second, .repl .second {
+  display: none;
+  top: 80px;
+}
+
+.repl .result {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  color: #a6a051;
+}
+
+.repl .caret {
+  width: 6px;
+  height: 13px;
+  background: #474523;
+  display: inline-block;
+  margin-bottom: -2px;
+  margin-left: -6px
+}
+
+.gap {
+  margin-bottom: 300px;
+}
+
+/* Animations */
+
+.caret.animated {
+  margin-left: 0;
+  animation-name: blink-caret;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink-caret {
+  0% { background: #474523; }
+  50% { background: transparent; }
+}
 
 .tasty {
     animation-name: shake;
