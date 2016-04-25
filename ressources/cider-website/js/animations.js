@@ -32,7 +32,7 @@ function insertTextContent(text, span, callback, inString) {
 			insertTextContent(text, span, callback, inString);
 		}, 100);
 	} else {
-		setTimeout(callback, 160);
+		setTimeout(callback, 500);
 	}
 }
 
