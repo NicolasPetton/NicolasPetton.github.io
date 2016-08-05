@@ -9,31 +9,30 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>isearch-thing</title>
+  <title></title>
   <atom:link href="http://nicolas-petton.fr/blog/isearch-thing.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:48 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:48 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:30 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:30 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>isearch-thing</title>
+    <title></title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
   <item>
     <title>*isearch* thing</title>
-    <link>http://nicolas-petton.fr/blog/isearch-thing.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/isearch-thing.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/isearch-thing.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/isearch-thing.html#orgheadline1</guid>
     <pubDate>Tue, 26 Aug 2014 14:00:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <p>
-    Wouldn&rsquo;t it be awesome if when using isearch, I could search for the symbol
+    <description><![CDATA[<p>
+    Wouldn't it be awesome if when using isearch, I could search for the symbol
     under the cursor, or the active region if any?
     </p>
 
@@ -49,30 +48,30 @@
 
     <div class="org-src-container">
 
-    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">symbol-name-at-point</span> ()
-    (<span style="color: #f7af75; font-weight: bold;">let</span> ((symbol (symbol-at-point)))
-    (<span style="color: #f7af75; font-weight: bold;">if</span> symbol
+    <pre class="src src-emacs-lisp">(<span style="color: #c678dd; font-weight: bold;">defun</span> <span style="color: #61afef;">symbol-name-at-point</span> ()
+    (<span style="color: #c678dd; font-weight: bold;">let</span> ((symbol (symbol-at-point)))
+    (<span style="color: #c678dd; font-weight: bold;">if</span> symbol
     (symbol-name symbol)
-    <span style="color: #789771;">""</span>)))
+    <span style="color: #98be65;">""</span>)))
 
-    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">current-thing</span> ()
-    <span style="color: #70a56f;">"Return the current \"thing\":</span>
-    <span style="color: #70a56f;">- if the region is active, return the region's text and deactivate the mark</span>
-    <span style="color: #70a56f;">- else return the symbol at point or the empty string."</span>
-    (<span style="color: #f7af75; font-weight: bold;">let</span> ((thing (<span style="color: #f7af75; font-weight: bold;">if</span> (region-active-p)
+    (<span style="color: #c678dd; font-weight: bold;">defun</span> <span style="color: #61afef;">current-thing</span> ()
+    <span style="color: #9eac8c;">"Return the current \"thing\":</span>
+    <span style="color: #9eac8c;">- if the region is active, return the region's text and deactivate the mark</span>
+    <span style="color: #9eac8c;">- else return the symbol at point or the empty string."</span>
+    (<span style="color: #c678dd; font-weight: bold;">let</span> ((thing (<span style="color: #c678dd; font-weight: bold;">if</span> (region-active-p)
     (buffer-substring (region-beginning) (region-end))
     (symbol-name-at-point))))
     (deactivate-mark)
     thing))
 
-    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">isearch-thing</span> ()
-    <span style="color: #70a56f;">"Search for the current \"thing\":</span>
-    <span style="color: #70a56f;">- if the region is active, return the region's text and deactivate the mark</span>
-    <span style="color: #70a56f;">- else return the symbol at point or the empty string."</span>
-    (interactive)
+    (<span style="color: #c678dd; font-weight: bold;">defun</span> <span style="color: #61afef;">isearch-thing</span> ()
+    <span style="color: #9eac8c;">"Search for the current \"thing\":</span>
+    <span style="color: #9eac8c;">- if the region is active, return the region's text and deactivate the mark</span>
+    <span style="color: #9eac8c;">- else return the symbol at point or the empty string."</span>
+    (<span style="color: #c678dd; font-weight: bold;">interactive</span>)
     (isearch-yank-string (current-thing)))
 
-    (define-key isearch-mode-map (kbd <span style="color: #789771;">"C-t"</span>) #'isearch-thing)
+    (define-key isearch-mode-map (kbd <span style="color: #98be65;">"C-t"</span>) #'isearch-thing)
     </pre>
     </div>
 

@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-02-22 Mon 11:36 -->
+<!-- 2016-08-05 Fri 12:03 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>A simple object model in JavaScript (part #2)</title>
@@ -163,7 +163,7 @@ for the JavaScript code in this tag.
 <div id="preamble" class="status">
 <div class='intro'>
 <h1><b>Nicolas</b> Petton</h1>
-<p>Smalltalker, Lisper & Emacs maniac. Also loves the Web.</p>
+<p>Web developer, Lisper, Smalltalker & Emacs maniac.</p>
 </div>
 
 <div class='nav'>
@@ -202,25 +202,25 @@ Let's take the same <code>animal</code> example as before:
 
 <div class="org-src-container">
 
-<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">animal</span> = object.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">that</span>, <span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
+<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">animal</span> = object.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #c678dd; font-weight: bold;">that</span>, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
 
-    that.initialize = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        my.name = spec.name;
+    <span style="color: #c678dd; font-weight: bold;">that</span>.initialize = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">my</span>.name = <span style="color: #c678dd; font-weight: bold;">spec</span>.name;
     }
 
-    that.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        <span style="color: #c678dd; font-weight: bold;">return</span> my.name;
+    <span style="color: #c678dd; font-weight: bold;">that</span>.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">my</span>.name;
     };
 
-    that.isAnimal = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+    <span style="color: #c678dd; font-weight: bold;">that</span>.isAnimal = <span style="color: #c678dd; font-weight: bold;">function</span>() {
         <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #da8548; font-weight: bold;">true</span>;
     }
 });
 
-<span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">dog</span> = animal.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">that</span>, <span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
+<span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">dog</span> = animal.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #c678dd; font-weight: bold;">that</span>, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
 
-    that.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #98be65;">'dog named'</span> + that.<span style="color: #c678dd; font-weight: bold;">super</span>.getName();
+    <span style="color: #c678dd; font-weight: bold;">that</span>.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #98be65;">'dog named'</span> + <span style="color: #c678dd; font-weight: bold;">that</span>.<span style="color: #c678dd; font-weight: bold;">super</span>.getName();
     };
 });
 </pre>
@@ -233,8 +233,8 @@ within the file defining <code>animal</code> to extend it, like the following:
 
 <div class="org-src-container">
 
-<pre class="src src-js">object.extend(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">that</span>, <span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-    that.isAnimal = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+<pre class="src src-js">object.extend(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #c678dd; font-weight: bold;">that</span>, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+    <span style="color: #c678dd; font-weight: bold;">that</span>.isAnimal = <span style="color: #c678dd; font-weight: bold;">function</span>() {
         <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #da8548; font-weight: bold;">false</span>;
     };
 })
@@ -256,35 +256,35 @@ The implementation is quite straightforward:
 <pre class="src src-js">object.extensions = [];
 
 object.subclass = <span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">builder</span>) {
-    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">that</span> = <span style="color: #da8548; font-weight: bold;">this</span>;
+    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #c678dd; font-weight: bold;">that</span> = <span style="color: #da8548; font-weight: bold;">this</span>;
 
-    <span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">klass</span>(<span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-        spec = spec || {};
-            my = my || {};
+    <span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">klass</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+        <span style="color: #c678dd; font-weight: bold;">spec</span> = <span style="color: #c678dd; font-weight: bold;">spec</span> || {};
+            <span style="color: #c678dd; font-weight: bold;">my</span> = <span style="color: #c678dd; font-weight: bold;">my</span> || {};
 
-            <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">instance</span> = that(spec, my);
+            <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">instance</span> = <span style="color: #c678dd; font-weight: bold;">that</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>);
 
             instance.<span style="color: #c678dd; font-weight: bold;">class</span> = klass;
 
             <span style="color: #687080; font-style: italic;">// </span><span style="color: #687080; font-style: italic;">access to super for public and protected properties.</span>
             instance.<span style="color: #c678dd; font-weight: bold;">super</span> = Object.assign({}, instance);
-            my.<span style="color: #c678dd; font-weight: bold;">super</span> = Object.assign({}, my);
+            <span style="color: #c678dd; font-weight: bold;">my</span>.<span style="color: #c678dd; font-weight: bold;">super</span> = Object.assign({}, <span style="color: #c678dd; font-weight: bold;">my</span>);
 
-            that.extensions.forEach(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">extension</span>) {
-                extension(instance, spec, my);
+            <span style="color: #c678dd; font-weight: bold;">that</span>.extensions.forEach(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">extension</span>) {
+                extension(instance, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>);
             });
 
-            builder(instance, spec, my);
+            builder(instance, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>);
             instance.initialize();
 
             <span style="color: #c678dd; font-weight: bold;">return</span> instance;
         }
 
         <span style="color: #687080; font-style: italic;">// </span><span style="color: #687080; font-style: italic;">static inheritance</span>
-        Object.assign(klass, that);
+        Object.assign(klass, <span style="color: #c678dd; font-weight: bold;">that</span>);
 
         klass.subclasses = [];
-        that.subclasses.push(klass);
+        <span style="color: #c678dd; font-weight: bold;">that</span>.subclasses.push(klass);
 
         <span style="color: #c678dd; font-weight: bold;">return</span> klass;
 };
@@ -324,8 +324,8 @@ over to <a href="https://github.com/foretagsplatsen/objectjs">GitHub</a> if you 
    Hyphenator.run();
 </script><div class='footer'>
 Copyright 2016 Nicolas Petton.<br>
-Last updated 2016-02-22 Mon 11:36. <br>
-Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.50.1 (<a href="http://orgmode.org">Org</a> mode 8.3.3).
+Last updated 2016-08-05 Fri 12:02. <br>
+Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.3.5).
 </div>
 </div>
 </body>

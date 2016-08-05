@@ -9,18 +9,18 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Running multi-occur in many buffers)</title>
+  <title>Running multi-occur in many buffers</title>
   <atom:link href="http://nicolas-petton.fr/blog/mutli-occur-on-projects.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:48 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:48 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:29 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:29 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Running multi-occur in many buffers)</title>
+    <title>Running multi-occur in many buffers</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
@@ -28,12 +28,11 @@
   <item>
     <title>*Multi-occur* on projects</title>
     <link>http://nicolas-petton.fr/blog/multi-occur-on-projects.html</link>
-    <author>Nicolas Petton</author>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/multi-occur-on-projects.html</guid>
     <pubDate>Fri, 05 Sep 2014 13:01:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <p>
+    <description><![CDATA[<p>
     <b>Update</b>: <a href="http://damiencassou.seasidehosting.st/">Damien Cassou</a> tricked me into extracting it in a
     package. You can get it here: <a href="https://github.com/NicolasPetton/noccur.el">github.com/NicolasPetton/noccur.el</a>.
     </p>
@@ -45,7 +44,7 @@
 
     <p>
     Sometimes I just want to run <code>multi-occur</code> on all (or a subdirectory)
-    of a project I&rsquo;m working on. Used with keyboard macros it makes it a
+    of a project I'm working on. Used with keyboard macros it makes it a
     snap to perform modifications on many buffers at once.
     </p>
 
@@ -56,34 +55,34 @@
 
     <div class="org-src-container">
 
-    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">require</span> '<span style="color: #da8548; font-weight: bold;">projectile</span>)
+    <pre class="src src-emacs-lisp">(<span style="color: #c678dd; font-weight: bold;">require</span> '<span style="color: #da8548; font-weight: bold;">projectile</span>)
 
-    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">noccur-dired</span> (regexp <span style="color: #92a65e; font-weight: bold;">&amp;optional</span> nlines)
-    <span style="color: #70a56f;">"Perform `</span><span style="color: #da8548; font-weight: bold;">multi-occur</span><span style="color: #70a56f;">' with REGEXP in all dired marked files.</span>
-    <span style="color: #70a56f;">When called with a prefix argument NLINES, display NLINES lines before and after."</span>
-    (interactive (occur-read-primary-args))
+    (<span style="color: #c678dd; font-weight: bold;">defun</span> <span style="color: #61afef;">noccur-dired</span> (regexp <span style="color: #61afef;">&amp;optional</span> nlines)
+    <span style="color: #9eac8c;">"Perform `</span><span style="color: #da8548; font-weight: bold;">multi-occur</span><span style="color: #9eac8c;">' with REGEXP in all dired marked files.</span>
+    <span style="color: #9eac8c;">When called with a prefix argument NLINES, display NLINES lines before and after."</span>
+    (<span style="color: #c678dd; font-weight: bold;">interactive</span> (occur-read-primary-args))
     (multi-occur (mapcar #'find-file (dired-get-marked-files)) regexp nlines))
 
-    (<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">noccur-project</span> (regexp <span style="color: #92a65e; font-weight: bold;">&amp;optional</span> nlines)
-    <span style="color: #70a56f;">"Perform `</span><span style="color: #da8548; font-weight: bold;">multi-occur</span><span style="color: #70a56f;">' in the current project files."</span>
-    (interactive (occur-read-primary-args))
-    (<span style="color: #f7af75; font-weight: bold;">let*</span> ((directory (read-directory-name <span style="color: #789771;">"Search in directory: "</span>))
-    (files (<span style="color: #f7af75; font-weight: bold;">if</span> (and directory (not (string= directory (projectile-project-root))))
+    (<span style="color: #c678dd; font-weight: bold;">defun</span> <span style="color: #61afef;">noccur-project</span> (regexp <span style="color: #61afef;">&amp;optional</span> nlines)
+    <span style="color: #9eac8c;">"Perform `</span><span style="color: #da8548; font-weight: bold;">multi-occur</span><span style="color: #9eac8c;">' in the current project files."</span>
+    (<span style="color: #c678dd; font-weight: bold;">interactive</span> (occur-read-primary-args))
+    (<span style="color: #c678dd; font-weight: bold;">let*</span> ((directory (read-directory-name <span style="color: #98be65;">"Search in directory: "</span>))
+    (files (<span style="color: #c678dd; font-weight: bold;">if</span> (<span style="color: #c678dd; font-weight: bold;">and</span> directory (not (string= directory (projectile-project-root))))
     (projectile-files-in-project-directory directory)
     (projectile-current-project-files)))
     (buffers (mapcar #'find-file 
-    (mapcar #'(<span style="color: #f7af75; font-weight: bold;">lambda</span> (file)
+    (mapcar #'(lambda (file)
     (expand-file-name file (projectile-project-root)))
     files))))
     (multi-occur buffers regexp nlines)))
 
-    (<span style="color: #f7af75; font-weight: bold;">provide</span> '<span style="color: #da8548; font-weight: bold;">noccur</span>)
+    (<span style="color: #c678dd; font-weight: bold;">provide</span> '<span style="color: #da8548; font-weight: bold;">noccur</span>)
     </pre>
     </div>
 
     <p>
     It requires projectile for the `noccur-project` function, but
-    `noccur-dired` is very similar and doesn&rsquo;t require it.
+    `noccur-dired` is very similar and doesn't require it.
     </p>
 
     <p>
@@ -91,7 +90,7 @@
     </p>
 
     <p>
-    <code>M-x noccur-project RET foo RET</code> then I can edit the occur buffer&rsquo;s
+    <code>M-x noccur-project RET foo RET</code> then I can edit the occur buffer's
     content with <code>occur-edit-mode</code> (bound to <code>e</code>). To save changes in all
     modified buffer and go back to <code>occur-mode</code> press <code>C-c C-c</code>.
     </p>

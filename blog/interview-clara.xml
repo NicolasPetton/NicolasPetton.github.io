@@ -9,47 +9,46 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Interview RMoD #6: Clara Allende)</title>
+  <title>Interview RMoD #6: Clara Allende</title>
   <atom:link href="http://nicolas-petton.fr/blog/interview-clara.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:52 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:52 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:35 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:35 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Interview RMoD #6: Clara Allende)</title>
+    <title>Interview RMoD #6: Clara Allende</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>Interview with *Clara* Allende</title>
-    <link>http://nicolas-petton.fr/blog/interview-clara.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-clara.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/interview-clara.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-clara.html#orgheadline1</guid>
     <pubDate>Wed, 11 Jun 2014 15:53:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     July 18, 2014
     </div>
 
     <p>
     This is the sixth post of my series of interviews, in which I
-    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team.
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team.
     </p>
 
     <p>
     Clara joined RMoD recently for an internship in the team. I first
     met her in Argentina for the Smalltalks conference last year, where
     we had a couple (well, a bit more than that) beers together with
-    other argentinians, talked about Smalltalk among other things. She&rsquo;s
-    now a good friend of mine and I&rsquo;m really happy to make this
+    other argentinians, talked about Smalltalk among other things. She's
+    now a good friend of mine and I'm really happy to make this
     interview with her, probably my last interview of the RMoD team
-    members, as I&rsquo;m leaving the team today.
+    members, as I'm leaving the team today.
     </p>
 
 
@@ -66,9 +65,9 @@
     </p>
 
     <p>
-    I am 23 (my birthday is in August :P), I come from Buenos Aires. I&rsquo;m a
+    I am 23 (my birthday is in August :P), I come from Buenos Aires. I'm a
     Systems Engineering student (whatever is it that it means...), in two
-    years I&rsquo;ll get my degree, I hope.  
+    years I'll get my degree, I hope.  
     </p>
 
     <p>
@@ -77,28 +76,28 @@
     actually I did, at university....  I also sing and play the guitar,
     and dance (rock, lindy hop, salsa, bellydance... very diverse
     background). I love reading, especially science fiction, detective
-    stuff (I don&rsquo;t know how you say &ldquo;novela policial&rdquo; in english, but I
+    stuff (I don't know how you say "novela policial" in english, but I
     love Sherlock Holmes stories and the like).
     </p>
 
     <p>
     I joined RMoD after participating in GSoC 2013... Guille told me about the
-    chance of doing an internship here and Stef invited me during last year&rsquo;s
+    chance of doing an internship here and Stef invited me during last year's
     Smalltalks at Rosario. And then I had to postpone it until I finished
     sitting for exams, but finally I came here for a six month internship. And
-    I&rsquo;m glad, because working here is really cool and I am always learning new
+    I'm glad, because working here is really cool and I am always learning new
     stuff :)
     </p>
 
     <p>
-    And I don&rsquo;t know what else... I am a big Star Wars fan as well :)
+    And I don't know what else... I am a big Star Wars fan as well :)
     </p>
 
 
     <div class="figure">
     <p><img src="http://nicolas-petton.fr/blog/../images/clara-2.jpeg" alt="Clara Allende image" align="center" />
     </p>
-    <p><span class="figure-number">Figure 2:</span> Clara&rsquo;s current book</p>
+    <p><span class="figure-number">Figure 2:</span> Clara's current book</p>
     </div>
 
 
@@ -107,9 +106,9 @@
     </p>
 
     <p>
-    hmm... well, I still can&rsquo;t get to wake up very early in the mornings, so I
+    hmm... well, I still can't get to wake up very early in the mornings, so I
     come here around 10, 10.30... The office is very quiet in general, which
-    comes as a change for me because at the office back in Argentina it&rsquo;s
+    comes as a change for me because at the office back in Argentina it's
     always so crowded and noisy. I think I got used very to that, so I tend to
     work with music on, or after lunch I like drinking mate with the other
     argentinians of the team (and whoever wants to join us) in the hall, often
@@ -119,20 +118,20 @@
 
     <p>
     I like the bit when I put Pink Floyd and everybody comes to listen :)
-    Overall everybody is really nice to me and it&rsquo;s a cool place to work in,
+    Overall everybody is really nice to me and it's a cool place to work in,
     with a lot of freedom to do what you like, and full of very smart people
     with cool ideas. And not just that, people here are very willing to share
     experiences and discussions, and to me this is super important, to get to
-    now some other points of view because I&rsquo;m young and I want to learn :D
+    now some other points of view because I'm young and I want to learn :D
     </p>
 
     <p>
-    <b>/Guille had a question for the next interview, and I find it quite appropriate: &ldquo;Do you prepare mate?&rdquo; /</b>
+    <b>/Guille had a question for the next interview, and I find it quite appropriate: "Do you prepare mate?" /</b>
     </p>
 
     <p>
     JAJAJAJA, bien sûr!  Without sugar, with sugar, tereré (which is made with
-    juice or cold water). J&rsquo;aime bien boire, faire et partager le mate :)
+    juice or cold water). J'aime bien boire, faire et partager le mate :)
     </p>
 
 
@@ -165,7 +164,7 @@
 
     <p>
     If you liked this interview, you might also want to check out the
-    <a href="http://nicolas-petton.fr/blog/interview-stef.html">Interview with Stéphane Ducasse</a>.
+    <a href="http://nicolas-petton.fr/blog/interview-stef.html#MissingReference">Interview with Stéphane Ducasse</a>.
     </p>
 
 

@@ -9,36 +9,35 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Interview Företagsplatsen #3:  (bold (:begin 31 :end 40 :contents-begin 32 :contents-end 38 :post-blank 1 :parent #0) Louise) Axhake)</title>
+  <title>Interview Företagsplatsen #3: <b>Louise</b> Axhake</title>
   <atom:link href="http://nicolas-petton.fr/blog/interview-louise.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:49 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:49 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:32 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:32 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Interview Företagsplatsen #3:  (bold (:begin 31 :end 40 :contents-begin 32 :contents-end 38 :post-blank 1 :parent #0) Louise) Axhake)</title>
+    <title>Interview Företagsplatsen #3: <b>Louise</b> Axhake</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>Interview with *Louise* Axhake</title>
-    <link>http://nicolas-petton.fr/blog/interview-louise.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-louise.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/interview-louise.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-louise.html#orgheadline1</guid>
     <pubDate>Fri, 30 Jan 2015 11:56:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     Jan 30, 2015
     </div>
 
     <p>
-    It&rsquo;s been almost six months now since I moved to Stockholm, working
+    It's been almost six months now since I moved to Stockholm, working
     full-time at <a href="http://foretagsplatsen.se/en">Företagsplatsen</a> as a software engineer, and this is the
     third post of my series of interviews of my colleagues.
     </p>
@@ -46,7 +45,7 @@
     <p>
     Louise joined the team in January. She was previously working at
     PwC, one of our customers. We started doing this interview on her
-    first week in the team, and I&rsquo;ve been working with her for a month
+    first week in the team, and I've been working with her for a month
     now, which has been a lot of fun!
     </p>
 
@@ -76,10 +75,10 @@
     </p>
 
     <p>
-    I&rsquo;m the newling at Företagsplatsen, writing this I&rsquo;m on my way to my
+    I'm the newling at Företagsplatsen, writing this I'm on my way to my
     third day. Before I worked with one of our clients with system and
-    project management and also some marketing and communication.  I don&rsquo;t
-    have any academic background to talk about, I&rsquo;m just very curious and
+    project management and also some marketing and communication.  I don't
+    have any academic background to talk about, I'm just very curious and
     want to know as much as possible about as much as possible. 😉
     </p>
 
@@ -103,7 +102,7 @@
     </p>
 
     <p>
-    You have all been very welcoming to me, I don&rsquo;t have any less good
+    You have all been very welcoming to me, I don't have any less good
     stuff to tell, not yet at least ;)
     </p>
 
@@ -112,25 +111,25 @@
     </p>
 
     <p>
-    It&rsquo;s too soon to say anything about at typical work day for me,
-    there&rsquo;s still things to figure out how it works around here, so I
-    guess that&rsquo;s what I do, figuring things out.
+    It's too soon to say anything about at typical work day for me,
+    there's still things to figure out how it works around here, so I
+    guess that's what I do, figuring things out.
     </p>
 
     <p>
     But I can tell that my work days usually starts on the train, today
-    I took my kids to school so I&rsquo;m going to be at the office around
-    9:30 am, that&rsquo;s like one hour after the train left Uppsala.
+    I took my kids to school so I'm going to be at the office around
+    9:30 am, that's like one hour after the train left Uppsala.
     </p>
 
     <p>
-    The days that I don&rsquo;t have the kids in the morning I start off a bit
+    The days that I don't have the kids in the morning I start off a bit
     earlier getting on a train 7:10 or 7:20 am, I pick up my computer
     almost right away and go through my mail and if I missed anything on
-    Slack I catch up on that. So far I have read a lot about Microsoft&rsquo;s
-    Office 365, to say it simple, it&rsquo;s a platform were a company can
-    share information both internal and external.  I&rsquo;m trying to find
-    out how we can get the most out of it, get all our &ldquo;stuff&rdquo; in one
+    Slack I catch up on that. So far I have read a lot about Microsoft's
+    Office 365, to say it simple, it's a platform were a company can
+    share information both internal and external.  I'm trying to find
+    out how we can get the most out of it, get all our "stuff" in one
     place and really easy to find. This week I will also begin the work
     with the communication to our clients about the release of our new
     version. And I guess, some testing.
@@ -146,7 +145,7 @@
     </p>
 
     <p>
-    I used to read a lot, before I had kids, now I&rsquo;m either always
+    I used to read a lot, before I had kids, now I'm either always
     interrupted when I try to or too tired. 
     </p>
 
@@ -154,12 +153,12 @@
     <div class="figure">
     <p><img src="http://nicolas-petton.fr/blog/../images/louise3.jpg" alt="Louise's kids" align="center" />
     </p>
-    <p><span class="figure-number">Figure 3:</span> Louise&rsquo;s kids</p>
+    <p><span class="figure-number">Figure 3:</span> Louise's kids</p>
     </div>
 
 
     <p>
-    Now I&rsquo;m more hooked on TV series, that doesn&rsquo;t take to much of an
+    Now I'm more hooked on TV series, that doesn't take to much of an
     effort and is kinda nice and relaxing to do when the kids are
     asleep. I watch all kinds of genres. Game of Thrones, Breaking bad,
     Sons of Anarchy, House of Cards, Californication, Orange is the new
@@ -180,16 +179,16 @@
     </p>
 
     <p>
-    First, thank&rsquo;s for calling me a girl, that&rsquo;s nice comparing with &ldquo;tant&rdquo;
+    First, thank's for calling me a girl, that's nice comparing with "tant"
     (swedish word for old lady), that some random parent at my kids school
     called me this morning when talking to his kid.
     </p>
 
     <p>
     I would say working with french people, and that sounds really bad, I know.
-    And I wouldn&rsquo;t call it a concern, more a challenge for me, who never speaks
+    And I wouldn't call it a concern, more a challenge for me, who never speaks
     anything but Swedish, now need to translate everything in my head before
-    talking. And maybe it&rsquo;s not even a concern anymore, kind of gotten used to
+    talking. And maybe it's not even a concern anymore, kind of gotten used to
     it by now. You french guys are the best!
     </p>
 

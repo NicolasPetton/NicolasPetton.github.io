@@ -9,31 +9,30 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>((bold (:begin 1 :end 9 :contents-begin 2 :contents-end 7 :post-blank 1 :parent #0) Amber) 0.13)</title>
+  <title><b>Amber</b> 0.13</title>
   <atom:link href="http://nicolas-petton.fr/blog/amber-0.13-released.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:35:02 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:35:02 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:43 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:43 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>((bold (:begin 1 :end 9 :contents-begin 2 :contents-end 7 :post-blank 1 :parent #0) Amber) 0.13)</title>
+    <title><b>Amber</b> 0.13</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>*Amber* 0.13</title>
-    <link>http://nicolas-petton.fr/blog/amber-0.13-released.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.13-released.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/amber-0.13-released.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-0.13-released.html#orgheadline1</guid>
     <pubDate>Fri, 10 Oct 2014 14:22:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     Oct 10, 2014
     </div>
 
@@ -53,32 +52,21 @@
     </p>
 
     <ul class="org-ul">
-    <li>Reworked cleaner DNU handling in core.
-    </li>
-    <li>`amber init` fully embraced as the way to create new project.
-    </li>
+    <li>Reworked cleaner DNU handling in core.</li>
+    <li>`amber init` fully embraced as the way to create new project.</li>
     <li>Helios IDE is extracted and is now a project on its own.
     <ul class="org-ul">
-    <li>It is included as dev-dependency in any new project by default.
-    </li>
-    </ul>
-    </li>
+    <li>It is included as dev-dependency in any new project by default.</li>
+    </ul></li>
     <li>Movable data out of index.html:
     <ul class="org-ul">
-    <li>list of production packages in deploy.js;
-    </li>
-    <li>list of development packages in devel.js;
-    </li>
-    <li>project amd mappings in local.amd.json;
-    </li>
-    <li>libraries&rsquo; amd mappings in lib<sub>directory</sub>.amd.json.
-    </li>
-    </ul>
-    </li>
-    <li>&lsquo;Batteries included&rsquo; deployment via `grunt deploy`.
-    </li>
-    <li>0.13.1 because of technical issues w/ 0.13.0 release process.
-    </li>
+    <li>list of production packages in deploy.js;</li>
+    <li>list of development packages in devel.js;</li>
+    <li>project amd mappings in local.amd.json;</li>
+    <li>libraries' amd mappings in lib<sub>directory.amd.json</sub>.</li>
+    </ul></li>
+    <li>'Batteries included' deployment via `grunt deploy`.</li>
+    <li>0.13.1 because of technical issues w/ 0.13.0 release process.</li>
     </ul>
 
     <p>
@@ -93,31 +81,20 @@
     <ul class="org-ul">
     <li>Smalltalk side:
     <ul class="org-ul">
-    <li>String &gt;&gt; asSelector is now String &gt;&gt; asJavaScriptMethodName
-    </li>
-    <li>String &gt;&gt; asJavaScriptSelector is now String &gt;&gt; asJavaScriptPropertyName
-    </li>
-    <li>Collection &gt;&gt; ifEmpty:ifNotEmpty: family passes self to ifNotEmpty: block
-    </li>
-    </ul>
-    </li>
+    <li>String &gt;&gt; asSelector is now String &gt;&gt; asJavaScriptMethodName</li>
+    <li>String &gt;&gt; asJavaScriptSelector is now String &gt;&gt; asJavaScriptPropertyName</li>
+    <li>Collection &gt;&gt; ifEmpty:ifNotEmpty: family passes self to ifNotEmpty: block</li>
+    </ul></li>
 
     <li>JavaScript side
     <ul class="org-ul">
-    <li>smalltalk.selector is now smalltalk.st2js
-    </li>
-    <li>smalltalk.convertSelector is now smalltalk.js2st
-    </li>
-    <li>Smalltalk vm is now Smalltalk core
-    </li>
-    <li>boot.js&rsquo;s .vm is now .api
-    </li>
-    <li>amber load sets&rsquo; .vm is now .api
-    </li>
-    <li>Internal variables smalltalk/globals/<sub>st</sub> are now $core/$globals/$recv
-    </li>
-    </ul>
-    </li>
+    <li>smalltalk.selector is now smalltalk.st2js</li>
+    <li>smalltalk.convertSelector is now smalltalk.js2st</li>
+    <li>Smalltalk vm is now Smalltalk core</li>
+    <li>boot.js's .vm is now .api</li>
+    <li>amber load sets' .vm is now .api</li>
+    <li>Internal variables smalltalk/globals/<sub>st</sub> are now $core/$globals/$recv</li>
+    </ul></li>
     </ul>
 
     <p>
@@ -127,42 +104,29 @@
     <ul class="org-ul">
     <li>smalltalk.
     <ul class="org-ul">
-    <li>accessJavaScript
-    </li>
-    </ul>
-    </li>
+    <li>accessJavaScript</li>
+    </ul></li>
     <li>Object &gt;&gt;
     <ul class="org-ul">
-    <li>postMessageTo:
-    </li>
-    <li>postMessageTo:origin:
-    </li>
-    </ul>
-    </li>
+    <li>postMessageTo:</li>
+    <li>postMessageTo:origin:</li>
+    </ul></li>
     <li>Class &gt;&gt;
     <ul class="org-ul">
-    <li>heliosClass
-    </li>
-    </ul>
-    </li>
+    <li>heliosClass</li>
+    </ul></li>
     <li>SmalltalkImage &gt;&gt;
     <ul class="org-ul">
-    <li>core
-    </li>
-    </ul>
-    </li>
+    <li>core</li>
+    </ul></li>
     <li>amber/boot exports
     <ul class="org-ul">
-    <li>api
-    </li>
-    </ul>
-    </li>
+    <li>api</li>
+    </ul></li>
     <li>amber/{devel,deploy,lang} exports
     <ul class="org-ul">
-    <li>api
-    </li>
-    </ul>
-    </li>
+    <li>api</li>
+    </ul></li>
     </ul>
 
     <p>
@@ -172,16 +136,12 @@
     <ul class="org-ul">
     <li>ProtoObject class &gt;&gt;
     <ul class="org-ul">
-    <li>heliosClass
-    </li>
-    </ul>
-    </li>
+    <li>heliosClass</li>
+    </ul></li>
     <li>Object class &gt;&gt;
     <ul class="org-ul">
-    <li>heliosClass
-    </li>
-    </ul>
-    </li>
+    <li>heliosClass</li>
+    </ul></li>
     </ul>
 
     <p>

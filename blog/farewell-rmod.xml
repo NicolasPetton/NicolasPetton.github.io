@@ -9,46 +9,45 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Farewell RMoD!)</title>
+  <title>Farewell RMoD!</title>
   <atom:link href="http://nicolas-petton.fr/blog/farewell-rmod.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:55 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:55 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:37 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:37 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Farewell RMoD!)</title>
+    <title>Farewell RMoD!</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>*Farewell* RMoD!</title>
-    <link>http://nicolas-petton.fr/blog/farewell-rmod.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/farewell-rmod.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/farewell-rmod.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/farewell-rmod.html#orgheadline1</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <p>
+    <description><![CDATA[<p>
     Today is my last day at <a href="http://rmod.inria.fr/">RMoD</a>. 
     </p>
 
     <p>
-    The last two years have been an incredibly rich experience, and I&rsquo;m
+    The last two years have been an incredibly rich experience, and I'm
     profoundly sad to leave my colleagues. I have in the past two years
     met and worked with a lot of very smart people and many of them
-    became very close friends. I&rsquo;m still saying goodbye to people, so
-    I&rsquo;ll make this post short. :)
+    became very close friends. I'm still saying goodbye to people, so
+    I'll make this post short. :)
     </p>
 
     <p>
     The first thing that comes to my mind when I think about the last
-    two years is that I&rsquo;m very proud of having been part of RMoD. It
-    hasn&rsquo;t always been easy, but it has been all in all a very joyful
+    two years is that I'm very proud of having been part of RMoD. It
+    hasn't always been easy, but it has been all in all a very joyful
     experience.
     </p>
 
@@ -58,8 +57,8 @@
     </p>
 
     <p>
-    In two weeks I&rsquo;ll be packing my stuff to go to Stockholm, where I
-    will be working in another development team. It&rsquo;s a totally new
+    In two weeks I'll be packing my stuff to go to Stockholm, where I
+    will be working in another development team. It's a totally new
     adventure that will begin, so stay tuned!
     </p>
 

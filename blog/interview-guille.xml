@@ -9,44 +9,43 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Interview RMoD #5: Guillermo Polito)</title>
+  <title>Interview RMoD #5: Guillermo Polito</title>
   <atom:link href="http://nicolas-petton.fr/blog/interview-guille.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:51 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:51 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:33 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:33 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Interview RMoD #5: Guillermo Polito)</title>
+    <title>Interview RMoD #5: Guillermo Polito</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>Interview with *Guillermo* Polito</title>
-    <link>http://nicolas-petton.fr/blog/interview-guille.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-guille.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/interview-guille.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-guille.html#orgheadline1</guid>
     <pubDate>Wed, 18 Jun 2014 15:20:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     June 18, 2014
     </div>
 
     <p>
     This is the fifth post of my series of interviews, in which I
-    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team. After the <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html">Interview with
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team. After the <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html#MissingReference">Interview with
     Jean-Baptiste Arnaud</a>, I interview <a href="http://playingwithobjects.wordpress.com/">Guillermo Polito</a>.
     </p>
 
     <p>
     Guille (pronounce it Guiche) is another one of the <a href="http://playingwithobjects.wordpress.com/">many</a> <a href="http://marianopeck.wordpress.com/">argentinians</a>
     who have been working at <a href="http://inria.fr">Inria</a>. Guille is doing a PhD in RMoD, he
-    drinks mate all day long (which argentinian doesn&rsquo;t?), and he&rsquo;s
+    drinks mate all day long (which argentinian doesn't?), and he's
     always in when it comes to going for a beer <a href="http://www.cafecitoyen.org/">somewhere</a> in Lille after
     work.
     </p>
@@ -64,27 +63,27 @@
     </p>
 
     <p>
-    Hi Nico, you&rsquo;re welcome.
+    Hi Nico, you're welcome.
     </p>
 
     <p>
     My name is Guille(rmo) Polito. Please call me Guille :). And pronounce
-    every letter. Specially the &lsquo;ll&rsquo; as the english sound for &lsquo;sh&rsquo; or the
-    french &lsquo;ch&rsquo;.
+    every letter. Specially the 'll' as the english sound for 'sh' or the
+    french 'ch'.
     </p>
 
     <p>
     Bref. I come from Buenos Aires, Argentina. 27. I am a systems engineer from
     there. I worked many years in C#, Java, Android, Python. I used to teach
     there a bit also. And started doing some open source with Pharo before
-    graduating. Now, I&rsquo;m doing a PhD at Lille/Douai where I have fun with
-    Pharo, the CAR and RMoD teams. The PhD topic is fuzzy. I don&rsquo;t want to talk
+    graduating. Now, I'm doing a PhD at Lille/Douai where I have fun with
+    Pharo, the CAR and RMoD teams. The PhD topic is fuzzy. I don't want to talk
     about my phd. Arghhh stop it!!!
     </p>
 
     <p>
-    People tell me I&rsquo;m not at all polite, despite what my surname
-    is. Bah, maybe that&rsquo;s a bit true. Acid, yeller, hate
+    People tell me I'm not at all polite, despite what my surname
+    is. Bah, maybe that's a bit true. Acid, yeller, hate
     formalities. Sometimes they call me Lorenzo after Lorenzo Lamas
     because of the long dark hair I think (they can say better
     probably). In fact, a picture of him inspired a picture of me.
@@ -105,7 +104,7 @@
 
     <p>
     Last but not least: Bostero. That is, fan of the best football team in the
-    world, you know? If you don&rsquo;t know Boca Juniors, you know nothing about
+    world, you know? If you don't know Boca Juniors, you know nothing about
     football.
     </p>
 
@@ -115,7 +114,7 @@
     </p>
 
     <p>
-    Plenty of stuff! Concretely I&rsquo;m doing a Phd, i&rsquo;m in the last year. I would
+    Plenty of stuff! Concretely I'm doing a Phd, i'm in the last year. I would
     say that my Phd topic is about the manipulation of first class
     representations of object environments, those that we call object spaces,
     or Oz :)... And on top of that there are some things going on, in
@@ -127,14 +126,14 @@
     Besides my Phd obligations, I also participate in Pharo, as almost everyone
     in RMoD. Sometimes doing VM stuff, sometimes on the image side... Sometimes
     when I have time I do things around DBXTalk and Glorp too. But basically
-    I&rsquo;d say I have fun :).
+    I'd say I have fun :).
     </p>
 
 
     <div class="figure">
     <p><img src="http://nicolas-petton.fr/blog/../images/guille2.jpeg" alt="Mate image" align="center" />
     </p>
-    <p><span class="figure-number">Figure 3:</span> Guille&rsquo;s Mate</p>
+    <p><span class="figure-number">Figure 3:</span> Guille's Mate</p>
     </div>
 
 
@@ -143,24 +142,24 @@
     </p>
 
     <p>
-    I&rsquo;d describe it as fun. I actually really enjoy coming to the lab, except
+    I'd describe it as fun. I actually really enjoy coming to the lab, except
     when Nico is there (joke!).
     </p>
 
     <p>
     No, really, you always find somebody open to discuss, to work in pairs, or
-    even to just drink a mate. It&rsquo;s not difficult to find people that would
+    even to just drink a mate. It's not difficult to find people that would
     like to share a beer after work. People receive you with jokes or insults,
     that makes me feel at home :). Really!
     </p>
 
     <p>
-    <b><i>Esteban had a question for the next interview: &ldquo;Would you like
+    <b><i>Esteban had a question for the next interview: "Would you like
     another beer?</i></b>
     </p>
 
     <p>
-    Actually that&rsquo;s a great question in the context of our team! I think RMoD
+    Actually that's a great question in the context of our team! I think RMoD
     is located in one of the best places in the world beer-wise speaking :).
     </p>
 
@@ -183,7 +182,7 @@
     </p>
 
     <p>
-    But I&rsquo;d better go for... Do you prepare mate?
+    But I'd better go for... Do you prepare mate?
     </p>
 
 
@@ -194,7 +193,7 @@
 
     <p>
     If you liked this interview, you might also want to check out the
-    <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html">Interview with Jean-Baptiste Arnaud</a>.
+    <a href="http://nicolas-petton.fr/blog/interview-jean-baptiste.html#MissingReference">Interview with Jean-Baptiste Arnaud</a>.
     </p>
 
     <div id="disqus_thread"></div>

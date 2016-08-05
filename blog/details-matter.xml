@@ -9,31 +9,30 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Details matter)</title>
+  <title>Details matter</title>
   <atom:link href="http://nicolas-petton.fr/blog/details-matter.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:55 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:55 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:39 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:39 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Details matter)</title>
+    <title>Details matter</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>*Details* matter</title>
-    <link>http://nicolas-petton.fr/blog/details-matter.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/details-matter.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/details-matter.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/details-matter.html#orgheadline1</guid>
     <pubDate>Thu, 06 Feb 2014 10:56:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     February 6, 2014
     </div>
 
@@ -41,13 +40,13 @@
     Helios is moving forward with interesting new features, especially
     regarding navigation in code. These improvements are for the major
     part small and might be seen as unimportant details. The thing is
-    details matter! Polishing Helios is now a priority in Amber&rsquo;s
+    details matter! Polishing Helios is now a priority in Amber's
     development, and a full replacement of the old IDE is planned for
     one of the next releases.
     </p>
 
     <p>
-    Here&rsquo;s a short video demonstrating some of the changes I like the
+    Here's a short video demonstrating some of the changes I like the
     most.
     </p>
 

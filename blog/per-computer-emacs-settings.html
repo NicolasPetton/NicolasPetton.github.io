@@ -3,23 +3,30 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Managing Emacs settings per-computer</title>
-<!-- 2015-06-14 Sun 15:37 -->
+<!-- 2016-08-05 Fri 12:03 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<title>Managing Emacs settings per-computer</title>
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Nicolas Petton" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
   .todo   { font-family: monospace; color: red; }
-  .done   { color: green; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
   .tag    { background-color: #eee; font-family: monospace;
             padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
@@ -58,15 +65,14 @@
   caption.t-above { caption-side: top; }
   caption.t-bottom { caption-side: bottom; }
   td, th { vertical-align:top;  }
-  th.right  { text-align: center;  }
-  th.left   { text-align: center;   }
-  th.center { text-align: center; }
-  td.right  { text-align: right;  }
-  td.left   { text-align: left;   }
-  td.center { text-align: center; }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
   dt { font-weight: bold; }
-  .footpara:nth-child(2) { display: inline; }
-  .footpara { display: block; }
+  .footpara { display: inline; }
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
@@ -157,7 +163,7 @@ for the JavaScript code in this tag.
 <div id="preamble" class="status">
 <div class='intro'>
 <h1><b>Nicolas</b> Petton</h1>
-<p>Smalltalker, Lisper & Emacs maniac. Also loves the Web.</p>
+<p>Web developer, Lisper, Smalltalker & Emacs maniac.</p>
 </div>
 
 <div class='nav'>
@@ -173,10 +179,9 @@ for the JavaScript code in this tag.
 <div id="content">
 <h1 class="title">Managing Emacs settings per-computer</h1>
 
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><a id="ID-ea6ec1bf-628c-4ba4-b693-acad76967f49" name="ID-ea6ec1bf-628c-4ba4-b693-acad76967f49"></a><b>Per-computer</b> Emacs settings</h2>
-<div class="outline-text-2" id="text-1">
-
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1"><a id="ID-ea6ec1bf-628c-4ba4-b693-acad76967f49"></a><b>Per-computer</b> Emacs settings</h2>
+<div class="outline-text-2" id="text-orgheadline1">
 <div class="pubdate">
 June 13, 2014
 </div>
@@ -209,12 +214,12 @@ Here's a snippet from my <code>emacs.d</code> configuration:
 
 <div class="org-src-container">
 
-<pre class="src src-elisp">(<span style="color: #f7af75; font-weight: bold;">defvar</span> <span style="color: #aaccff;">host</span> (substring (shell-command-to-string <span style="color: #789771;">"hostname"</span>) 0 -1))
-(<span style="color: #f7af75; font-weight: bold;">defvar</span> <span style="color: #aaccff;">host-dir</span> (concat <span style="color: #789771;">"~/.emacs.d/hosts/"</span> host))
+<pre class="src src-elisp">(<span style="color: #c678dd; font-weight: bold;">defvar</span> <span style="color: #61afef;">host</span> (substring (shell-command-to-string <span style="color: #98be65;">"hostname"</span>) 0 -1))
+(<span style="color: #c678dd; font-weight: bold;">defvar</span> <span style="color: #61afef;">host-dir</span> (concat <span style="color: #98be65;">"~/.emacs.d/hosts/"</span> host))
 (add-to-list 'load-path host-dir)
 
-(<span style="color: #f7af75; font-weight: bold;">let</span> ((init-host-feature (intern (concat <span style="color: #789771;">"init-"</span> host))))
-  (<span style="color: #f7af75; font-weight: bold;">require</span> <span style="color: #da8548; font-weight: bold;">init-host-feature</span> nil 'noerror))
+(<span style="color: #c678dd; font-weight: bold;">let</span> ((init-host-feature (intern (concat <span style="color: #98be65;">"init-"</span> host))))
+  (<span style="color: #c678dd; font-weight: bold;">require</span> <span style="color: #da8548; font-weight: bold;">init-host-feature</span> nil 'noerror))
 </pre>
 </div>
 
@@ -231,10 +236,10 @@ To sove this issue I load files from a private directory in
 
 <div class="org-src-container">
 
-<pre class="src src-elisp">(<span style="color: #f7af75; font-weight: bold;">defvar</span> <span style="color: #aaccff;">private-dir</span> <span style="color: #789771;">"~/.priv/elisp"</span> 
-  <span style="color: #70a56f;">"Private elisp directory"</span>)
+<pre class="src src-elisp">(<span style="color: #c678dd; font-weight: bold;">defvar</span> <span style="color: #61afef;">private-dir</span> <span style="color: #98be65;">"~/.priv/elisp"</span> 
+  <span style="color: #9eac8c;">"Private elisp directory"</span>)
 
-(<span style="color: #f7af75; font-weight: bold;">if</span> (file-exists-p private-dir)
+(<span style="color: #c678dd; font-weight: bold;">if</span> (file-exists-p private-dir)
     (add-to-list 'load-path private-dir))
 </pre>
 </div>
@@ -262,9 +267,9 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     $('p').addClass('hyphenate');
    Hyphenator.run();
 </script><div class='footer'>
-Copyright 2015 Nicolas Petton.<br>
-Last updated 2015-04-29 Wed 18:34. <br>
-Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10).
+Copyright 2016 Nicolas Petton.<br>
+Last updated 2016-08-05 Fri 12:02. <br>
+Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.3.5).
 </div>
 </div>
 </body>

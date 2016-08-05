@@ -9,42 +9,41 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Interview RMoD #1: Damien Cassou)</title>
+  <title>Interview RMoD #1: Damien Cassou</title>
   <atom:link href="http://nicolas-petton.fr/blog/interview-damien.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:52 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:52 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:34 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:34 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Interview RMoD #1: Damien Cassou)</title>
+    <title>Interview RMoD #1: Damien Cassou</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>Interview with *Damien* Cassou</title>
-    <link>http://nicolas-petton.fr/blog/interview-damien.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-damien.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/interview-damien.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-damien.html#orgheadline1</guid>
     <pubDate>Wed, 15 Jan 2014 15:57:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     January 15, 2014
     </div>
 
     <p>
-    <b>This is the first post of a series</b>, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
+    <b>This is the first post of a series</b>, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my
     colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France), with the hope that I
     can share part of what it really means to work here.
     </p>
 
     <p>
-    Here&rsquo;s the interview of <a href="http://damiencassou.seasidehosting.st/">Damien Cassou</a>. Damien and I are in the same
+    Here's the interview of <a href="http://damiencassou.seasidehosting.st/">Damien Cassou</a>. Damien and I are in the same
     office, and we both share a passion for anything related to <a href="http://www.gnu.org/software/emacs/">Emacs</a>,
     <a href="http://ubuntu.com">Ubuntu</a> and Smalltalk, which often leads to animated discussions and
     jokes with/from others.
@@ -52,7 +51,7 @@
 
     <p>
     During the day, we listen to the same music, from one of our
-    computers, and often go back to Atom Heart Mother when we don&rsquo;t
+    computers, and often go back to Atom Heart Mother when we don't
     agree on listening anything else.
     </p>
 
@@ -79,7 +78,7 @@
     </p>
 
     <p>
-    Hi Nicolas. I&rsquo;m 30 years old, I am married, and got a baby girl 10 months
+    Hi Nicolas. I'm 30 years old, I am married, and got a baby girl 10 months
     ago. I spent around 28 years in Bordeaux, France, where I did all my
     studies (from the first school at 3 to the PhD thesis at 28). Then I did a
     postdoc in Potsdam, Germany and one in Paris, France.
@@ -90,12 +89,12 @@
     was 10. I never stopped: I read all the computer books I had and I
     learned a lot of programming languages before entering university. Then
     I got a master thesis, engineering degree, and PhD in computer science.
-    I&rsquo;m now working as associate professor (maître de conférence) in RMoD
-    and I couldn&rsquo;t have dreamed about a better job.
+    I'm now working as associate professor (maître de conférence) in RMoD
+    and I couldn't have dreamed about a better job.
     </p>
 
     <p>
-    When I&rsquo;m not at work, I take care of my wife (Jenny) and daughter
+    When I'm not at work, I take care of my wife (Jenny) and daughter
     (Sarah). I really like to walk in forests and mountains and I try to do
     that with them as often as I can (not often enough though). I also try
     to understand geopolitics, a topic I find deeply interesting.
@@ -113,12 +112,12 @@
     </p>
 
     <p>
-    But what I really like is developing. Recently, I&rsquo;ve been working on
+    But what I really like is developing. Recently, I've been working on
     <a href="http://www.smalltalkhub.com/#!/~Pier/Pillar">Pillar</a> and the <a href="http://www.smalltalkhub.com/#!/~Pharo/PharoLauncher">Pharo Launcher</a>.
     </p>
 
     <p>
-    <b><i>You said that you couldn&rsquo;t dream of a better job. What is it that
+    <b><i>You said that you couldn't dream of a better job. What is it that
     you like so much about it?</i></b>
     </p>
 
@@ -138,7 +137,7 @@
     <p>
     These pair-programming sessions are always a good time to learn a
     lot, have fun, and make huge progress. Pair-working also helps
-    finishing tasks we don&rsquo;t want to work on.
+    finishing tasks we don't want to work on.
     </p>
 
     <p>

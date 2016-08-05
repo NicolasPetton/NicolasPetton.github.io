@@ -9,50 +9,49 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Interview RMoD #3: Stéphane Ducasse)</title>
+  <title>Interview RMoD #3: Stéphane Ducasse</title>
   <atom:link href="http://nicolas-petton.fr/blog/interview-stef.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:48 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:48 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:30 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:30 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Interview RMoD #3: Stéphane Ducasse)</title>
+    <title>Interview RMoD #3: Stéphane Ducasse</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>Interview with *Stéphane* Ducasse</title>
-    <link>http://nicolas-petton.fr/blog/interview-stef.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-stef.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/interview-stef.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-stef.html#orgheadline1</guid>
     <pubDate>Fri, 07 Feb 2014 10:24:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     February 7, 2014
     </div>
 
     <p>
-    <b>This is the third post of a series</b>, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my
+    <b>This is the third post of a series</b>, in which I <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my
     colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team (in Lille, France), with the hope that I
     can share part of what it really means to work here.
     </p>
 
     <p>
-    Here&rsquo;s the interview of <a href="http://stephane.ducasse.free.fr/">Stéphane Ducasse</a>. It would not be possible
-    to do an interview of the RMoD team without interviewing Stef: he&rsquo;s
-    not only our leader, he&rsquo;s the backbone of RMoD. Since I joined the
+    Here's the interview of <a href="http://stephane.ducasse.free.fr/">Stéphane Ducasse</a>. It would not be possible
+    to do an interview of the RMoD team without interviewing Stef: he's
+    not only our leader, he's the backbone of RMoD. Since I joined the
     team, he managed to hire great people and build an awesome team
     around research and <a href="http://pharo.org">Pharo</a>. 
     </p>
 
     <p>
-    Stef shows so much enthousiasm and energy, he&rsquo;s always passionate
+    Stef shows so much enthousiasm and energy, he's always passionate
     about work, and care deeply about his team and what we accomplish.
     </p>
 
@@ -74,7 +73,7 @@
     </p>
 
     <p>
-    I&rsquo;m a researcher. I did my PhD at Nice on language design. I lived
+    I'm a researcher. I did my PhD at Nice on language design. I lived
     there for 30 years.  I started programming in Lisp and I like
     objects so I worked in CLOS and I was a CLOS expert MOPer. I
     declined a job for the company building tools to develop 3d Objects
@@ -138,7 +137,7 @@
     </p>
 
     <p>
-    Finally I&rsquo;m french, kind of important for me in this global world
+    Finally I'm french, kind of important for me in this global world
     where everybody is expected to speak perfect english but where
     people judging others barely speak one language: their own. From my
     naive perspective, I would like to build a better world. I’m a bit
@@ -152,7 +151,7 @@
     <div class="figure">
     <p><img src="http://nicolas-petton.fr/blog/../images/stef-2.jpg" alt="Iznogoud" align="center" />
     </p>
-    <p><span class="figure-number">Figure 2:</span> In front of Stef&rsquo;s office</p>
+    <p><span class="figure-number">Figure 2:</span> In front of Stef's office</p>
     </div>
 
 
@@ -170,7 +169,7 @@
     Now I hope that I help them to give the best of themselves and make
     their dreams come true. I think that one part of my duties is to be
     an enabler: make sure smart guys come in the team, expand and have
-    fun, building their life. May be I&rsquo;m an umbrella or oak that
+    fun, building their life. May be I'm an umbrella or oak that
     protects little plants to grow nicely around me.
     </p>
 
@@ -181,8 +180,8 @@
     </p>
 
     <p>
-    Now I can be a pain because I&rsquo;m stubborn and I often thought a lot
-    about something and I&rsquo;m often right. Now since I spent my time
+    Now I can be a pain because I'm stubborn and I often thought a lot
+    about something and I'm often right. Now since I spent my time
     flattening the road so that others can drive I frustrate that I
     cannot drive a F1 on the same road (but to be a good driver people
     need to practice and my practice time is too short). But this is
@@ -266,10 +265,8 @@
     Other RMoD members interviews:
     </p>
     <ul class="org-ul">
-    <li><a href="http://nicolas-petton.fr/blog/interview-esteban.html">Esteban Lorenzano</a>
-    </li>
-    <li><a href="http://nicolas-petton.fr/blog/interview-damien.html">Damien Cassou</a>
-    </li>
+    <li><a href="http://nicolas-petton.fr/blog/interview-esteban.html#MissingReference">Esteban Lorenzano</a></li>
+    <li><a href="http://nicolas-petton.fr/blog/interview-damien.html#MissingReference">Damien Cassou</a></li>
     </ul>
 
     <div id="disqus_thread"></div>

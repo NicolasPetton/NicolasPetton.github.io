@@ -9,31 +9,30 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Interview Företagsplatsen #1:  (bold (:begin 31 :end 39 :contents-begin 32 :contents-end 37 :post-blank 1 :parent #0) Johan) Degerfeldt)</title>
+  <title>Interview Företagsplatsen #1: <b>Johan</b> Degerfeldt</title>
   <atom:link href="http://nicolas-petton.fr/blog/interview-johan.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:50 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:50 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:32 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:32 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Interview Företagsplatsen #1:  (bold (:begin 31 :end 39 :contents-begin 32 :contents-end 37 :post-blank 1 :parent #0) Johan) Degerfeldt)</title>
+    <title>Interview Företagsplatsen #1: <b>Johan</b> Degerfeldt</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>Interview with *Johan* Degerfeldt</title>
-    <link>http://nicolas-petton.fr/blog/interview-johan.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-johan.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/interview-johan.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-johan.html#orgheadline1</guid>
     <pubDate>Wed, 11 Jun 2014 15:53:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     Oct 16, 2014
     </div>
 
@@ -50,7 +49,7 @@
     As the CEO of the company, it only made sense to interview Johan
     first. I guess Johan looks like what we imagine of a viking: tall,
     light hair and a beard, but he is definitely more talkative than the
-    average Swedish guy. He&rsquo;s half of the time joking around and the
+    average Swedish guy. He's half of the time joking around and the
     other half really serious talking business and stuff, making him a
     really cool guy to work with.
     </p>
@@ -112,18 +111,13 @@
     Lets end with a few fact about me:
     </p>
     <ul class="org-ul">
-    <li>I see myself as being a top 5% father.
-    </li>
-    <li>I am taller than the medium sized Swede.
-    </li>
+    <li>I see myself as being a top 5% father.</li>
+    <li>I am taller than the medium sized Swede.</li>
     <li>I dream about being a fighter pilot, computer geek or a
-    designer. I am neither!
-    </li>
-    <li>My PR on rowing 500 m is 1:31.
-    </li>
-    <li>On my tombstone it will say, &ldquo;Johan Degerfeldt, a nice guy, above
-    average at most things, great at nothing!&rdquo;
-    </li>
+    designer. I am neither!</li>
+    <li>My PR on rowing 500 m is 1:31.</li>
+    <li>On my tombstone it will say, "Johan Degerfeldt, a nice guy, above
+    average at most things, great at nothing!"</li>
     </ul>
 
 
@@ -183,38 +177,23 @@
     </p>
 
     <ul class="org-ul">
-    <li>Drinking 4,2 cups of coffee.
-    </li>
-    <li>Answering 3,2 support mails from clients.
-    </li>
-    <li>Engaging in 2,3 sales calls.
-    </li>
-    <li>Participate in 0,9 internal meeting on hangout with the developers
-    </li>
-    <li>Creating 0,8 new themes and test accounts for potential customers
-    </li>
-    <li>Having contact with 0,5 partners/resellers on phone or email
-    </li>
-    <li>Doing crossfit on my lunch break for 32 minutes with 1,2 training partners
-    </li>
-    <li>Reading 2.1 funny emails that I get sent by someone
-    </li>
-    <li>Creating 0,3 new quotations
-    </li>
-    <li>Receiving 0,9 incoming sales calls.
-    </li>
-    <li>Doing 0,6 administrative tasks for the company
-    </li>
-    <li>Participate in feature discussions for 22 minutes
-    </li>
-    <li>Testing new code/features for 16 minutes
-    </li>
+    <li>Drinking 4,2 cups of coffee.</li>
+    <li>Answering 3,2 support mails from clients.</li>
+    <li>Engaging in 2,3 sales calls.</li>
+    <li>Participate in 0,9 internal meeting on hangout with the developers</li>
+    <li>Creating 0,8 new themes and test accounts for potential customers</li>
+    <li>Having contact with 0,5 partners/resellers on phone or email</li>
+    <li>Doing crossfit on my lunch break for 32 minutes with 1,2 training partners</li>
+    <li>Reading 2.1 funny emails that I get sent by someone</li>
+    <li>Creating 0,3 new quotations</li>
+    <li>Receiving 0,9 incoming sales calls.</li>
+    <li>Doing 0,6 administrative tasks for the company</li>
+    <li>Participate in feature discussions for 22 minutes</li>
+    <li>Testing new code/features for 16 minutes</li>
     <li>Having 1,3 typical Swedish workplace “fikas” in my shared office space fika
-    room for 13 minutes each
-    </li>
+    room for 13 minutes each</li>
     <li>Engaging in 42 minutes of discussions with Anders or Henrik about business
-    decisions.
-    </li>
+    decisions.</li>
     </ul>
 
     <p>
@@ -227,12 +206,9 @@
 
     <ul class="org-ul">
     <li><a href="http://www.sisuidrottsbocker.se/Sa-blir-du-varldens-basta-idrottsforalder-1294.aspx">How to become the best sports parent in the world</a> (Read because of
-    my 7 and 9 year old)
-    </li>
-    <li><a href="http://www.barnboksprat.se/tag/knacka-pa/">Nock Nock</a> (Read to my 3 year old)
-    </li>
-    <li><a href="http://harrypotter.wikia.com/wiki/Deathly_Hallows">Deathly Hollows</a> (Read to my 9 year old)
-    </li>
+    my 7 and 9 year old)</li>
+    <li><a href="http://www.barnboksprat.se/tag/knacka-pa/">Nock Nock</a> (Read to my 3 year old)</li>
+    <li><a href="http://harrypotter.wikia.com/wiki/Deathly_Hallows">Deathly Hollows</a> (Read to my 9 year old)</li>
     </ul>
 
 
@@ -253,16 +229,11 @@
     </p>
 
     <ul class="org-ul">
-    <li>Sweden is ...... than France at Ice hockey.
-    </li>
-    <li>Swedish hamburgers are ....... tasting than french ones.
-    </li>
-    <li>Swedish salaries are ....... than French ones.
-    </li>
-    <li>Swedish co-workers are ....... than French ones.
-    </li>
-    <li>Swedish girls are ....... looking than French ones.
-    </li>
+    <li>Sweden is ...... than France at Ice hockey.</li>
+    <li>Swedish hamburgers are ....... tasting than french ones.</li>
+    <li>Swedish salaries are ....... than French ones.</li>
+    <li>Swedish co-workers are ....... than French ones.</li>
+    <li>Swedish girls are ....... looking than French ones.</li>
     </ul>
 
     <p>

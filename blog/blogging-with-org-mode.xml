@@ -9,31 +9,30 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Blogging with org-mode)</title>
+  <title>Blogging with org-mode</title>
   <atom:link href="http://nicolas-petton.fr/blog/blogging-with-org-mode.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:56 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:56 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:39 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:39 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Blogging with org-mode)</title>
+    <title>Blogging with org-mode</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>Blogging with *org-mode*</title>
-    <link>http://nicolas-petton.fr/blog/blogging-with-org-mode.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/blogging-with-org-mode.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/blogging-with-org-mode.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/blogging-with-org-mode.html#orgheadline1</guid>
     <pubDate>Tue, 15 Oct 2013 14:20:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     October 15, 2013
     </div>
 
@@ -54,96 +53,96 @@
     </p>
 
     <p>
-    Here&rsquo;s the bit of elisp that I use for this website:
+    Here's the bit of elisp that I use for this website:
     </p>
 
     <div class="org-src-container">
 
-    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">require</span> '<span style="color: #da8548; font-weight: bold;">org</span>)
-    (<span style="color: #f7af75; font-weight: bold;">require</span> '<span style="color: #da8548; font-weight: bold;">ox-rss</span>)
+    <pre class="src src-emacs-lisp">(<span style="color: #c678dd; font-weight: bold;">require</span> '<span style="color: #da8548; font-weight: bold;">org</span>)
+    (<span style="color: #c678dd; font-weight: bold;">require</span> '<span style="color: #da8548; font-weight: bold;">ox-rss</span>)
 
 
-    (<span style="color: #f7af75; font-weight: bold;">defvar</span> <span style="color: #aaccff;">nico-website-html-head</span>
-    <span style="color: #789771;">"&lt;link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'&gt;</span>
-    <span style="color: #789771;">&lt;link rel='stylesheet' href='css/site.css' type='text/css'/&gt;"</span>)
+    (<span style="color: #c678dd; font-weight: bold;">defvar</span> <span style="color: #61afef;">nico-website-html-head</span>
+    <span style="color: #98be65;">"&lt;link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'&gt;</span>
+    <span style="color: #98be65;">&lt;link rel='stylesheet' href='css/site.css' type='text/css'/&gt;"</span>)
 
-    (<span style="color: #f7af75; font-weight: bold;">defvar</span> <span style="color: #aaccff;">nico-website-html-blog-head</span>
-    <span style="color: #789771;">"&lt;link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'&gt;</span>
-    <span style="color: #789771;">&lt;link rel='stylesheet' href='../css/site.css' type='text/css'/&gt;"</span>)
+    (<span style="color: #c678dd; font-weight: bold;">defvar</span> <span style="color: #61afef;">nico-website-html-blog-head</span>
+    <span style="color: #98be65;">"&lt;link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'&gt;</span>
+    <span style="color: #98be65;">&lt;link rel='stylesheet' href='../css/site.css' type='text/css'/&gt;"</span>)
 
-    (<span style="color: #f7af75; font-weight: bold;">defvar</span> <span style="color: #aaccff;">nico-website-html-preamble</span> 
-    <span style="color: #789771;">"&lt;div class='nav'&gt;</span>
-    <span style="color: #789771;">&lt;ul&gt;</span>
-    <span style="color: #789771;">&lt;li&gt;&lt;a href='/'&gt;Home&lt;/a&gt;&lt;/li&gt;</span>
-    <span style="color: #789771;">&lt;li&gt;&lt;a href='/blog/index.html'&gt;Blog&lt;/a&gt;&lt;/li&gt;</span>
-    <span style="color: #789771;">&lt;li&gt;&lt;a href='http://github.com/NicolasPetton'&gt;GitHub&lt;/a&gt;&lt;/li&gt;</span>
-    <span style="color: #789771;">&lt;li&gt;&lt;a href='http://twitter.com/NicolasPetton'&gt;Twitter&lt;/a&gt;&lt;/li&gt;</span>
-    <span style="color: #789771;">&lt;li&gt;&lt;a href='/contact.html'&gt;Contact&lt;/a&gt;&lt;/li&gt;</span>
-    <span style="color: #789771;">&lt;/ul&gt;</span>
-    <span style="color: #789771;">&lt;/div&gt;"</span>)
+    (<span style="color: #c678dd; font-weight: bold;">defvar</span> <span style="color: #61afef;">nico-website-html-preamble</span> 
+    <span style="color: #98be65;">"&lt;div class='nav'&gt;</span>
+    <span style="color: #98be65;">&lt;ul&gt;</span>
+    <span style="color: #98be65;">&lt;li&gt;&lt;a href='/'&gt;Home&lt;/a&gt;&lt;/li&gt;</span>
+    <span style="color: #98be65;">&lt;li&gt;&lt;a href='/blog/index.html'&gt;Blog&lt;/a&gt;&lt;/li&gt;</span>
+    <span style="color: #98be65;">&lt;li&gt;&lt;a href='http://github.com/NicolasPetton'&gt;GitHub&lt;/a&gt;&lt;/li&gt;</span>
+    <span style="color: #98be65;">&lt;li&gt;&lt;a href='http://twitter.com/NicolasPetton'&gt;Twitter&lt;/a&gt;&lt;/li&gt;</span>
+    <span style="color: #98be65;">&lt;li&gt;&lt;a href='/contact.html'&gt;Contact&lt;/a&gt;&lt;/li&gt;</span>
+    <span style="color: #98be65;">&lt;/ul&gt;</span>
+    <span style="color: #98be65;">&lt;/div&gt;"</span>)
 
-    (<span style="color: #f7af75; font-weight: bold;">defvar</span> <span style="color: #aaccff;">nico-website-html-postamble</span> 
-    <span style="color: #789771;">"&lt;div class='footer'&gt;</span>
-    <span style="color: #789771;">Copyright 2013 %a (%v HTML).&lt;br&gt;</span>
-    <span style="color: #789771;">Last updated %C. &lt;br&gt;</span>
-    <span style="color: #789771;">Built with %c.</span>
-    <span style="color: #789771;">&lt;/div&gt;"</span>)
+    (<span style="color: #c678dd; font-weight: bold;">defvar</span> <span style="color: #61afef;">nico-website-html-postamble</span> 
+    <span style="color: #98be65;">"&lt;div class='footer'&gt;</span>
+    <span style="color: #98be65;">Copyright 2013 %a (%v HTML).&lt;br&gt;</span>
+    <span style="color: #98be65;">Last updated %C. &lt;br&gt;</span>
+    <span style="color: #98be65;">Built with %c.</span>
+    <span style="color: #98be65;">&lt;/div&gt;"</span>)
 
 
-    (setq org-publish-project-alist
-    `((<span style="color: #789771;">"org"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-directory</span> <span style="color: #789771;">"~/org/website/"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-extension</span> <span style="color: #789771;">"org"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-directory</span> <span style="color: #789771;">"~/Public/nicolas-petton.fr/"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-function</span> org-html-publish-to-html
-    <span style="color: #ff6c6b; font-weight: bold;">:section-numbers</span> nil
-    <span style="color: #ff6c6b; font-weight: bold;">:with-toc</span> nil
-    <span style="color: #ff6c6b; font-weight: bold;">:html-head</span> ,nico-website-html-head
-    <span style="color: #ff6c6b; font-weight: bold;">:html-preamble</span> ,nico-website-html-preamble
-    <span style="color: #ff6c6b; font-weight: bold;">:html-postamble</span> ,nico-website-html-postamble)
+    (<span style="color: #c678dd; font-weight: bold;">setq</span> org-publish-project-alist
+    `((<span style="color: #98be65;">"org"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-directory</span> <span style="color: #98be65;">"~/org/website/"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-extension</span> <span style="color: #98be65;">"org"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-directory</span> <span style="color: #98be65;">"~/Public/nicolas-petton.fr/"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-function</span> org-html-publish-to-html
+    <span style="color: #61afef; font-weight: bold;">:section-numbers</span> nil
+    <span style="color: #61afef; font-weight: bold;">:with-toc</span> nil
+    <span style="color: #61afef; font-weight: bold;">:html-head</span> ,nico-website-html-head
+    <span style="color: #61afef; font-weight: bold;">:html-preamble</span> ,nico-website-html-preamble
+    <span style="color: #61afef; font-weight: bold;">:html-postamble</span> ,nico-website-html-postamble)
 
-    (<span style="color: #789771;">"blog"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-directory</span> <span style="color: #789771;">"~/org/website/blog"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-extension</span> <span style="color: #789771;">"org"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-directory</span> <span style="color: #789771;">"~/Public/nicolas-petton.fr/blog/"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-function</span> org-html-publish-to-html
-    <span style="color: #ff6c6b; font-weight: bold;">:section-numbers</span> nil
-    <span style="color: #ff6c6b; font-weight: bold;">:with-toc</span> nil
-    <span style="color: #ff6c6b; font-weight: bold;">:html-head</span> ,nico-website-html-blog-head
-    <span style="color: #ff6c6b; font-weight: bold;">:html-head-extra</span>
-    <span style="color: #789771;">"&lt;link rel=\"alternate\" type=\"application/rss+xml\"</span>
-    <span style="color: #789771;">                href=\"http://nicolas-petton.fr/blog/blog.xml\"</span>
-    <span style="color: #789771;">                title=\"RSS feed\"&gt;"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:html-preamble</span> ,nico-website-html-preamble
-    <span style="color: #ff6c6b; font-weight: bold;">:html-postamble</span> ,nico-website-html-postamble)
+    (<span style="color: #98be65;">"blog"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-directory</span> <span style="color: #98be65;">"~/org/website/blog"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-extension</span> <span style="color: #98be65;">"org"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-directory</span> <span style="color: #98be65;">"~/Public/nicolas-petton.fr/blog/"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-function</span> org-html-publish-to-html
+    <span style="color: #61afef; font-weight: bold;">:section-numbers</span> nil
+    <span style="color: #61afef; font-weight: bold;">:with-toc</span> nil
+    <span style="color: #61afef; font-weight: bold;">:html-head</span> ,nico-website-html-blog-head
+    <span style="color: #61afef; font-weight: bold;">:html-head-extra</span>
+    <span style="color: #98be65;">"&lt;link rel=\"alternate\" type=\"application/rss+xml\"</span>
+    <span style="color: #98be65;">                href=\"http://nicolas-petton.fr/blog/blog.xml\"</span>
+    <span style="color: #98be65;">                title=\"RSS feed\"&gt;"</span>
+    <span style="color: #61afef; font-weight: bold;">:html-preamble</span> ,nico-website-html-preamble
+    <span style="color: #61afef; font-weight: bold;">:html-postamble</span> ,nico-website-html-postamble)
 
-    (<span style="color: #789771;">"images"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-directory</span> <span style="color: #789771;">"~/org/website/images/"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-extension</span> <span style="color: #789771;">"jpg</span><span style="color: #789771; font-weight: bold;">\\</span><span style="color: #789771; font-weight: bold;">|</span><span style="color: #789771;">gif</span><span style="color: #789771; font-weight: bold;">\\</span><span style="color: #789771; font-weight: bold;">|</span><span style="color: #789771;">png"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-directory</span> <span style="color: #789771;">"~/Public/nicolas-petton.fr/images/"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-function</span> org-publish-attachment)
+    (<span style="color: #98be65;">"images"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-directory</span> <span style="color: #98be65;">"~/org/website/images/"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-extension</span> <span style="color: #98be65;">"jpg</span><span style="color: #98be65; font-weight: bold;">\\</span><span style="color: #98be65; font-weight: bold;">|</span><span style="color: #98be65;">gif</span><span style="color: #98be65; font-weight: bold;">\\</span><span style="color: #98be65; font-weight: bold;">|</span><span style="color: #98be65;">png"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-directory</span> <span style="color: #98be65;">"~/Public/nicolas-petton.fr/images/"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-function</span> org-publish-attachment)
 
-    (<span style="color: #789771;">"js"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-directory</span> <span style="color: #789771;">"~/org/website/js/"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-extension</span> <span style="color: #789771;">"js"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-directory</span> <span style="color: #789771;">"~/Public/nicolas-petton.fr/js/"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-function</span> org-publish-attachment)
+    (<span style="color: #98be65;">"js"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-directory</span> <span style="color: #98be65;">"~/org/website/js/"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-extension</span> <span style="color: #98be65;">"js"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-directory</span> <span style="color: #98be65;">"~/Public/nicolas-petton.fr/js/"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-function</span> org-publish-attachment)
 
-    (<span style="color: #789771;">"css"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-directory</span> <span style="color: #789771;">"~/org/website/css/"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-extension</span> <span style="color: #789771;">"css"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-directory</span> <span style="color: #789771;">"~/Public/nicolas-petton.fr/css/"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-function</span> org-publish-attachment)
+    (<span style="color: #98be65;">"css"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-directory</span> <span style="color: #98be65;">"~/org/website/css/"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-extension</span> <span style="color: #98be65;">"css"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-directory</span> <span style="color: #98be65;">"~/Public/nicolas-petton.fr/css/"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-function</span> org-publish-attachment)
 
-    (<span style="color: #789771;">"rss"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-directory</span> <span style="color: #789771;">"~/org/website/blog"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:base-extension</span> <span style="color: #789771;">"org"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-directory</span> <span style="color: #789771;">"~/Public/nicolas-petton.fr/blog"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:publishing-function</span> (org-rss-publish-to-rss)
-    <span style="color: #ff6c6b; font-weight: bold;">:html-link-home</span> <span style="color: #789771;">"http://nicolas-petton.fr/"</span>
-    <span style="color: #ff6c6b; font-weight: bold;">:html-link-use-abs-url</span> t)
+    (<span style="color: #98be65;">"rss"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-directory</span> <span style="color: #98be65;">"~/org/website/blog"</span>
+    <span style="color: #61afef; font-weight: bold;">:base-extension</span> <span style="color: #98be65;">"org"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-directory</span> <span style="color: #98be65;">"~/Public/nicolas-petton.fr/blog"</span>
+    <span style="color: #61afef; font-weight: bold;">:publishing-function</span> (org-rss-publish-to-rss)
+    <span style="color: #61afef; font-weight: bold;">:html-link-home</span> <span style="color: #98be65;">"http://nicolas-petton.fr/"</span>
+    <span style="color: #61afef; font-weight: bold;">:html-link-use-abs-url</span> t)
 
-    (<span style="color: #789771;">"website"</span> <span style="color: #ff6c6b; font-weight: bold;">:components</span> (<span style="color: #789771;">"org"</span> <span style="color: #789771;">"blog"</span> <span style="color: #789771;">"images"</span> <span style="color: #789771;">"js"</span> <span style="color: #789771;">"css"</span> <span style="color: #789771;">"rss"</span>))))
+    (<span style="color: #98be65;">"website"</span> <span style="color: #61afef; font-weight: bold;">:components</span> (<span style="color: #98be65;">"org"</span> <span style="color: #98be65;">"blog"</span> <span style="color: #98be65;">"images"</span> <span style="color: #98be65;">"js"</span> <span style="color: #98be65;">"css"</span> <span style="color: #98be65;">"rss"</span>))))
     </pre>
     </div>
     ]]></description>

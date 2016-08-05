@@ -9,42 +9,41 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Interview RMoD #4: Jean-Baptiste Arnaud)</title>
+  <title>Interview RMoD #4: Jean-Baptiste Arnaud</title>
   <atom:link href="http://nicolas-petton.fr/blog/interview-jean-baptiste.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:50 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:50 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:33 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:33 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Interview RMoD #4: Jean-Baptiste Arnaud)</title>
+    <title>Interview RMoD #4: Jean-Baptiste Arnaud</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>Interview with *Jean-Baptiste* Arnaud</title>
-    <link>http://nicolas-petton.fr/blog/interview-jean-baptiste.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-jean-baptiste.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/interview-jean-baptiste.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-jean-baptiste.html#orgheadline1</guid>
     <pubDate>Wed, 11 Jun 2014 15:53:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     June 11, 2014
     </div>
 
     <p>
     This is the fourth post of my series of interviews, in which I
-    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team.
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team.
     </p>
 
     <p>
     Jean-Baptiste was already part of the team when I arrived, so as far
-    as I&rsquo;m concerned he&rsquo;s been there forever! He currently shares his
+    as I'm concerned he's been there forever! He currently shares his
     office with Damien Pollet, two doors from mine. 
     </p>
 
@@ -68,7 +67,7 @@
 
 
     <p>
-    My name is Jean-Baptiste Arnaud, I&rsquo;m 28 years old. I am in the Pharo
+    My name is Jean-Baptiste Arnaud, I'm 28 years old. I am in the Pharo
     community and in the RMoD team since 5 years. 
     </p>
 
@@ -85,8 +84,8 @@
 
     <p>
     When I was young, I wanted to be an inventor. You know like Gyro
-    Gearloose from &ldquo;Duck Tales&rdquo;. Unfortunately high school do not offer
-    this kind of career. I was always passionnate about &ldquo;how&rdquo; things
+    Gearloose from "Duck Tales". Unfortunately high school do not offer
+    this kind of career. I was always passionnate about "how" things
     work, this passion can probably explain my strange academic career:
     two years in Computer science, one year in biological science, two
     years in management (where I meet Stephane) and then my second
@@ -110,7 +109,7 @@
     <div class="figure">
     <p><img src="http://nicolas-petton.fr/blog/../images/jb-2.jpg" alt="Raspberry" align="center" />
     </p>
-    <p><span class="figure-number">Figure 2:</span> Two of JB&rsquo;s toys</p>
+    <p><span class="figure-number">Figure 2:</span> Two of JB's toys</p>
     </div>
 
     <p>
@@ -120,7 +119,7 @@
     <p>
     The first years, you enjoy it a lot: you have a lot to learn, to
     teach and you can have fun producing nice prototype :-).  It was
-    also my first real experience in the scientific world, I wasn&rsquo;t
+    also my first real experience in the scientific world, I wasn't
     really prepared to do a Phd. So it was a mix of bad and good
     surprises, but mostly good!
     </p>
@@ -162,7 +161,7 @@
 
     <p>
     I think most of the people expected my silence. But, I will answer a
-    &ldquo;little helper&rdquo; :-).
+    "little helper" :-).
     </p>
 
     <p>
@@ -179,7 +178,7 @@
 
     <p>
     If you liked this interview, you might also want to check out the
-    <a href="http://nicolas-petton.fr/blog/interview-stef.html">Interview with Stéphane Ducasse</a>.
+    <a href="http://nicolas-petton.fr/blog/interview-stef.html#MissingReference">Interview with Stéphane Ducasse</a>.
     </p>
 
 

@@ -9,30 +9,29 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>working-at-rmod</title>
+  <title></title>
   <atom:link href="http://nicolas-petton.fr/blog/working-at-rmod.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:46 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:46 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:24 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:24 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>working-at-rmod</title>
+    <title></title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
   <item>
     <title>*RMoD* A series of interviews</title>
-    <link>http://nicolas-petton.fr/blog/working-at-rmod.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/working-at-rmod.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/working-at-rmod.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/working-at-rmod.html#orgheadline1</guid>
     <pubDate>Tue, 14 Jan 2014 12:59:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     January 14, 2014
     </div>
 
@@ -46,8 +45,8 @@
     At RMoD we not only make <a href="http://pharo-project.org">Pharo</a>, <a href="http://amber-lang.net">Amber</a>, work on <a href="http://www.moosetechnology.org/">Moose</a> and do
     <a href="http://rmod.lille.inria.fr/web/pier/research">research</a>. For me the work is all about the people, the energy and
     shared passion. A lot of the culture of the team is actually built
-    <i>outside</i> of the office, during the friday evenings at <i>Café Citoyen</i>
-    sharing a beer, or during other events. I&rsquo;m actually proud to say
+    <i>outside</i> of the office, during the friday evenings at <a href="http://www.cafecitoyen.org">Café Citoyen</a>
+    sharing a beer, or during other events. I'm actually proud to say
     that many of my colleagues became very good friends over time.
     </p>
 

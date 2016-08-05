@@ -3,23 +3,30 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Amber's new compiler</title>
-<!-- 2015-06-14 Sun 15:37 -->
+<!-- 2016-08-05 Fri 12:03 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<title>Amber's new compiler</title>
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Nicolas Petton" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
   .todo   { font-family: monospace; color: red; }
-  .done   { color: green; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
   .tag    { background-color: #eee; font-family: monospace;
             padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
@@ -58,15 +65,14 @@
   caption.t-above { caption-side: top; }
   caption.t-bottom { caption-side: bottom; }
   td, th { vertical-align:top;  }
-  th.right  { text-align: center;  }
-  th.left   { text-align: center;   }
-  th.center { text-align: center; }
-  td.right  { text-align: right;  }
-  td.left   { text-align: left;   }
-  td.center { text-align: center; }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
   dt { font-weight: bold; }
-  .footpara:nth-child(2) { display: inline; }
-  .footpara { display: block; }
+  .footpara { display: inline; }
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
@@ -157,7 +163,7 @@ for the JavaScript code in this tag.
 <div id="preamble" class="status">
 <div class='intro'>
 <h1><b>Nicolas</b> Petton</h1>
-<p>Smalltalker, Lisper & Emacs maniac. Also loves the Web.</p>
+<p>Web developer, Lisper, Smalltalker & Emacs maniac.</p>
 </div>
 
 <div class='nav'>
@@ -173,10 +179,9 @@ for the JavaScript code in this tag.
 <div id="content">
 <h1 class="title">Amber's new compiler</h1>
 
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><a id="ID-57d2c75a-220f-43cd-97d1-ecd47f9010f8" name="ID-57d2c75a-220f-43cd-97d1-ecd47f9010f8"></a>Amber's new <b>compiler</b></h2>
-<div class="outline-text-2" id="text-1">
-
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1"><a id="ID-57d2c75a-220f-43cd-97d1-ecd47f9010f8"></a>Amber's new <b>compiler</b></h2>
+<div class="outline-text-2" id="text-orgheadline1">
 <div class="pubdate">
 October 18, 2013
 </div>
@@ -194,10 +199,9 @@ more flexible and extensible compiler.
 </p>
 </div>
 
-<div id="outline-container-sec-1-1" class="outline-3">
-<h3 id="sec-1-1"><a id="ID-b922a3e9-fa23-4db9-a86b-8df6bf730977" name="ID-b922a3e9-fa23-4db9-a86b-8df6bf730977"></a>The new architecture</h3>
-<div class="outline-text-3" id="text-1-1">
-
+<div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="orgheadline2"><a id="ID-b922a3e9-fa23-4db9-a86b-8df6bf730977"></a>The new architecture</h3>
+<div class="outline-text-3" id="text-orgheadline2">
 <p>
 The AST produced by the parser is first annotated and validated by
 the <code>SemanticAnalyzer</code>. The annotation step is important as it adds
@@ -212,8 +216,8 @@ directly in nodes.
 
 <pre class="src src-ruby">| ast ir output |
 
-ast := <span style="color: #92a65e; font-weight: bold;">Smalltalk</span> current <span style="color: #da8548; font-weight: bold;">parse</span>: <span style="color: #789771;">'foo true ifTrue: [ ^ self asString ]'</span>.
-(<span style="color: #92a65e; font-weight: bold;">SemanticAnalyzer</span> <span style="color: #da8548; font-weight: bold;">on</span>: <span style="color: #92a65e; font-weight: bold;">Object</span>) visit: ast.
+ast := <span style="color: #61afef;">Smalltalk</span> current <span style="color: #da8548; font-weight: bold;">parse:</span> <span style="color: #98be65;">'foo true ifTrue: [ ^ self asString ]'</span>.
+(<span style="color: #61afef;">SemanticAnalyzer</span> <span style="color: #da8548; font-weight: bold;">on:</span> <span style="color: #61afef;">Object</span>) visit: ast.
 </pre>
 </div>
 
@@ -228,7 +232,7 @@ cut down most of the tree into a flat list of instructions.
 
 <div class="org-src-container">
 
-<pre class="src src-ruby">ir := <span style="color: #92a65e; font-weight: bold;">IRASTTranslator</span> new <span style="color: #da8548; font-weight: bold;">visit</span>: ast.
+<pre class="src src-ruby">ir := <span style="color: #61afef;">IRASTTranslator</span> new <span style="color: #da8548; font-weight: bold;">visit:</span> ast.
 </pre>
 </div>
 
@@ -250,9 +254,9 @@ in the appropriate class.
 
 <div class="org-src-container">
 
-<pre class="src src-ruby">output := <span style="color: #92a65e; font-weight: bold;">IRJSTranslator</span> new
-     <span style="color: #da8548; font-weight: bold;">currentClass</span>: <span style="color: #92a65e; font-weight: bold;">Object</span>;
-     <span style="color: #da8548; font-weight: bold;">visit</span>: ir;
+<pre class="src src-ruby">output := <span style="color: #61afef;">IRJSTranslator</span> new
+     <span style="color: #da8548; font-weight: bold;">currentClass:</span> <span style="color: #61afef;">Object</span>;
+     <span style="color: #da8548; font-weight: bold;">visit:</span> ir;
      contents
 </pre>
 </div>
@@ -271,10 +275,9 @@ The following diagram shows the current architecture.
 </div>
 
 
-<div id="outline-container-sec-1-2" class="outline-3">
-<h3 id="sec-1-2"><a id="ID-b9289317-95e2-422d-b90c-7b0fcd7d7890" name="ID-b9289317-95e2-422d-b90c-7b0fcd7d7890"></a>The public API</h3>
-<div class="outline-text-3" id="text-1-2">
-
+<div id="outline-container-orgheadline3" class="outline-3">
+<h3 id="orgheadline3"><a id="ID-b9289317-95e2-422d-b90c-7b0fcd7d7890"></a>The public API</h3>
+<div class="outline-text-3" id="text-orgheadline3">
 <p>
 The <code>Compiler</code> facade hides all the internals away and provides the
 public API to compile and install methods in Amber. It internally
@@ -285,27 +288,26 @@ the optional inlining step.
 
 <div class="org-src-container">
 
-<pre class="src src-ruby"><span style="color: #789771;">"Compiling without installing"</span>
-<span style="color: #92a65e; font-weight: bold;">Compiler</span> new
-     <span style="color: #da8548; font-weight: bold;">codeGeneratorClass</span>: <span style="color: #92a65e; font-weight: bold;">InliningCodeGenerator</span>; <span style="color: #789771;">"Default, can be omitted"</span>
-     <span style="color: #da8548; font-weight: bold;">compile</span>: <span style="color: #789771;">'foo true ifTrue: [ ^ self asString ]'</span>
-     <span style="color: #da8548; font-weight: bold;">forClass</span>: <span style="color: #92a65e; font-weight: bold;">Object</span>.
+<pre class="src src-ruby"><span style="color: #98be65;">"Compiling without installing"</span>
+<span style="color: #61afef;">Compiler</span> new
+     <span style="color: #da8548; font-weight: bold;">codeGeneratorClass:</span> <span style="color: #61afef;">InliningCodeGenerator</span>; <span style="color: #98be65;">"Default, can be omitted"</span>
+     <span style="color: #da8548; font-weight: bold;">compile:</span> <span style="color: #98be65;">'foo true ifTrue: [ ^ self asString ]'</span>
+     <span style="color: #da8548; font-weight: bold;">forClass:</span> <span style="color: #61afef;">Object</span>.
 
-<span style="color: #789771;">"Compiling and installing"</span>
-<span style="color: #92a65e; font-weight: bold;">Compiler</span> new
-     <span style="color: #da8548; font-weight: bold;">codeGeneratorClass</span>: <span style="color: #92a65e; font-weight: bold;">InliningCodeGenerator</span>; <span style="color: #789771;">"Default, can be omitted"</span>
-     <span style="color: #da8548; font-weight: bold;">install</span>: <span style="color: #789771;">'foo true ifTrue: [ ^ self asString ]'</span>
-     <span style="color: #da8548; font-weight: bold;">forClass</span>: <span style="color: #92a65e; font-weight: bold;">Object</span>
-     <span style="color: #da8548; font-weight: bold;">category</span>: <span style="color: #789771;">'foo'</span>
+<span style="color: #98be65;">"Compiling and installing"</span>
+<span style="color: #61afef;">Compiler</span> new
+     <span style="color: #da8548; font-weight: bold;">codeGeneratorClass:</span> <span style="color: #61afef;">InliningCodeGenerator</span>; <span style="color: #98be65;">"Default, can be omitted"</span>
+     <span style="color: #da8548; font-weight: bold;">install:</span> <span style="color: #98be65;">'foo true ifTrue: [ ^ self asString ]'</span>
+     <span style="color: #da8548; font-weight: bold;">forClass:</span> <span style="color: #61afef;">Object</span>
+     <span style="color: #da8548; font-weight: bold;">category:</span> <span style="color: #98be65;">'foo'</span>
 </pre>
 </div>
 </div>
 </div>
 
-<div id="outline-container-sec-1-3" class="outline-3">
-<h3 id="sec-1-3"><a id="ID-f0d4cc95-d0ba-451b-984f-953b67c4c72d" name="ID-f0d4cc95-d0ba-451b-984f-953b67c4c72d"></a>The end</h3>
-<div class="outline-text-3" id="text-1-3">
-
+<div id="outline-container-orgheadline4" class="outline-3">
+<h3 id="orgheadline4"><a id="ID-f0d4cc95-d0ba-451b-984f-953b67c4c72d"></a>The end</h3>
+<div class="outline-text-3" id="text-orgheadline4">
 <p>
 That's all for now. The new compiler is a very important brick for
 Amber. There is still room for improvement, as the generated code
@@ -345,9 +347,9 @@ steps. Stay tuned!
     $('p').addClass('hyphenate');
    Hyphenator.run();
 </script><div class='footer'>
-Copyright 2015 Nicolas Petton.<br>
-Last updated 2015-04-29 Wed 18:34. <br>
-Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10).
+Copyright 2016 Nicolas Petton.<br>
+Last updated 2016-08-05 Fri 12:02. <br>
+Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.3.5).
 </div>
 </div>
 </body>

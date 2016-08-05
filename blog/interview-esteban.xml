@@ -9,37 +9,36 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Interview RMoD #2: Esteban Lorenzano)</title>
+  <title>Interview RMoD #2: Esteban Lorenzano</title>
   <atom:link href="http://nicolas-petton.fr/blog/interview-esteban.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:52 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:52 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:34 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:34 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Interview RMoD #2: Esteban Lorenzano)</title>
+    <title>Interview RMoD #2: Esteban Lorenzano</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>Interview with *Esteban* Lorenzano</title>
-    <link>http://nicolas-petton.fr/blog/interview-esteban.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-esteban.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/interview-esteban.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/interview-esteban.html#orgheadline1</guid>
     <pubDate>Thu, 06 Feb 2014 17:03:00 +0100</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     February 6, 2014
     </div>
 
     <p>
     This is the second post of my series of interviews, in which I
-    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team. After the <a href="http://nicolas-petton.fr/blog/interview-damien.html">interview of
+    <a href="http://nicolas-petton.fr/blog/working-at-rmod.html#MissingReference">interview my colleagues</a> of the <a href="http://rmod.lille.inria.fr/web/">RMoD</a> team. After the <a href="http://nicolas-petton.fr/blog/interview-damien.html#MissingReference">interview of
     Damien Cassou</a>, I interview <a href="http://smallworks.com.ar/web/blog">Esteban Lorenzano</a>.
     </p>
 
@@ -71,8 +70,8 @@
     </p>
 
     <p>
-    Well, my name is Esteban Lorenzano and I&rsquo;m argentinian (one of the
-    many argentinians in the Pharo community). I&rsquo;m 42 years old and I&rsquo;ve
+    Well, my name is Esteban Lorenzano and I'm argentinian (one of the
+    many argentinians in the Pharo community). I'm 42 years old and I've
     spent the biggest part of my life programming, since I saw a
     Commodore computer in a supermarket, when I was fourteen. 
     </p>
@@ -83,11 +82,11 @@
     moment and forever. It was not always easy though, and I spent too
     many years programming in mainstream languages (I like some, I hate
     others) until I re-discovered my programmer vocation one day that I
-    downloaded a Seaside image, &ldquo;just to have inspiration and fun, while
-    working on really boring stuff&rdquo;... and the rest is history: I left
-    my position as a &ldquo;senior architect&rdquo; and founded my own company
+    downloaded a Seaside image, "just to have inspiration and fun, while
+    working on really boring stuff"... and the rest is history: I left
+    my position as a "senior architect" and founded my own company
     <a href="http://smallworks.eu">smallworks.eu</a> with two friends to work on Pharo (very new at the
-    moment) and Seaside, and I&rsquo;ve been contributing to Pharo since then,
+    moment) and Seaside, and I've been contributing to Pharo since then,
     in different small projects.
     </p>
 
@@ -101,7 +100,7 @@
     </p>
 
     <p>
-    When I&rsquo;m not hacking something (at work or at my place), I have also
+    When I'm not hacking something (at work or at my place), I have also
     a lot of different interests: I love to read, to write stories, to
     travel, to learn new stuff: I studied philosophy (yet not finished)
     and I try to be aware of the problems at my country and the world
@@ -113,7 +112,7 @@
     <div class="figure">
     <p><img src="http://nicolas-petton.fr/blog/../images/esteban2.jpg" alt="Mate image" align="center" />
     </p>
-    <p><span class="figure-number">Figure 2:</span> Esteban&rsquo;s Mate</p>
+    <p><span class="figure-number">Figure 2:</span> Esteban's Mate</p>
     </div>
 
     <p>
@@ -146,7 +145,7 @@
 
     <p>
     The composition of the team is very international, and because of that
-    the &ldquo;official language&rdquo; is english (oh, well... a weird dialect of it,
+    the "official language" is english (oh, well... a weird dialect of it,
     the RMoD-English, which is like a combination of french, spanish, some
     german and english, everything in all kind of different and strong
     accents). But what is an advantage at work, and proved to be a problem
@@ -158,13 +157,13 @@
 
     <p>
     Before french my week was more or less like this: I wake up (when I
-    wake up... I&rsquo;m argentinian, which basically means I sleep late and
+    wake up... I'm argentinian, which basically means I sleep late and
     wake up even later) then I go to office (a really nice building in a
     scientific park) and spend there... well, a lot of time. After that
     I can go to do some sport, or (more likely) go to down town for a
     beer or a wine with some of the team, usually <a href="http://nicolas-petton.fr">Nico</a>, <a href="http://marcusdenker.de/">Marcus</a>, Martin,
     <a href="https://twitter.com/camillobruni">Camillo</a> and <a href="http://benjamin.vanryseghem.com/">Ben</a> (time to time others join, but we are the
-    &ldquo;regulars&rdquo;),we even have &ldquo;our place&rdquo;, a nice café (le café citoyen),
+    "regulars"),we even have "our place", a nice café (le café citoyen),
     very close to the main square.
     </p>
 
@@ -192,7 +191,7 @@
 
     <p>
     If you liked this interview, you might also want to check out the
-    <a href="http://nicolas-petton.fr/blog/interview-damien.html">interview of Damien Cassou</a>.
+    <a href="http://nicolas-petton.fr/blog/interview-damien.html#MissingReference">interview of Damien Cassou</a>.
     </p>
 
     <div id="disqus_thread"></div>

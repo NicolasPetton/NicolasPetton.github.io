@@ -9,58 +9,57 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(A dark window decoration for Emacs)</title>
+  <title>A dark window decoration for Emacs</title>
   <atom:link href="http://nicolas-petton.fr/blog/emacs-dark-window-decoration.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:55 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:55 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:38 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:38 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(A dark window decoration for Emacs)</title>
+    <title>A dark window decoration for Emacs</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>*Dark Emacs windows* in GNOME</title>
-    <link>http://nicolas-petton.fr/blog/emacs-dark-window-decoration.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/emacs-dark-window-decoration.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/emacs-dark-window-decoration.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/emacs-dark-window-decoration.html#orgheadline1</guid>
     <pubDate>Fri, 29 Aug 2014 09:25:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <p>
-    Gnome 3&rsquo;s default theme Adwaita has support for both light and dark
+    <description><![CDATA[<p>
+    Gnome 3's default theme Adwaita has support for both light and dark
     window decorations. Many media apps like Totem use the dark theme. It
-    puts the focus on the content and it&rsquo;s easier on the eyes.
+    puts the focus on the content and it's easier on the eyes.
     </p>
 
     <p>
     Emacs with a <a href="https://github.com/niflheim-theme/emacs">dark theme</a> and the large white-ish window decoration
-    isn&rsquo;t really a fit on my desktop, but that can be easily fixed using a
+    isn't really a fit on my desktop, but that can be easily fixed using a
     bit of elisp with xprop!
     </p>
 
     <div class="org-src-container">
 
-    <pre class="src src-emacs-lisp">(<span style="color: #f7af75; font-weight: bold;">defun</span> <span style="color: #cbaaf5;">set-selected-frame-dark</span> ()
-    (interactive)
-    (<span style="color: #f7af75; font-weight: bold;">let</span> ((frame-name (get-frame-name (selected-frame))))
-    (call-process-shell-command (concat <span style="color: #789771;">"xprop -f _GTK_THEME_VARIANT 8u -set _GTK_THEME_VARIANT \"dark\" -name \""</span>
+    <pre class="src src-emacs-lisp">(<span style="color: #c678dd; font-weight: bold;">defun</span> <span style="color: #61afef;">set-selected-frame-dark</span> ()
+    (<span style="color: #c678dd; font-weight: bold;">interactive</span>)
+    (<span style="color: #c678dd; font-weight: bold;">let</span> ((frame-name (get-frame-name (selected-frame))))
+    (call-process-shell-command (concat <span style="color: #98be65;">"xprop -f _GTK_THEME_VARIANT 8u -set _GTK_THEME_VARIANT \"dark\" -name \""</span>
     frame-name
-    <span style="color: #789771;">"\""</span>))))
+    <span style="color: #98be65;">"\""</span>))))
 
-    (<span style="color: #f7af75; font-weight: bold;">if</span> (window-system)
+    (<span style="color: #c678dd; font-weight: bold;">if</span> (window-system)
     (set-selected-frame-dark))
     </pre>
     </div>
 
     <p>
-    Here&rsquo;s a screenshot of both versions:
+    Here's a screenshot of both versions:
     </p>
 
     <p>

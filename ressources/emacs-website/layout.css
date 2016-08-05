@@ -263,27 +263,25 @@ li {
 
 .header .logo {
   overflow: hidden;
-  text-align: center;
   z-index: 1;
 }
 
 .header .logo img {
   max-height: 100px;
-  vertical-align: top;
+  float: left;
 }
 
 .header .logo h1 {
-  display: inline;
+  float: left;
   font-size: 4em;
   line-height: 110px;
-  margin: 0 10px;
+  margin: 0 20px;
   font-weight: 600;
 }
 
 .header h2 {
   z-index: 1;
-  margin: 0 auto;
-  text-align: center;
+  margin: 0;
   margin-bottom: 10px;
   font-size: 2.6em;
   line-height: 1.3em;
@@ -298,8 +296,7 @@ li {
 }
 
 .header p {
-  margin: 0 auto;
-  text-align: center;
+  margin: 0;
   max-width: 760px;
   font-weight: 300;
   font-size: 1.2em;
@@ -457,12 +454,11 @@ li {
 }
 
 #fssbox {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 #fssbox form {
   margin-bottom: 40px;
-  margin-top: 20px;
 }
 
 #fssbox p {
@@ -924,10 +920,6 @@ li {
 
   .header nav.gnu-nav a {
     border-color: #ccc;
-  }
-
-  .header .teaser {
-    margin-top: 20px;
   }
 
   .fsf-banner img {

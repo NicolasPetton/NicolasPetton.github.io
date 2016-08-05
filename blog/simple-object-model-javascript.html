@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-02-22 Mon 09:30 -->
+<!-- 2016-08-05 Fri 12:03 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>A simple object model in JavaScript</title>
@@ -163,7 +163,7 @@ for the JavaScript code in this tag.
 <div id="preamble" class="status">
 <div class='intro'>
 <h1><b>Nicolas</b> Petton</h1>
-<p>Smalltalker, Lisper & Emacs maniac. Also loves the Web.</p>
+<p>Web developer, Lisper, Smalltalker & Emacs maniac.</p>
 </div>
 
 <div class='nav'>
@@ -199,32 +199,32 @@ described by Douglas Crockford in his book "JavaScript, the good parts" as
 
 <div class="org-src-container">
 
-<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">animal</span>(<span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-    spec = spec || {};
-    my = my || {};
+<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">animal</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+    <span style="color: #c678dd; font-weight: bold;">spec</span> = <span style="color: #c678dd; font-weight: bold;">spec</span> || {};
+    <span style="color: #c678dd; font-weight: bold;">my</span> = <span style="color: #c678dd; font-weight: bold;">my</span> || {};
 
-    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">that</span> = {};
+    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #c678dd; font-weight: bold;">that</span> = {};
 
-    my.name = spec.name;
+    <span style="color: #c678dd; font-weight: bold;">my</span>.name = <span style="color: #c678dd; font-weight: bold;">spec</span>.name;
 
-    that.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        <span style="color: #c678dd; font-weight: bold;">return</span> my.name;
+    <span style="color: #c678dd; font-weight: bold;">that</span>.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">my</span>.name;
     };
 
-    <span style="color: #c678dd; font-weight: bold;">return</span> that;
+    <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">that</span>;
 }
 
-<span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">dog</span>(<span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-    spec = spec || {};
-    my = my || {};
+<span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">dog</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+    <span style="color: #c678dd; font-weight: bold;">spec</span> = <span style="color: #c678dd; font-weight: bold;">spec</span> || {};
+    <span style="color: #c678dd; font-weight: bold;">my</span> = <span style="color: #c678dd; font-weight: bold;">my</span> || {};
 
-    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">that</span> = animal(spec, my);
+    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #c678dd; font-weight: bold;">that</span> = animal(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>);
 
-    that.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #98be65;">'dog named'</span> + my.name;
+    <span style="color: #c678dd; font-weight: bold;">that</span>.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #98be65;">'dog named'</span> + <span style="color: #c678dd; font-weight: bold;">my</span>.name;
     };
 
-    <span style="color: #c678dd; font-weight: bold;">return</span> that;
+    <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">that</span>;
 }
 </pre>
 </div>
@@ -247,15 +247,15 @@ keep repeating the same code over and over again:
 
 <div class="org-src-container">
 
-<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">foo</span>(<span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-    spec = spec || {};
-    my = my || {};
+<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">foo</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+    <span style="color: #c678dd; font-weight: bold;">spec</span> = <span style="color: #c678dd; font-weight: bold;">spec</span> || {};
+    <span style="color: #c678dd; font-weight: bold;">my</span> = <span style="color: #c678dd; font-weight: bold;">my</span> || {};
 
-    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">that</span> = {};
+    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #c678dd; font-weight: bold;">that</span> = {};
 
     [...]
 
-    <span style="color: #c678dd; font-weight: bold;">return</span> that;
+    <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">that</span>;
 }
 </pre>
 </div>
@@ -289,35 +289,35 @@ following:
 
 <div class="org-src-container">
 
-<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">a</span>(<span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-    spec = spec || {};
-    my = my || {};
+<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">a</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+    <span style="color: #c678dd; font-weight: bold;">spec</span> = <span style="color: #c678dd; font-weight: bold;">spec</span> || {};
+    <span style="color: #c678dd; font-weight: bold;">my</span> = <span style="color: #c678dd; font-weight: bold;">my</span> || {};
 
-    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">that</span> = {};
+    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #c678dd; font-weight: bold;">that</span> = {};
 
-    that.foo = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        <span style="color: #c678dd; font-weight: bold;">return</span> that.basicFoo();
+    <span style="color: #c678dd; font-weight: bold;">that</span>.foo = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">that</span>.basicFoo();
     };
 
-    that.basicFoo = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+    <span style="color: #c678dd; font-weight: bold;">that</span>.basicFoo = <span style="color: #c678dd; font-weight: bold;">function</span>() {
         [...]
     };
 
-    <span style="color: #c678dd; font-weight: bold;">return</span> that;
+    <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">that</span>;
 }
 
-<span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">b</span>(<span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-    spec = spec || {};
-    my = my || {};
+<span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">b</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+    <span style="color: #c678dd; font-weight: bold;">spec</span> = <span style="color: #c678dd; font-weight: bold;">spec</span> || {};
+    <span style="color: #c678dd; font-weight: bold;">my</span> = <span style="color: #c678dd; font-weight: bold;">my</span> || {};
 
-    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">that</span> = a(spec, my);
+    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #c678dd; font-weight: bold;">that</span> = a(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>);
 
-    that.foo = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">basicFoo</span> = that.basicFoo();
+    <span style="color: #c678dd; font-weight: bold;">that</span>.foo = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">basicFoo</span> = <span style="color: #c678dd; font-weight: bold;">that</span>.basicFoo();
             [...]
     };
 
-    <span style="color: #c678dd; font-weight: bold;">return</span> that;
+    <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">that</span>;
 }
 </pre>
 </div>
@@ -351,12 +351,12 @@ lowercase "o"):
 
 <div class="org-src-container">
 
-<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">object</span>(<span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">that</span> = {};
+<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">object</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #c678dd; font-weight: bold;">that</span> = {};
 
-    that.initialize = <span style="color: #c678dd; font-weight: bold;">function</span>() {};
+    <span style="color: #c678dd; font-weight: bold;">that</span>.initialize = <span style="color: #c678dd; font-weight: bold;">function</span>() {};
 
-    <span style="color: #c678dd; font-weight: bold;">return</span> that;
+    <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">that</span>;
 }
 </pre>
 </div>
@@ -369,15 +369,15 @@ encapsulate the object creation:
 <div class="org-src-container">
 
 <pre class="src src-js">object.subclass = <span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">builder</span>) {
-    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">that</span> = <span style="color: #da8548; font-weight: bold;">this</span>;
+    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #c678dd; font-weight: bold;">that</span> = <span style="color: #da8548; font-weight: bold;">this</span>;
 
-    <span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">klass</span>(<span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-        spec = spec || {};
-        my = my || {};
+    <span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">klass</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+        <span style="color: #c678dd; font-weight: bold;">spec</span> = <span style="color: #c678dd; font-weight: bold;">spec</span> || {};
+        <span style="color: #c678dd; font-weight: bold;">my</span> = <span style="color: #c678dd; font-weight: bold;">my</span> || {};
 
-        <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">instance</span> = that(spec, my);
+        <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">instance</span> = <span style="color: #c678dd; font-weight: bold;">that</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>);
 
-        builder(instance, spec, my);
+        builder(instance, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>);
         instance.initialize();
 
         <span style="color: #c678dd; font-weight: bold;">return</span> instance;
@@ -394,21 +394,21 @@ Ok, let's see how the first example looks like now:
 
 <div class="org-src-container">
 
-<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">animal</span> = object.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">that</span>, <span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
+<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">animal</span> = object.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #c678dd; font-weight: bold;">that</span>, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
 
-    that.initialize = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        my.name = spec.name;
+    <span style="color: #c678dd; font-weight: bold;">that</span>.initialize = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">my</span>.name = <span style="color: #c678dd; font-weight: bold;">spec</span>.name;
     }
 
-    that.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        <span style="color: #c678dd; font-weight: bold;">return</span> my.name;
+    <span style="color: #c678dd; font-weight: bold;">that</span>.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">my</span>.name;
     };
 });
 
-<span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">dog</span> = animal.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">that</span>, <span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
+<span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">dog</span> = animal.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #c678dd; font-weight: bold;">that</span>, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
 
-    that.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #98be65;">'dog named'</span> + my.name;
+    <span style="color: #c678dd; font-weight: bold;">that</span>.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #98be65;">'dog named'</span> + <span style="color: #c678dd; font-weight: bold;">my</span>.name;
     };
 });
 </pre>
@@ -440,19 +440,19 @@ of an infrastructure, that's something easy enough to fix!
 <div class="org-src-container">
 
 <pre class="src src-js">object.subclass = <span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">builder</span>) {
-    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">that</span> = <span style="color: #da8548; font-weight: bold;">this</span>;
+    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #c678dd; font-weight: bold;">that</span> = <span style="color: #da8548; font-weight: bold;">this</span>;
 
-    <span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">klass</span>(<span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-            spec = spec || {};
-            my = my || {};
+    <span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">klass</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+            <span style="color: #c678dd; font-weight: bold;">spec</span> = <span style="color: #c678dd; font-weight: bold;">spec</span> || {};
+            <span style="color: #c678dd; font-weight: bold;">my</span> = <span style="color: #c678dd; font-weight: bold;">my</span> || {};
 
-            <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">instance</span> = that(spec, my);
+            <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">instance</span> = <span style="color: #c678dd; font-weight: bold;">that</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>);
 
             <span style="color: #687080; font-style: italic;">// </span><span style="color: #687080; font-style: italic;">access to super for public and protected properties.</span>
             instance.<span style="color: #c678dd; font-weight: bold;">super</span> = Object.assign({}, instance);
-            my.<span style="color: #c678dd; font-weight: bold;">super</span> = Object.assign({}, my);
+            <span style="color: #c678dd; font-weight: bold;">my</span>.<span style="color: #c678dd; font-weight: bold;">super</span> = Object.assign({}, <span style="color: #c678dd; font-weight: bold;">my</span>);
 
-            builder(instance, spec, my);
+            builder(instance, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>);
             instance.initialize();
 
             <span style="color: #c678dd; font-weight: bold;">return</span> instance;
@@ -470,21 +470,21 @@ Now, we have access to <code>super</code> for both public and protected methods 
 
 <div class="org-src-container">
 
-<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">animal</span> = object.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">that</span>, <span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
+<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">animal</span> = object.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #c678dd; font-weight: bold;">that</span>, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
 
-    that.initialize = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        my.name = spec.name;
+    <span style="color: #c678dd; font-weight: bold;">that</span>.initialize = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">my</span>.name = <span style="color: #c678dd; font-weight: bold;">spec</span>.name;
     }
 
-    that.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        <span style="color: #c678dd; font-weight: bold;">return</span> my.name;
+    <span style="color: #c678dd; font-weight: bold;">that</span>.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">my</span>.name;
     };
 });
 
-<span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">dog</span> = animal.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">that</span>, <span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
+<span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">dog</span> = animal.subclass(<span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #c678dd; font-weight: bold;">that</span>, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
 
-    that.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
-        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #98be65;">'dog named'</span> + that.<span style="color: #c678dd; font-weight: bold;">super</span>.getName();
+    <span style="color: #c678dd; font-weight: bold;">that</span>.getName = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+        <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #98be65;">'dog named'</span> + <span style="color: #c678dd; font-weight: bold;">that</span>.<span style="color: #c678dd; font-weight: bold;">super</span>.getName();
     };
 });
 </pre>
@@ -497,24 +497,24 @@ methods, access to the subclasses, and some other goodies.
 
 <div class="org-src-container">
 
-<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">object</span>(<span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">that</span> = {};
+<pre class="src src-js"><span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">object</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #c678dd; font-weight: bold;">that</span> = {};
 
-    that.klass = object;
+    <span style="color: #c678dd; font-weight: bold;">that</span>.klass = object;
 
     <span style="color: #687080; font-style: italic;">/**</span>
 <span style="color: #687080; font-style: italic;">     * initialize is called by the framework upon object instantiation.</span>
 <span style="color: #687080; font-style: italic;">     */</span>
-    that.initialize = <span style="color: #c678dd; font-weight: bold;">function</span>() {};
+    <span style="color: #c678dd; font-weight: bold;">that</span>.initialize = <span style="color: #c678dd; font-weight: bold;">function</span>() {};
 
     <span style="color: #687080; font-style: italic;">/**</span>
 <span style="color: #687080; font-style: italic;">     * Throws an error because the method should have been overridden.</span>
 <span style="color: #687080; font-style: italic;">     */</span>
-    that.subclassResponsibility = <span style="color: #c678dd; font-weight: bold;">function</span>() {
+    <span style="color: #c678dd; font-weight: bold;">that</span>.subclassResponsibility = <span style="color: #c678dd; font-weight: bold;">function</span>() {
             <span style="color: #c678dd; font-weight: bold;">throw</span> <span style="color: #c678dd; font-weight: bold;">new</span> <span style="color: #61afef;">Error</span>(<span style="color: #98be65;">"Subclass responsibility"</span>);
     };
 
-    <span style="color: #c678dd; font-weight: bold;">return</span> that;
+    <span style="color: #c678dd; font-weight: bold;">return</span> <span style="color: #c678dd; font-weight: bold;">that</span>;
 }
 
 <span style="color: #687080; font-style: italic;">/**</span>
@@ -536,31 +536,31 @@ object.allSubclasses = <span style="color: #c678dd; font-weight: bold;">function
 };
 
 object.subclass = <span style="color: #c678dd; font-weight: bold;">function</span>(<span style="color: #61afef;">builder</span>) {
-    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">that</span> = <span style="color: #da8548; font-weight: bold;">this</span>;
+    <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #c678dd; font-weight: bold;">that</span> = <span style="color: #da8548; font-weight: bold;">this</span>;
 
-    <span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">klass</span>(<span style="color: #61afef;">spec</span>, <span style="color: #61afef;">my</span>) {
-            spec = spec || {};
-            my = my || {};
+    <span style="color: #c678dd; font-weight: bold;">function</span> <span style="color: #61afef;">klass</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>) {
+            <span style="color: #c678dd; font-weight: bold;">spec</span> = <span style="color: #c678dd; font-weight: bold;">spec</span> || {};
+            <span style="color: #c678dd; font-weight: bold;">my</span> = <span style="color: #c678dd; font-weight: bold;">my</span> || {};
 
-            <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">instance</span> = that(spec, my);
+            <span style="color: #c678dd; font-weight: bold;">var</span> <span style="color: #61afef;">instance</span> = <span style="color: #c678dd; font-weight: bold;">that</span>(<span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>);
 
             instance.<span style="color: #c678dd; font-weight: bold;">class</span> = klass;
 
             <span style="color: #687080; font-style: italic;">// </span><span style="color: #687080; font-style: italic;">access to super for public and protected properties.</span>
             instance.<span style="color: #c678dd; font-weight: bold;">super</span> = Object.assign({}, instance);
-            my.<span style="color: #c678dd; font-weight: bold;">super</span> = Object.assign({}, my);
+            <span style="color: #c678dd; font-weight: bold;">my</span>.<span style="color: #c678dd; font-weight: bold;">super</span> = Object.assign({}, <span style="color: #c678dd; font-weight: bold;">my</span>);
 
-            builder(instance, spec, my);
+            builder(instance, <span style="color: #c678dd; font-weight: bold;">spec</span>, <span style="color: #c678dd; font-weight: bold;">my</span>);
             instance.initialize();
 
             <span style="color: #c678dd; font-weight: bold;">return</span> instance;
     }
 
     <span style="color: #687080; font-style: italic;">// </span><span style="color: #687080; font-style: italic;">static inheritance</span>
-    Object.assign(klass, that);
+    Object.assign(klass, <span style="color: #c678dd; font-weight: bold;">that</span>);
 
     klass.subclasses = [];
-    that.subclasses.push(klass);
+    <span style="color: #c678dd; font-weight: bold;">that</span>.subclasses.push(klass);
 
     <span style="color: #c678dd; font-weight: bold;">return</span> klass;
 };
@@ -632,8 +632,8 @@ mostly because that's exactly how we think of them when writing code.
    Hyphenator.run();
 </script><div class='footer'>
 Copyright 2016 Nicolas Petton.<br>
-Last updated 2016-02-22 Mon 08:52. <br>
-Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.50.1 (<a href="http://orgmode.org">Org</a> mode 8.3.3).
+Last updated 2016-08-05 Fri 12:01. <br>
+Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.3.5).
 </div>
 </div>
 </body>

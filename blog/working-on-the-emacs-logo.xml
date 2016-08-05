@@ -9,18 +9,18 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Working on the Emacs logo)</title>
+  <title>Working on the Emacs logo</title>
   <atom:link href="http://nicolas-petton.fr/blog/working-on-the-emacs-logo.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 22 Oct 2015 00:48:18 +0200</pubDate>
-  <lastBuildDate>Thu, 22 Oct 2015 00:48:18 +0200</lastBuildDate>
-  <generator>Emacs 25.0 Org-mode 8.3.2</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:24 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:24 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Working on the Emacs logo)</title>
+    <title>Working on the Emacs logo</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
@@ -28,7 +28,7 @@
   <item>
     <title>Working on the *Emacs logo*</title>
     <link>http://nicolas-petton.fr/blog/working-on-the-emacs-logo.html#orgheadline1</link>
-    <author>Nicolas Petton</author>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/working-on-the-emacs-logo.html#orgheadline1</guid>
     <pubDate>Wed, 21 Oct 2015 18:49:00 +0200</pubDate>
 

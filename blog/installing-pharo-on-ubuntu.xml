@@ -9,31 +9,30 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Installing Pharo on Ubuntu)</title>
+  <title>Installing Pharo on Ubuntu</title>
   <atom:link href="http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:53 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:53 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:36 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:36 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>(Installing Pharo on Ubuntu)</title>
+    <title>Installing Pharo on Ubuntu</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
 
   <item>
     <title>Installing *Pharo on Ubuntu*</title>
-    <link>http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.html#sec-1</link>
-    <author>Nicolas Petton</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.html#sec-1</guid>
+    <link>http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.html#orgheadline1</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/installing-pharo-on-ubuntu.html#orgheadline1</guid>
     <pubDate>Tue, 15 Oct 2013 20:59:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <div class="pubdate">
+    <description><![CDATA[<div class="pubdate">
     <p>
     October 15, 2013
     </p>
@@ -42,7 +41,7 @@
 
 
     <p>
-    I&rsquo;m always surprised when I see that people are still installing the
+    I'm always surprised when I see that people are still installing the
     <a href="http://pharo-project.org">Pharo</a> Virtual Machine by hand on Ubuntu while <a href="http://damiencassou.seasidehosting.st">Damien Cassou</a> has made
     a ppa for it.
     </p>
@@ -55,7 +54,7 @@
     </p>
 
     <p>
-    Here&rsquo;s how to install it:
+    Here's how to install it:
     </p>
 
     <div class="org-src-container">
@@ -67,11 +66,11 @@
     </div>
 
     <p>
-    There&rsquo;s no excuse to have an outdated Pharo VM anymore!
+    There's no excuse to have an outdated Pharo VM anymore!
     </p>
 
     <p>
-    For OSX/other Linux distributions there&rsquo;s always <a href="http://get.pharo.org">get.pharo.org</a>.
+    For OSX/other Linux distributions there's always <a href="http://get.pharo.org">get.pharo.org</a>.
     </p>
     ]]></description>
   </item>

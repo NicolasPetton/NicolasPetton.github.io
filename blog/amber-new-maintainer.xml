@@ -9,18 +9,18 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>((bold (:begin 1 :end 9 :contents-begin 2 :contents-end 7 :post-blank 1 :parent #0) Amber) update)</title>
+  <title><b>Amber</b> update</title>
   <atom:link href="http://nicolas-petton.fr/blog/amber-new-maintainer.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 29 Apr 2015 18:34:56 +0200</pubDate>
-  <lastBuildDate>Wed, 29 Apr 2015 18:34:56 +0200</lastBuildDate>
-  <generator>Emacs 24.4 Org-mode 8.2.10</generator>
+  <pubDate>Fri, 05 Aug 2016 12:03:40 +0200</pubDate>
+  <lastBuildDate>Fri, 05 Aug 2016 12:03:40 +0200</lastBuildDate>
+  <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>((bold (:begin 1 :end 9 :contents-begin 2 :contents-end 7 :post-blank 1 :parent #0) Amber) update)</title>
+    <title><b>Amber</b> update</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
@@ -28,13 +28,12 @@
   <item>
     <title>*Amber* has a new maintainer</title>
     <link>http://nicolas-petton.fr/blog/amber-new-maintainer.html</link>
-    <author>Nicolas Petton</author>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
     <guid isPermaLink="false">http://nicolas-petton.fr/blog/amber-new-maintainer.html</guid>
     <pubDate>Thu, 11 Sep 2014 16:05:00 +0200</pubDate>
 
-    <description><![CDATA[
-    <p>
-    As you have probably noticed, I&rsquo;ve been a bit away from Amber for some
+    <description><![CDATA[<p>
+    As you have probably noticed, I've been a bit away from Amber for some
     time.
     </p>
 
@@ -49,7 +48,7 @@
     </p>
 
     <p>
-    It does not mean that I will totally disappear, I&rsquo;ll stay around!
+    It does not mean that I will totally disappear, I'll stay around!
     </p>
 
     <div id="disqus_thread"></div>
