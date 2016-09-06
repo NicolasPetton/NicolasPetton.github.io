@@ -9,18 +9,18 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Data binding with <b>objectjs</b></title>
+  <title>Data binding with objectjs</title>
   <atom:link href="http://nicolas-petton.fr/blog/objectjs-data-binding.xml" rel="self" type="application/rss+xml" />
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 07 Sep 2016 00:48:16 +0200</pubDate>
-  <lastBuildDate>Wed, 07 Sep 2016 00:48:16 +0200</lastBuildDate>
+  <pubDate>Wed, 07 Sep 2016 00:49:07 +0200</pubDate>
+  <lastBuildDate>Wed, 07 Sep 2016 00:49:07 +0200</lastBuildDate>
   <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
     <url>http://nicolas-petton.fr/images/nicolas-petton.png</url>
-    <title>Data binding with <b>objectjs</b></title>
+    <title>Data binding with objectjs</title>
     <link>http://nicolas-petton.fr/blog/</link>
   </image>
 
