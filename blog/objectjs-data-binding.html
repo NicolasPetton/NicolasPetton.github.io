@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-09-06 Tue 22:24 -->
+<!-- 2016-09-06 Tue 22:32 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>Data binding with <b>objectjs</b></title>
@@ -300,8 +300,8 @@ changes.  That's easy enough with ECMAScript5 <a href="https://developer.mozilla
 <p>
 As you can see, we're defining a property by name, with a custom getter and
 setter that will trigger an event <b>each time the property is accessed and
-updated</b>.  I'm leaving details about <code>emitPropertyChange</code> here, but you can
-have a look at the <a href="https://github.com/foretagsplatsen/objectjs/pull/20">source</a>.
+updated</b>.  I'm leaving out the details about <code>emitPropertyChange</code> here, but you
+can have a look at the <a href="https://github.com/foretagsplatsen/objectjs/pull/20">source</a>.
 </p>
 
 <p>
@@ -323,7 +323,7 @@ objectjs.propertyEventEmitter.instance().onAccess(<span style="color: #c678dd; f
 <p>
 The only fancy thing here being <code>currentWidget</code>: during the rendering phase, we
 keep track of the current widget being rendered.  This way we know at any time
-in the rendering which widget shoud listen to property changes.
+during the rendering which widget should listen to property changes.
 </p>
 </div>
 </div>
@@ -332,7 +332,7 @@ in the rendering which widget shoud listen to property changes.
 <h3 id="orgheadline4"><a id="ID-376360ca-05a7-4d94-854e-19093228cdab"></a>A better counter example</h3>
 <div class="outline-text-3" id="text-orgheadline4">
 <p>
-Now that we can define properties and let the widgets update themselves whenever they change:
+Now we can define properties and let the widgets update themselves whenever they change:
 </p>
 
 <div class="org-src-container">
@@ -421,7 +421,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
    Hyphenator.run();
 </script><div class='footer'>
 Copyright 2016 Nicolas Petton.<br>
-Last updated 2016-09-06 Tue 22:20. <br>
+Last updated 2016-09-06 Tue 22:32. <br>
 Built with <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.3.5).
 </div>
 </div>

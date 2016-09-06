@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 06 Sep 2016 22:24:50 +0200</pubDate>
-  <lastBuildDate>Tue, 06 Sep 2016 22:24:50 +0200</lastBuildDate>
+  <pubDate>Tue, 06 Sep 2016 22:32:30 +0200</pubDate>
+  <lastBuildDate>Tue, 06 Sep 2016 22:32:30 +0200</lastBuildDate>
   <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -149,8 +149,8 @@
     <p>
     As you can see, we're defining a property by name, with a custom getter and
     setter that will trigger an event <b>each time the property is accessed and
-    updated</b>.  I'm leaving details about <code>emitPropertyChange</code> here, but you can
-    have a look at the <a href="https://github.com/foretagsplatsen/objectjs/pull/20">source</a>.
+    updated</b>.  I'm leaving out the details about <code>emitPropertyChange</code> here, but you
+    can have a look at the <a href="https://github.com/foretagsplatsen/objectjs/pull/20">source</a>.
     </p>
 
     <p>
@@ -172,7 +172,7 @@
     <p>
     The only fancy thing here being <code>currentWidget</code>: during the rendering phase, we
     keep track of the current widget being rendered.  This way we know at any time
-    in the rendering which widget shoud listen to property changes.
+    during the rendering which widget should listen to property changes.
     </p>
     </div>
     </div>
@@ -181,7 +181,7 @@
     <h3 id="orgheadline1"><a id="ID-376360ca-05a7-4d94-854e-19093228cdab"></a>A better counter example</h3>
     <div class="outline-text-3" id="text-orgheadline1">
     <p>
-    Now that we can define properties and let the widgets update themselves whenever they change:
+    Now we can define properties and let the widgets update themselves whenever they change:
     </p>
 
     <div class="org-src-container">
