@@ -14,8 +14,8 @@
   <link>http://nicolas-petton.fr/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Fri, 05 Aug 2016 12:03:36 +0200</pubDate>
-  <lastBuildDate>Fri, 05 Aug 2016 12:03:36 +0200</lastBuildDate>
+  <pubDate>Tue, 06 Sep 2016 22:25:09 +0200</pubDate>
+  <lastBuildDate>Tue, 06 Sep 2016 22:25:09 +0200</lastBuildDate>
   <generator>Emacs 25.1 Org-mode 8.3.5</generator>
   <webMaster>nicolas@petton.fr (Nicolas Petton)</webMaster>
   <image>
@@ -29,6 +29,40 @@
   </p>
 
   <item>
+    <title>Data binding with objectjs</title>
+    <link>http://nicolas-petton.fr/blog/objectjs-data-binding.html</link>
+    <author>nicolas@petton.fr (Nicolas Petton)</author>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/objectjs-data-binding.html</guid>
+    <pubDate>Tue, 06 Sep 2016 22:09:00 +0200</pubDate>
+
+    <description><![CDATA[<div class="pubdate">
+    Sept 6, 2016
+    </div>
+
+    <p>
+    Objectjs is a simple object model for JavaScript, you can read more about it
+    <a href="https://github.com/foretagsplatsen/objectjs">here</a>.
+    </p>
+
+    <p>
+    I've been thinking for a while about adding first-class properties to it to
+    enable data binding in <a href="https://github.com/foretagsplatsen/widgetjs">widgetjs</a>.
+    </p>
+
+    <p>
+    The idea is not new: whenever a domain object property is updated, any widget
+    rendering that property could be updated automatically.  <a href="https://facebook.github.io/react/">React</a> has been doing
+    this for a while, but I'll explain here a slightly different approach that we
+    took.
+    </p>
+
+    <p>
+    <a href="http://nicolas-petton.fr/blog/objectjs-data-binding.html">Read more</a>.
+    </p>
+    ]]></description>
+  </item>
+
+  <item>
     <title>Going for a ThinkPad x220</title>
     <link>http://nicolas-petton.fr/blog/x220.html</link>
     <author>nicolas@petton.fr (Nicolas Petton)</author>
@@ -39,9 +73,9 @@
     July 1, 2016
     </div>
 
-    <div id="outline-container-orgheadline1" class="outline-3">
-    <h3 id="orgheadline1"><a id="ID-54ff63b2-8a81-4e62-864f-0dccf3b0c322"></a>Looking for the perfect secondary laptop</h3>
-    <div class="outline-text-3" id="text-orgheadline1">
+    <div id="outline-container-orgheadline2" class="outline-3">
+    <h3 id="orgheadline2"><a id="ID-54ff63b2-8a81-4e62-864f-0dccf3b0c322"></a>Looking for the perfect secondary laptop</h3>
+    <div class="outline-text-3" id="text-orgheadline2">
     <p>
     I've been looking for a second hand laptop to use at home and for travelling for
     a while, so that I wouldn't have to carry my primary laptop from and to work
@@ -803,9 +837,9 @@
 
   <item>
     <title>Farewell RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#orgheadline22</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline24</link>
     <author>nicolas@petton.fr (Nicolas Petton)</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline22</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline24</guid>
     <pubDate>Fri, 18 Jul 2014 15:41:00 +0200</pubDate>
 
     <description><![CDATA[<p>
@@ -880,9 +914,9 @@
 
   <item>
     <title>Tide and Marina at RMoD</title>
-    <link>http://nicolas-petton.fr/blog/index.html#orgheadline24</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline26</link>
     <author>nicolas@petton.fr (Nicolas Petton)</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline24</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline26</guid>
     <pubDate>Fri, 04 Jul 2014 15:30:00 +0200</pubDate>
 
     <description><![CDATA[<div class="pubdate">
@@ -908,9 +942,9 @@
 
   <item>
     <title>tmate.io: terminal sharing made easy</title>
-    <link>http://nicolas-petton.fr/blog/index.html#orgheadline25</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline27</link>
     <author>nicolas@petton.fr (Nicolas Petton)</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline25</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline27</guid>
     <pubDate>Thu, 03 Jul 2014 15:34:00 +0200</pubDate>
 
     <description><![CDATA[<div class="pubdate">
@@ -1013,9 +1047,9 @@
 
   <item>
     <title>Per-computer Emacs settings</title>
-    <link>http://nicolas-petton.fr/blog/index.html#orgheadline28</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline30</link>
     <author>nicolas@petton.fr (Nicolas Petton)</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline28</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline30</guid>
     <pubDate>Wed, 11 Jun 2014 16:36:00 +0200</pubDate>
 
     <description><![CDATA[<div class="pubdate">
@@ -1206,9 +1240,9 @@
 
   <item>
     <title>A dark theme for Emacs</title>
-    <link>http://nicolas-petton.fr/blog/index.html#orgheadline35</link>
+    <link>http://nicolas-petton.fr/blog/index.html#orgheadline37</link>
     <author>nicolas@petton.fr (Nicolas Petton)</author>
-    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline35</guid>
+    <guid isPermaLink="false">http://nicolas-petton.fr/blog/index.html#orgheadline37</guid>
     <pubDate>Fri, 28 Mar 2014 15:22:00 +0100</pubDate>
 
     <description><![CDATA[<div class="pubdate">
@@ -1227,9 +1261,9 @@
     </div>
 
 
-    <div id="outline-container-orgheadline34" class="outline-3">
-    <h3 id="orgheadline34"><a id="ID-a93c9b46-3131-4d48-b654-43789d312406"></a>The best way to install it is to use the <a href="http://melpa.milkbox.net/">MELPA</a> package archive:</h3>
-    <div class="outline-text-3" id="text-orgheadline34">
+    <div id="outline-container-orgheadline36" class="outline-3">
+    <h3 id="orgheadline36"><a id="ID-a93c9b46-3131-4d48-b654-43789d312406"></a>The best way to install it is to use the <a href="http://melpa.milkbox.net/">MELPA</a> package archive:</h3>
+    <div class="outline-text-3" id="text-orgheadline36">
     <div class="SH">
     <p>
     M-x package-install RET niflheim-theme
