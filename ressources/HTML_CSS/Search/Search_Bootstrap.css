@@ -1,0 +1,344 @@
+/* fonts */
+
+body {
+    font-family: "Fira Sans", sans;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #48373E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fira sans", sans;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #2078a3;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+h2 {
+    font-family: "Fira sans";
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-family: "Raleway";
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h5 .glyphicon {
+    margin-right: 6px;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+a {
+    color: #2078A3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+
+
+body {
+    border-top: solid 3px #2078a3;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+header .container,
+footer .container,
+#menu_profile .container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo_color {
+    float: left;
+    height: 30px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: 0 none;
+}
+
+.navbar-brand {
+    padding: 10px 15px 10px 0;
+}
+
+.search {
+    border-radius: 50px;
+    line-height: 1em;
+    height: 24px;
+    font-size: 12px;
+    padding: 4px 12px;
+    margin-top: 5px;
+}
+
+.navbar-default .navbar-collapse a {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #48373E;
+}
+
+.nav > li > a {
+    padding: 10px;
+}
+
+/* Menu Profile */
+
+#menu_profile {
+    border-bottom: solid 1px #ccc;
+}
+
+#menu_profile .navbar {
+    margin-bottom: 0;
+    margin-left: -30px;
+}
+
+#menu_profile a {
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #48373E;
+    margin-right: 5px;
+    border-bottom : 5px solid transparent;
+}
+
+#menu_profile a:hover {
+    border-bottom : 5px solid #2078a3;
+}
+
+#menu_profile .navbar-default .navbar-nav > .active > a {
+    background: transparent;
+    border-bottom : 5px solid #2078a3;
+}
+
+/* Sidebar */
+
+.profile_image {
+    border: solid 1px #CCC;
+    margin-bottom : 10px;
+}
+
+.sidebar h5 {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+.sidebar li {
+    font-size: 0.9em;
+}
+
+.sidebar li:after {
+    content: "|";
+    margin: 5px;
+    color: #666;
+}
+
+.sidebar li:last-child:after {
+    content: "";
+    margin: 0;
+}
+
+.sidebar ul {
+    padding: 0; margin: 0;
+    padding-top: 10px;
+}
+
+.sidebar ul li {
+    display: inline;
+    list-style: none;
+}
+
+
+/* Profile */
+
+
+.publications {
+    background-color: #2078a3;
+    padding: 20px;
+    color: #fff;
+}
+
+.publications h2 {
+    margin-top: 10px;
+}
+
+.publications .row {
+    margin-bottom: 20px;
+}
+
+.publications a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.publications a:hover {
+    text-decoration: underline;
+}
+
+.publications h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.publications ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 40px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 40px;
+    -ms-column-count: 2;
+    -ms-column-gap: 40px;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.publications ul li {
+    margin-bottom: 20px;
+}
+
+.publications .pub_title,
+.publications .pub_ref,
+.publications .pub_author {
+    display: block;
+}
+
+/* Publications */
+
+.article {
+  margin-bottom: 20px;
+  margin-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+.article h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.article ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 40px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 40px;
+    -ms-column-count: 2;
+    -ms-column-gap: 40px;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.article ul li {
+    margin-bottom: 20px;
+}
+
+.article .pub_title,
+.article .pub_ref,
+.article .pub_author {
+    display: block;
+}
+
+.button .btn-default {
+    border: solid 1px #2078a3;
+    border-radius: 40px;
+    line-height: 1em;
+    color: #2078a3;
+    font-size: 22px;
+    padding: 20px 30px 20px 30px;
+    margin: 20px 30px 20px 30px;
+}
+
+.button .btn-default hover {
+    background-color: #2078a3;
+    font: #fff;
+}
+
+/* Search */
+
+.searchbar {
+  background: #2078a3;
+  padding: 6px;
+  position: relative;
+}
+
+.searchbar > * {
+  display: inline;
+}
+
+.searchbar .search-field {
+    position: absolute;
+    right: 0;
+    left: 105px
+}
+
+.searchbar .dropdown-menu, 
+.searchbar .btn,
+.searchbar .btn-default.active.focus {
+    background: #2078a3;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #000;
+    padding: 20px 0;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+footer a, footer a:hover {
+    color: white;
+}

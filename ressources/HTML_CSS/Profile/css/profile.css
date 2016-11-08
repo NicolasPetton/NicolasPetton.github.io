@@ -1,0 +1,359 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* end of reset */
+
+
+/* fonts */
+
+body {
+  font-family: "Fira Sans", sans;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #48373E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fira sans", sans;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #2078a3;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-family: "Fira sans";
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Raleway";
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+a {
+  color: #4E9FA8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Header */
+
+
+body {
+	border-top: solid 3px #2078a3;
+}
+
+.logo_color {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 30px;
+}
+
+ul {
+ 	padding:0;
+ 	margin:0;
+ 	list-style-type:none;
+}
+ 
+#menu_header {
+	padding: 0; margin: 0;
+	text-align: right;
+	padding-top: 10px;
+}
+
+#menu_header li {
+	display: inline;
+	list-style: none;
+}
+
+#menu_header a {
+	display:inline-block;
+	margin: 0 10px;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #48373E;
+}
+
+/* Part One */
+
+ul {
+ 	padding:0;
+ 	margin:0;
+ 	list-style-type:none;
+}
+ 
+#menu_profile {
+	padding: 0; margin: 0;
+	text-align: left;
+}
+
+#menu_profile li {
+	display: inline;
+	list-style: none;
+}
+
+#menu_profile a {
+	display:inline-block;
+	margin: 20 20px;
+	font-family: "Raleway";
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #48373E;
+}
+
+#menu_profile a:hover {
+	text-decoration: none;
+	border-bottom : 5px solid #2078a3;
+}
+
+.column_informations {
+	float: right;
+	width: 320px;
+	margin: 20px 0px 20px 30px;
+	padding: 10px 0px 10px 20px;
+}
+	
+.profile_image {
+	border: solid 1px #CCC;
+	margin-bottom : 10px;
+}
+
+.tags {
+	float: left;
+	margin-right: 10px;
+}
+
+#aliases {
+	padding: 0; margin: 0;
+	padding-top: 10px;
+}
+
+#aliases li {
+	display: inline;
+	list-style: none;
+}
+
+.external_links {
+	float: left;
+	margin-right: 10px;
+}
+
+#external_links {
+	padding: 0; margin: 0;
+	padding-top: 10px;
+}
+
+#external_links li {
+	display: inline;
+	list-style: none;
+}
+
+.biographie {
+	border-top: solid 1px #ccc;
+}
+.recent_publications {
+	background-color: #2078a3;
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+}
+
+.recent_publications a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.recent_publications a:hover {
+  text-decoration: underline;
+}
+
+
+.recent_publications ul {
+	-moz-column-count: 2;
+	-moz-column-gap: 40px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 40px;
+	-ms-column-count: 2;
+	-ms-column-gap: 40px;
+	column-count: 2;
+	column-gap: 40px;
+}
+
+.recent_publications ul li {
+	margin-bottom: 20px;
+}
+
+.recent_publications .pub_title,
+.recent_publications .pub_ref,
+.recent_publications .pub_author {
+	display: block;
+}
+
+	
+/* Part Two*/
+
+.actualities {
+	background-color: #f5f5f5;
+	padding: 10px;
+}
+
+.actualities .container {
+	-moz-column-count: 3;
+	-moz-column-gap: 30px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 30px;
+	-ms-column-count: 3;
+	-ms-column-gap: 30px;
+	column-count: 3;
+	column-gap: 30px;
+}
+
+.actualities ul li {
+	margin-bottom: 20px;
+}
+
+.actualities ul li a{
+	display: block;
+}
+
+/* Footer */
+
+footer {
+	background-color: #000;
+	padding: 10px;
+}
+
+ul {
+ 	padding:0;
+ 	margin:0;
+ 	list-style-type:none;
+}
+ 
+#menu-footer {
+	padding: 0; margin: 0;
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 30px;
+}
+
+#menu-footer li {
+	display: inline;
+	list-style: none;
+}
+
+#menu-footer a {
+	display:inline-block;
+	font-size: 14px;
+	margin-right: 20px;
+	line-height: 1.5em;
+	color: #fff;
+}
+	
+/* Responsive */
+
+@media (min-width: 560px) {
+	
+
+@media (min-width: 768px) {
+	.container {
+		width: 560px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.container {
+		width: 960px;
+	}
+}
+
+

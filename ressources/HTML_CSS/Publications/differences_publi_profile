@@ -1,0 +1,41 @@
+Essai
+h2 {
+    font-family: "Fira sans";
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+publi
+h2 {
+    font-family: "Fira sans";
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+Essai
+.profile_image {
+    border: solid 1px #CCC;
+    margin-bottom : 10px;
+}
+
+Publi
+
+.profile_image {
+    border: solid 1px #CCC;
+    margin-top: 20px;
+    margin-bottom : 10px;
+}
+
+
+Essai 
+
+
+Publi
+
+
